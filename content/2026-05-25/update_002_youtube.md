@@ -1,102 +1,104 @@
-# YouTube / TikTok — update_002
-**Fuente:** XDA Developers | **Fecha:** 2026-05-25
-**Tema:** Claude Code Memory — Auto Memory y CLAUDE.md para automatización de procesos
+# YouTube / TikTok — Claude Code Memory (update_002)
+**Fecha:** 2026-05-25 | **Fuente:** XDA Developers
 
 ---
 
 ## 🎬 TÍTULO OPTIMIZADO PARA BÚSQUEDA
 
-**YouTube:** Claude ya recuerda todo tu negocio: cómo activar la memoria persistente (Auto Memory + CLAUDE.md)
-
-**TikTok:** Dejé de repetirle lo mismo a la IA todos los días 🧠 | Memoria de Claude
+**Dejé de Explicarle Todo a la IA Cada Vez — Este Setup de 5 Minutos lo Cambió Todo (Claude Code Memory)**
 
 ---
 
-## 📝 DESCRIPCIÓN (YouTube)
+## 📝 DESCRIPCIÓN DEL VIDEO
 
-¿Cuánto tiempo perdés explicándole el contexto de tu negocio a la IA cada vez que la usás? En este video te muestro cómo activar la memoria persistente de Claude para que recuerde todo sobre tus proyectos y procesos — automáticamente.
+¿Cansas de explicarle tu negocio a Claude una y otra vez desde cero? En este video te muestro cómo configurar la memoria persistente de Claude Code — Auto Memory y el archivo CLAUDE.md — para que tu asistente de IA recuerde todo sobre tu proyecto y tu empresa, automáticamente.
 
-⏱️ En este video:
-00:00 – El problema: re-explicar contexto todo el tiempo
-00:10 – Cómo funciona Auto Memory
-00:25 – Qué es CLAUDE.md y cómo configurarlo
-00:45 – Cómo usar esto en tu negocio hoy
-00:55 – Próximo paso
+No necesitas saber programar. En 5 minutos tienes el setup completo.
 
-🎁 ¿Querés aprender a integrar Claude en todos tus procesos de negocio?
-👉 Conseguí mi ebook completo aquí: [LINK]
+Vas a descubrir:
+✅ Qué es Auto Memory y cómo funciona sin configuración
+✅ Qué es CLAUDE.md y qué instrucciones puedes poner ahí
+✅ El antes y el después real en tu flujo de trabajo
+✅ Por qué esto es especialmente útil para emprendedores
 
-#ClaudeAI #MemoriaIA #IAParaEmpresas #Anthropic #ProductividadEmpresarial
+👉 ¿Quieres aprender a usar Claude para transformar tu negocio, paso a paso? Descarga el ebook completo: [LINK EN DESCRIPCIÓN]
 
 ---
 
-## 🎙️ GUION COMPLETO — 60 SEGUNDOS
+🕐 MARCAS DE TIEMPO:
+00:00 – El problema que todos tenemos con la IA
+00:05 – Qué es la memoria de Claude Code
+00:15 – Auto Memory explicado simple
+00:30 – Qué es CLAUDE.md y cómo usarlo
+00:45 – El resultado: antes vs después
+00:55 – CTA
 
 ---
 
-### [0:00 – 0:03] HOOK (3 segundos)
-*[On camera, tono de frustración resuelto]*
-
-"Cada vez que abría Claude, tenía que explicarle todo sobre mi negocio desde cero. Ya no."
+#ClaudeCode #Anthropic #HerramientasIA #InteligenciaArtificial #ProductividadParaEmprendedores
 
 ---
 
-### [0:03 – 0:15] EL PROBLEMA (12 segundos)
-*[Texto animado en pantalla o B-roll de frustración]*
-
-"Si usás Claude o cualquier IA para tu trabajo, seguro te pasó esto: perdés los primeros minutos de cada sesión repitiendo quién sos, qué hace tu negocio, cómo querés que responda.
-
-Es tiempo perdido. Y hay una solución que la mayoría no conoce."
+## 🎙️ GUION COMPLETO (60 segundos — palabra por palabra)
 
 ---
 
-### [0:15 – 0:30] AUTO MEMORY (15 segundos)
-*[Screencast o animación de la función]*
+**[0s – 3s | HOOK]**
 
-"Se llama **Auto Memory**. Claude ahora observa cómo trabajás y guarda automáticamente el contexto de tu negocio — tu rubro, tu tono, tus proyectos, tus preferencias.
+*[Tono directo, identificando el dolor]*
 
-Sin que vos hagas nada. Solo usándolo normalmente.
-
-La próxima vez que lo abrís, ya tiene todo ese contexto cargado."
+"¿Cuánto tiempo pierdes explicándole tu negocio a Claude cada vez que lo abres? Eso se acabó."
 
 ---
 
-### [0:30 – 0:45] CLAUDE.md (15 segundos)
-*[Mostrar ejemplo de archivo de texto simple]*
+**[3s – 12s | EL PROBLEMA Y LA SOLUCIÓN]**
 
-"Y si querés ir un paso más, existe **CLAUDE.md**: un archivo de instrucciones que creás una sola vez.
+*[Tono empático y claro]*
 
-Ahí escribís todo lo que querés que Claude recuerde siempre: tu audiencia, tu tono, tus formatos de documentos, tus procesos.
+"Claude Code ahora tiene memoria persistente. Eso significa que puede recordar automáticamente quién eres, qué hace tu negocio y cómo trabajas — sin que tengas que explicarlo en cada sesión.
 
-Cinco minutos de setup — y ya no repetís nada nunca más."
-
----
-
-### [0:45 – 0:55] APLICACIÓN EN NEGOCIO (10 segundos)
-*[Texto en pantalla con íconos]*
-
-"¿Cómo usarlo en tu negocio? Para crear contenido, hacer propuestas, analizar métricas, responder clientes — todo con Claude ya conociendo tu contexto.
-
-Menos fricción. Más resultado."
+Hay dos formas de activar esto, y ninguna requiere ser técnico."
 
 ---
 
-### [0:55 – 1:00] CTA (5 segundos)
-*[On camera, tono directo]*
+**[12s – 30s | AUTO MEMORY Y CLAUDE.MD]**
 
-"Si querés aprender esto y mucho más sobre cómo usar Claude en tu negocio, el link de mi ebook está en la descripción. ¡Nos vemos en el próximo!"
+*[Tono informativo y visual si posible con pantalla]*
+
+"La primera se llama Auto Memory: funciona sola, en segundo plano, y captura el contexto de tu proyecto automáticamente. Sin setup.
+
+La segunda es un archivo llamado CLAUDE.md. Ahí escribes instrucciones permanentes para Claude: tu negocio, tu audiencia, tu estilo, tus procesos.
+
+Por ejemplo: 'Mi empresa vende servicios de consultoría a pymes. Siempre escribe en español. Usa tono profesional pero cercano.'
+
+Claude lee esto al inicio de cada sesión — y ya sabe todo lo que necesita."
 
 ---
 
-## 🖼️ CONCEPTO DE MINIATURA
+**[30s – 45s | EL ANTES Y EL DESPUÉS]**
 
-**Para YouTube:**
-- Fondo: gradiente oscuro con efecto de "memoria / cerebro digital"
-- Ícono de Claude con símbolo de memoria (🧠) resaltado
-- Texto grande: "CLAUDE TE RECUERDA" en blanco brillante
-- Subtexto: "Auto Memory activado ✅"
-- Expresión facial: sorpresa positiva / alivio
+*[Tono concreto y resolutivo]*
 
-**Para TikTok:**
-- Primer frame con texto: "Dejé de repetirle lo mismo a la IA 🧠"
-- Mostrar la diferencia: antes (mucho texto de setup) vs. después (directo al trabajo)
+"El resultado es concreto: antes perdías 10 o 15 minutos en contexto antes de poder hacer algo útil. Después, empiezas directo al punto desde el primer mensaje.
+
+Para alguien que usa Claude todos los días, eso son horas recuperadas cada semana."
+
+---
+
+**[45s – 57s | CIERRE Y MOTIVACIÓN]**
+
+*[Tono motivador, mirando a cámara]*
+
+"Si quieres aprender a configurar Claude para que trabaje como un asistente real de tu negocio — sin saber nada de tecnología — tengo un ebook completo con todo el proceso, paso a paso.
+
+Está en el link de la descripción."
+
+---
+
+**[57s – 60s | CTA FINAL]**
+
+*[Energético, corto]*
+
+"Dale like si esto te ahorró tiempo, y cuéntame: ¿para qué usas Claude en tu negocio? 👇"
+
+---

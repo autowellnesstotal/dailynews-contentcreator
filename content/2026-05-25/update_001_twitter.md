@@ -1,100 +1,83 @@
-# Hilo X/Twitter — update_001
-**Fuente:** XDA Developers | **Fecha:** 2026-05-25
-**Tema:** Claude Design — la herramienta de diseño con IA de Anthropic
+# X / Twitter — Claude Design (update_001)
+**Fecha:** 2026-05-25 | **Fuente:** XDA Developers
+**Formato:** Hilo de 7 tweets | Cada tweet ≤ 280 caracteres
 
 ---
 
-## 🧵 HILO COMPLETO (cada tweet listo para publicar)
-
----
+## 🧵 HILO COMPLETO
 
 **1/**
-Anthropic acaba de lanzar algo que ningún emprendedor debería ignorar.
+Claude Design puede ser el lanzamiento de IA más subestimado de 2026 — y tiene un talón de Aquiles real 🧵
 
-Se llama Claude Design. Y puede reemplazar horas de trabajo en Canva o Figma con un solo prompt de texto.
-
-Aquí te explico qué es, qué puede hacer y cuál es el catch real. 🧵👇
+Si eres emprendedor y aún no lo estás usando, esto es lo que necesitas saber:
 
 ---
 
 **2/**
 ¿Qué es Claude Design?
 
-Es una función de la IA Claude que genera diseños reales a partir de texto:
+Es la nueva herramienta de Anthropic que te permite crear slides, gráficos, wireframes y mockups...
 
-→ Presentaciones de negocio
-→ Gráficos para redes sociales
-→ Mockups de apps o webs
-→ Wireframes y esquemas
-→ Materiales de marca
+...solo escribiendo lo que quieres, en lenguaje normal.
 
-Todo desde un chat. Sin plantillas. Sin curva de aprendizaje.
+Sin Canva. Sin Figma. Sin Adobe. Solo texto → diseño. 🎨
 
 ---
 
 **3/**
-El flujo es así:
+¿Cómo funciona en la práctica?
 
-❌ Antes:
-Abrir Canva → buscar plantilla → editar 30 elementos → ajustar colores → exportar → 45 minutos después...
+Escribes: "Crea una presentación de 5 slides sobre mi agencia de marketing, tono moderno"
 
-✅ Con Claude Design:
-Escribir: "Crea una presentación de 5 slides para mi negocio de consultoría en azul marino"
+Y Claude Design:
+✅ Elige la estructura
+✅ Propone colores y tipografía
+✅ Redacta el contenido
 
-→ Lista en 30 segundos.
+En segundos. No en horas.
 
 ---
 
 **4/**
-¿Para quién es ideal?
+¿En qué gana vs Canva o Figma?
 
-Para vos si:
+👉 Velocidad: de prompt a diseño en segundos
+👉 Sin curva de aprendizaje: si sabes escribir, sabes usarla
+👉 Contexto: entiende el propósito de tu diseño
 
-✅ Sos emprendedor y necesitás contenido visual seguido
-✅ No tenés presupuesto para contratar diseñadores
-✅ Perdés demasiado tiempo en herramientas de diseño
-✅ Querés resultados profesionales sin conocimientos técnicos
-
-Básicamente: para cualquiera que trabaje solo o en equipos pequeños.
+Para un emprendedor sin equipo de diseño, esto es enorme.
 
 ---
 
 **5/**
-Lo que todavía falla (sin filtros) ⚠️
+Ahora las limitaciones reales (las que nadie te cuenta):
 
-❌ Solo disponible en planes de pago de Claude
-❌ La cuota semanal se agota MUY rápido si la usás mucho
-❌ Aún en Research Preview — versión en desarrollo
-❌ No reemplaza proyectos de diseño complejos o grandes campañas
+❌ Solo en planes de pago ($20+/mes)
+❌ Cuota semanal que se agota muy rápido
+❌ Personalización visual limitada vs Canva
+❌ Aún en Research Preview = posibles bugs
 
-¿Vale la pena igual? Sí. Pero hay que saber qué esperarle.
+No es magia — es un primer paso muy prometedor.
 
 ---
 
 **6/**
-Lo que más me parece poderoso de Claude Design:
+¿Para quién SÍ vale la pena hoy?
 
-No es solo "otra herramienta de diseño".
-
-Es la primera que entiende el CONTEXTO de tu negocio.
-
-Le decís quién sos, qué hacés, a quién le hablás… y genera materiales coherentes con tu marca y mensaje.
-
-Eso no lo hace Canva ni Figma.
+✅ Emprendedores que crean contenido seguido
+✅ Consultores con muchas presentaciones
+✅ Negocios sin diseñador en el equipo
+✅ Cualquiera que quiera ahorrar horas en materiales visuales
 
 ---
 
 **7/**
-Resumen final:
+El panorama real:
 
-Claude Design = el diseñador IA que cualquier emprendedor puede tener.
+Estamos en el inicio de la IA en diseño creativo.
 
-No es perfecto todavía. Pero su evolución va a cambiar cómo trabajamos con contenido visual.
+Quien aprenda a usar estas herramientas hoy tendrá ventaja enorme en 12-18 meses.
 
-Si querés empezar a usar Claude para tu negocio (sin saber de tecnología), tengo un ebook donde lo explico todo paso a paso 👇
+No necesitas ser técnico. Solo necesitas empezar. 🚀
 
-→ [Link en bio / respuesta]
-
-¿Qué parte de tu negocio le delegarías a la IA primero? 💬
-
----
+¿Ya probaste Claude Design? Cuéntame qué creaste 👇

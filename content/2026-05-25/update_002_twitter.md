@@ -1,110 +1,96 @@
-# Hilo X/Twitter — update_002
-**Fuente:** XDA Developers | **Fecha:** 2026-05-25
-**Tema:** Claude Code Memory — Auto Memory y CLAUDE.md para automatización de procesos
+# X / Twitter — Claude Code Memory (update_002)
+**Fecha:** 2026-05-25 | **Fuente:** XDA Developers
+**Formato:** Hilo de 8 tweets | Cada tweet ≤ 280 caracteres
 
 ---
 
-## 🧵 HILO COMPLETO (cada tweet listo para publicar)
-
----
+## 🧵 HILO COMPLETO
 
 **1/**
-Claude ahora puede recordar todo sobre tu negocio.
+Claude Code se volvió significativamente más útil y la mayoría de los emprendedores aún no lo notaron 🧵
 
-Automáticamente. Sin configuración. Desde el primer día.
-
-Esto cambia cómo los emprendedores van a usar la IA para trabajar. Te explico todo en este hilo. 🧵👇
+El motivo: ahora tiene memoria persistente. Esto es lo que cambia para tu negocio:
 
 ---
 
 **2/**
-Primero, el problema que resuelve:
+El problema de antes:
 
-Cada vez que abrías Claude (o cualquier IA), tenías que re-explicar:
+Cada vez que abrías Claude, tenías que explicarlo todo desde cero:
+→ Tu negocio
+→ Tu audiencia
+→ Tus procesos
+→ Tu tono de comunicación
 
-→ Quién sos
-→ Qué hace tu negocio
-→ Tu tono y estilo
-→ El contexto de tu proyecto actual
-
-Eso se terminó. Claude ya tiene memoria persistente.
+Como contratar a alguien nuevo cada día. 😤
 
 ---
 
 **3/**
-¿Cómo funciona?
+La solución: Auto Memory
 
-Hay 2 sistemas de memoria:
+Claude Code ahora captura automáticamente el contexto de tu proyecto entre sesiones.
 
-🧠 **Auto Memory**: aprende solo observando cómo trabajás
-📄 **CLAUDE.md**: un archivo de instrucciones que vos configurás
+Sin setup. Sin configuración.
 
-Los dos trabajan juntos para que Claude "te conozca" antes de que digas la primera palabra.
+Solo trabaja — y recuerda. 🧠
+
+Disponible desde la versión v2.1.59+.
 
 ---
 
 **4/**
-**Auto Memory** en la práctica:
+Y hay más: CLAUDE.md
 
-Claude guarda automáticamente:
+Es un archivo de texto donde escribes instrucciones fijas para Claude.
 
-✅ El nombre y rubro de tu negocio
-✅ Tu tono de comunicación preferido
-✅ Decisiones importantes de proyectos pasados
-✅ Patrones de trabajo que usás seguido
+Ejemplo real:
+"Mi negocio vende cursos de bienestar. Escribe siempre en español neutro. La audiencia son mujeres de 35-50 años."
 
-Sin que vos hagas nada. Solo usándolo.
+Claude lo carga al inicio de cada sesión. 📋
 
 ---
 
 **5/**
-**CLAUDE.md** — el setup de 10 minutos que cambia todo:
+¿Qué puedes guardar en CLAUDE.md?
 
-Creás un archivo de texto una vez con:
+✅ Descripción de tu negocio
+✅ Tu audiencia y tono de comunicación
+✅ Procesos y flujos de trabajo recurrentes
+✅ Reglas que siempre aplican
+✅ Contexto de proyectos activos
 
-📌 Tu negocio y audiencia objetivo
-📌 Cómo querés que responda
-📌 Procesos y formatos que siempre usás
-📌 Lo que NO querés que haga
-
-Claude lo carga automáticamente en cada sesión.
+Una vez configurado, la IA ya "te conoce".
 
 ---
 
 **6/**
-Casos de uso reales para emprendedores:
+Antes vs Después:
 
-→ Creación de contenido: ya sabe tu tono y audiencia
-→ Propuestas a clientes: ya conoce tu formato
-→ Análisis de métricas: ya tiene contexto de tus objetivos
-→ Automatización de tareas: instrucciones permanentes sin repetir
+❌ Antes: 10-15 minutos explicando contexto en cada sesión
+✅ Después: Empiezas directo al punto — Claude ya sabe todo
 
-Menos fricción. Más resultado.
+Para alguien que usa Claude 5 veces por semana, son horas de trabajo recuperadas.
 
 ---
 
 **7/**
-La pregunta clave: ¿importa esto si no soy técnico?
+¿Para quién es más útil?
 
-SÍ. Más para vos que para un programador.
+✅ Dueños de negocio con procesos repetitivos
+✅ Emprendedores que crean contenido regularmente
+✅ Profesionales que usan IA en múltiples proyectos
+✅ Cualquiera que quiera que la IA "te conozca"
 
-Un técnico puede configurar herramientas complejas. Un emprendedor necesita que las cosas funcionen sin setup largo.
-
-La memoria de Claude es exactamente eso: poderosa y simple.
+No necesitas saber programar.
 
 ---
 
 **8/**
-Resumen:
+La conclusión honesta:
 
-La memoria persistente de Claude es como contratar a un asistente que aprende sobre tu negocio con el tiempo.
+La IA más poderosa no es la más cara — es la que mejor conoce tu negocio.
 
-Empieza a usarla hoy.
+Auto Memory y CLAUDE.md son el setup de 5 minutos que convierte a Claude en un asistente real.
 
-Si querés aprender a sacarle el máximo a Claude en tu negocio (sin tecnicismos), tengo un ebook paso a paso 👇
-
-→ [Link en bio / respuesta]
-
-¿Qué proceso de tu negocio querrías que Claude recuerde? 💬
-
----
+¿Ya lo configuraste? Cuéntame 👇

@@ -1,127 +1,139 @@
 {
-  "generated_at": "2026-05-25",
+  "generated_at": "2026-05-25T00:00:00Z",
   "source_digest": "daily-news/2026-05-24.json",
-  "total_approved_processed": 2,
-  "total_files_created": 11,
-  "content_folder": "content/2026-05-25/",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "output_folder": "content/2026-05-25/",
   "updates": [
     {
       "id": "update_001",
-      "title": "Claude Design es la mejor función que Anthropic ha lanzado en un tiempo, pero tiene serias limitaciones",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
       "source": "XDA Developers",
-      "source_url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
-      "audience": "Emprendedores y dueños de negocio latinos, nivel novato en IA, enfoque práctico",
-      "platforms": {
-        "instagram": {
-          "file": "content/2026-05-25/update_001_instagram.md",
-          "format": "carousel",
-          "slides": 7,
-          "hashtags": 18,
-          "canva": {
-            "design_id": "DAHKrK-zpLk",
-            "title": "Post para Instagram - Crea sin límites",
-            "edit_url": "https://www.canva.com/d/P7D0Bqwph27aLHH",
-            "view_url": "https://www.canva.com/d/UHv6zVR_HF3zuZH"
-          }
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-05-25/update_001_instagram.md",
+        "linkedin":  "content/2026-05-25/update_001_linkedin.md",
+        "twitter":   "content/2026-05-25/update_001_twitter.md",
+        "youtube":   "content/2026-05-25/update_001_youtube.md",
+        "blog":      "content/2026-05-25/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_post": {
+          "note": "4 candidatos generados — elige el que más te guste y confírmalo en Canva",
+          "candidates": [
+            {
+              "candidate_id": "dg-06c51035-1f34-47ca-8801-7973d4594145",
+              "url": "https://www.canva.com/d/u17nRL51Ae700Gq",
+              "thumbnail": "https://design.canva.ai/WyYRXmwvW3mzwBd"
+            },
+            {
+              "candidate_id": "dg-3f6f704e-8b68-4037-9258-143f703cf48d",
+              "url": "https://www.canva.com/d/6-g8OAMv3Zi-y82",
+              "thumbnail": "https://design.canva.ai/oddTTv9pr-HYsut"
+            },
+            {
+              "candidate_id": "dg-69b132e5-baf7-4101-8169-28409b79b3ca",
+              "url": "https://www.canva.com/d/DUgC1edr8NwTUBP",
+              "thumbnail": "https://design.canva.ai/OCbCs4zyzufPr11"
+            },
+            {
+              "candidate_id": "dg-b47a5264-8eb1-488a-8b88-a1e3da9353f0",
+              "url": "https://www.canva.com/d/Geg3PUpYQrGmDjX",
+              "thumbnail": "https://design.canva.ai/-0eW8w58z_3WPj5"
+            }
+          ]
         },
-        "linkedin": {
-          "file": "content/2026-05-25/update_001_linkedin.md",
-          "format": "post",
-          "hashtags": 5
-        },
-        "twitter_x": {
-          "file": "content/2026-05-25/update_001_twitter.md",
-          "format": "thread",
-          "tweets": 7
-        },
-        "youtube_tiktok": {
-          "file": "content/2026-05-25/update_001_youtube.md",
-          "format": "script_60s",
-          "canva": {
-            "design_id": "DAHKrD1opss",
-            "title": "Bold YouTube Thumbnail with Tech Background",
-            "edit_url": "https://www.canva.com/d/DeMqNSZxe0TuwMx",
-            "view_url": "https://www.canva.com/d/WPWUkBRRBvkJS64"
-          }
-        },
-        "blog": {
-          "file": "content/2026-05-25/update_001_blog.md",
-          "format": "article",
-          "word_count_approx": 780
+        "youtube_thumbnail": {
+          "note": "4 candidatos generados — elige el que más te guste y confírmalo en Canva",
+          "candidates": [
+            {
+              "candidate_id": "dg-104bd0ef-c0cf-4e69-afbf-69e985c52a3f",
+              "url": "https://www.canva.com/d/430nfnsy0MnVkEQ",
+              "thumbnail": "https://design.canva.ai/fEtQBt_LffGgphc"
+            },
+            {
+              "candidate_id": "dg-22fdf425-1eee-46da-be9a-6a0ed0741245",
+              "url": "https://www.canva.com/d/36ixvaxdwblIw3H",
+              "thumbnail": "https://design.canva.ai/H8xlT7AkS0tgGCz"
+            },
+            {
+              "candidate_id": "dg-8b93c8a8-c12b-44ea-924b-5d24e6c39757",
+              "url": "https://www.canva.com/d/Y84_T786TI92RYG",
+              "thumbnail": "https://design.canva.ai/QMBixwTtUPBpCf8"
+            },
+            {
+              "candidate_id": "dg-f32b98a9-250f-43ea-823a-6fce6d928968",
+              "url": "https://www.canva.com/d/0cLWWSscNByK-Xe",
+              "thumbnail": "https://design.canva.ai/t2LRLJrXGdw7N2D"
+            }
+          ]
         }
       }
     },
     {
       "id": "update_002",
-      "title": "Agregué la memoria de Claude Code a mis flujos de trabajo y mi automatización se volvió effortless",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
       "source": "XDA Developers",
-      "source_url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
-      "audience": "Emprendedores y dueños de negocio latinos, nivel novato en IA, enfoque práctico",
-      "platforms": {
-        "instagram": {
-          "file": "content/2026-05-25/update_002_instagram.md",
-          "format": "carousel",
-          "slides": 7,
-          "hashtags": 18,
-          "canva": {
-            "design_id": "DAHKrMORSHc",
-            "title": "Post para Instagram - Tu IA ahora te recuerda 🧠",
-            "edit_url": "https://www.canva.com/d/1wcxaXJnhQDOwH6",
-            "view_url": "https://www.canva.com/d/vsdHSiKPGgnuoCh"
-          }
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-05-25/update_002_instagram.md",
+        "linkedin":  "content/2026-05-25/update_002_linkedin.md",
+        "twitter":   "content/2026-05-25/update_002_twitter.md",
+        "youtube":   "content/2026-05-25/update_002_youtube.md",
+        "blog":      "content/2026-05-25/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_post": {
+          "note": "4 candidatos generados — elige el que más te guste y confírmalo en Canva",
+          "candidates": [
+            {
+              "candidate_id": "dg-c8b939e7-ef71-4a6a-945a-56f738afda34",
+              "url": "https://www.canva.com/d/HbAAL9utwgjJF7E",
+              "thumbnail": "https://design.canva.ai/_uRHlV6pscwHwm7"
+            },
+            {
+              "candidate_id": "dg-ce825c2b-c91e-47c2-86aa-2e7982065081",
+              "url": "https://www.canva.com/d/btZgn-Oc3EGfr3S",
+              "thumbnail": "https://design.canva.ai/SQ1Kh7982PEeyR8"
+            },
+            {
+              "candidate_id": "dg-eeaf3042-b838-49db-8884-e99e670dc3ea",
+              "url": "https://www.canva.com/d/D6S4sBjvPzhb3lY",
+              "thumbnail": "https://design.canva.ai/0xjEQD3CJpGsXhW"
+            },
+            {
+              "candidate_id": "dg-f226f04e-f7d9-47bc-9cdb-059b39fd07a7",
+              "url": "https://www.canva.com/d/-YZ3P7F-1D8D2bS",
+              "thumbnail": "https://design.canva.ai/oKm0Q52UtupPH0Q"
+            }
+          ]
         },
-        "linkedin": {
-          "file": "content/2026-05-25/update_002_linkedin.md",
-          "format": "post",
-          "hashtags": 5
-        },
-        "twitter_x": {
-          "file": "content/2026-05-25/update_002_twitter.md",
-          "format": "thread",
-          "tweets": 8
-        },
-        "youtube_tiktok": {
-          "file": "content/2026-05-25/update_002_youtube.md",
-          "format": "script_60s",
-          "canva": {
-            "design_id": "DAHKrK_STTU",
-            "title": "Miniatura de YouTube - CLAUDE TE RECUERDA",
-            "edit_url": "https://www.canva.com/d/a3DXgfEpfbDhLDW",
-            "view_url": "https://www.canva.com/d/ozvpwKvMkLTTnxR"
-          }
-        },
-        "blog": {
-          "file": "content/2026-05-25/update_002_blog.md",
-          "format": "article",
-          "word_count_approx": 820
+        "youtube_thumbnail": {
+          "note": "4 candidatos generados — elige el que más te guste y confírmalo en Canva",
+          "candidates": [
+            {
+              "candidate_id": "dg-1a11f96a-dd12-428a-9f71-8ebaa9e849a2",
+              "url": "https://www.canva.com/d/RI2rla7htdnrSsO",
+              "thumbnail": "https://design.canva.ai/lNBghbxRqEg1Jno"
+            },
+            {
+              "candidate_id": "dg-9a8349e6-7972-49da-a7ce-148bc7c26ba7",
+              "url": "https://www.canva.com/d/-L9vYs8_madaQin",
+              "thumbnail": "https://design.canva.ai/o_T6brBhP9b0HXU"
+            },
+            {
+              "candidate_id": "dg-cde9fbbd-7bc5-4459-8794-62a57809f210",
+              "url": "https://www.canva.com/d/EXXgf4qDWVhObgE",
+              "thumbnail": "https://design.canva.ai/CPMgWL0ve1Qvbfw"
+            },
+            {
+              "candidate_id": "dg-d46b4bfe-ffbd-4c7a-a2fa-3e6a82241a61",
+              "url": "https://www.canva.com/d/93ZmK4ISIhdIVBG",
+              "thumbnail": "https://design.canva.ai/sb2t0BFQT3vIfNS"
+            }
+          ]
         }
       }
-    }
-  ],
-  "canva_designs_summary": [
-    {
-      "update": "update_001",
-      "platform": "instagram",
-      "design_id": "DAHKrK-zpLk",
-      "edit_url": "https://www.canva.com/d/P7D0Bqwph27aLHH"
-    },
-    {
-      "update": "update_001",
-      "platform": "youtube_thumbnail",
-      "design_id": "DAHKrD1opss",
-      "edit_url": "https://www.canva.com/d/DeMqNSZxe0TuwMx"
-    },
-    {
-      "update": "update_002",
-      "platform": "instagram",
-      "design_id": "DAHKrMORSHc",
-      "edit_url": "https://www.canva.com/d/1wcxaXJnhQDOwH6"
-    },
-    {
-      "update": "update_002",
-      "platform": "youtube_thumbnail",
-      "design_id": "DAHKrK_STTU",
-      "edit_url": "https://www.canva.com/d/a3DXgfEpfbDhLDW"
     }
   ]
 }

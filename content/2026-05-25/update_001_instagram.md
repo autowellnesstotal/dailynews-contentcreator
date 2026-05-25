@@ -1,128 +1,118 @@
-# Instagram Carousel — update_001
-**Fuente:** XDA Developers | **Fecha:** 2026-05-25
-**Tema:** Claude Design — la herramienta de diseño con IA de Anthropic
+# Instagram — Claude Design (update_001)
+**Fecha:** 2026-05-25 | **Fuente:** XDA Developers
 
 ---
 
-## 📌 CAPTION FINAL (pegar en Instagram)
+## 📸 CAPTION COMPLETO
 
-¿Y si pudieras crear un diseño profesional con solo escribir lo que necesitás? 🤯
+¿Ya escuchaste hablar de Claude Design? 🎨✨
 
-Anthropic acaba de lanzar **Claude Design** — y está cambiando todo para emprendedores y dueños de negocio que no son diseñadores pero necesitan contenido visual todos los días.
+Anthropic acaba de lanzar una herramienta que te permite crear presentaciones, gráficos, mockups y materiales de marca... ¡solo escribiendo lo que necesitas, en tu idioma!
 
-En este carrusel te explico qué es, qué puede hacer y lo que tenés que saber antes de probarlo. 👇
+No necesitas ser diseñador. No necesitas saber nada de tecnología. Solo describes lo que quieres — y la IA lo crea por ti. 🤯
 
-✅ Sin Canva. Sin Figma. Sin saber de diseño.
-Solo escribís lo que querés… y aparece.
-
-¿Ya lo conocías? ¡Contame en los comentarios! 💬
+Desliza para descubrir todo lo que puedes hacer (y las limitaciones que NADIE te está contando antes de que lo pruebes). 👉
 
 ---
 
-## 🎨 COPY DE CADA SLIDE
+💡 ¿Quieres aprender a usar Claude desde cero para transformar tu negocio, ahorrar tiempo y trabajar más inteligente? Tenemos un ebook completo pensado para emprendedores que quieren empezar, paso a paso. Link en bio. 👆
 
-### Slide 1 — PORTADA (Hook)
-**Texto principal:**
-Anthropic lanzó una IA que diseña por vos 🎨
+---
 
-**Subtexto:**
-Y no necesitás saber de diseño para usarla
+## 📲 SLIDES DEL CARRUSEL
 
-**Fondo sugerido:** degradado azul/morado oscuro con ícono de diseño
+### Slide 1 — PORTADA / HOOK
+**Texto:**
+> "Anthropic lanzó una herramienta de IA que crea diseños profesionales con solo escribir lo que necesitas 🎨
+> ¿Ya conoces Claude Design?"
+
+Subtexto: Desliza para descubrirla →
 
 ---
 
 ### Slide 2 — ¿Qué es Claude Design?
-**Texto principal:**
-**¿Qué es Claude Design?**
+**Título:** ¿Qué es Claude Design?
 
-Es la nueva herramienta de Anthropic que convierte tus palabras en diseños reales.
+**Cuerpo:**
+Es la nueva herramienta de Anthropic que te permite crear:
+• 📊 Presentaciones profesionales
+• 🖼️ Gráficos para redes sociales
+• 📐 Wireframes y mockups de sitios web
+• 🎯 Materiales de marca y publicidad
 
-Describís lo que necesitás → la IA lo crea.
-
-🧠 Impulsada por la misma tecnología de Claude (la IA más avanzada del mercado)
-
-✨ Actualmente en versión preview para planes de pago
-
----
-
-### Slide 3 — ¿Qué puede crear?
-**Texto principal:**
-**Lo que podés crear con un simple prompt:**
-
-📊 Presentaciones listas para imprimir
-📱 Gráficos para redes sociales
-🖥️ Mockups de aplicaciones y páginas web
-✏️ Wireframes y esquemas de proyectos
-🎨 Materiales de marca para tu negocio
-
-Todo esto sin abrir Canva, Figma ni contratar a un diseñador.
+…solo escribiendo lo que necesitas, en español o inglés.
 
 ---
 
-### Slide 4 — Vs. Figma y Canva
-**Texto principal:**
-**Claude Design vs. las herramientas tradicionales**
+### Slide 3 — ¿Cómo funciona?
+**Título:** ¿Cómo funciona?
 
-**Canva / Figma:**
-⏳ Buscás plantillas → editás elemento por elemento → ajustás → exportás
+**Cuerpo:**
+Así de simple:
 
-**Claude Design:**
-💬 Escribís: *"Crea una presentación de 5 slides sobre mi negocio de consultoría"*
-✅ Listo. En segundos.
+1️⃣ Abres Claude (modo Design)
+2️⃣ Escribes: "Crea una presentación de ventas de 5 slides para mi consultoría"
+3️⃣ Claude Design construye todo: estructura, colores y contenido
 
-La diferencia: Claude entiende tu contexto y genera desde cero, sin plantillas.
+✨ Sin arrastrar elementos. Sin plantillas complicadas.
+Solo tú y tu idea.
 
 ---
 
-### Slide 5 — Las limitaciones (honestidad)
-**Texto principal:**
-**Lo que todavía falla (seamos honestos) ⚠️**
+### Slide 4 — vs Figma y Canva
+**Título:** ¿En qué se diferencia de Canva o Figma?
 
-❌ Solo disponible en planes de pago de Claude
-⏳ Cuota semanal de uso que se agota rápido
-🔄 Aún en Research Preview — no es la versión final
-🎯 Para proyectos simples y medianos, no grandes campañas
+**Cuerpo:**
+✅ Más rápido: de idea a diseño en segundos
+✅ Sin curva de aprendizaje: si sabes escribir, sabes usarla
+✅ Entiende el contexto: sabe para qué es tu diseño
 
-¿La conclusión? Es una herramienta increíble en evolución. Ideal para emprendedores que arrancan.
+⚠️ Menos control visual que Canva
+⚠️ Menos opciones de personalización (por ahora)
+
+---
+
+### Slide 5 — Las limitaciones reales
+**Título:** Lo que debes saber antes de usarla ⚠️
+
+**Cuerpo:**
+❌ Solo disponible en planes de pago ($20+/mes)
+❌ Tiene una cuota semanal que se agota rápido
+❌ Aún está en versión de prueba (Research Preview)
+❌ Personalización visual más limitada que Canva
+
+💡 La buena noticia: mejora cada semana. Quien la aprende hoy, gana ventaja mañana.
 
 ---
 
 ### Slide 6 — ¿Vale la pena?
-**Texto principal:**
-**¿Vale la pena probarlo? ✅**
+**Título:** ¿Vale la pena probarlo?
 
-Si sos emprendedor o dueño de negocio y:
+**Cuerpo:**
+✅ SÍ si...
+• Creas contenido seguido pero no tienes diseñador
+• Armas muchas presentaciones y pierdes horas en eso
+• Eres emprendedor y necesitas materiales rápido
 
-→ Necesitás diseños seguido pero no tenés presupuesto para un diseñador
-→ Perdés horas en Canva ajustando plantillas
-→ Querés presencia profesional sin el precio profesional
-
-**Claude Design es para vos.**
-
-El futuro del diseño no es aprender herramientas — es saber pedirle a la IA lo que necesitás.
-
----
-
-### Slide 7 — CTA Final
-**Texto principal:**
-**¿Querés dominar Claude y usarlo en tu negocio? 📘**
-
-Tengo un ebook completo donde te enseño a usar Claude paso a paso — sin ser técnico, sin experiencia previa.
-
-→ Link en mi bio 🔗
-→ Guardá este post para cuando lo necesites 🔖
-→ Compartilo con alguien que lo necesite ❤️
-
-¿Qué parte de tu trabajo le delegarías a la IA primero?
+❌ Todavía NO si...
+• Necesitas diseños muy personalizados con tu identidad visual exacta
+• Aún no tienes plan de pago en Claude
 
 ---
 
-## #️⃣ HASHTAGS (15-20)
+### Slide 7 — CTA
+**Título:** El mundo de la IA avanza rápido 🚀
 
-#ClaudeDesign #InteligenciaArtificial #IAParaEmpresas #EmprendedoresDigitales #HerramientasIA #Anthropic #DiseñoConIA #MarketingDigital #EmprendimientoLatino #ProductividadEmpresarial #IAEnEspañol #TransformacionDigital #NegociosConIA #CreadorDeContenido #EmprendedorLatino #AutomatizacionIA #TecnologiaParaTodos #FuturoDelTrabajo
+**Cuerpo:**
+Los emprendedores que aprenden estas herramientas HOY tendrán una ventaja real en 12 meses.
+
+¿Quieres empezar desde cero con Claude para tu negocio — sin saber nada de tecnología?
+
+👉 Tenemos el ebook que te explica todo, paso a paso.
+Link en bio. No te lo pierdas. 💡
 
 ---
 
-## 📣 CTA Principal
-**En el caption:** "¿Ya lo conocías? ¡Contame en los comentarios! Y si querés aprender a usar Claude para tu negocio, el link del ebook está en mi bio 🔗"
+## #️⃣ HASHTAGS (20)
+
+#ClaudeDesign #Anthropic #InteligenciaArtificial #HerramientasIA #EmprendedoresDigitales #MarketingDigital #IA2026 #DiseñoConIA #ProductividadEmpresarial #NegociosDigitales #EmprendimientoLatino #TransformaciónDigital #HerramientasParaEmprendedores #TechParaNegocios #AutomatizaciónEmpresarial #CrearConIA #FuturoDelTrabajo #EmprendedorLatino #DesignAI #StartupLatino
