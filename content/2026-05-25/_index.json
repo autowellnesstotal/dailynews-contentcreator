@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-25",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_processed": 2,
+  "total_files_created": 11,
+  "content_folder": "content/2026-05-25/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design es la mejor función que Anthropic ha lanzado en un tiempo, pero tiene serias limitaciones",
+      "source": "XDA Developers",
+      "source_url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
+      "audience": "Emprendedores y dueños de negocio latinos, nivel novato en IA, enfoque práctico",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-25/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "hashtags": 18,
+          "canva": {
+            "design_id": "DAHKrK-zpLk",
+            "title": "Post para Instagram - Crea sin límites",
+            "edit_url": "https://www.canva.com/d/P7D0Bqwph27aLHH",
+            "view_url": "https://www.canva.com/d/UHv6zVR_HF3zuZH"
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-05-25/update_001_linkedin.md",
+          "format": "post",
+          "hashtags": 5
+        },
+        "twitter_x": {
+          "file": "content/2026-05-25/update_001_twitter.md",
+          "format": "thread",
+          "tweets": 7
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-05-25/update_001_youtube.md",
+          "format": "script_60s",
+          "canva": {
+            "design_id": "DAHKrD1opss",
+            "title": "Bold YouTube Thumbnail with Tech Background",
+            "edit_url": "https://www.canva.com/d/DeMqNSZxe0TuwMx",
+            "view_url": "https://www.canva.com/d/WPWUkBRRBvkJS64"
+          }
+        },
+        "blog": {
+          "file": "content/2026-05-25/update_001_blog.md",
+          "format": "article",
+          "word_count_approx": 780
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Agregué la memoria de Claude Code a mis flujos de trabajo y mi automatización se volvió effortless",
+      "source": "XDA Developers",
+      "source_url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
+      "audience": "Emprendedores y dueños de negocio latinos, nivel novato en IA, enfoque práctico",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-25/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "hashtags": 18,
+          "canva": {
+            "design_id": "DAHKrMORSHc",
+            "title": "Post para Instagram - Tu IA ahora te recuerda 🧠",
+            "edit_url": "https://www.canva.com/d/1wcxaXJnhQDOwH6",
+            "view_url": "https://www.canva.com/d/vsdHSiKPGgnuoCh"
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-05-25/update_002_linkedin.md",
+          "format": "post",
+          "hashtags": 5
+        },
+        "twitter_x": {
+          "file": "content/2026-05-25/update_002_twitter.md",
+          "format": "thread",
+          "tweets": 8
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-05-25/update_002_youtube.md",
+          "format": "script_60s",
+          "canva": {
+            "design_id": "DAHKrK_STTU",
+            "title": "Miniatura de YouTube - CLAUDE TE RECUERDA",
+            "edit_url": "https://www.canva.com/d/a3DXgfEpfbDhLDW",
+            "view_url": "https://www.canva.com/d/ozvpwKvMkLTTnxR"
+          }
+        },
+        "blog": {
+          "file": "content/2026-05-25/update_002_blog.md",
+          "format": "article",
+          "word_count_approx": 820
+        }
+      }
+    }
+  ],
+  "canva_designs_summary": [
+    {
+      "update": "update_001",
+      "platform": "instagram",
+      "design_id": "DAHKrK-zpLk",
+      "edit_url": "https://www.canva.com/d/P7D0Bqwph27aLHH"
+    },
+    {
+      "update": "update_001",
+      "platform": "youtube_thumbnail",
+      "design_id": "DAHKrD1opss",
+      "edit_url": "https://www.canva.com/d/DeMqNSZxe0TuwMx"
+    },
+    {
+      "update": "update_002",
+      "platform": "instagram",
+      "design_id": "DAHKrMORSHc",
+      "edit_url": "https://www.canva.com/d/1wcxaXJnhQDOwH6"
+    },
+    {
+      "update": "update_002",
+      "platform": "youtube_thumbnail",
+      "design_id": "DAHKrK_STTU",
+      "edit_url": "https://www.canva.com/d/a3DXgfEpfbDhLDW"
+    }
+  ]
+}
