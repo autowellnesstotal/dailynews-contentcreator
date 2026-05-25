@@ -1,0 +1,100 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T15:12:07Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual articles also blocked. Article titles, dates, and summaries retrieved via web search (Google index). One article confirmed published May 25, 2026 (within 24h window).",
+    "docs.anthropic.com": "Main release-notes page returned HTTP 403. Claude Code official changelog retrieved via github.com/anthropics/claude-code/releases and code.claude.com/docs/en/whats-new. Most recent 'What's New' weekly entry is Week 20 (May 11–15, 2026). Most recent GitHub release within 48h window: v2.1.150 (May 23, internal only). No user-facing API/platform release notes found for May 23–25.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-keeps-taking-features-away-from-claude-pro-running-out-of-reasons-to-defend/",
+      "title": "Anthropic keeps taking features away from Claude Pro, and I'm running out of reasons to defend it",
+      "published_date": "2026-05-25",
+      "summary": "Anthropic anunció que a partir del 15 de junio, todo el uso programático de Claude (Agent SDK, claude -p, GitHub Actions de Claude Code y agentes de terceros) dejará de consumir el cupo de la suscripción regular y pasará a un nuevo 'programmatic credit pool' mensual separado: los usuarios Pro reciben USD $20/mes, Max 5x recibe USD $100 y Max 20x recibe USD $200. El artículo es un editorial frustrado que argumenta que este cambio es parte de un patrón continuo donde Anthropic recorta lo que los suscriptores Pro pueden hacer, dificultando cada vez más recomendar el plan.",
+      "relevance_score": 93,
+      "accuracy_notes": "Verificado — Anthropic anunció oficialmente el cambio el 13 de mayo de 2026 con correo a suscriptores programado para el 8 de junio. Los montos de crédito (Pro $20, Max 5x $100, Max 20x $200) están confirmados por múltiples fuentes independientes (SiliconAngle, The New Stack, eWeek, The Decoder). El tono editorial es del autor de XDA, no un comunicado oficial.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "⚠️ Si usas Claude Pro, esto cambia el 15 de junio — y puede salirte más caro",
+          "slides": [
+            "Slide 1: ¿Qué es el nuevo 'Programmatic Credit Pool' de Anthropic?",
+            "Slide 2: ¿Qué uso queda SEPARADO de tu suscripción?",
+            "Slide 3: ¿Cuántos créditos recibes según tu plan? (Pro $20 / Max 5x $100 / Max 20x $200)",
+            "Slide 4: ¿Qué pasa si te quedas sin créditos antes del mes?",
+            "Slide 5: ¿Vale la pena seguir con Claude Pro o es hora de cambiar?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Análisis empresarial: el impacto real del cambio de facturación de Anthropic para equipos y emprendedores que automatizan con Claude",
+          "opening_line": "A partir del 15 de junio, Anthropic separará el uso programático de Claude en un crédito mensual aparte — y si automatizas procesos o usas agentes de IA, necesitas saber qué significa esto para tu flujo de trabajo.",
+          "cta": "¿Tu empresa usa Claude Code o el Agent SDK? Comparte en comentarios cómo planeas adaptarte al nuevo modelo de créditos."
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 Anthropic acaba de cambiar las reglas de Claude Pro otra vez — y el 15 de junio entra en vigor. Hilo completo con todo lo que necesitas saber 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic está separando tus créditos de Claude en dos bolsas — si no lo sabes antes del 15 de junio, puede costarte dinero extra",
+          "script_outline": "0-5s: Hook impactante sobre el cambio. 5-15s: Qué es el 'programmatic credit pool' en palabras simples. 15-30s: A quién afecta (agentes, automatizaciones, claude -p). 30-45s: Cuántos créditos da cada plan y qué pasa al agotarlos. 45-55s: ¿Vale la pena? Comparar opciones. 55-60s: CTA — suscríbete para más actualizaciones de IA para tu negocio."
+        },
+        "ebook_blog": {
+          "title": "Guía Práctica: Cómo Adaptarte al Nuevo Sistema de Créditos de Claude Antes del 15 de Junio",
+          "angle": "Explicar el cambio en lenguaje no técnico, con ejemplos de cuántos créditos consume cada tipo de uso, y una checklist para que emprendedores y dueños de negocios ajusten sus flujos de trabajo antes de la fecha límite."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Claude Code GitHub Releases)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
+      "title": "Claude Code v2.1.150 — Infrastructure Release (May 23, 2026)",
+      "published_date": "2026-05-23",
+      "summary": "Anthropic lanzó Claude Code v2.1.150 el 23 de mayo de 2026 (04:03 UTC). Esta versión contiene únicamente mejoras internas de infraestructura sin cambios visibles para el usuario. La versión previa v2.1.149 (May 22), lanzada 40 horas antes, fue la última con cambios relevantes para el usuario: desglose por categorías en /usage (skills, subagentes, plugins, costos por servidor MCP), desplazamiento con teclado en la vista de detalle de /diff, renderizado de checkboxes GFM en Markdown, el ajuste empresarial allowAllClaudeAiMcps y múltiples correcciones de errores (PowerShell, sandbox, análisis de permisos y renderizado de UI).",
+      "relevance_score": 62,
+      "accuracy_notes": "Datos verificados directamente desde github.com/anthropics/claude-code/releases. v2.1.150 fue confirmado como 'internal infrastructure improvements (no user-facing changes)'. Las funciones de v2.1.149 están documentadas en las notas de release oficiales de Anthropic.",
+      "content_potential": "low",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "¿Sabías que Claude Code ahora te muestra exactamente qué está consumiendo tus créditos?",
+          "slides": []
+        },
+        "linkedin": {
+          "angle": "Productividad técnica: nuevo desglose de uso en /usage de Claude Code",
+          "opening_line": "La actualización v2.1.149 de Claude Code agrega una vista de /usage que muestra cuánto consumen tus skills, subagentes y servidores MCP individualmente — ideal para controlar costos antes del cambio del 15 de junio.",
+          "cta": "¿Usas Claude Code en tu empresa? Este reporte de uso puede ayudarte a optimizar tu facturación."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.149 trajo una función que los usuarios pesados de agentes necesitaban urgente: desglose de uso por categoría 👇",
+          "estimated_tweets": 4
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code ahora te dice exactamente qué está comiendo tus créditos — y llegó justo a tiempo",
+          "script_outline": "0-5s: Hook. 5-20s: Mostrar /usage con desglose. 20-40s: Por qué importa con el cambio de junio. 40-55s: Tip de optimización. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.149: Las 5 Nuevas Funciones que Cambian Cómo Monitoreas tu Uso de IA",
+          "angle": "Tutorial práctico centrado en /usage y control de costos, especialmente relevante para la fecha límite del 15 de junio."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
