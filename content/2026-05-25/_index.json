@@ -1,0 +1,86 @@
+{
+  "date": "2026-05-25",
+  "source_digest": "daily-news/2026-05-24.json",
+  "articles_processed": 2,
+  "total_files_generated": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: crea diseños profesionales solo con texto",
+      "source_title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-25/update_001_instagram.md",
+          "format": "carousel_7_slides",
+          "canva_designs": [
+            "https://www.canva.com/d/Zzf60Kbm2NnK6B3",
+            "https://www.canva.com/d/ZyOi3_v5Koh34lh",
+            "https://www.canva.com/d/4zk27B9z6RdcHWp",
+            "https://www.canva.com/d/txBzeM4JSMefQVn"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-25/update_001_linkedin.md",
+          "format": "post"
+        },
+        "twitter": {
+          "file": "content/2026-05-25/update_001_twitter.md",
+          "format": "thread_7_tweets"
+        },
+        "youtube": {
+          "file": "content/2026-05-25/update_001_youtube.md",
+          "format": "script_60s",
+          "canva_thumbnails": [
+            "https://www.canva.com/d/ZqNQWmP-1ztyA3v",
+            "https://www.canva.com/d/RKm6rjM9Fd1ZTkp",
+            "https://www.canva.com/d/qV768Le6wtOCm2e",
+            "https://www.canva.com/d/BhiY8GmLVEjeqL8"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-25/update_001_blog.md",
+          "format": "article_800_words"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude ahora recuerda todo sobre tu trabajo: memoria persistente",
+      "source_title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-25/update_002_instagram.md",
+          "format": "carousel_7_slides",
+          "canva_designs": [
+            "https://www.canva.com/d/9BuuiV3ynsluUX-",
+            "https://www.canva.com/d/wXEfi0NCUvlsAeZ",
+            "https://www.canva.com/d/jBxAo36YL_fWwo2",
+            "https://www.canva.com/d/7TUkc_mFtvPPyzs"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-25/update_002_linkedin.md",
+          "format": "post"
+        },
+        "twitter": {
+          "file": "content/2026-05-25/update_002_twitter.md",
+          "format": "thread_8_tweets"
+        },
+        "youtube": {
+          "file": "content/2026-05-25/update_002_youtube.md",
+          "format": "script_60s",
+          "canva_thumbnails": [
+            "https://www.canva.com/d/c_0NjmQcxupz25M",
+            "https://www.canva.com/d/7j9r15TcEZiN4Ze",
+            "https://www.canva.com/d/mZR3F2PxZJSaTl8",
+            "https://www.canva.com/d/TJn66Z-b65sA3PL"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-25/update_002_blog.md",
+          "format": "article_850_words"
+        }
+      }
+    }
+  ]
+}
