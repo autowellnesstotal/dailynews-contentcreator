@@ -1,0 +1,108 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24T23:39:57Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual articles also blocked. Article titles, dates, and summaries retrieved via web search (Google index). Two articles confirmed within 24-48h window.",
+    "docs.anthropic.com": "Redirects to platform.claude.com/docs/en/release-notes/overview — successfully fetched. Most recent entry is May 19, 2026 (MCP tunnels + self-hosted sandboxes). No new entries within the 24-48h window.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "approved",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "published_date": "2026-05-23",
+      "summary": "Claude Design es la nueva herramienta de diseño de Anthropic Labs, actualmente en Research Preview, que permite crear presentaciones, gráficos para redes sociales, mockups de UI, wireframes y más — a través de prompts en lenguaje natural. La reseña de XDA la describe como el mejor lanzamiento reciente de Anthropic, pero señala serias limitaciones: acceso solo para planes de pago y una cuota semanal que se agota muy rápido.",
+      "relevance_score": 92,
+      "accuracy_notes": "Verificado — Claude Design lanzó el 17-Abr-2026 bajo Anthropic Labs. Las quejas sobre cuotas de uso son consistentes en múltiples reportes independientes.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de lanzar una herramienta de diseño que tiene a Figma, Canva y Adobe Express nerviosos 👀",
+          "slides": [
+            "¿Qué es Claude Design?",
+            "Lo que puede crear: slides, wireframes, gráficos, mockups",
+            "Vs Figma & Canva — velocidad y flujo prompt-to-design",
+            "Las limitaciones serias — cuota semanal, solo plan pago",
+            "¿Vale la pena probarlo?"
+          ]
+        },
+        "linkedin": {
+          "angle": "IA entrando al espacio de diseño creativo profesional",
+          "opening_line": "Anthropic acaba de lanzar una herramienta que permite crear slides, mockups de UI y gráficos de marca solo con prompts de texto — y funciona.",
+          "cta": "¿Ya probaste Claude Design? Comparte tu experiencia en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Design puede ser el lanzamiento de IA más subestimado de 2026 — y tiene un talón de Aquiles real 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Reconstruí todo mi flujo de diseño de contenido usando solo prompts de IA — sin Canva, sin Figma, sin Adobe",
+          "script_outline": "0-5s: Hook. 5-15s: Introduce Claude Design. 15-35s: Demo. 35-50s: Limitación. 50-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Design vs Figma vs Canva: La Comparación Honesta 2026",
+          "angle": "Comparación práctica para diseñadores, marketers y fundadores."
+        }
+      },
+      "approved": true,
+      "reviewer_notes": "Adapta el contenido para un usuario que es novato o que tiene la intención de empezar a usar Claude para optimizar su trabajo o sus procesos en su empresa. Nivel emprendedor, sin mucho contexto técnico, más práctico. Que sirva como motivación para comprar el ebook que tengo creado en otra herramienta "
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "published_date": "2026-05-22",
+      "summary": "Anthropic tiene dos sistemas de memoria persistente en Claude Code: Auto Memory (captura automáticamente contexto del proyecto, estilo de código y notas de debugging entre sesiones) y CLAUDE.md (archivos markdown con instrucciones persistentes que se cargan al inicio de cada sesión). El artículo demuestra cómo integrar estos sistemas en pipelines de automatización — el agente CLI carga todo el contexto guardado automáticamente.",
+      "relevance_score": 87,
+      "accuracy_notes": "Verificado — Auto Memory y CLAUDE.md son características de producción de Claude Code disponibles desde v2.1.59+.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Tu asistente de código IA ahora puede recordar todo sobre tu proyecto — automáticamente 🧠",
+          "slides": [
+            "Claude Code ahora tiene memoria persistente",
+            "Auto Memory — qué guarda y cómo (sin setup)",
+            "CLAUDE.md — el archivo con instrucciones permanentes",
+            "Cómo integrar memoria en pipelines de automatización",
+            "Antes vs Después"
+          ]
+        },
+        "linkedin": {
+          "angle": "Cómo la memoria IA persistente está transformando la productividad de developers",
+          "opening_line": "Claude Code puede recordar tu arquitectura, patrones de debugging y estilo de código — automáticamente, en cada sesión y cada ejecución automatizada.",
+          "cta": "¿Ya usas CLAUDE.md en tus proyectos? Comparte tu configuración."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code se volvió significativamente más poderoso y la mayoría de los developers aún no lo notaron 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Dejé de re-explicar toda mi base de código a la IA en cada sesión — aquí el setup de 5 minutos que lo resolvió",
+          "script_outline": "0-5s: Hook. 5-15s: El problema. 15-30s: Auto Memory. 30-45s: CLAUDE.md. 45-55s: Automatización. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "La Guía Completa 2026 de Claude Code Memory: Auto Memory, CLAUDE.md y Workflows de Automatización",
+          "angle": "Guía técnica paso a paso para distintos tipos de proyectos y pipelines CI/CD."
+        }
+      },
+      "approved": true,
+      "reviewer_notes": "Adapta el contenido para un usuario que es novato o que tiene la intención de empezar a usar Claude para optimizar su trabajo o sus procesos en su empresa. Nivel emprendedor, sin mucho contexto técnico, más práctico. Que sirva como motivación para comprar el ebook que tengo creado en otra herramienta "
+    }
+  ],
+  "reviewed_at": "2026-05-25T00:14:34.798Z",
+  "total_approved": 2
+}
