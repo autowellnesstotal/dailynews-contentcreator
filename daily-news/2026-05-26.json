@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T15:05:36Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual article pages returned HTTP 403 (blocked). Article titles, dates, and summaries retrieved via web search (Google index). Two articles confirmed published within the 24-48h window (May 24-25, 2026).",
+    "docs.anthropic.com": "Release notes pages returned HTTP 403 (blocked). GitHub releases for Claude Code verified: most recent release is v2.1.150 (May 23, 2026 — internal infrastructure only, no user-facing changes). No new release note entries confirmed for May 25-26 via web search. No updates to include for this cycle.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available.",
+    "adjacent_major_story": "Claude Mythos (claude-mythos-1-preview) briefly appeared in the public Claude Code and Claude Security interfaces on May 25, 2026, before being pulled. This story broke via BleepingComputer and WinBuzzer — NOT from any of the three monitored sources — so it is excluded from updates[] but noted here for human reviewer awareness."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-keeps-taking-features-away-from-claude-pro-running-out-of-reasons-to-defend/",
+      "title": "Anthropic keeps taking features away from Claude Pro, and I'm running out of reasons to defend it",
+      "published_date": "2026-05-25",
+      "summary": "XDA publica un editorial crítico que documenta una serie de recortes de funciones en Claude Pro por parte de Anthropic a lo largo de 2026: en abril se eliminó Claude Code del 2% de las suscripciones Pro en un A/B test no anunciado; en mayo se separó el uso de Agent SDK y claude -p a un 'credit pool' de pago independiente (efectivo desde el 15 de junio); y las integraciones con herramientas de terceros como OpenClaw también fueron removidas. El artículo reconoce el anuncio positivo del acuerdo con SpaceX para duplicar los límites de Claude Code, pero concluye que el patrón acumulado de recortes está erosionando la confianza de los suscriptores. La pieza refleja una frustración ampliamente compartida en la comunidad de usuarios de Claude Pro.",
+      "relevance_score": 92,
+      "accuracy_notes": "Los eventos documentados son verificables: el A/B test de Claude Code Pro (abril 2026), el cambio de billing de Agent SDK anunciado el 13 de mayo con efectividad el 15 de junio, y el acuerdo con SpaceX (Colossus 1, Memphis) anunciado en Code with Claude el 6 de mayo son todos hechos reportados de forma independiente por múltiples fuentes. El tono del artículo es editorial/opinión — los hechos son precisos; las conclusiones son del autor.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "¿Claude Pro ya no vale lo que cobran? Esto es lo que Anthropic quitó sin avisar en los últimos 3 meses 🚨",
+          "slides": [
+            "Slide 1: ¿Qué está pasando con Claude Pro?",
+            "Slide 2: Golpe #1 — Claude Code removido del plan Pro (abril)",
+            "Slide 3: Golpe #2 — Integraciones de terceros eliminadas de tu suscripción",
+            "Slide 4: Golpe #3 — Agent SDK y claude -p pasan a cobro separado (junio 15)",
+            "Slide 5: ¿Qué hacer? — Tus opciones reales hoy"
+          ]
+        },
+        "linkedin": {
+          "angle": "Lección de negocio para emprendedores: cuando una plataforma de IA cambia sus términos, ¿cómo proteges tu flujo de trabajo?",
+          "opening_line": "Anthropic acaba de separar el acceso a su Agent SDK de las suscripciones de Claude Pro — efectivo el 15 de junio. Si dependes de Claude para automatizaciones, esto te afecta directamente.",
+          "cta": "¿Ya revisaste si tu flujo de trabajo depende del Agent SDK o de integraciones de terceros? Cuéntame cómo lo estás manejando."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic ha hecho 3 recortes silenciosos a Claude Pro en los últimos 60 días. Aquí el resumen completo de lo que perdiste (y lo que viene el 15 de junio) 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Pagué $20/mes por Claude Pro y en 3 meses me quitaron esto sin aviso — lo que necesitas saber antes del 15 de junio",
+          "script_outline": "0-5s: Hook urgente sobre el cambio del 15 de junio. 5-20s: Recorte #1 Claude Code (abril). 20-30s: Recorte #2 OpenClaw y terceros. 30-45s: Recorte #3 Agent SDK pasa a créditos separados. 45-55s: Qué hacer: evalúa tu uso, revisa si te afecta. 55-60s: CTA — suscríbete para alertas de cambios de IA."
+        },
+        "ebook_blog": {
+          "title": "Guía de Supervivencia Claude Pro 2026: Lo Que Anthropic Cambió y Cómo Adaptarte",
+          "angle": "Artículo práctico para emprendedores que dependen de Claude: cronología de cambios, impacto real en workflows comunes y alternativas para cada función removida. Motivación para tener un plan B y aprender a usar Claude de forma más estratégica."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/used-claude-design-and-google-opal-to-build-same-app/",
+      "title": "I built an app with Claude Design and Google Opal, and only one actually finished it",
+      "published_date": "2026-05-25",
+      "summary": "El autor construyó la misma aplicación de triaje de marcadores usando Claude Design (la herramienta de diseño visual de Anthropic Labs, actualmente en Research Preview) y Google Opal, comparando ambas en capacidad de completar una tarea de construcción de app de manera autónoma a partir de prompts en lenguaje natural. Claude Design, lanzada en abril de 2026, genera salidas visuales — diseños, prototipos, slides, infografías — desde descripciones en texto, posicionándose como alternativa IA a Figma o Canva. El resultado del test head-to-head sirve como evaluación práctica de las capacidades reales de Claude Design fuera del marketing de Anthropic.",
+      "relevance_score": 70,
+      "accuracy_notes": "Claude Design es un producto real de Anthropic Labs (lanzado en investigación el 17 de abril de 2026). Google Opal es un producto real de Google. El artículo es un test práctico de un solo autor — los resultados son subjetivos y basados en un único caso de uso (app de triaje de marcadores). No representan benchmarks oficiales.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Usé IA para construir una app real — Claude Design vs Google Opal. Solo uno la terminó 👀",
+          "slides": [
+            "Slide 1: El reto — construir la misma app con dos IA diferentes",
+            "Slide 2: Claude Design de Anthropic — qué puede hacer",
+            "Slide 3: Google Opal — el competidor directo",
+            "Slide 4: El resultado del test (head-to-head)",
+            "Slide 5: ¿Cuál elegir para tu proyecto?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Para emprendedores no técnicos: ya puedes construir apps funcionales con prompts de texto — aquí la comparación real",
+          "opening_line": "Claude Design de Anthropic y Google Opal prometen que cualquiera puede construir una app funcional con solo describir lo que necesita. Puse ambas a prueba con la misma tarea y los resultados fueron reveladores.",
+          "cta": "¿Ya probaste alguna herramienta de diseño/prototipado con IA? ¿Cuál te ha funcionado mejor?"
+        },
+        "twitter_x": {
+          "thread_opener": "Construí la misma app con Claude Design Y Google Opal para ver cuál realmente funciona. Hilo con el resultado honesto 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Le di la misma instrucción a Claude Design de Anthropic y a Google Opal — solo uno terminó la app",
+          "script_outline": "0-5s: Hook visual con ambas interfaces lado a lado. 5-15s: Explica el reto — construir una app de triaje de marcadores. 15-30s: Claude Design en acción — fortalezas y límites. 30-45s: Google Opal en acción — fortalezas y límites. 45-55s: El ganador y por qué importa para no técnicos. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Design vs Google Opal: ¿Cuál herramienta IA de diseño te conviene en 2026?",
+          "angle": "Guía práctica para emprendedores y creadores de contenido sin conocimiento técnico que quieren crear apps, diseños y prototipos usando IA sin depender de diseñadores o programadores."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
