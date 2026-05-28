@@ -1,0 +1,150 @@
+{
+  "generated_at": "2026-05-28",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_updates_processed": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-28/update_001_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva_candidates": [
+            {
+              "candidate_id": "dg-64951174-e1b6-483f-9643-b622f82b8db7",
+              "url": "https://www.canva.com/d/kXU9iqGzHpW1BtZ",
+              "thumbnail": "https://design.canva.ai/9zVQu_ROj5l4SZ7"
+            },
+            {
+              "candidate_id": "dg-ae7ebacd-e438-4b19-ae37-61c75564ce01",
+              "url": "https://www.canva.com/d/kSW9_BADQo01TDV",
+              "thumbnail": "https://design.canva.ai/Unw85DCOvJXxZA6"
+            },
+            {
+              "candidate_id": "dg-b3668fd5-d0e5-4bfd-b269-920569960dae",
+              "url": "https://www.canva.com/d/WdDtn0xAeODcBFK",
+              "thumbnail": "https://design.canva.ai/Bc4ms1qXu3OE2O-"
+            },
+            {
+              "candidate_id": "dg-e36c3904-71a9-4216-b38a-8892e751ff91",
+              "url": "https://www.canva.com/d/9nNDcQ1Obw0OxGj",
+              "thumbnail": "https://design.canva.ai/IYuvxVMU7W6m2S2"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-28/update_001_linkedin.md",
+          "format": "post largo con gancho + párrafos + CTA"
+        },
+        "twitter": {
+          "file": "content/2026-05-28/update_001_twitter.md",
+          "format": "hilo de 7 tweets"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-05-28/update_001_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva_thumbnail_candidates": [
+            {
+              "candidate_id": "dg-1afd743b-ef94-4bfb-9a05-6ce30e54b952",
+              "url": "https://www.canva.com/d/57AnGXIsyU2hNtS",
+              "thumbnail": "https://design.canva.ai/rT_2-ntzrMDPIOm"
+            },
+            {
+              "candidate_id": "dg-52d49dab-0c83-409f-b577-fb6ef59e147b",
+              "url": "https://www.canva.com/d/v25aPU7s3XCMrVL",
+              "thumbnail": "https://design.canva.ai/KlrgoTuMuG9TUa-"
+            },
+            {
+              "candidate_id": "dg-77cfea49-52db-44d4-849f-6a772a036778",
+              "url": "https://www.canva.com/d/9ToRCRzPvI00Vzm",
+              "thumbnail": "https://design.canva.ai/q5WHb7XC1Zay2u3"
+            },
+            {
+              "candidate_id": "dg-b7052611-987d-43fd-b0fa-3e45d1ca4189",
+              "url": "https://www.canva.com/d/C7r_mzkSHnZlLE9",
+              "thumbnail": "https://design.canva.ai/mYrTm5kBOx0Ira6"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-28/update_001_blog.md",
+          "format": "artículo 800 palabras con título, subtítulos y conclusión"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-28/update_002_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva_candidates": [
+            {
+              "candidate_id": "dg-28581d40-6db2-4485-9e8f-185f46538a11",
+              "url": "https://www.canva.com/d/Oqpt1H2GOxpTwq7",
+              "thumbnail": "https://design.canva.ai/3Wk9ISm8czCMH97"
+            },
+            {
+              "candidate_id": "dg-6905b002-2d17-4545-b83f-e4b3c329eba0",
+              "url": "https://www.canva.com/d/u5y-Dzfj_E4olvo",
+              "thumbnail": "https://design.canva.ai/zLJg-rpwLlquUFX"
+            },
+            {
+              "candidate_id": "dg-ad76566a-9795-4b27-b69f-2c43706f112b",
+              "url": "https://www.canva.com/d/cqYHTHW0J_hTvsd",
+              "thumbnail": "https://design.canva.ai/Ivnd1Ficd3DY3oT"
+            },
+            {
+              "candidate_id": "dg-d8cb548a-65d6-441e-a398-c96762f0a3fe",
+              "url": "https://www.canva.com/d/ZltZMTWOk-x957I",
+              "thumbnail": "https://design.canva.ai/jSmQzclokh8Wcxu"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-28/update_002_linkedin.md",
+          "format": "post largo con gancho + párrafos + CTA"
+        },
+        "twitter": {
+          "file": "content/2026-05-28/update_002_twitter.md",
+          "format": "hilo de 8 tweets"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-05-28/update_002_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva_thumbnail_candidates": [
+            {
+              "candidate_id": "dg-18cde418-ff0c-4a84-ab2a-7c2f4fb12e83",
+              "url": "https://www.canva.com/d/hWrCVO_x6v7kHZb",
+              "thumbnail": "https://design.canva.ai/L68jnkOmLimslCc"
+            },
+            {
+              "candidate_id": "dg-31a4baf0-6df9-4fcc-a15e-5fbd6fadef13",
+              "url": "https://www.canva.com/d/5o9BNhAIYils_8B",
+              "thumbnail": "https://design.canva.ai/t2pylt8fD3-P2n2"
+            },
+            {
+              "candidate_id": "dg-79b46a72-5d6d-4f43-9062-bbd39db635bc",
+              "url": "https://www.canva.com/d/54BITOzz2AVLwas",
+              "thumbnail": "https://design.canva.ai/jhqQVPDOqPU_7wJ"
+            },
+            {
+              "candidate_id": "dg-fe208e0b-1ed6-462c-896b-2633789e55ed",
+              "url": "https://www.canva.com/d/DM8cjJBieA0akWq",
+              "thumbnail": "https://design.canva.ai/Onc14F2PFn7qdnI"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-28/update_002_blog.md",
+          "format": "artículo 850 palabras con título, subtítulos y conclusión"
+        }
+      }
+    }
+  ]
+}
