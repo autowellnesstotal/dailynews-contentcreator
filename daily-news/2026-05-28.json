@@ -1,0 +1,106 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T15:11:51Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage devuelve HTTP 403; artículos individuales también bloqueados. Títulos, fechas y resúmenes obtenidos vía búsqueda web (índice de Google). Un artículo confirmado dentro de la ventana de 24-48h (May 27, 2026).",
+    "docs.anthropic.com": "Página de release notes devuelve HTTP 403. Contenido de actualizaciones verificado mediante múltiples fuentes independientes (SecurityWeek, Help Net Security, CyberSecurityNews, GBHackers) que confirman el anuncio oficial del 27 de mayo de 2026 durante el evento Code w/ Claude en Londres.",
+    "theverge.com": "Bloqueado tanto por fetch directo (HTTP 403) como por política de indexación de búsqueda (dominio no accesible al crawler de Anthropic). Sin resultados disponibles."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Anthropic lanza plugin gratuito de seguridad para Claude Code y sandbox auto-gestionado para Managed Agents",
+      "published_date": "2026-05-27",
+      "summary": "Anthropic anunció el 27 de mayo de 2026 dos nuevas características de seguridad presentadas en el evento Code w/ Claude en Londres: el plugin `security-guidance` para Claude Code y el sandbox auto-gestionado para Claude Managed Agents. El plugin `security-guidance` es gratuito para todos los planes, se instala con `/plugins` y detecta en tiempo real ~25 patrones de vulnerabilidades críticas (SQL injection, XSS, inyección de comandos, hardcoded secrets, desserialización insegura), con una reducción del 30-40% en comentarios de seguridad en PRs. El sandbox auto-gestionado permite que los Managed Agents ejecuten herramientas en la infraestructura controlada por el usuario (Cloudflare, Daytona, Modal, Vercel) mientras el bucle del agente permanece en la infraestructura de Anthropic.",
+      "relevance_score": 95,
+      "accuracy_notes": "Verificado — anunciado el 27-May-2026 en el evento Code w/ Claude London. Confirmado de forma independiente por SecurityWeek, Help Net Security, CyberSecurityNews y GBHackers con URL datada /2026/05/27/. Plugin disponible inmediatamente en producción para todos los planes. Cifra del 30-40% es de benchmarks internos de Anthropic — no auditados externamente.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de lanzar un plugin GRATIS que detecta vulnerabilidades en tu código en tiempo real — mientras escribes 🛡️",
+          "slides": [
+            "¿Qué es el plugin security-guidance de Claude Code?",
+            "25 tipos de vulnerabilidad detectados automáticamente",
+            "SQL injection, XSS, hardcoded secrets — atrapados antes del PR",
+            "30-40% menos comentarios de seguridad en code reviews",
+            "Cómo instalarlo en 30 segundos con /plugins"
+          ]
+        },
+        "linkedin": {
+          "angle": "Seguridad integrada en el flujo de desarrollo con IA: cómo Anthropic está redefiniendo la revisión de código para equipos y emprendedores",
+          "opening_line": "Anthropic lanzó un plugin gratuito que detecta vulnerabilidades críticas en tu código mientras lo escribes — sin salir del terminal y sin costo extra.",
+          "cta": "¿Ya instalaste security-guidance en Claude Code? ¿Qué vulnerabilidades encontró en tu codebase? Comparte en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic acaba de hacer más difícil excusarse por vulnerabilidades en código generado por IA 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Le pedí a Claude Code que revisara mi API y encontró 3 vulnerabilidades críticas que yo había pasado por alto — así funciona el nuevo plugin de seguridad gratuito",
+          "script_outline": "0-5s: Hook mostrando una vulnerabilidad real detectada. 5-15s: Introduce el plugin security-guidance. 15-35s: Demo de instalación con /plugins y primera detección en vivo. 35-50s: Explica los 25 patrones monitoreados. 50-60s: CTA — instalar hoy es gratis y tarda 30 segundos."
+        },
+        "ebook_blog": {
+          "title": "Guía 2026: Cómo usar el Plugin de Seguridad de Claude Code para Detectar Vulnerabilidades Antes del PR",
+          "angle": "Tutorial práctico paso a paso: instalación, configuración, ejemplos reales de detección y cómo integrar la herramienta en el flujo de revisión de código para emprendedores y developers sin equipo de seguridad dedicado."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/gave-up-notebooklm-for-claude-projects/",
+      "title": "I gave up NotebookLM for Claude Projects, and the trade-offs surprised me",
+      "published_date": "2026-05-27",
+      "summary": "La autora Mahnoor Faisal de XDA Developers comparte su experiencia al abandonar Google NotebookLM en favor de Claude Projects para la gestión de fuentes e investigación. Claude Projects ofrece mayor flexibilidad contextual e integración más natural en flujos de trabajo complejos, mientras que NotebookLM mantiene ventajas en generación de resúmenes de audio y en la delimitación estricta de fuentes. El artículo sirve como guía práctica para quienes evalúan cuál herramienta de gestión de conocimiento IA se adapta mejor a su forma de trabajar.",
+      "relevance_score": 76,
+      "accuracy_notes": "Artículo de opinión y reseña personal. Las comparaciones son experiencias del autor — no afirmaciones técnicas verificables de forma independiente. Sin red flags ni datos incorrectos detectados. Consistente con otras reseñas comparativas publicadas en mayo 2026.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "¿Claude Projects o NotebookLM? Esta comparación honesta puede ahorrarte semanas de prueba y error 📚",
+          "slides": [
+            "El problema: demasiados 'cerebros IA' para gestionar información",
+            "Qué hace bien NotebookLM — y dónde se queda corto",
+            "Qué hace mejor Claude Projects en flujos de trabajo reales",
+            "Los trade-offs reales: cuándo usar cada uno",
+            "Veredicto: ¿cuál vale tu tiempo y dinero en 2026?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Herramientas de gestión de conocimiento IA para profesionales en 2026: Claude Projects vs NotebookLM",
+          "opening_line": "Cambié de NotebookLM a Claude Projects para gestionar mis fuentes de investigación — y los trade-offs me sorprendieron más de lo que esperaba.",
+          "cta": "¿Cuál usas para gestionar tu conocimiento e investigación? Comparte tu experiencia en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Usé Claude Projects en lugar de NotebookLM durante un mes — aquí el veredicto honesto 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Cambié NotebookLM por Claude Projects — hay algo que nadie te dice sobre la diferencia real entre estas dos herramientas",
+          "script_outline": "0-5s: Hook sobre el problema de gestionar demasiadas fuentes. 5-15s: Qué es cada herramienta y para qué sirven. 15-30s: Demo rápido de Claude Projects. 30-45s: Demo rápido de NotebookLM. 45-55s: Veredicto y casos de uso ideales para cada una. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Projects vs NotebookLM 2026: Guía Definitiva para Emprendedores y Profesionales",
+          "angle": "Comparación práctica sin jerga técnica: cuándo usar cada herramienta, configuración inicial ideal, y cómo aprovechar ambas dentro de un sistema de productividad personal para emprendedores."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
