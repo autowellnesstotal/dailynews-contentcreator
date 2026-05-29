@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_articles_approved": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: la herramienta de diseño IA de Anthropic",
+      "source_title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-29/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva": {
+            "design_id": "DAHLFAE80oo",
+            "title": "Post para Instagram - Claude Design — Innovación Creativa",
+            "edit_url": "https://www.canva.com/d/ryaZltBDhlRtAjo",
+            "view_url": "https://www.canva.com/d/QrgbfUbIPL4Ynzm"
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-05-29/update_001_linkedin.md",
+          "canva": null
+        },
+        "twitter": {
+          "file": "content/2026-05-29/update_001_twitter.md",
+          "tweets": 7,
+          "canva": null
+        },
+        "youtube": {
+          "file": "content/2026-05-29/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva": {
+            "design_id": "DAHLFFBjwrQ",
+            "title": "Sleek AI Efficiency Thumbnail",
+            "edit_url": "https://www.canva.com/d/AnZhfLpqmwveJrj",
+            "view_url": "https://www.canva.com/d/PlhOUWjIZk4dNPy"
+          }
+        },
+        "blog": {
+          "file": "content/2026-05-29/update_001_blog.md",
+          "word_count_approx": 820,
+          "canva": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Memoria persistente en Claude Code: Auto Memory y CLAUDE.md",
+      "source_title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-29/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 6,
+          "canva": {
+            "design_id": "DAHLFKKEAv4",
+            "title": "Post para Instagram - Recuerda todo con Claude",
+            "edit_url": "https://www.canva.com/d/f0Lz1n3vDz4UfDM",
+            "view_url": "https://www.canva.com/d/4q0CRkY64sLiqnD"
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-05-29/update_002_linkedin.md",
+          "canva": null
+        },
+        "twitter": {
+          "file": "content/2026-05-29/update_002_twitter.md",
+          "tweets": 8,
+          "canva": null
+        },
+        "youtube": {
+          "file": "content/2026-05-29/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva": {
+            "design_id": "DAHLFBNX4Dk",
+            "title": "Miniatura de YouTube - Dejé de re-explicarle mi empresa",
+            "edit_url": "https://www.canva.com/d/EtQzj3b3ihsQPCP",
+            "view_url": "https://www.canva.com/d/70qyX3cVGk-ULR1"
+          }
+        },
+        "blog": {
+          "file": "content/2026-05-29/update_002_blog.md",
+          "word_count_approx": 860,
+          "canva": null
+        }
+      }
+    }
+  ],
+  "canva_designs_summary": [
+    {
+      "id": "DAHLFAE80oo",
+      "type": "instagram_post",
+      "for": "update_001",
+      "edit_url": "https://www.canva.com/d/ryaZltBDhlRtAjo",
+      "view_url": "https://www.canva.com/d/QrgbfUbIPL4Ynzm"
+    },
+    {
+      "id": "DAHLFFBjwrQ",
+      "type": "youtube_thumbnail",
+      "for": "update_001",
+      "edit_url": "https://www.canva.com/d/AnZhfLpqmwveJrj",
+      "view_url": "https://www.canva.com/d/PlhOUWjIZk4dNPy"
+    },
+    {
+      "id": "DAHLFKKEAv4",
+      "type": "instagram_post",
+      "for": "update_002",
+      "edit_url": "https://www.canva.com/d/f0Lz1n3vDz4UfDM",
+      "view_url": "https://www.canva.com/d/4q0CRkY64sLiqnD"
+    },
+    {
+      "id": "DAHLFBNX4Dk",
+      "type": "youtube_thumbnail",
+      "for": "update_002",
+      "edit_url": "https://www.canva.com/d/EtQzj3b3ihsQPCP",
+      "view_url": "https://www.canva.com/d/70qyX3cVGk-ULR1"
+    }
+  ]
+}
