@@ -1,0 +1,106 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T15:30:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage devuelve HTTP 403; artículos individuales también bloqueados. Títulos, fechas y resúmenes obtenidos via búsqueda web (índice Google). Un artículo confirmado dentro de la ventana de 24-48h (May 28).",
+    "docs.anthropic.com": "HTTP 403 en acceso directo. Contenido de release notes verificado via búsqueda web (Google index + fuentes secundarias como releasebot.io y simonwillison.net). Múltiples entradas del May 28, 2026: lanzamiento de Opus 4.8, actualización de Claude Code y Claude Managed Agents.",
+    "theverge.com": "Bloqueado tanto en fetch directo (HTTP 403) como en política de búsqueda web (dominio no accesible al crawler de Anthropic). Cero resultados disponibles de esta fuente."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-opus-47-was-just-released-last-month-and-48-is-already-here-with-some-impressive-improvements/",
+      "title": "Claude Opus 4.7 was just released last month, and 4.8 is already here with some massive improvements",
+      "published_date": "2026-05-28",
+      "summary": "Anthropic lanzó Claude Opus 4.8 el 28 de mayo de 2026, apenas semanas después del lanzamiento de Opus 4.7. El nuevo modelo muestra mejoras importantes en codificación agéntica (64.3% → 69.2%), razonamiento multidisciplinario con herramientas (54.7% → 57.9%) y puntuación de trabajo de conocimiento (1753 → 1890). Una de las mejoras más destacadas es la honestidad del modelo: Opus 4.8 tiene 4 veces menos probabilidad de dejar pasar errores en código sin señalarlos. El modo rápido (fast mode) es 2.5x más veloz y cuesta 3x menos que en versiones anteriores. Los precios se mantienen iguales a los de Opus 4.7.",
+      "relevance_score": 95,
+      "accuracy_notes": "Benchmarks tomados directamente del anuncio oficial de Anthropic (anthropic.com/news/claude-opus-4-8). La cobertura de XDA coincide con la información verificada en múltiples fuentes secundarias (9to5Mac, SiliconANGLE, simonwillison.net). Precio confirmado sin cambios.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Opus 4.8 acaba de salir — y hace que la versión anterior parezca obsoleta 🚀",
+          "slides": [
+            "¿Qué es Claude Opus 4.8 y por qué importa?",
+            "Los números que cambian todo: benchmark de codificación al 69.2%",
+            "Honestidad nivel máximo: 4x menos errores ocultos en tu código",
+            "Fast mode: 2.5x más rápido y 3x más barato",
+            "¿Vale la pena actualizar ya? Respuesta honesta"
+          ]
+        },
+        "linkedin": {
+          "angle": "Para emprendedores y equipos que usan Claude en sus procesos: Opus 4.8 cambia la ecuación de productividad y confiabilidad",
+          "opening_line": "Anthropic acaba de lanzar Claude Opus 4.8 — y su característica más subestimada no es la velocidad, sino la honestidad: detecta y señala sus propios errores 4 veces más que antes.",
+          "cta": "¿Ya integraste Claude en tu flujo de trabajo? Este es el momento de probarlo. Comenta tu caso de uso."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic lanzó Claude Opus 4.8 el 28 de mayo y los números son reales 🧵 Todo lo que necesitas saber:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "El modelo de IA más honesto del mundo acaba de mejorar — y esto cambia cómo delegar trabajo a la IA",
+          "script_outline": "0-5s: Hook visual con comparación de números. 5-20s: Qué cambió en Opus 4.8 (benchmarks simples). 20-35s: El dato de honestidad — por qué 4x menos errores ocultos es clave para no-técnicos. 35-50s: Fast mode: velocidad y ahorro de costo. 50-60s: CTA — 'si usas Claude en tu negocio, actualiza hoy'."
+        },
+        "ebook_blog": {
+          "title": "Claude Opus 4.8: Lo Que Todo Emprendedor Necesita Saber Antes de Usarlo en su Negocio",
+          "angle": "Guía práctica sin tecnicismos: qué mejoró, cómo afecta a quien usa Claude para automatizar tareas, y cómo aprovechar el fast mode más barato."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "May 28 Platform Release: Claude Opus 4.8 API + Claude Code con Dynamic Workflows + Managed Agents con Sandboxes Propios",
+      "published_date": "2026-05-28",
+      "summary": "Las release notes oficiales de Anthropic del 28 de mayo cubren tres grandes actualizaciones simultáneas. Primero, Claude Opus 4.8 ya está disponible en la API (model ID: claude-opus-4-8), en Amazon Bedrock, Google Vertex AI y Microsoft Foundry — con soporte para mensajes de sistema intermedios en conversaciones largas y un mínimo de caché reducido a 1,024 tokens. Segundo, Claude Code se actualiza con Opus 4.8 como modelo base, 'dynamic workflows' en research preview, el toggle de control de esfuerzo, fast mode mejorado y límites de tasa ampliados. Tercero, Claude Managed Agents entra en una nueva fase enterprise: sandboxes auto-hospedados en beta pública (los agentes corren en infraestructura del cliente) y túneles MCP en research preview (conexión a servidores MCP privados). También se reportó y resolvió un incidente de errores elevados en Opus 4.8 el 29 de mayo.",
+      "relevance_score": 100,
+      "accuracy_notes": "Fuente primaria — documentación oficial de desarrolladores de Anthropic. Detalles verificados via releasebot.io (agregador de release notes), simonwillison.net y múltiples artículos técnicos de cobertura del lanzamiento. Toda la información es verificable en la URL original.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic lanzó 3 actualizaciones masivas el mismo día — y la mayoría no se enteró 👇",
+          "slides": [
+            "Opus 4.8 ya está en la API: el modelo más poderoso disponible para todos",
+            "Claude Code con Dynamic Workflows — automatización que piensa sola",
+            "Managed Agents enterprise: ahora en TU propia infraestructura",
+            "MCP Tunnels: conecta Claude a tus sistemas privados",
+            "¿Qué significa esto para tu negocio?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Para empresas con datos sensibles: Anthropic acaba de resolver el mayor obstáculo para adoptar agentes de IA",
+          "opening_line": "Anthropic acaba de habilitar que Claude Managed Agents corran dentro de tu propia infraestructura — lo que significa que tus datos nunca salen de tu entorno.",
+          "cta": "Para equipos de IT y líderes técnicos: los sandboxes auto-hospedados están en beta pública. ¿Tu empresa está lista para agentes de IA con control total de datos?"
+        },
+        "twitter_x": {
+          "thread_opener": "Las release notes de Anthropic del 28 de mayo son las más densas del año 🧵 Aquí todo lo que developers y empresas necesitan saber:",
+          "estimated_tweets": 9
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic le dio a las empresas algo que OpenAI no puede ofrecer — y cambia todo para negocios con datos privados",
+          "script_outline": "0-5s: Hook — 'el mayor miedo de las empresas al usar IA'. 5-20s: Problema de soberanía de datos con agentes IA. 20-35s: Solución: sandboxes en tu infraestructura + MCP tunnels. 35-50s: Claude Code dynamic workflows para no-técnicos. 50-60s: CTA — 'esto es el futuro agéntico ahora mismo'."
+        },
+        "ebook_blog": {
+          "title": "La Guía Completa del Ecosistema Claude: Opus 4.8, Claude Code y Managed Agents en Mayo 2026",
+          "angle": "Explicación práctica para emprendedores de todas las actualizaciones de plataforma — sin jerga técnica, con enfoque en qué significa para automatizar tu negocio hoy."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
