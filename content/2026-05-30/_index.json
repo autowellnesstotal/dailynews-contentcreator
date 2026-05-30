@@ -1,0 +1,108 @@
+{
+  "date": "2026-05-30",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-30/update_001_instagram.md",
+          "format": "carousel 7 slides",
+          "canva_candidates": [
+            "https://www.canva.com/d/Cu_HSYcIr6ZWTTL",
+            "https://www.canva.com/d/Bp3tZIukE4mbk6Z",
+            "https://www.canva.com/d/8lFuQvXzLZHPyhz",
+            "https://www.canva.com/d/5EgWctkkFcYloIY"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/SG9l3wKvVmPP2FR",
+            "https://design.canva.ai/WdRPy9UXsh8Eldc",
+            "https://design.canva.ai/QXc8qECCBNfnl0O",
+            "https://design.canva.ai/MyRg1PUHJdV_TRk"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-30/update_001_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-05-30/update_001_twitter.md",
+          "format": "hilo 8 tweets"
+        },
+        "youtube": {
+          "file": "content/2026-05-30/update_001_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/3Sp7LTjo_MRYtuM",
+            "https://www.canva.com/d/tLW-jNvhpmaV7-I",
+            "https://www.canva.com/d/QjVVa5GRpmRpVbF",
+            "https://www.canva.com/d/UQEoWSdj77HZWOf"
+          ],
+          "canva_thumbnail_previews": [
+            "https://design.canva.ai/P2FjXP_yF61WM4-",
+            "https://design.canva.ai/fu4NSA4qW7oMC9J",
+            "https://design.canva.ai/htzCDEL3TH-x2hv",
+            "https://design.canva.ai/7mTewJKSD_VhZAE"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-30/update_001_blog.md",
+          "word_count_approx": 750
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-30/update_002_instagram.md",
+          "format": "carousel 6 slides",
+          "canva_candidates": [
+            "https://www.canva.com/d/ozPYtRbSviZ_Bgz",
+            "https://www.canva.com/d/JHJwRjZpWdbouhV",
+            "https://www.canva.com/d/kHvL19H6K2gxKp9",
+            "https://www.canva.com/d/4Pm9Hq9LDggA9B3"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/LfuVptXTAHYJcwJ",
+            "https://design.canva.ai/5M_MG8E2HHEUsGu",
+            "https://design.canva.ai/jfWcOoR3TZ1MD5l",
+            "https://design.canva.ai/PEHa-_acQojHHA9"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-30/update_002_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-05-30/update_002_twitter.md",
+          "format": "hilo 8 tweets"
+        },
+        "youtube": {
+          "file": "content/2026-05-30/update_002_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/B3eWq3uM53zb4Kc",
+            "https://www.canva.com/d/stdF3Va28DTW8iF",
+            "https://www.canva.com/d/P5RYg38iXiRgUtK",
+            "https://www.canva.com/d/r5Dlc0mLvr_QxLV"
+          ],
+          "canva_thumbnail_previews": [
+            "https://design.canva.ai/569-7W1C0nmYX4j",
+            "https://design.canva.ai/_8X8CYyi-ZLOjZ5",
+            "https://design.canva.ai/AR5BFkiNMPdHY4m",
+            "https://design.canva.ai/7ZdVyBEwJRK-eg-"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-30/update_002_blog.md",
+          "word_count_approx": 820
+        }
+      }
+    }
+  ]
+}
