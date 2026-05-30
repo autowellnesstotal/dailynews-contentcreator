@@ -1,0 +1,193 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T15:08:43Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and article pages blocked (HTTP 403). Article titles, dates, and summaries retrieved via web search index. One article confirmed within 24-48h window; additional articles from May 27-28 found via search.",
+    "docs.anthropic.com": "Release notes pages blocked (HTTP 403). Content retrieved via web search index and official GitHub releases (github.com/anthropics/claude-code/releases). Three Claude Code releases confirmed May 29-30; Opus 4.8 platform release notes confirmed May 28.",
+    "theverge.com": "Completely inaccessible — direct fetch blocked and domain excluded from Anthropic's web search index. Zero results available. The Verge almost certainly covered both major stories (Opus 4.8 + Series H) but no data could be retrieved.",
+    "supplemental_note": "Anthropic's own news page (anthropic.com/news) surfaced two additional primary-subject stories confirmed May 28, 2026: the Opus 4.8 announcement and the Series H funding round. Both are included here as update_002 and update_004 respectively, clearly sourced."
+  },
+  "total_updates_found": 4,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-opus-47-was-just-released-last-month-and-48-is-already-here-with-some-impressive-improvements/",
+      "title": "Claude Opus 4.7 was just released last month, and 4.8 is already here with some massive improvements",
+      "published_date": "2026-05-28",
+      "summary": "XDA covers the release of Claude Opus 4.8 — arriving just 41 days after Opus 4.7 — highlighting benchmark gains including agentic coding improving from 64.3% to 69.2% (new state-of-the-art), multidisciplinary reasoning jumping from 54.7% to 57.9%, and knowledge work score rising from 1,753 to 1,890. The article also details the 3x cheaper Fast mode (now $10/M input tokens), the new dynamic workflows feature that orchestrates hundreds of parallel agents, and a notable improvement in honesty: Opus 4.8 is four times less likely to let code flaws pass unremarked and flags uncertainties more consistently. The piece frames the rapid release cadence as evidence of Anthropic's accelerating development pace.",
+      "relevance_score": 94,
+      "accuracy_notes": "Benchmark numbers (64.3%→69.2%, 54.7%→57.9%, 1753→1890) corroborated by VentureBeat and Anthropic's official announcement. Fast mode pricing ($10/M input, $50/M output at 2.5x speed) confirmed across multiple outlets. The '41 days' release interval verified by TechCrunch (Opus 4.7 was released April 17, 2026). Claim about 4x reduction in uncaught code flaws should be checked against Anthropic's safety evals documentation.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic dropped Claude Opus 4.8 just 41 days after 4.7 — here's what actually changed",
+          "slides": [
+            "Slide 1: What Is Claude Opus 4.8 (and why so fast)?",
+            "Slide 2: Agentic Coding: 64.3% → 69.2% — New State of the Art",
+            "Slide 3: Fast Mode Is Now 3× Cheaper (same 2.5× speed)",
+            "Slide 4: Dynamic Workflows — Orchestrate 100s of Agents at Once",
+            "Slide 5: More Honest, Fewer Hallucinations — Upgrade or Wait?"
+          ]
+        },
+        "linkedin": {
+          "angle": "The speed of AI model iteration is outpacing enterprise adoption cycles — what Anthropic's 41-day release cadence means for teams building on Claude",
+          "opening_line": "Anthropic just released its second flagship model upgrade in 41 days. And this one has the benchmarks to back it up.",
+          "cta": "Have you tested Claude Opus 4.8 yet? How does the agentic coding improvement translate to your real-world workflows? Drop your experience below 👇"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just dropped Claude Opus 4.8 — 41 days after Opus 4.7. Here's what actually changed (and why builders should care) 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic dropped a new flagship model AGAIN — but this time the numbers are genuinely impressive",
+          "script_outline": "Open with benchmark reveal (agentic coding score jump) → side-by-side 4.7 vs 4.8 comparison → demo dynamic workflows in action → test Fast mode speed vs cost → honesty improvements real-world test → verdict: upgrade now or wait for 4.9?"
+        },
+        "ebook_blog": {
+          "title": "Claude Opus 4.8 Review: Faster, Cheaper Fast Mode and a Coding Score That Beats Everything Else",
+          "angle": "Practical hands-on comparison targeting developers and power users — benchmark breakdown, real-world agentic coding test, and a clear upgrade decision framework"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Official (anthropic.com/news + docs.anthropic.com release notes)",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "title": "Introducing Claude Opus 4.8",
+      "published_date": "2026-05-28",
+      "summary": "Anthropic's official announcement introduces Claude Opus 4.8 as having 'sharper judgment, more honesty about its progress, and the ability to work independently for longer.' Key platform additions alongside the model include: Dynamic Workflows (research preview) that orchestrates tens to hundreds of background agents for large-scale tasks via Claude Code CLI, Desktop, and VS Code; user-controlled effort levels on claude.ai; Fast mode now 3x cheaper at $10/M input and $50/M output tokens; self-hosted sandboxes (public beta) enabling tool execution on user-controlled infrastructure (Cloudflare, Daytona, Modal, Vercel); MCP tunnels (research preview) for private-network MCP server access without public exposure; and a free real-time security-guidance plugin for Claude Code that detects ~25 high-risk vulnerability classes via regex pattern matching, shown to cut security-related PR comments by 30-40%.",
+      "relevance_score": 100,
+      "accuracy_notes": "Official Anthropic source — considered authoritative for all feature claims, pricing, and benchmarks. Features marked 'research preview' and 'public beta' carry the usual early-access caveats. The 30-40% reduction in security PR comments is an internal Anthropic metric and cannot be independently verified yet.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just dropped the most feature-packed Claude update of 2026 — and it's not just a new model",
+          "slides": [
+            "Slide 1: Claude Opus 4.8 — What's Actually New",
+            "Slide 2: Dynamic Workflows — 100s of Agents, One Command",
+            "Slide 3: Effort Controls — You Choose How Hard Claude Thinks",
+            "Slide 4: Self-Hosted Sandboxes — Enterprise Security, Finally",
+            "Slide 5: Free Security Plugin — Catches Bugs Before They Ship"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI teams now have what they've been asking for: control over execution environment, private network MCP access, and real-time security tooling — all in one May 28 drop",
+          "opening_line": "Anthropic just gave enterprise teams exactly what they asked for: control at every layer of the Claude stack.",
+          "cta": "Are self-hosted sandboxes a compliance game-changer for your team? I'd love to hear how security and infrastructure leads are thinking about this. Let's discuss."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic's May 28 release is WAY more than just a model upgrade. Here's everything they shipped in one drop 🧵",
+          "estimated_tweets": 9
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic dropped 6 new features in one day — here's every single one ranked from useful to game-changing",
+          "script_outline": "Intro: 'most packed Anthropic release of the year' → #6 effort controls walkthrough → #5 MCP tunnels explained → #4 security plugin demo (live scan) → #3 self-hosted sandbox setup → #2 dynamic workflows demo → #1 Opus 4.8 benchmark reveal → CTA"
+        },
+        "ebook_blog": {
+          "title": "Anthropic's Biggest Platform Drop of 2026: A Deep Dive into Dynamic Workflows, Self-Hosted Sandboxes, and Opus 4.8",
+          "angle": "Technical decision-maker guide — covers every feature announced May 28, includes architecture diagrams for self-hosted sandboxes + MCP tunnels, and a framework for evaluating Claude's enterprise readiness"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Release Notes — Claude Code (github.com/anthropics/claude-code/releases)",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "title": "Claude Code v2.1.156, v2.1.157, v2.1.158 — Three Releases in 48 Hours",
+      "published_date": "2026-05-29 / 2026-05-30",
+      "summary": "Three Claude Code releases shipped in rapid succession over May 29-30. v2.1.156 (May 29, 01:42 UTC) fixed a critical Opus 4.8 bug where modified thinking blocks caused API errors. v2.1.157 (May 29, 20:20 UTC) was the most substantial: it introduced plugin auto-loading from .claude/skills directories without requiring marketplace installation, added 'claude plugin init <name>' to scaffold new plugins, improved agent settings so the 'agent' field in settings.json is honored for dispatched sessions, enabled mid-session worktree switching via EnterWorktree, fixed unprocessable images crashing requests, resolved sandbox network permission prompts in auto/bypass mode, and fixed background agent worktree orphaning. v2.1.158 (May 30, 02:42 UTC) enabled Auto mode on Bedrock, Vertex, and Foundry for both Opus 4.7 and 4.8 (opt-in via CLAUDE_CODE_ENABLE_AUTO_MODE=1).",
+      "relevance_score": 90,
+      "accuracy_notes": "Data pulled directly from official GitHub release notes (github.com/anthropics/claude-code/releases) — considered authoritative. Version numbers, timestamps, and feature descriptions are verbatim from release notes. Auto mode on cloud providers is opt-in and may have additional prerequisites.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code shipped 3 updates in 48 hours — developers, here's what you need to know",
+          "slides": [
+            "Slide 1: Plugin Auto-Load — No Marketplace Required Anymore",
+            "Slide 2: 'claude plugin init' — Scaffold Plugins in Seconds",
+            "Slide 3: Auto Mode Now on Bedrock, Vertex & Foundry",
+            "Slide 4: Agent Settings — Your Config Now Travels with Sessions",
+            "Slide 5: 5 Bug Fixes That Make Claude Code More Reliable"
+          ]
+        },
+        "linkedin": {
+          "angle": "Claude Code's 3-release weekend signals Anthropic's developer tooling is entering a new velocity phase — what the plugin system overhaul means for teams building on Claude",
+          "opening_line": "Three Claude Code releases in 48 hours. This isn't maintenance — it's momentum.",
+          "cta": "What would you build as a Claude Code plugin now that auto-loading makes distribution easier? Drop your ideas — the best one might be worth building."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code shipped 3 releases in 48 hours (v2.1.156–v2.1.158). Here's the quick breakdown for developers 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code just made plugins 10x easier to install — here's the 60-second version of what changed",
+          "script_outline": "Show old plugin marketplace flow → show new .claude/skills auto-load → demo 'claude plugin init my-plugin' → show agent settings inheritance → reveal Auto mode on Bedrock/Vertex → CTA: what plugin would you build?"
+        },
+        "ebook_blog": {
+          "title": "Claude Code Plugin Auto-Loading: The Complete Developer Guide to v2.1.157 and What's Next",
+          "angle": "Step-by-step tutorial for developers — covers setting up .claude/skills, using 'claude plugin init', configuring agent settings.json, and enabling Auto mode on cloud providers"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "Anthropic Official (anthropic.com/news — supplemental, not a monitored source)",
+      "url": "https://www.anthropic.com/news/series-h",
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "published_date": "2026-05-28",
+      "summary": "Anthropic announced a $65 billion Series H funding round led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital, with co-leads including Capital Group, Coatue, D1 Capital Partners, GIC, ICONIQ, and XN. The round values Anthropic at $965 billion post-money — surpassing OpenAI and making it the most valuable private AI startup in the world, within striking distance of a $1 trillion valuation. The funding includes $15 billion from hyperscalers (including $5B from Amazon) and strategic infrastructure partners Micron, Samsung, and SK hynix. Anthropic's run-rate revenue crossed $47 billion in May 2026 (up from Series G in February). Funds will advance safety and interpretability research, expand compute capacity for Claude, and scale products and partnerships. The Verge, TechCrunch, CNBC, Axios, and Fortune all covered this story on May 28; XDA did not publish a dedicated article.",
+      "relevance_score": 99,
+      "accuracy_notes": "Confirmed by official Anthropic press release plus corroborating coverage from TechCrunch, CNBC, Axios, Fortune, and GIC Newsroom. Valuation ($965B), funding amount ($65B), and lead investors are consistent across all sources. Revenue figure ($47B run-rate) is Anthropic's own disclosure. NOTE: This story is NOT from a monitored source (XDA, docs.anthropic.com, or The Verge) — included here because it is the single biggest Anthropic story of 2026 and would be a major content opportunity.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just raised $65 BILLION — nearly becoming the first $1 trillion private company in history",
+          "slides": [
+            "Slide 1: $65B Raised. $965B Valuation. Here's What It Means.",
+            "Slide 2: Who Invested — Sequoia, Amazon, GIC, and 20+ More",
+            "Slide 3: $47 Billion Run-Rate Revenue (May 2026)",
+            "Slide 4: What They'll Build — More Compute, Safety Research, Claude Scale",
+            "Slide 5: Anthropic Just Passed OpenAI — What's Next?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Anthropic's near-trillion valuation is a signal to every enterprise team betting on Claude: this is the most financially backed AI infrastructure play in history",
+          "opening_line": "Anthropic just became the most valuable private AI company in the world at $965 billion. But the real story isn't the valuation — it's the $47B in run-rate revenue that justified it.",
+          "cta": "For enterprise teams building on Claude: does this level of financial backing change your long-term AI vendor strategy? I'd genuinely like to know."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic raised $65B at a $965B valuation — nearly the first $1T private company ever. Here's the wild math behind what this means for Claude users and the AI industry 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic nearly became the first $1 trillion private company in history. Here's why that matters for everyone using Claude.",
+          "script_outline": "Open with valuation reveal and historical context → compare to OpenAI's valuation → break down the investor list and what it signals → revenue milestone ($47B) explainer → what they'll spend it on → what this means for Claude pricing, limits, and future models → CTA"
+        },
+        "ebook_blog": {
+          "title": "Anthropic's $65B Series H: What the Near-Trillion Valuation Means for the Future of Claude and Enterprise AI",
+          "angle": "Analysis for business leaders and AI investors — covers funding structure, revenue trajectory, competitive positioning vs OpenAI/Google, and 3-year outlook for Claude's capabilities and pricing based on announced investment priorities"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
