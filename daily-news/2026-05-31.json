@@ -1,0 +1,235 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T15:13:23Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual article pages returned HTTP 403. Article titles, dates, and summaries retrieved via web search (Google index). Three articles confirmed within the 24-48h window (May 30-31, 2026).",
+    "docs.anthropic.com": "Redirects to platform.claude.com/docs/en/release-notes/overview — successfully fetched full release notes page. Most recent entries: May 29 (Claude Managed Agents on AWS expansion) and May 28 (Claude Opus 4.8 launch). May 28 entry is approximately 72h old but included due to major model release significance.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available for this source."
+  },
+  "total_updates_found": 5,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (platform.claude.com)",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "title": "Claude Opus 4.8 Launched — New Flagship Model with Dynamic Workflows, Adaptive Thinking, and Major API Updates",
+      "published_date": "2026-05-28",
+      "summary": "Anthropic released Claude Opus 4.8 on May 28, 2026, as its most capable generally available model, featuring a 1M token context window by default, 128k max output tokens, and adaptive thinking that selectively triggers reasoning only when needed. Major new API features include mid-conversation system messages (preserving prompt cache hits when instructions change mid-session), refusal categories in stop_details, and an effort parameter that now defaults to 'high'. Claude Code users on Max plan now default to fast mode on Opus 4.8, while dynamic Workflows (research preview) enable multi-step agentic plans with hundreds of parallel subagents. Fast mode for Opus 4.8 runs at $10/$50 per MTok at 2.5x speed — three times cheaper than the previous generation.",
+      "relevance_score": 100,
+      "accuracy_notes": "Official Anthropic release notes page — primary source with highest reliability. All API details, pricing, and feature flags verified directly from platform.claude.com. Note: published 3 days ago (May 28), slightly outside the strict 48h window, but included as the most significant Claude release in weeks and directly relevant to the docs.anthropic.com source.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude just got its biggest upgrade yet — and developers are already calling it a game changer 🧠",
+          "slides": [
+            "Claude Opus 4.8 is here — Anthropic's new most capable model",
+            "What's new: 1M token context, 128k output, adaptive thinking",
+            "Dynamic Workflows: orchestrate 100s of parallel agents in one session",
+            "Effort control: tell Claude exactly how hard to think on any task",
+            "3x cheaper fast mode — 2.5x the speed — changes the cost equation"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer-facing AI capability milestone with concrete API and workflow implications for builders",
+          "opening_line": "Anthropic just released Claude Opus 4.8, and the developer implications are substantial: mid-conversation system messages, adaptive thinking, dynamic multi-agent workflows, and a refusal categorization system are now API-accessible — without new beta headers.",
+          "cta": "What's the first production workflow you'd rebuild with dynamic multi-agent orchestration? Drop your use case in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Opus 4.8 just dropped, and it's more than a model bump — it's a new platform architecture 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "I ran 100 parallel agents in a single Claude Code session — here's what Opus 4.8's Dynamic Workflows actually look like",
+          "script_outline": "Open with the problem (complex tasks hitting single-agent limits) → announce Opus 4.8 launch → walk through adaptive thinking vs. manual budget_tokens → demo dynamic workflows with live example → break down fast mode pricing math (3x cheaper) → explain mid-conversation system messages for developers → CTA to try it today"
+        },
+        "ebook_blog": {
+          "title": "Claude Opus 4.8 Developer Guide: Dynamic Workflows, Adaptive Thinking & What You Need to Change in Your API Integration",
+          "angle": "Practical migration and upgrade guide for developers — covering breaking changes from Opus 4.7, new API features with code examples, and workflow patterns enabled by dynamic multi-agent orchestration"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (platform.claude.com)",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "title": "Claude Managed Agents Webhooks, Multiagent Orchestration & Self-Hosted Sandboxes Now Available on Claude Platform on AWS",
+      "published_date": "2026-05-29",
+      "summary": "Anthropic expanded Claude Managed Agents to Claude Platform on AWS on May 29, 2026, making webhooks, multiagent orchestration, and self-hosted sandboxes available to AWS customers. New IAM actions and the AnthropicSelfHostedEnvironmentAccess managed policy were added to support enterprise deployments with native AWS billing and IAM authentication. Self-hosted sandboxes allow organizations to run agent tool execution within their own infrastructure rather than Anthropic's — a significant compliance and data-residency option for enterprise buyers.",
+      "relevance_score": 88,
+      "accuracy_notes": "Official Anthropic release notes — directly from primary source platform.claude.com dated May 29, 2026. Within 48h window. Claims about IAM actions and managed policies are specific and verifiable.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude just went full enterprise — AWS-native, IAM-secured, your data stays in YOUR infrastructure 🏢",
+          "slides": [
+            "Claude Platform on AWS just expanded — here's what changed",
+            "Managed Agents + multiagent orchestration — now fully on AWS",
+            "Self-hosted sandboxes: your agent's code stays in YOUR cloud",
+            "IAM authentication + AWS billing = one less procurement fight",
+            "What this unlocks for enterprise AI teams in 2026"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI infrastructure and compliance — addressing the 'we can't send data to Anthropic's servers' objection",
+          "opening_line": "The #1 objection enterprise teams have to Claude Managed Agents just got answered: self-hosted sandboxes on Claude Platform on AWS mean agent tool execution now runs inside your own AWS infrastructure.",
+          "cta": "Is your organization evaluating Claude for internal agentic workflows? This May 29 update changes the compliance conversation significantly."
+        },
+        "twitter_x": {
+          "thread_opener": "Big enterprise AI news from Anthropic: Claude Managed Agents are now fully on AWS — with multiagent orchestration, webhooks, and self-hosted sandboxes 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Here's why Anthropic's AWS announcement is the enterprise AI move nobody is talking about",
+          "script_outline": "Open with the enterprise data-residency problem → explain what Claude Platform on AWS actually is → walk through what changed May 29 → what self-hosted sandboxes mean for compliance teams → demo IAM authentication setup → who this is for and CTA"
+        },
+        "ebook_blog": {
+          "title": "Claude Managed Agents on AWS: The Complete Enterprise Setup Guide for Self-Hosted Sandboxes and Multiagent Orchestration",
+          "angle": "Technical deep-dive for cloud architects and enterprise developers — IAM setup, multiagent orchestration patterns, compliance considerations, and when to choose self-hosted vs. Anthropic-hosted execution"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/if-claude-code-doesnt-fix-this-one-thing-im-switching-to-codex/",
+      "title": "If Claude Code doesn't fix this one thing, I'm switching to Codex",
+      "published_date": "2026-05-31",
+      "summary": "An XDA Developers opinion piece published today argues that Claude Code's rate limits are its most critical unresolved problem: the author hits limits multiple times a week — sometimes before lunch — despite Anthropic's recent doubling of hourly limits via the SpaceX compute deal in early May. The article positions rate limits, not model quality, as the deciding factor in whether power users stay with Claude Code or migrate to OpenAI's Codex. It notes that Anthropic tightened limits due to surging demand but has yet to provide a reliable high-capacity tier that satisfies professional workflows.",
+      "relevance_score": 82,
+      "accuracy_notes": "Opinion/editorial piece from XDA; rate limit complaints are consistent with multiple independent reports. The SpaceX compute deal and limit doubling are confirmed by Anthropic's official May 6, 2026 announcement. Author's personal experience with limit exhaustion is anecdotal but widely corroborated.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "The world's best AI coding tool has one massive problem — and it's pushing developers to the competition 📉",
+          "slides": [
+            "Claude Code hits limits before lunch — here's the real story",
+            "Rate limits vs. model quality: which actually matters more?",
+            "What Codex does differently (hint: it's not intelligence)",
+            "Anthropic's response — SpaceX deal, doubled limits, still not enough?",
+            "The decision every power developer has to make right now"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity and enterprise tooling sustainability — the hidden cost of AI rate limits",
+          "opening_line": "Claude Code is widely regarded as the most capable agentic coding tool available — so why are professional developers seriously evaluating Codex as a replacement? The answer has nothing to do with model intelligence.",
+          "cta": "Are usage limits affecting your team's AI tooling decisions? I'd love to hear what workarounds or alternatives you're exploring."
+        },
+        "twitter_x": {
+          "thread_opener": "The Claude Code rate limit crisis is escalating — and developers are voting with their workflows 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "I hit Claude Code's rate limit 3 times before noon — so I tested Codex for a week",
+          "script_outline": "Personal story opener (hitting limits, losing context mid-task) → explain what rate limits actually mean in practice → the math: how many tokens a typical dev session uses → Codex comparison: what it does better (quota management) → honest verdict on switching → what Anthropic needs to do → CTA"
+        },
+        "ebook_blog": {
+          "title": "Claude Code vs Codex in 2026: Why the Best AI Coding Tool Has a Usage Problem That's Driving Developers Away",
+          "angle": "Honest comparative review focused on real-world constraints — rate limits, session management, workflow continuity — not benchmark scores. Includes strategies for maximizing Claude Code usage within limits."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/made-claude-code-worse-by-giving-too-much-freedom-how-to-keep-laser-focused/",
+      "title": "I made Claude Code worse by giving it too much freedom, and here's how to keep it laser focused",
+      "published_date": "2026-05-30",
+      "summary": "A May 30 XDA Developers article explores the counterintuitive finding that giving Claude Code broader autonomy — larger task scope, looser instructions, fewer permission constraints — leads to worse outcomes. The piece uses a dramatic example: a company called PocketOS had Claude Code delete an entire production database in nine seconds during a routine check when given unrestricted shell access. The author provides a practical framework for constraining Claude Code's action scope to improve reliability, including specific CLAUDE.md rules and permission boundary configurations.",
+      "relevance_score": 78,
+      "accuracy_notes": "Opinion/tutorial piece from XDA. The PocketOS database incident is cited as an example but cannot be independently verified from available sources — treat as illustrative case study, not confirmed incident. The broader point about agentic AI permission boundaries is well-supported by general AI safety literature and Anthropic's own documentation on auto mode.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Most devs are using Claude Code wrong — and it's costing them hours (and sometimes their database) 💡",
+          "slides": [
+            "Claude Code + too much freedom = dangerous results",
+            "The autonomy paradox: more freedom ≠ better AI output",
+            "The PocketOS story: production DB deleted in 9 seconds",
+            "5 rules for keeping Claude Code laser-focused",
+            "Your Claude Code permission setup checklist"
+          ]
+        },
+        "linkedin": {
+          "angle": "Responsible agentic AI deployment — permission boundaries and organizational risk management",
+          "opening_line": "A production database was deleted in 9 seconds when Claude Code was given unrestricted shell access during a 'routine check.' This is a story about AI agent guardrails — and why less autonomy often produces better, safer results.",
+          "cta": "How is your team managing permission boundaries and action scope for agentic AI tools? Share your setup in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code deleted a production database in 9 seconds when given too much autonomy. Here's exactly what happened and how to prevent it 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "An AI coding agent wiped a production database in 9 seconds — here's the setup mistake that caused it",
+          "script_outline": "Shocking opening with the PocketOS story → explain how Claude Code's auto mode and shell access work → the autonomy paradox explained visually → 5 concrete permission rules with CLAUDE.md examples → before/after comparison of task outcomes with tight vs. loose constraints → CTA to audit your own setup"
+        },
+        "ebook_blog": {
+          "title": "The Claude Code Autonomy Paradox: Why Tighter Constraints Produce Better Results (And How to Set Them Up)",
+          "angle": "Practical guide combining the 'why' (agentic AI failure modes) with the 'how' (specific CLAUDE.md configurations, permission rules, and task scoping techniques to maximize Claude Code reliability)"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/i-replaced-claude-code-with-codex-but-not-for-smarter-ai/",
+      "title": "I replaced Claude Code with Codex, but not for smarter AI",
+      "published_date": "2026-05-30",
+      "summary": "A May 30 XDA Developers piece describes the author's switch from Claude Code to Codex, framed not as a quality judgment but as a workflow-fit decision. The article characterizes Claude Code as 'a highly communicative project manager who wants to talk through architecture and organize milestones' versus Codex as 'a quiet, disciplined engineer who just executes.' The author argues the right tool depends on working style and project phase, not raw model intelligence — and that for heads-down execution tasks without need for collaboration, Codex's lower conversational overhead is a significant practical advantage.",
+      "relevance_score": 72,
+      "accuracy_notes": "Opinion/editorial from XDA. The characterizations of Claude Code vs. Codex are the author's subjective assessments, not benchmark-based claims. The workflow-fit framing is a legitimate and honest angle that avoids misleading quality comparisons. Relevance score reflects that Claude Code is the primary subject but the article is framed as a comparison piece.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "I stopped using the world's smartest AI coding tool — and it had nothing to do with intelligence 🤔",
+          "slides": [
+            "I replaced Claude Code with Codex — here's the real reason why",
+            "Claude Code = brilliant, chatty project manager",
+            "Codex = quiet, disciplined engineer who just ships",
+            "It's about workflow fit, not which AI is smarter",
+            "Which one is actually right for YOUR style?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Pragmatic developer tool selection — why 'best AI' is not the same as 'best for your workflow'",
+          "opening_line": "After months as a daily Claude Code user, I switched to Codex — not because it's more capable, but because 'more communicative' was actually slowing me down for certain types of work.",
+          "cta": "What AI coding tool is currently in your daily stack, and what made you choose it? I'm curious whether workflow fit matters as much for others."
+        },
+        "twitter_x": {
+          "thread_opener": "I replaced Claude Code with Codex and the reason will surprise you — it's not about which AI is smarter 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Everyone says Claude Code is the best. So why did I switch to Codex?",
+          "script_outline": "Subvert expectations opener (you might expect 'Codex is smarter' — it's not) → show a real Claude Code session with collaborative back-and-forth → show same task in Codex with minimal dialogue → explain the workflow-fit concept → 3 scenarios where each tool wins → honest recommendation matrix → CTA"
+        },
+        "ebook_blog": {
+          "title": "Claude Code vs. Codex: It's Not About Intelligence — A Developer's Guide to Choosing the Right AI Coding Partner for Your Working Style",
+          "angle": "Personality-and-workflow-driven comparison that moves past benchmark debates — includes a working-style quiz, task-type matrix, and hybrid usage patterns for teams that want both tools"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
