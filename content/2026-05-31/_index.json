@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-05-31",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_articles": 2,
+  "total_files_created": 10,
+  "content_folder": "content/2026-05-31/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-05-31/update_001_instagram.md",
+        "linkedin": "content/2026-05-31/update_001_linkedin.md",
+        "twitter": "content/2026-05-31/update_001_twitter.md",
+        "youtube": "content/2026-05-31/update_001_youtube.md",
+        "blog": "content/2026-05-31/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_candidates": [
+          {
+            "candidate_id": "dg-03d38c91-1e4d-430b-8713-0e6c6a3b14b0",
+            "design_url": "https://www.canva.com/d/l2x6Ly6LCjjSo02",
+            "thumbnail_url": "https://design.canva.ai/FqgSwLYWT3FxDfa"
+          },
+          {
+            "candidate_id": "dg-2c8ad499-b0d3-48c1-abab-2c8d1cf7155d",
+            "design_url": "https://www.canva.com/d/aPaBxXGypDIA3_f",
+            "thumbnail_url": "https://design.canva.ai/r-rS4y8NxeGq7my"
+          },
+          {
+            "candidate_id": "dg-8cd3c5f2-3d80-4623-a9ef-a1afb26a0725",
+            "design_url": "https://www.canva.com/d/v8EiVzjJ3gUszYX",
+            "thumbnail_url": "https://design.canva.ai/cdy5CKB_9eNj9uH"
+          },
+          {
+            "candidate_id": "dg-9468d601-c3f1-4e35-9ed7-42d655818275",
+            "design_url": "https://www.canva.com/d/3x6fQIGMbSdHQeB",
+            "thumbnail_url": "https://design.canva.ai/l6L7oqBASDfDLXJ"
+          }
+        ],
+        "youtube_thumbnail_candidates": [
+          {
+            "candidate_id": "dg-5c46af6d-1ae0-47f4-affe-6c355933797d",
+            "design_url": "https://www.canva.com/d/rpSIBWoZPzRJaBF",
+            "thumbnail_url": "https://design.canva.ai/7SjifNKnfeT_fh2"
+          },
+          {
+            "candidate_id": "dg-7d665e9d-201f-4f7a-a671-3e007de4faf3",
+            "design_url": "https://www.canva.com/d/8QAruq02b_pf7T3",
+            "thumbnail_url": "https://design.canva.ai/k9SkoJbK1izRkl2"
+          },
+          {
+            "candidate_id": "dg-859f094e-f00b-4c25-af19-4a048ad87aa8",
+            "design_url": "https://www.canva.com/d/JS6DcneopgUam_3",
+            "thumbnail_url": "https://design.canva.ai/lJ4l0_Rf4innjB9"
+          },
+          {
+            "candidate_id": "dg-8c598fe6-989e-4283-8af2-af0c74939942",
+            "design_url": "https://www.canva.com/d/DxKA-VMX5I3TbBG",
+            "thumbnail_url": "https://design.canva.ai/y5thLgVqARqVV9_"
+          }
+        ]
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-05-31/update_002_instagram.md",
+        "linkedin": "content/2026-05-31/update_002_linkedin.md",
+        "twitter": "content/2026-05-31/update_002_twitter.md",
+        "youtube": "content/2026-05-31/update_002_youtube.md",
+        "blog": "content/2026-05-31/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_candidates": [
+          {
+            "candidate_id": "dg-1fefb89c-e8ca-46ac-adea-4a00372bf2d3",
+            "design_url": "https://www.canva.com/d/uuecHWPXWmm1mUW",
+            "thumbnail_url": "https://design.canva.ai/spyehfFsAETBO_h"
+          },
+          {
+            "candidate_id": "dg-4b17ee8b-d7eb-4926-a7aa-f3ffbc5d0c78",
+            "design_url": "https://www.canva.com/d/5J5Fs33gGjiQuue",
+            "thumbnail_url": "https://design.canva.ai/b1s4zY7Mep0JcDb"
+          },
+          {
+            "candidate_id": "dg-a31a62d7-fd07-4014-a243-4a24ef6d209d",
+            "design_url": "https://www.canva.com/d/A21dLnt8YimvVom",
+            "thumbnail_url": "https://design.canva.ai/bw8OGtTFo6eiNpb"
+          },
+          {
+            "candidate_id": "dg-d4d67008-e765-43e1-8876-417ac220df7b",
+            "design_url": "https://www.canva.com/d/sioUk_7IUdK8gvy",
+            "thumbnail_url": "https://design.canva.ai/eE977nkAdJ7VEIz"
+          }
+        ],
+        "youtube_thumbnail_candidates": [
+          {
+            "candidate_id": "dg-09178daa-1d77-4634-9446-1289b98feb4d",
+            "design_url": "https://www.canva.com/d/LkaJQLEDijp4fue",
+            "thumbnail_url": "https://design.canva.ai/rS8c9lWNFNontW_"
+          },
+          {
+            "candidate_id": "dg-d6db526f-104f-40e2-a59e-a72a12a92fa2",
+            "design_url": "https://www.canva.com/d/EqDVo5nD2YMiJA_",
+            "thumbnail_url": "https://design.canva.ai/U5Kg0MPL8Y23Bho"
+          },
+          {
+            "candidate_id": "dg-e0055bd8-e87b-4d0b-9f1e-05bbb1691b91",
+            "design_url": "https://www.canva.com/d/a8bf4jdw2XiCops",
+            "thumbnail_url": "https://design.canva.ai/71U1xBjd7PY6GeI"
+          },
+          {
+            "candidate_id": "dg-f867e1ed-fcfc-42a8-8080-d4a1f205a21e",
+            "design_url": "https://www.canva.com/d/Ri5wjFhf7IH2tSk",
+            "thumbnail_url": "https://design.canva.ai/k51RKdfxkDv8IaQ"
+          }
+        ]
+      }
+    }
+  ]
+}
