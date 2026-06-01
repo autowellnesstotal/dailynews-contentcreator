@@ -1,0 +1,123 @@
+{
+  "date": "2026-06-01",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-06-01T00:00:00Z",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: la mejor herramienta de Anthropic en un tiempo — con limitaciones serias",
+      "source": "XDA Developers",
+      "reviewer_notes": "Contenido adaptado para emprendedores novatos, sin contexto técnico. Motivación para comprar ebook.",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-01/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "hashtags": 20,
+          "canva_candidates": [
+            "https://www.canva.com/d/MIA8uO4sY9t-4QN",
+            "https://www.canva.com/d/5ShluOufcePU91J",
+            "https://www.canva.com/d/VY4OyCTWZBfKztH",
+            "https://www.canva.com/d/AofpJiRJfiOzjCb"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/La-jZU7YlA8485C",
+            "https://design.canva.ai/Ybf0fNyA3G5cyqi",
+            "https://design.canva.ai/LbXxqaEcne-4-tm",
+            "https://design.canva.ai/yT6501vheJBupzW"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-01/update_001_linkedin.md",
+          "hashtags": 5,
+          "canva_url": null
+        },
+        "twitter": {
+          "file": "content/2026-06-01/update_001_twitter.md",
+          "tweets": 8,
+          "canva_url": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-01/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_candidates": [
+            "https://www.canva.com/d/_QwbEpTLoqdw5RW",
+            "https://www.canva.com/d/9nh1Kmgk4qinyjt",
+            "https://www.canva.com/d/ciYRhARXwHCSnEF",
+            "https://www.canva.com/d/M_mbRPL993ntSY9"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/e5PtACj_kYX07rm",
+            "https://design.canva.ai/02WLL85IKItLF0j",
+            "https://design.canva.ai/6WZezN6AlITV9Yg",
+            "https://design.canva.ai/Vi6upy5AR7XEPJe"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-01/update_001_blog.md",
+          "approximate_word_count": 750,
+          "canva_url": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code con memoria persistente: workflows de automatización sin esfuerzo",
+      "source": "XDA Developers",
+      "reviewer_notes": "Contenido adaptado para emprendedores novatos, sin contexto técnico. Motivación para comprar ebook.",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-01/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "hashtags": 20,
+          "canva_candidates": [
+            "https://www.canva.com/d/AzWf96nBuc7L_Xi",
+            "https://www.canva.com/d/zlYnzgjupc8Xxhf",
+            "https://www.canva.com/d/3fyNjv-kQjkuJMK",
+            "https://www.canva.com/d/Lw5BdVSo-Wr9u6x"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/DuQlvMT23JovBog",
+            "https://design.canva.ai/PuU21DKFFPBZoyp",
+            "https://design.canva.ai/16psc5tc0yiMTz0",
+            "https://design.canva.ai/E69edsbdLk2OtJV"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-01/update_002_linkedin.md",
+          "hashtags": 5,
+          "canva_url": null
+        },
+        "twitter": {
+          "file": "content/2026-06-01/update_002_twitter.md",
+          "tweets": 8,
+          "canva_url": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-01/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_candidates": [
+            "https://www.canva.com/d/G_zhHQecIbCW_Su",
+            "https://www.canva.com/d/zmbcnjyYFFmdONF",
+            "https://www.canva.com/d/syWaR8bDtqp-DQJ",
+            "https://www.canva.com/d/c6HzJRZMCJYe2aT"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/sbrazE10U25vCHk",
+            "https://design.canva.ai/tQ6MglnzQB0M4Mu",
+            "https://design.canva.ai/3Y636oUcy3cOL29",
+            "https://design.canva.ai/aTRsl6X-HfBGdsS"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-01/update_002_blog.md",
+          "approximate_word_count": 800,
+          "canva_url": null
+        }
+      }
+    }
+  ]
+}
