@@ -1,0 +1,64 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T15:15:42Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 1,
+  "status": "updates_found",
+  "review_status": "pending",
+  "scrape_notes": {
+    "xda_developers": "Homepage returned HTTP 403. Used web search to surface recent articles. All clearly-dated XDA Claude/Anthropic articles found were published earlier in May 2026 (outside the 24-48h window). No XDA articles confirmed from May 30–June 1, 2026.",
+    "docs_anthropic": "Main API release notes page (docs.anthropic.com/en/release-notes/overview) returned HTTP 403 on direct fetch; content retrieved via platform.claude.com mirror. Most recent API platform entry: May 29, 2026 (outside window). Claude Code changelog (code.claude.com/docs/en/changelog, linked from official release notes) confirmed v2.1.158 on May 30 and v2.1.159 on May 31. Claude Apps help center (support.claude.com) returned HTTP 403 — not accessible.",
+    "the_verge": "Blocked by site — crawler access denied (HTTP error). No Verge articles retrievable. Web search also confirmed theverge.com blocks Anthropic's crawler. No Verge content could be evaluated.",
+    "near_miss_context": "Highly significant Anthropic news just outside the 24-48h window: (1) May 29 — Claude Platform on AWS GA (Managed Agents webhooks, multiagent orchestration, self-hosted sandboxes on AWS); (2) May 29 — Claude Code v2.1.157 with 50+ improvements including auto-loading plugins; (3) May 28 — Claude Opus 4.8 launched with dynamic workflows, effort control, adaptive thinking, 1M context, and $65B Series H funding. These were covered in the May 24 through May 29 period and may warrant a catch-up digest."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com — Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.158: Auto Mode Expands to Amazon Bedrock, Google Vertex AI, and Microsoft Foundry",
+      "published_date": "2026-05-30",
+      "summary": "Anthropic released Claude Code v2.1.158 on May 30, bringing Auto mode to enterprise cloud deployments: Amazon Bedrock, Google Vertex AI, and Microsoft Foundry now support Auto mode for both Opus 4.7 and Opus 4.8. Auto mode intelligently adjusts Claude's reasoning effort and behavior based on task complexity, a capability previously limited to the first-party Claude API. Developers activate it by setting the environment variable CLAUDE_CODE_ENABLE_AUTO_MODE=1 in their cloud-hosted environments.",
+      "relevance_score": 74,
+      "accuracy_notes": "Sourced directly from the official Claude Code changelog at code.claude.com/docs/en/changelog (v2.1.158, dated May 30, 2026). Single-line changelog entry — factual and unambiguous. No speculative claims. Cross-references consistently with surrounding v2.1.154 (May 28, Opus 4.8 launch) and v2.1.157 (May 29, major update) entries.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code Auto Mode just went enterprise — now live on AWS, Google Cloud & Azure",
+          "slides": [
+            "Slide 1: Claude Code's smartest feature just landed on every major cloud ☁️",
+            "Slide 2: What is Auto Mode? Claude adapts its effort to your task automatically",
+            "Slide 3: Now supported: Amazon Bedrock, Google Vertex AI, Microsoft Foundry",
+            "Slide 4: Works with Opus 4.7 AND the brand-new Opus 4.8",
+            "Slide 5: Enable it with one env variable — CLAUDE_CODE_ENABLE_AUTO_MODE=1"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI productivity — Auto mode democratizes Anthropic's most intelligent behavior-adapting feature across all major cloud platforms, removing the vendor lock-in of needing Anthropic's first-party API.",
+          "opening_line": "If your engineering team runs Claude Code on AWS Bedrock, Google Vertex AI, or Microsoft Foundry — you just unlocked Auto mode.",
+          "cta": "Are you already deploying Claude Code in enterprise cloud environments? Let me know what platform you're on — I'm curious about adoption patterns."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Quiet but important: Claude Code just enabled Auto mode on AWS Bedrock, Google Vertex, and Microsoft Foundry. Here's why enterprise AI teams should care:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "One environment variable just made Claude Code way smarter on every major enterprise cloud platform",
+          "script_outline": "Hook: Anthropic just quietly dropped a big update for enterprise Claude Code users. [Explain what Auto mode is in plain English — smarter effort scaling.] [Show the three platforms now supported.] [Demo or explain the env var setup.] [Why this matters: enterprise teams no longer need Anthropic's own API to get the full Auto mode experience.] CTA: Subscribe for daily Claude and Anthropic updates."
+        },
+        "ebook_blog": {
+          "title": "Claude Code Auto Mode on AWS, Vertex, and Foundry: What It Is and How to Enable It",
+          "angle": "Practical setup guide for enterprise developers: explain Auto mode mechanics, walk through enabling it on each cloud platform, and discuss what it means for teams building production AI agents outside Anthropic's first-party infrastructure."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
