@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T15:13:23Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "scrape_notes": {
+    "xda-developers.com": "Homepage returns HTTP 403; searched via web index. No Claude/Anthropic articles confirmed published June 1-2, 2026 within the 24-48h window. Most recent XDA Claude articles are from April-May 2026.",
+    "docs.anthropic.com": "Homepage returns HTTP 403; Claude Code changelog page also returns 403. Release confirmed via github.com/anthropics/claude-code/releases (the authoritative source mirrored by docs.anthropic.com/en/release-notes/claude-code). Claude Code v2.1.160 confirmed June 2, 2026 at 02:10 UTC.",
+    "theverge.com": "Domain is blocked for Anthropic's crawler (API 400 error). The Verge's IPO coverage (June 1, 2026) confirmed via multiple third-party aggregators and search index references citing The Verge as a primary source. Direct article URL could not be retrieved."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "The Verge",
+      "url": "https://www.theverge.com",
+      "title": "Anthropic Confidentially Files for IPO, Setting Up Public-Market Test of AI Boom",
+      "published_date": "2026-06-01",
+      "summary": "Anthropic confirmed it has confidentially submitted a draft Form S-1 registration statement to the U.S. Securities and Exchange Commission, taking its first formal step toward an initial public offering. The filing comes days after the company closed a $65 billion Series H funding round at a $965 billion valuation and disclosed a $47 billion annual revenue run rate. Anthropic stated the offering will depend on market conditions and that it has not yet decided on the number of shares or price range, positioning itself ahead of rival OpenAI in the race to go public.",
+      "relevance_score": 99,
+      "accuracy_notes": "Anthropic issued an official company statement confirming the filing. Multiple tier-1 outlets (CNBC, TechCrunch, NPR, Washington Post, NBC News) reported identical details on June 1, 2026, all citing Anthropic's announcement. The $965B valuation and $47B ARR figures are consistent across all sources. The Verge is confirmed as one of the original reporters via third-party aggregators. High factual confidence.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "The AI company behind Claude just filed for a near-TRILLION dollar IPO — here's what it means for you",
+          "slides": [
+            "Slide 1: Anthropic files confidential S-1 with the SEC — June 1, 2026",
+            "Slide 2: Valuation: $965 BILLION after a $65B funding round",
+            "Slide 3: Revenue run rate hit $47 billion — up from $10B just last year",
+            "Slide 4: Beats rival OpenAI to the public filing line",
+            "Slide 5: What this means for Claude users, developers & the AI industry"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI strategy and vendor dependency — what Anthropic's IPO means if you're building on Claude",
+          "opening_line": "Anthropic just filed confidentially for an IPO at a $965 billion valuation. If your team runs on Claude, this changes the calculus on AI vendor dependency, pricing, and roadmap predictability.",
+          "cta": "Are you building on Claude's API or subscriptions? How does a public Anthropic change your AI stack planning? Drop your take below."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just filed confidentially for IPO. $965B valuation. $47B revenue run rate. Beats OpenAI to Wall Street. Here's what this actually means for the AI industry 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "The company behind Claude just filed for a trillion-dollar IPO — and the timing is wild",
+          "script_outline": "Open with the headline and 'near-trillion' hook → explain what a confidential S-1 means in plain English (gather feedback, delay public disclosure) → put $965B valuation in context (larger than many Fortune 100 companies) → explain the Anthropic vs OpenAI race to go public → what changes for Claude users and developers post-IPO → CTA: follow for updates as the IPO roadshow begins"
+        },
+        "ebook_blog": {
+          "title": "Anthropic's IPO: What the $965 Billion Filing Means for AI Users, Developers, and Investors",
+          "angle": "Break down the confidential S-1 process, put the valuation in context, analyze implications for Claude's product roadmap, pricing, and what public-market pressure does to AI companies"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com/release-notes/overview",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.160 — Security Hardening, WSL Clipboard Fix, and 'Ultracode' Keyword Rename",
+      "published_date": "2026-06-02",
+      "summary": "Anthropic released Claude Code v2.1.160 (commit bdb04fc) on June 2, 2026 at 02:10 UTC, bringing a batch of security and stability improvements. Key changes include confirmation prompts before writing to shell startup files (.zshenv, .bash_login, etc.) and build-tool config files (.npmrc, .bazelrc, .devcontainer/), a fix for the WSL clipboard using PowerShell interop instead of OSC 52, session restoration fixes for background agents, and renaming the workflow trigger keyword from 'workflow' to 'ultracode'. CJK IME positioning in the agents view and voice mode with non-ASCII directory names were also fixed.",
+      "relevance_score": 88,
+      "accuracy_notes": "Sourced directly from the official github.com/anthropics/claude-code/releases page, which mirrors docs.anthropic.com/en/release-notes/claude-code. Commit hash bdb04fc and timestamp (June 2, 2026 02:10 UTC) are verifiable. All listed changes are specific engineering claims that can be independently confirmed by inspecting the release diff. High factual confidence.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just got smarter about security — and Windows users finally got their clipboard fix",
+          "slides": [
+            "Slide 1: Claude Code v2.1.160 drops June 2, 2026",
+            "Slide 2: Security upgrade — now asks before touching your shell startup files",
+            "Slide 3: WSL on Windows? Clipboard copy-on-select finally works",
+            "Slide 4: The 'workflow' keyword is now 'ultracode'",
+            "Slide 5: Background agent sessions now restore correctly"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer security and reliability — why Claude Code's v2.1.160 security confirmations matter in enterprise environments",
+          "opening_line": "Claude Code v2.1.160 just added confirmation prompts before modifying shell startup files — a small change with big implications if you're running Claude Code in shared or production-adjacent environments.",
+          "cta": "Are you using Claude Code in enterprise or CI/CD workflows? This update is worth reviewing before your next deployment."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.160 just dropped — and there are a few changes every power user should know about 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "New Claude Code update just dropped with a security change that could affect your setup",
+          "script_outline": "Open showing the v2.1.160 release notes → highlight the shell startup file security confirmation (why this matters for .zshrc / .bashrc safety) → show the WSL clipboard fix in action → explain the 'ultracode' keyword rename and what breaks if you don't update → session restoration fix for background agents → where to update and how to check your version"
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.160: Security Hardening, WSL Fixes, and the 'Ultracode' Rename Explained",
+          "angle": "Developer-focused breakdown of every change in the release, with guidance on what to test and watch for in enterprise or multi-user Claude Code deployments"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
