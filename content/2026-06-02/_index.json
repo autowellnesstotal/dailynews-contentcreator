@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-06-02",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-06-02/update_001_instagram.md",
+        "linkedin": "content/2026-06-02/update_001_linkedin.md",
+        "twitter": "content/2026-06-02/update_001_twitter.md",
+        "youtube": "content/2026-06-02/update_001_youtube.md",
+        "blog": "content/2026-06-02/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "candidate_id": "dg-403cbd60-50e0-4d23-92f1-395f32bb4e58",
+          "url": "https://www.canva.com/d/N0oZ4_x0qbZ7u8y",
+          "thumbnail": "https://design.canva.ai/AYJ-cKp_zDtQgCE",
+          "type": "instagram_post",
+          "note": "Slide portada del carrusel. 4 opciones de diseño generadas — se presenta la primera."
+        },
+        "youtube_thumbnail": {
+          "candidate_id": "dg-05f17256-3da1-46d1-b11e-a25a0248a0e4",
+          "url": "https://www.canva.com/d/nM-UCsna7nSdpTm",
+          "thumbnail": "https://design.canva.ai/BPobTJMU0y1--aE",
+          "type": "youtube_thumbnail"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-06-02/update_002_instagram.md",
+        "linkedin": "content/2026-06-02/update_002_linkedin.md",
+        "twitter": "content/2026-06-02/update_002_twitter.md",
+        "youtube": "content/2026-06-02/update_002_youtube.md",
+        "blog": "content/2026-06-02/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "candidate_id": "dg-06deab44-c0ee-4a55-a2bf-fd58264f4f82",
+          "url": "https://www.canva.com/d/FTnr5TcDFqBwrVV",
+          "thumbnail": "https://design.canva.ai/pCnfrvuiWKDe8PS",
+          "type": "instagram_post",
+          "note": "Slide portada del carrusel. 4 opciones de diseño generadas — se presenta la primera."
+        },
+        "youtube_thumbnail": {
+          "candidate_id": "dg-0ea2d043-9d82-44c8-8edd-5ea689fc1c01",
+          "url": "https://www.canva.com/d/KojAKI9tO3VeKDN",
+          "thumbnail": "https://design.canva.ai/UoNj77qGLOuaa5x",
+          "type": "youtube_thumbnail"
+        }
+      }
+    }
+  ],
+  "canva_all_candidates": {
+    "update_001_instagram": [
+      "https://www.canva.com/d/N0oZ4_x0qbZ7u8y",
+      "https://www.canva.com/d/wiotyPGHPgDdcIJ",
+      "https://www.canva.com/d/v66_M1Xylfi_Fog",
+      "https://www.canva.com/d/BuiHBBsr22J7plv"
+    ],
+    "update_001_youtube_thumbnail": [
+      "https://www.canva.com/d/nM-UCsna7nSdpTm",
+      "https://www.canva.com/d/47JBtKq77rX43xn",
+      "https://www.canva.com/d/t5_UEGEWkErAPSa",
+      "https://www.canva.com/d/94OxFsl_fNPFKRr"
+    ],
+    "update_002_instagram": [
+      "https://www.canva.com/d/FTnr5TcDFqBwrVV",
+      "https://www.canva.com/d/YNjfoo2_5dHXsZf",
+      "https://www.canva.com/d/N2OhvGOmnqoZpMq",
+      "https://www.canva.com/d/klLRgy5f2Oe1rIG"
+    ],
+    "update_002_youtube_thumbnail": [
+      "https://www.canva.com/d/KojAKI9tO3VeKDN",
+      "https://www.canva.com/d/T0X8Kj_Wa5XDDxY",
+      "https://www.canva.com/d/YdKs9KoBsjLYh-z",
+      "https://www.canva.com/d/l1HZFDKhJK9T8OU"
+    ]
+  }
+}
