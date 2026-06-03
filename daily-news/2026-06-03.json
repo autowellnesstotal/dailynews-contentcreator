@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T15:15:03Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Direct fetch blocked (HTTP 403); articles identified via search engine indexing",
+    "docs.anthropic.com": "Direct fetch blocked (HTTP 403); release data obtained from linked GitHub releases page (github.com/anthropics/claude-code/releases)",
+    "theverge.com": "Domain inaccessible — blocked for automated crawlers; no data retrieved"
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (Claude Code Releases)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
+      "title": "Claude Code v2.1.160 — Security Prompts and Config File Protection",
+      "published_date": "2026-06-02T02:10:00Z",
+      "summary": "Claude Code v2.1.160 ships two significant security improvements: it now prompts before writing to shell startup files (.zshenv, .zlogin, .bash_login, ~/.config/git/) and before modifying build-tool config files that grant code execution (.npmrc, .yarnrc*, bunfig.toml, .bazelrc, .pre-commit-config.yaml, .devcontainer/). Edit no longer requires a separate Read step after a grep command, reducing friction for single-file edits. Clipboard handling on Windows/WSL is fixed to use PowerShell interop instead of OSC 52, and the dynamic-workflow trigger keyword is renamed from 'workflow' to 'ultracode'. The deprecated CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE environment variable is removed.",
+      "relevance_score": 90,
+      "accuracy_notes": "Directly sourced from Anthropic's official GitHub releases page for claude-code. Version, timestamp, and all listed changes are verifiable. The 'ultracode' rename and security prompts are notable behavioral changes users should be aware of.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just got more secure — here are the 5 changes that protect your dev environment",
+          "slides": [
+            "Slide 1: Claude Code v2.1.160 — What Changed?",
+            "Slide 2: New: Prompts before touching shell startup files",
+            "Slide 3: New: Alerts before modifying build-tool configs (.npmrc, .bazelrc, etc.)",
+            "Slide 4: Fix: Clipboard now works correctly in Windows WSL",
+            "Slide 5: Heads up: 'workflow' keyword renamed to 'ultracode'"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise/DevSecOps focus — Claude Code is adding guardrails that matter for teams using it in production pipelines",
+          "opening_line": "If your team uses Claude Code in CI/CD or on shared dev machines, this update matters: v2.1.160 now requires explicit consent before modifying shell startup files or build-tool configs like .npmrc and .bazelrc.",
+          "cta": "Which Claude Code security feature would your team find most useful? Drop your thoughts in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.160 just dropped and it has some important security changes developers need to know about 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code got a security upgrade — and one of the changes could save your shell config from accidental edits",
+          "script_outline": "Open with the security risk scenario (AI accidentally modifying .zshenv) → explain the new prompt feature → show the config file protection → mention the 'ultracode' rename to avoid broken workflows → CTA to update"
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.160 Security Changes: What Developers and DevOps Teams Need to Know",
+          "angle": "Practical guide covering each new security prompt, which file types trigger them, and how the ultracode rename affects existing workflow automations"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Claude Code Releases)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+      "title": "Claude Code v2.1.161 — OTEL Metrics, MCP Connectors, and Parallel Tool Call Fixes",
+      "published_date": "2026-06-02T21:58:00Z",
+      "summary": "Claude Code v2.1.161 adds support for OTEL_RESOURCE_ATTRIBUTES values as labels on metric datapoints, enabling teams to slice usage metrics by custom dimensions like team name or repo. The agent UI now shows 'done/total' progress counts when work fans out across multiple agents, with peek showing the longest-running item. The /mcp command now collapses unused claude.ai connectors behind a 'Show unused connectors' toggle to reduce clutter. Critically, failed Bash commands in parallel tool calls no longer cancel sibling calls in the same batch — each tool now returns results independently. Linux clipboard is upgraded to wl-copy/xclip/xsel with both clipboard and PRIMARY selection support for middle-click paste.",
+      "relevance_score": 87,
+      "accuracy_notes": "Directly sourced from Anthropic's official GitHub releases page. The parallel tool call fix is a notable behavioral change that affects agentic workflows. All features are verifiable against the changelog.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code agents just got smarter — here's what changed in v2.1.161",
+          "slides": [
+            "Slide 1: Claude Code v2.1.161 — 5 Updates for Power Users",
+            "Slide 2: Track your token usage by team or repo with custom OTEL labels",
+            "Slide 3: See agent progress at a glance with 'done/total' counts",
+            "Slide 4: MCP connectors now hide unused claude.ai tools automatically",
+            "Slide 5: Big fix: parallel tool failures no longer kill sibling calls"
+          ]
+        },
+        "linkedin": {
+          "angle": "Platform engineering / AI infrastructure — custom OTEL metrics and parallel call fixes are meaningful improvements for teams running Claude Code at scale",
+          "opening_line": "Running Claude Code across multiple teams or repos? v2.1.161 just made cost attribution and observability significantly easier with custom OTEL_RESOURCE_ATTRIBUTES labels on every metric datapoint.",
+          "cta": "Are you monitoring Claude Code usage with OpenTelemetry? Share your setup below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.161 is out and it has a fix that will unblock a lot of agentic workflows — failed parallel tool calls no longer cancel their siblings 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "This Claude Code fix changes how parallel AI agents handle errors — and it's a big deal for anyone running multi-step workflows",
+          "script_outline": "Explain the old bug (one failed Bash call cancels the batch) → demo the new independent result behavior → show the OTEL metrics label feature → wrap with MCP connector cleanup → CTA to update to v2.1.161"
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.161: Custom Metrics, Smarter Agents, and the Parallel Tool Fix Explained",
+          "angle": "Deep dive for developers building multi-agent workflows with Claude Code — focusing on observability improvements and the parallel tool call behavioral change"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropics-claude-is-down/",
+      "title": "Anthropic's Claude is down... again",
+      "published_date": "2026-06-02",
+      "summary": "Claude AI experienced a major service disruption on June 2, 2026, starting at approximately 2:10am ET (06:04 UTC), with elevated error rates across Claude.ai, Claude Console, Claude API, and Claude Code. Anthropic's status page confirmed the incident, with a fix implemented by 11:49 UTC. The root cause was a critical bug in Claude Code's sub-agent system that caused agents to multiply exponentially and run in an infinite loop, cascading into broader service degradation. The outage came a day after Anthropic filed confidentially for an IPO, drawing attention to reliability questions at a pivotal moment for the company.",
+      "relevance_score": 85,
+      "accuracy_notes": "Article identified via search indexing; direct page access blocked (HTTP 403). Publication date is inferred from strong contextual alignment with June 2 outage coverage across TechRadar, The National News, Sportskeeda, ibtimes.com.au, and status.claude.com incident records. Outage timeline and root cause (sub-agent infinite loop) corroborated by multiple independent outlets. The IPO timing context is confirmed via CBS News (June 1, 2026 confidential IPO filing).",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude went down on June 2 — here's what actually caused it and what it means for AI reliability",
+          "slides": [
+            "Slide 1: Claude Had a Major Outage — What Happened?",
+            "Slide 2: Affected: Claude.ai, Console, API, and Claude Code",
+            "Slide 3: Root cause: AI sub-agents in an infinite loop",
+            "Slide 4: Timeline: Down 6:04 UTC → Fixed 11:49 UTC (~5.5 hours)",
+            "Slide 5: The bigger picture: Is your workflow too dependent on one AI provider?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise risk / business continuity — the outage is a timely reminder that AI-dependent workflows need resilience planning, especially as Anthropic prepares for an IPO",
+          "opening_line": "When Claude went down for ~5.5 hours on June 2, it wasn't just an inconvenience — developers lost active code reviews, students lost exam prep sessions, and businesses lost automation workflows.",
+          "cta": "Does your team have a fallback plan when your primary AI goes down? Share your strategy below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude had a 5.5-hour outage yesterday and the cause is actually fascinating — here's what happened with Claude Code's sub-agents 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude went down for millions of users — and the cause was AI agents stuck in an infinite loop. Here's the full story.",
+          "script_outline": "Hook with the scale of impact → timeline of events → explain sub-agent infinite loop in plain language → discuss what Anthropic did to fix it → contextualise with IPO timing → CTA: what does this mean for AI reliability?"
+        },
+        "ebook_blog": {
+          "title": "The June 2026 Claude Outage: Causes, Timeline, and What It Reveals About AI Infrastructure Reliability",
+          "angle": "Post-mortem analysis of the outage with lessons for developers and enterprises about AI dependency risk, fallback strategies, and what the incident reveals about scaling agentic systems"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
