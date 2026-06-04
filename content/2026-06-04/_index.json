@@ -1,0 +1,94 @@
+{
+  "date": "2026-06-04",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-06-04T00:00:00Z",
+  "total_approved_processed": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-04/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 6,
+          "canva_candidates": [
+            "https://www.canva.com/d/fh-MLElGybiKg0y",
+            "https://www.canva.com/d/nqxeSEe25-M7QIc",
+            "https://www.canva.com/d/UYC25owmIu_UqyH",
+            "https://www.canva.com/d/1Yx5PGSwluQ82og"
+          ],
+          "canva_thumbnail": "https://design.canva.ai/PRDMZcO3JdMyV72"
+        },
+        "linkedin": {
+          "file": "content/2026-06-04/update_001_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-06-04/update_001_twitter.md",
+          "tweets": 7
+        },
+        "youtube": {
+          "file": "content/2026-06-04/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_candidates": [
+            "https://www.canva.com/d/rI5vyiN4ztPFQTd",
+            "https://www.canva.com/d/aaNZYUKorwggztQ",
+            "https://www.canva.com/d/Pqe5XmIttutWQWw",
+            "https://www.canva.com/d/hEGJEJ6tsZbDXyN"
+          ],
+          "canva_thumbnail": "https://design.canva.ai/pu43iWrsKdDC8hy"
+        },
+        "blog": {
+          "file": "content/2026-06-04/update_001_blog.md",
+          "word_count_approx": 700
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-04/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 6,
+          "canva_candidates": [
+            "https://www.canva.com/d/vja_S6iJQcv77Oy",
+            "https://www.canva.com/d/hvee9XGDkJMSci1",
+            "https://www.canva.com/d/t9MDDz4lgXXLhOh",
+            "https://www.canva.com/d/Qmzh72qkMBx7fxm"
+          ],
+          "canva_thumbnail": "https://design.canva.ai/1BtkT6Pqydm5kVS"
+        },
+        "linkedin": {
+          "file": "content/2026-06-04/update_002_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-06-04/update_002_twitter.md",
+          "tweets": 8
+        },
+        "youtube": {
+          "file": "content/2026-06-04/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_candidates": [
+            "https://www.canva.com/d/EgDba8_-5xQ7n6V",
+            "https://www.canva.com/d/JPPnUt2jGCih0tn",
+            "https://www.canva.com/d/2OFp95GpS2fw3tK",
+            "https://www.canva.com/d/Voso5gxceuJ5W7O"
+          ],
+          "canva_thumbnail": "https://design.canva.ai/arSKW2G3BJvwHzj"
+        },
+        "blog": {
+          "file": "content/2026-06-04/update_002_blog.md",
+          "word_count_approx": 780
+        }
+      }
+    }
+  ],
+  "canva_note": "Los diseños de Canva están en estado 'candidate'. Para agregarlos a tu cuenta de Canva, usa la herramienta create-design-from-candidate con el candidate_id correspondiente."
+}
