@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T15:14:09Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "source_access_notes": {
+    "theverge.com": "BLOCKED — The Verge does not permit this crawler (HTTP 403 / robots policy). No Verge articles could be retrieved today.",
+    "docs.anthropic.com": "Most recent platform release-notes entry is June 2, 2026 (72 h ago). No entries dated June 3-5 exist; June 2 entry included as the nearest available update.",
+    "xda-developers.com": "Direct page fetch blocked (HTTP 403); articles surfaced via search. Publication dates are inferred from search-result signals and editorial context rather than confirmed timestamps."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-keeps-taking-features-away-from-claude-pro-running-out-of-reasons-to-defend/",
+      "title": "Anthropic keeps taking features away from Claude Pro, and I'm running out of reasons to defend it",
+      "published_date": "approx. June 3–5, 2026",
+      "summary": "XDA editorial cataloguing Anthropic's rolling removal of features from the $20/month Claude Pro plan: the April A/B test that stripped Claude Code from new subscribers, the ban on third-party tools like OpenClaw, and the May 13 announcement that Agent SDK and claude -p programmatic usage moves to a separate credit pool on June 15. The author argues that Pro used to offer a generous all-in-one deal and each incremental cut makes it harder to justify over the API or a local model. The piece lands just days before the June 15 billing change takes effect, giving it a strong 'now what?' hook for consumers.",
+      "relevance_score": 91,
+      "accuracy_notes": "Editorial opinion piece; the factual claims (credit pool amounts, June 15 date, A/B test scope) are corroborated by Anthropic's own announcements and multiple third-party sources. Framing is intentionally critical — worth acknowledging as analysis, not neutral reporting. Publication date inferred from search-result signals; exact timestamp not independently verified.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Is Claude Pro still worth $20/month? Here's every feature Anthropic has quietly removed 👇",
+          "slides": [
+            "Slide 1: The Claude Pro deal — what you used to get",
+            "Slide 2: Strike 1 — Claude Code removed for new users (April A/B test)",
+            "Slide 3: Strike 2 — Third-party tools (OpenClaw etc.) cut from subscriptions",
+            "Slide 4: Strike 3 — Agent SDK & claude -p moving to separate credit pool (June 15)",
+            "Slide 5: So… is it still worth it? Here's how to decide"
+          ]
+        },
+        "linkedin": {
+          "angle": "Professional AI tool buyers need a heads-up: the era of flat-rate AI subscriptions is ending and Claude Pro is exhibit A.",
+          "opening_line": "If you're paying $20/month for Claude Pro, your plan silently changed three times this year — and a fourth change hits on June 15.",
+          "cta": "Share this with your team before the billing cycle changes. What's your take — is tiered AI pricing fair, or a cash grab?"
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic has quietly removed 3 features from Claude Pro in 2026 — and a 4th change lands June 15. Here's the full scorecard:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just removed ANOTHER thing from Claude Pro — and if you use it for coding or automation, you need to hear this before June 15.",
+          "script_outline": "Open with hook (what's changing June 15) → recap the 3 earlier removals in quick succession → explain the new credit-pool system in plain English → cost comparison: staying on Pro vs. upgrading vs. switching to API → closing recommendation + CTA to subscribe"
+        },
+        "ebook_blog": {
+          "title": "Claude Pro in 2026: What Anthropic Removed, What's Left, and Whether It's Still Worth Paying For",
+          "angle": "Consumer watchdog style: timeline of changes, actual cost analysis across tiers, comparison to ChatGPT Plus and Gemini Advanced, and a decision framework for different user types (casual, developer, enterprise)"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/",
+      "title": "Anthropic's Claude subscriptions no longer include Agent SDK and claude -p usage",
+      "published_date": "approx. June 2–4, 2026",
+      "summary": "XDA news article covering Anthropic's May 13 announcement that, starting June 15, all programmatic Claude usage — Agent SDK, third-party apps built on it, and the claude -p CLI flag — will draw from a new dedicated monthly credit pool instead of the interactive subscription pool. Pro gets $20 in credits, Max 5x gets $100, Max 20x gets $200; once credits are exhausted, usage is billed at full API list rates with no subsidy. The article explains the practical impact for developers and indie builders running automated workflows on subscription plans.",
+      "relevance_score": 89,
+      "accuracy_notes": "News report; confirmed by Anthropic's official announcement and corroborated by TechTimes, devtoolpicks.com, and codersera.com coverage of the same change. Credit pool amounts and June 15 effective date are primary-source verified. Date of XDA article is inferred, not confirmed by timestamp.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just split your Claude plan in two — and if you build with AI, this change hits you on June 15 ⚠️",
+          "slides": [
+            "Slide 1: What's changing on June 15 (30-second explainer)",
+            "Slide 2: Interactive chat vs. programmatic usage — now separate pools",
+            "Slide 3: How much credit does each plan get? (Pro $20 / Max 5x $100 / Max 20x $200)",
+            "Slide 4: What happens when you run out? Full API rates kick in",
+            "Slide 5: 3 steps to take before June 15 to avoid surprise charges"
+          ]
+        },
+        "linkedin": {
+          "angle": "Builders and product teams running Claude-powered automations need to audit their usage now — the flat-rate era ends June 15.",
+          "opening_line": "Starting June 15, every automated Claude call you make through the Agent SDK or claude -p will come out of a new monthly credit pool — not your subscription.",
+          "cta": "Tag a teammate who runs Claude pipelines. Have you modelled out whether Pro still makes sense for your workload, or is the API the better deal now?"
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 If you use Claude for automation, agents, or scripting — your subscription is changing on June 15. Here's exactly what's happening and what to do:",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic is splitting Claude subscriptions in 6 days — and if you have ANY automated workflow, you're probably about to pay more.",
+          "script_outline": "Open with urgency (June 15 deadline) → explain old model vs. new model side-by-side → show the math: when does Pro credit cover you vs. when do you overflow to API rates → who should upgrade vs. who should switch to direct API → call-to-action: check your usage dashboard TODAY"
+        },
+        "ebook_blog": {
+          "title": "Claude's June 15 Billing Split: A Complete Guide for Developers and Builders",
+          "angle": "Step-by-step guide: what the credit pool system means, how to calculate if you'll overflow, plan comparison table, and a migration checklist for teams currently on subscription plans running agentic workloads"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Docs (docs.anthropic.com/en/release-notes/overview)",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "title": "Claude Platform Release Notes — June 2, 2026",
+      "published_date": "2026-06-02",
+      "summary": "Two API-level changes shipped on June 2: (1) The advisor tool now accepts a max_tokens parameter on the tool definition, letting developers cap how many tokens the advisor model generates per call — useful for reducing latency and output-token cost in long-horizon agentic workloads that don't need full-length advisor responses. (2) The Claude API will no longer bill for requests that return stop_reason: 'refusal' without producing any output tokens, removing the charge for zero-output safety refusals.",
+      "relevance_score": 80,
+      "accuracy_notes": "Primary source — extracted directly from the official Anthropic platform release notes page. Both changes are clearly documented with links to updated reference pages. Entry dated June 2, 2026 (72 h before today's run); no entries exist for June 3-5 on this page.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just made Claude's API cheaper to run — 2 small changes that save real money for developers 💰",
+          "slides": [
+            "Slide 1: Two new Claude API changes that matter",
+            "Slide 2: Advisor tool max_tokens — control cost & latency in agentic loops",
+            "Slide 3: No charge for safety refusals — what this means for your bill",
+            "Slide 4: How much could you save? (Example cost scenarios)",
+            "Slide 5: How to update your integration today"
+          ]
+        },
+        "linkedin": {
+          "angle": "Two quietly shipped Claude API updates that reduce unexpected costs for teams running agentic workloads at scale.",
+          "opening_line": "Anthropic just made two small but meaningful changes to the Claude API: you can now cap advisor-model output per call, and zero-output refusals no longer cost you anything.",
+          "cta": "Are you using the advisor tool or hitting safety refusals in production? Drop a comment — I'd love to hear how these changes affect your setup."
+        },
+        "twitter_x": {
+          "thread_opener": "Quiet but valuable: Anthropic shipped 2 API changes this week that could meaningfully cut costs for teams running Claude agents at scale. Here's what changed and why it matters 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Two tiny Anthropic API updates just shipped — and if you run Claude in production, one of them is probably saving you money right now.",
+          "script_outline": "Open with hook (hidden cost savers) → explain advisor tool max_tokens with a concrete example → explain refusal billing change → demo how to add max_tokens to a tool definition (15 seconds) → estimate monthly savings for a typical agentic app → CTA: check your API logs"
+        },
+        "ebook_blog": {
+          "title": "Cutting Claude API Costs: What the June 2026 Updates Mean for Agentic App Developers",
+          "angle": "Developer-focused deep dive: how the advisor tool max_tokens parameter works, how to size it for your use case, and a cost analysis of the refusal billing change across different content-moderation-heavy workflows"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
