@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-06-06",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "content_folder": "content/2026-06-06/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: la herramienta de diseño con IA de Anthropic",
+      "source_title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-06-06/update_001_instagram.md",
+        "linkedin": "content/2026-06-06/update_001_linkedin.md",
+        "twitter": "content/2026-06-06/update_001_twitter.md",
+        "youtube": "content/2026-06-06/update_001_youtube.md",
+        "blog": "content/2026-06-06/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_candidates": [
+          "https://www.canva.com/d/bM18p_TSx15eLBy",
+          "https://www.canva.com/d/1To122cGLashxaD",
+          "https://www.canva.com/d/PO-9t5n31UlE2Bh",
+          "https://www.canva.com/d/eX8tYtjT0V_jN5Z"
+        ],
+        "youtube_thumbnail_candidates": [
+          "https://www.canva.com/d/0D1vXOn1QGiJOhw",
+          "https://www.canva.com/d/fDrkIEYbbamZwBH",
+          "https://www.canva.com/d/CQ6xwXAgeeAvW6Z",
+          "https://www.canva.com/d/aOlegI06H_Vwlt5"
+        ]
+      },
+      "content_summary": {
+        "instagram": "Carrusel de 7 slides sobre Claude Design: qué es, qué crea, comparación vs Canva/Figma, limitaciones y CTA al ebook",
+        "linkedin": "Post completo con gancho, desarrollo en párrafos cortos, comparación honesta y pregunta de cierre. 5 hashtags.",
+        "twitter": "Hilo de 7 tweets desde gancho hasta CTA. Cada tweet ≤280 caracteres.",
+        "youtube": "Guion de 60 segundos + título SEO + descripción. Formato: hook 3s, desarrollo, CTA.",
+        "blog": "Artículo de ~750 palabras: qué es Claude Design, comparación práctica, limitaciones, conclusión + CTA al ebook."
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code con memoria persistente: Auto Memory y CLAUDE.md",
+      "source_title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-06-06/update_002_instagram.md",
+        "linkedin": "content/2026-06-06/update_002_linkedin.md",
+        "twitter": "content/2026-06-06/update_002_twitter.md",
+        "youtube": "content/2026-06-06/update_002_youtube.md",
+        "blog": "content/2026-06-06/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_candidates": [
+          "https://www.canva.com/d/8lK6LVvFSBtdPzF",
+          "https://www.canva.com/d/XMcC3HGeoToOjC3",
+          "https://www.canva.com/d/CakSn4ZXOqlJ-0U",
+          "https://www.canva.com/d/q-zj0QD6nsJQqcc"
+        ],
+        "youtube_thumbnail_candidates": [
+          "https://www.canva.com/d/bzrZfIyi2UKXjRY",
+          "https://www.canva.com/d/TwR38uc-TGNh8SH",
+          "https://www.canva.com/d/GinNHBG0U34EwMV",
+          "https://www.canva.com/d/jfB3YC-92z4DfyH"
+        ]
+      },
+      "content_summary": {
+        "instagram": "Carrusel de 7 slides: el problema, cómo funciona la memoria automática, el archivo de instrucciones, antes vs después, CTA al ebook",
+        "linkedin": "Post completo con analogía del asistente sin memoria, explicación de ambos sistemas, reflexión sobre ventaja competitiva + pregunta de cierre.",
+        "twitter": "Hilo de 8 tweets desde gancho hasta CTA. Cada tweet ≤280 caracteres.",
+        "youtube": "Guion de 60 segundos + título SEO + descripción. Estructura: problema → solución → resultado → CTA.",
+        "blog": "Artículo de ~850 palabras: el problema, cómo funciona Auto Memory y CLAUDE.md, guía práctica para no técnicos + CTA al ebook."
+      }
+    }
+  ]
+}
