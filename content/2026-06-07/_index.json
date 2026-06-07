@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-07",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-06-07T00:00:00Z",
+  "total_updates_processed": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: la mejor herramienta de diseño que Anthropic ha lanzado en mucho tiempo",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-07/update_001_instagram.md",
+          "format": "carrusel 7 slides",
+          "canva_candidates": [
+            "https://www.canva.com/d/MTXEUkFWpGAuvAp",
+            "https://www.canva.com/d/Kf6WaXyQ6Hxv54O",
+            "https://www.canva.com/d/4i89mBhbcH0kXbD",
+            "https://www.canva.com/d/zC3-NoYGIMsEYQD"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/GzJudMRYMUir7HL",
+            "https://design.canva.ai/ZgMDCcQqcIVU9If",
+            "https://design.canva.ai/MgdG58TTd5kNdMD",
+            "https://design.canva.ai/1d4TLkskt455eJm"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-07/update_001_linkedin.md",
+          "format": "post largo con desarrollo"
+        },
+        "twitter": {
+          "file": "content/2026-06-07/update_001_twitter.md",
+          "format": "hilo 7 tweets"
+        },
+        "youtube": {
+          "file": "content/2026-06-07/update_001_youtube.md",
+          "format": "guion 60s + descripcion",
+          "canva_candidates": [
+            "https://www.canva.com/d/cgMCXMEhAXsxVig",
+            "https://www.canva.com/d/0uDRJakI6AF_5Z-",
+            "https://www.canva.com/d/PgMmnp1jJ-H3F57",
+            "https://www.canva.com/d/bbYUkq4tJYz_cJT"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/lCCaXnL4mCInyAv",
+            "https://design.canva.ai/A91Wdf8F9ipU15u",
+            "https://design.canva.ai/FWpkx3QVczQkO5A",
+            "https://design.canva.ai/CzEDYmxKUWIoqVH"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-07/update_001_blog.md",
+          "format": "articulo ~750 palabras"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code: memoria persistente que transforma la productividad con IA",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-07/update_002_instagram.md",
+          "format": "carrusel 7 slides",
+          "canva_candidates": [
+            "https://www.canva.com/d/O9XC90oxj3R8_d0",
+            "https://www.canva.com/d/s0bL9uRqQ12-aQ0",
+            "https://www.canva.com/d/usW-grcFLapzfwW",
+            "https://www.canva.com/d/rHACbBg95XYeRnk"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/v_WUdbCnE6obxo3",
+            "https://design.canva.ai/rbhKhCawc64r5C8",
+            "https://design.canva.ai/O7eTdV4WE5YhlDc",
+            "https://design.canva.ai/UT55AcnuQQeyOiz"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-07/update_002_linkedin.md",
+          "format": "post largo con desarrollo"
+        },
+        "twitter": {
+          "file": "content/2026-06-07/update_002_twitter.md",
+          "format": "hilo 8 tweets"
+        },
+        "youtube": {
+          "file": "content/2026-06-07/update_002_youtube.md",
+          "format": "guion 60s + descripcion",
+          "canva_candidates": [
+            "https://www.canva.com/d/7yyNU7ZC78fmZzd",
+            "https://www.canva.com/d/QHvaP-w2w8cPWdp",
+            "https://www.canva.com/d/E8lFmIudH0I5u4W",
+            "https://www.canva.com/d/cu1-G8mH_cu5Fio"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/VwD7g2-Wx2GBJHx",
+            "https://design.canva.ai/-JIV5XfwflQBZ2v",
+            "https://design.canva.ai/6aB4ioICO2Xr2Iz",
+            "https://design.canva.ai/hi87ZO-1jG6uxSk"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-07/update_002_blog.md",
+          "format": "articulo ~800 palabras"
+        }
+      }
+    }
+  ]
+}
