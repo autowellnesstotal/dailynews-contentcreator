@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T15:11:53Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and all article URLs returned HTTP 403; RSS feed also blocked. Article titles retrieved via web search (Google index). No XDA articles confirmed published June 5-7, 2026 about Claude/Anthropic — most recent Claude article found dates to ~late May 2026.",
+    "docs.anthropic.com": "Direct page fetch returned HTTP 403. Release note content confirmed via Google search index snippets and cross-referenced with secondary coverage. June 5, 2026 entries confirmed: Opus 4.1 deprecation, advisor tool public beta, AWS Managed Agents GA.",
+    "theverge.com": "Domain blocked from both direct WebFetch (crawler error) and WebSearch (domain inaccessible to Anthropic user agent). Zero articles retrieved — same block as prior runs."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Institute (anthropic.com)",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "title": "When AI Builds Itself — Anthropic Reveals Claude Writes 80%+ of Its Own Code, Calls for Global AI Pause Option",
+      "published_date": "2026-06-04",
+      "summary": "Anthropic's Institute published research disclosing that Claude now authors more than 80% of the code merged into Anthropic's production codebase — up from low single digits before Claude Code launched in early 2025 — with engineers shipping roughly 8× more code per quarter. The paper warns this trajectory could lead to recursive self-improvement, the threshold where AI designs and builds its own successors with minimal human input. Anthropic calls for maintaining a global option to slow or temporarily pause frontier AI development, stating the inflection point 'could come sooner than most institutions are prepared for.'",
+      "relevance_score": 98,
+      "accuracy_notes": "Published directly by Anthropic Institute; independently confirmed by Fortune (June 5, 2026), Tom's Hardware, Scientific American, The Next Web, VentureBeat, and Winbuzzer (URL contains '2026/06/05'). The 80% figure is Anthropic's own self-reported metric from internal telemetry. The recursive self-improvement warning is a policy position, not a claim of current capability — reviewed coverage handles this distinction accurately. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude is now writing 80% of its own code — and Anthropic just told the world to prepare for a pause",
+          "slides": [
+            "Slide 1: The Stat That Shocked the AI World — 80% of Anthropic's code is now written by Claude",
+            "Slide 2: From 0% to 80% in 18 Months — How Claude Code changed everything for Anthropic's engineers",
+            "Slide 3: What Is Recursive Self-Improvement? — The moment AI starts designing its own successor",
+            "Slide 4: Anthropic's Warning — 'Could come sooner than institutions are prepared for'",
+            "Slide 5: The Call for a Global Pause Button — What this means for developers, businesses, and humanity"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI strategy and risk: when the company building your AI says it can barely keep pace with what it built",
+          "opening_line": "Anthropic just dropped a disclosure that should be on every AI leader's radar: Claude now writes more than 80% of its own production code — and the company is asking the world to think about hitting pause.",
+          "cta": "If the company building your AI tools is flagging caution about recursive self-improvement, it's time to ask: how is your team preparing for this acceleration? Share your perspective below."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic just revealed something unprecedented: Claude is writing 80%+ of Anthropic's own code. And they're warning this could spiral into recursive self-improvement. Here's what that means — and why it matters to everyone using AI today:",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "What if the AI building your tools started building itself? Anthropic just said it's almost happening — and they want a global pause button before it does.",
+          "script_outline": "Open with the 80% stat → define recursive self-improvement in plain English → share Anthropic's specific warning and what they're proposing → translate the stakes for developers and business owners → close with CTA to follow for daily AI updates"
+        },
+        "ebook_blog": {
+          "title": "When AI Builds Itself: Understanding Anthropic's Recursive Self-Improvement Warning and What It Means for Your Business",
+          "angle": "Break down the technical concept accessibly, contextualize the 80% stat with the Claude Code timeline, analyze Anthropic's pause proposal, and give practical guidance on what enterprise teams and developers should monitor as AI development accelerates."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "cybersecuritynews.com / cybernews.com (Claude/Anthropic primary subject — XDA/Verge not accessible)",
+      "url": "https://cybersecuritynews.com/anthropics-claude-services-down/",
+      "title": "Anthropic's Claude Services Down — claude.ai, Claude Code, and Cowork Affected; Data Leak Claims Under Investigation",
+      "published_date": "2026-06-05",
+      "summary": "On June 5, 2026, Anthropic's Claude platform suffered a significant multi-service outage beginning at 8:08 PT (15:08 UTC), impacting claude.ai, the Claude API, Claude Code, and Claude Cowork. Recovery was staggered by model — Opus 4.6 restored first, Opus 4.8 last — with full service confirmed back by 18:27 UTC. Anthropic attributed the incident to an infrastructure issue (not a model bug). A separate report surfaced customer data leak claims, which Anthropic stated it is actively investigating with no confirmed exposure as of reporting time.",
+      "relevance_score": 88,
+      "accuracy_notes": "Outage timeline corroborated by Anthropic's public status page (status.claude.com) and multiple independent outlets including TechRadar, ibtimes.com.au, and sundayguardianlive.com. The customer data leak claim is unconfirmed — Anthropic stated 'no evidence' but investigation is ongoing; reviewed coverage is appropriately cautious. Note: this story was not directly confirmed on XDA-Developers or The Verge within the monitored June 5-7 window; sourced from secondary coverage as XDA/Verge are inaccessible.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude went down for millions of users yesterday — here's exactly what happened and what it reveals about AI reliability",
+          "slides": [
+            "Slide 1: Claude Is Down — What millions of users experienced on June 5, 2026",
+            "Slide 2: The Full Timeline — When it started, what broke, and when it was fixed",
+            "Slide 3: What Services Were Affected — claude.ai, API, Claude Code, Claude Cowork",
+            "Slide 4: The Data Leak Question — What Anthropic said (and what we still don't know)",
+            "Slide 5: The Real Business Lesson — Why AI reliability is now a mission-critical issue"
+          ]
+        },
+        "linkedin": {
+          "angle": "Business continuity and AI dependency: the Claude outage as a case study for enterprise AI risk management",
+          "opening_line": "Yesterday, Anthropic's Claude went dark for hours — and businesses that had built production workflows on it felt every minute of it.",
+          "cta": "Does your team have a fallback plan for when your primary AI tool goes down? This is the week to build one. What's your current redundancy strategy?"
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 Claude went down for millions of users on June 5. Here's the full outage timeline — plus the customer data question Anthropic is still investigating:",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude crashed hard yesterday for millions of users across the world. Here's exactly what happened, why it matters for your business, and what Anthropic is still looking into.",
+          "script_outline": "Show the outage timeline visually → services affected breakdown → what Anthropic said publicly → the unanswered data leak question → practical steps businesses should take to prepare for future AI outages → CTA"
+        },
+        "ebook_blog": {
+          "title": "Claude AI Outage June 2026: Complete Timeline, Cause Analysis, and AI Business Continuity Checklist",
+          "angle": "Use the outage as a practical case study on AI service reliability, disaster recovery planning for AI-dependent workflows, and how to evaluate vendor transparency during incidents."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com (API & Platform Release Notes)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Anthropic Platform Release Notes — June 5, 2026: Opus 4.1 Deprecation, Advisor Tool Public Beta, AWS Managed Agents GA",
+      "published_date": "2026-06-05",
+      "summary": "Anthropic's June 5 platform release notes contain three developer-facing updates: (1) Claude Opus 4.1 is being deprecated from the Claude API with retirement scheduled for August 5, 2026, requiring developer migration; (2) the advisor tool enters public beta, pairing a fast executor model with a higher-intelligence advisor model for long-horizon agentic workloads; (3) Claude Managed Agents webhooks, multiagent orchestration, and self-hosted sandboxes are now generally available on Claude Platform on AWS, expanding enterprise deployment options.",
+      "relevance_score": 82,
+      "accuracy_notes": "Confirmed via Google search index snippets of docs.anthropic.com/en/release-notes/overview (direct page access returned HTTP 403). Content is consistent with Anthropic's established model deprecation pattern and the previously announced AWS partnership. Managed Agents and the advisor tool referenced by multiple secondary sources. No red flags.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "3 big Anthropic developer updates dropped this week — here's what you need to know before June 15",
+          "slides": [
+            "Slide 1: Opus 4.1 Is Being Retired — What developers must do before August 5, 2026",
+            "Slide 2: The Advisor Tool Is Now in Beta — How pairing a fast + smart model changes agentic work",
+            "Slide 3: Claude on AWS Just Got a Major Upgrade — Managed Agents, webhooks, multiagent orchestration",
+            "Slide 4: Why These Updates Matter for Builders — Practical impact breakdown",
+            "Slide 5: Your Action Items — What to migrate, test, and enable right now"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer/engineering leader focus: Anthropic's AWS expansion and advisor tool signal a serious push into enterprise agentic AI infrastructure",
+          "opening_line": "Anthropic quietly dropped three significant platform updates this week that every team building on Claude needs to know about — especially with a June 15 billing change also in play.",
+          "cta": "Building on Claude's API? Which of these three updates affects your stack most? Drop your thoughts below."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic released 3 platform updates this week that every Claude developer should know. Quick breakdown:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just made 3 changes to Claude's API and platform that affect every developer building AI apps — here's what changed, why it matters, and what you need to do.",
+          "script_outline": "Intro urgency hook → Opus 4.1 deprecation explainer with migration steps → Advisor tool concept and use case demo → AWS Managed Agents breakdown for enterprise teams → CTA for developers to subscribe for weekly Claude updates"
+        },
+        "ebook_blog": {
+          "title": "Anthropic June 2026 Developer Updates: Opus 4.1 Deprecation Guide, Advisor Tool Deep Dive, and AWS Managed Agents Playbook",
+          "angle": "Practical guide for engineering leads navigating Anthropic's evolving API landscape — includes migration checklist, evaluation notes on the new advisor architecture, and considerations for enterprise teams on AWS."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
