@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T15:20:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual articles also blocked. Titles, dates, and summaries retrieved via web search index. Two articles confirmed within the 24-48h window (June 9, 2026).",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403. Release-note content for June 9, 2026 retrieved via multiple corroborating web searches (CNBC, TechCrunch, Releasebot index, official Anthropic newsroom). Claude Fable 5 GA confirmed as the primary update of the day.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available; coverage cannot be verified for today."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-just-revealed-its-most-powerful-ai-yet-and-its-designed-for-general-use/",
+      "title": "Anthropic just publicly released its Mythos-grade AI at no extra cost for a limited time",
+      "published_date": "2026-06-09",
+      "summary": "Anthropic lanzó Claude Fable 5, el primer modelo de clase Mythos disponible para el público general. El modelo supera todos los benchmarks anteriores de la compañía en ingeniería de software, visión, investigación científica y razonamiento complejo. Viene con salvaguardas integradas que bloquean preguntas de alto riesgo (ciberseguridad, biología, química) y redirigen al usuario a Claude Opus 4.8 en menos del 5% de las sesiones. Está disponible gratis para suscriptores Pro, Max, Team y Enterprise hasta el 22 de junio; a partir del 23 de junio requerirá créditos de uso adicionales a $10 por millón de tokens de entrada.",
+      "relevance_score": 98,
+      "accuracy_notes": "Verificado. Fecha de publicación confirmada como '1 día atrás' en el índice de búsqueda (relativo al 10 de junio de 2026). Detalles de precio y disponibilidad corroborados por el anuncio oficial de Anthropic, CNBC, TechCrunch y cobertura de Amazon Bedrock/AWS. La afirmación de Stripe sobre la migración comprimida de meses en días es una cita oficial de Anthropic, no verificable de forma independiente.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "La IA más poderosa de Anthropic — la que creían demasiado peligrosa para el público — ya está disponible para ti 🔥",
+          "slides": [
+            "¿Qué es Claude Fable 5? (y por qué es histórico)",
+            "Mythos para el público: lo que puede hacer que Claude Opus 4.8 no podía",
+            "¿Cómo funciona su sistema de seguridad? (el 5% bloqueado)",
+            "GRATIS hasta el 22 de junio si tienes Pro, Max o Enterprise",
+            "¿Qué pasa el 23 de junio? Aquí el plan de acción"
+          ]
+        },
+        "linkedin": {
+          "angle": "Implicaciones empresariales del modelo de IA más capaz disponible públicamente — y la ventana de 13 días para aprovecharlo sin costo extra",
+          "opening_line": "Anthropic acaba de hacer lo que muchos creían imposible: poner el modelo Mythos — su tier más avanzado — en manos de cualquier suscriptor Pro, sin costo adicional hasta el 22 de junio.",
+          "cta": "¿Qué proyecto le asignarías primero a Claude Fable 5? ¿Código, investigación, análisis de documentos? Comparte en comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic acaba de lanzar la IA que tenía demasiado miedo de publicar — Claude Fable 5 ya es real, ya está disponible, y tienes 13 días gratis 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "La IA que Anthropic dijo que era demasiado peligrosa ya es pública — y puedes probarla GRATIS ahora mismo",
+          "script_outline": "0-5s: Hook provocador ('Anthropic acaba de liberar la IA que tenía miedo de liberar'). 5-15s: Qué es Fable 5 y por qué es diferente a cualquier versión anterior. 15-30s: Demo rápida de capacidades (código + ciencia + visión). 30-45s: Cómo acceder hoy gratis y qué pasa el 23 de junio. 45-55s: Una tarea concreta para probarla inmediatamente. 55-60s: CTA — suscribirse para el seguimiento post-junio 22."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5: La Guía Completa para Emprendedores — Qué Puede Hacer, Cómo Acceder y Cómo Aprovecharlo Antes del 22 de Junio",
+          "angle": "Guía práctica orientada a emprendedores y profesionales sin perfil técnico: qué tareas reales delegar a Fable 5, cómo activarlo en tu plan actual y por qué la ventana del 9 al 22 de junio es una oportunidad única para testear el nivel máximo de la IA sin pagar extra."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Fable 5 GA, Mythos 5 y múltiples actualizaciones de plataforma — Notas de lanzamiento del 9 de junio de 2026",
+      "published_date": "2026-06-09",
+      "summary": "Las notas de lanzamiento oficiales del 9 de junio de 2026 cubren: (1) Claude Fable 5 disponible de forma general en Claude API, Amazon Bedrock, Vertex AI y Microsoft Foundry; (2) Claude Mythos 5 lanzado en acceso por invitación a través de Project Glasswing para ciberdefensores e infraestructuras críticas; (3) herramienta 'advisor' en beta pública, que empareja un modelo ejecutor rápido con un modelo asesor de alta inteligencia para tareas agénticas de largo horizonte; (4) diagnósticos de caché en beta pública — permite identificar por qué divergió el prefijo de caché en un turno anterior; (5) la herramienta de búsqueda web ahora devuelve datos más ricos de archivos SEC para flujos de trabajo de investigación financiera.",
+      "relevance_score": 100,
+      "accuracy_notes": "Fuente primaria: docs.anthropic.com/en/release-notes/overview. Contenido corroborado por índice de Releasebot (June 2026), cobertura de TechCrunch, CNBC y The Hacker News. La depreciación de Sonnet 4 (claude-sonnet-4-20250514) y Opus 4 (claude-opus-4-20250514) con retiro el 15 de junio de 2026 fue anunciada el 5 de junio (fuera del rango de 24-48h) pero sigue siendo de alta relevancia para desarrolladores esta semana. Managed Agents public beta y precios de Fable 5 confirmados por múltiples fuentes independientes.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "5 cosas que Anthropic actualizó en Claude en las últimas 24 horas (y que la mayoría de usuarios no sabe) 👇",
+          "slides": [
+            "Claude Fable 5 — disponible ahora en la API para empresas",
+            "Claude Mythos 5 — la IA más poderosa de Anthropic (por invitación solamente)",
+            "La herramienta 'advisor' en beta — IA estratégica dentro de tu agente IA",
+            "Diagnósticos de caché — nuevo para developers que usan la API",
+            "Búsqueda web mejorada — ahora con datos de archivos SEC para análisis financiero"
+          ]
+        },
+        "linkedin": {
+          "angle": "Resumen técnico-estratégico para developers y líderes de tecnología: todo lo que cambió en la plataforma Claude el 9 de junio de 2026",
+          "opening_line": "Si usas la API de Claude en producción, el 9 de junio fue un día importante: Fable 5 en GA, Mythos 5 por invitación, advisor tool en beta pública y cambios en el sistema de créditos del Agent SDK.",
+          "cta": "¿Tu equipo ya está probando el advisor tool o los diagnósticos de caché? ¿Qué caso de uso tienes en mente?"
+        },
+        "twitter_x": {
+          "thread_opener": "Todo lo que Anthropic actualizó en Claude el 9 de junio — un resumen para developers y power users 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic lanzó 5 actualizaciones en un solo día — esto es lo que necesitas saber si usas Claude para tu negocio",
+          "script_outline": "0-5s: Hook ('5 actualizaciones de Claude en 24 horas'). 5-20s: Fable 5 GA — qué significa para quienes usan la API. 20-35s: Mythos 5 y Project Glasswing — el nivel que viene. 35-50s: Advisor tool y diagnósticos de caché — para quienes construyen agentes IA. 50-60s: CTA — 'Si quieres aprender a usar la API de Claude para automatizar procesos, link en bio.'"
+        },
+        "ebook_blog": {
+          "title": "Novedades Claude Junio 2026: Fable 5, Mythos 5 y las Actualizaciones de Plataforma Más Importantes del Año",
+          "angle": "Artículo de seguimiento técnico-estratégico que resume las actualizaciones del 9 de junio para emprendedores y equipos que ya usan Claude en sus flujos de trabajo, con énfasis en qué acción tomar antes del 22 de junio (fin del acceso gratuito a Fable 5)."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
