@@ -1,0 +1,153 @@
+{
+  "generated_at": "2026-06-10",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "output_folder": "content/2026-06-10/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-10/update_001_instagram.md",
+          "format": "carrusel (7 slides)",
+          "canva_candidates": [
+            {
+              "candidate_id": "dg-6764db8f-4efa-4115-9699-9eb84c32aa3d",
+              "url": "https://www.canva.com/d/aMI9yDx4QOVlUs2",
+              "thumbnail": "https://design.canva.ai/R83uxxLw8U6Nl35"
+            },
+            {
+              "candidate_id": "dg-a8445a71-76c3-4b0e-948c-f0719cc22d6a",
+              "url": "https://www.canva.com/d/5ZH5vl_msC62ySx",
+              "thumbnail": "https://design.canva.ai/G29gY_UzQeS9Zab"
+            },
+            {
+              "candidate_id": "dg-ccfd3748-1b42-4976-9cd2-ff96231ed400",
+              "url": "https://www.canva.com/d/21mdqRVavj5zQ8K",
+              "thumbnail": "https://design.canva.ai/PDmjr4xdSnwafXX"
+            },
+            {
+              "candidate_id": "dg-fbd08851-ad00-4004-93d2-c85b989808ac",
+              "url": "https://www.canva.com/d/C_f5_IvPAPV3ZPh",
+              "thumbnail": "https://design.canva.ai/c2lu0TPOhQJFpu0"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-10/update_001_linkedin.md",
+          "format": "post largo con párrafos cortos"
+        },
+        "twitter": {
+          "file": "content/2026-06-10/update_001_twitter.md",
+          "format": "hilo de 7 tweets"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-10/update_001_youtube.md",
+          "format": "guion 60 segundos + descripción",
+          "canva_thumbnail_candidates": [
+            {
+              "candidate_id": "dg-3aa26b37-6aad-4f6d-970e-37433770cc3f",
+              "url": "https://www.canva.com/d/WDL_RecqN_0MPSH",
+              "thumbnail": "https://design.canva.ai/8uOF6dmvtMprW58"
+            },
+            {
+              "candidate_id": "dg-50fe2865-efc5-4553-9c10-154d5e708158",
+              "url": "https://www.canva.com/d/jyl5Kz3CYZdHSsC",
+              "thumbnail": "https://design.canva.ai/lDBro01LjtjFei4"
+            },
+            {
+              "candidate_id": "dg-91434c98-4550-42c1-a132-f1375eb6c1a0",
+              "url": "https://www.canva.com/d/SYWDPzOKV--20gw",
+              "thumbnail": "https://design.canva.ai/GdtEXWeX7f-BaKY"
+            },
+            {
+              "candidate_id": "dg-a7bea76d-4f55-4814-927e-f62804bd8188",
+              "url": "https://www.canva.com/d/9R7w2RilBWQ4Ifb",
+              "thumbnail": "https://design.canva.ai/h9hFiA7GOW2LP3j"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-10/update_001_blog.md",
+          "format": "artículo 600-900 palabras",
+          "word_count_estimate": 780
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-10/update_002_instagram.md",
+          "format": "carrusel (7 slides)",
+          "canva_candidates": [
+            {
+              "candidate_id": "dg-57cc0c6f-0c1b-40b3-a3e1-91752cb91a38",
+              "url": "https://www.canva.com/d/GpznjSB51KpSpb8",
+              "thumbnail": "https://design.canva.ai/0f6l6sFZWUz9aWf"
+            },
+            {
+              "candidate_id": "dg-872a5f25-2fcf-4c01-bbfb-b58d8e97cfd2",
+              "url": "https://www.canva.com/d/iw7memQy5i3iaoR",
+              "thumbnail": "https://design.canva.ai/JZG_A-q-GXIpmaI"
+            },
+            {
+              "candidate_id": "dg-b32acfd7-86df-4c50-a00a-65df790e8dda",
+              "url": "https://www.canva.com/d/IpiEQehoJ71EBue",
+              "thumbnail": "https://design.canva.ai/iDHyexPm9Bye24j"
+            },
+            {
+              "candidate_id": "dg-d017f601-8091-4649-bc35-4b0c0dbb7792",
+              "url": "https://www.canva.com/d/z1yzl2D2r8wrGV8",
+              "thumbnail": "https://design.canva.ai/RQsN_1fryDMdMO1"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-10/update_002_linkedin.md",
+          "format": "post largo con párrafos cortos"
+        },
+        "twitter": {
+          "file": "content/2026-06-10/update_002_twitter.md",
+          "format": "hilo de 8 tweets"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-10/update_002_youtube.md",
+          "format": "guion 60 segundos + descripción",
+          "canva_thumbnail_candidates": [
+            {
+              "candidate_id": "dg-63c6edfd-2738-4360-9228-538975952333",
+              "url": "https://www.canva.com/d/gS2R81qhZJGNfCP",
+              "thumbnail": "https://design.canva.ai/fmabfP8Vq2kozkO"
+            },
+            {
+              "candidate_id": "dg-c9fe3b01-86d0-49aa-b6fd-6f725f202038",
+              "url": "https://www.canva.com/d/vSspDf2vSBqwUWy",
+              "thumbnail": "https://design.canva.ai/S7JKQG2pKzARnBE"
+            },
+            {
+              "candidate_id": "dg-ca46a57d-b001-49c2-bcc1-b4ab0537c962",
+              "url": "https://www.canva.com/d/tJr84wNYS9ba77O",
+              "thumbnail": "https://design.canva.ai/3UsGv7mXy7dPPL2"
+            },
+            {
+              "candidate_id": "dg-d66acde8-db5e-449b-b064-2b49d1e00c8c",
+              "url": "https://www.canva.com/d/5nasq24AHC0_Ssz",
+              "thumbnail": "https://design.canva.ai/RQBuGmIfSrtTO40"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-10/update_002_blog.md",
+          "format": "artículo 600-900 palabras",
+          "word_count_estimate": 760
+        }
+      }
+    }
+  ]
+}
