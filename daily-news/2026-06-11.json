@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T15:05:06Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "scrape_notes": {
+    "xda_developers": "Accessible via WebSearch (direct fetch blocked 403). 2 qualifying articles confirmed within 24-48 hours.",
+    "docs_anthropic": "Accessible via WebSearch (direct fetch blocked 403). Release notes content retrieved from search index and cross-referenced with multiple sources.",
+    "theverge": "Blocked — domain not accessible to Anthropic crawler (API 400 error). No Verge articles could be confirmed or included. The Fable 5 'secret sabotage' controversy (Fortune, June 10) was not from a monitored source and is excluded."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Fable 5 & Mythos 5 Launch + Multi-Platform API Updates",
+      "published_date": "2026-06-09",
+      "summary": "Anthropic officially released Claude Fable 5 (claude-fable-5) on June 9, 2026 — the first Mythos-class model made publicly available — alongside the invitation-only Claude Mythos 5 for Project Glasswing partners. Claude Fable 5 is available across Claude API, Amazon Bedrock, Google Cloud Vertex AI, Microsoft Foundry, and Claude.ai, and is included free for Pro, Max, Team, and seat-based Enterprise plans through June 22 before requiring usage credits. The release is accompanied by major platform changes: Agent SDK and claude -p programmatic usage will draw from a separate $20/month credit pool starting June 15; Claude Code v2.1.169 (June 8) adds safe mode and a /cd command; Claude is now available on Apple devices (iOS/macOS/iPadOS/visionOS/watchOS 27); and Claude Sonnet 4 and Opus 4 models retire from the API on June 15, 2026.",
+      "relevance_score": 99,
+      "accuracy_notes": "Official release notes from Anthropic's own docs portal — highest reliability. Launch date of June 9, 2026 confirmed across TechCrunch, CNBC, VentureBeat, and AWS/Azure/GCP partner blogs. Free-access window 'through June 22' confirmed by multiple secondary sources. The $20 Agent SDK credit pool change is confirmed. Apple device support is consistent with iOS 27/macOS 27 timeline. Deprecation dates for Sonnet 4/Opus 4 on June 15 are documented in model-deprecations page.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just dropped Claude Fable 5 — the most powerful AI they've EVER made public. Here's everything you need to know.",
+          "slides": [
+            "Slide 1: What IS Claude Fable 5? (Mythos-class = next tier above Opus)",
+            "Slide 2: Where can you use it? (Claude.ai, API, AWS, Azure, Google Cloud, Microsoft Foundry)",
+            "Slide 3: Is it FREE? (Yes — until June 22 for Pro/Max/Team/Enterprise users)",
+            "Slide 4: What are the safeguards? (Cyber/bio/chem queries fall back to Opus 4.8 visibly)",
+            "Slide 5: What else changed? (Agent SDK credits, Claude Code update, Apple devices, old models retiring June 15)"
+          ]
+        },
+        "linkedin": {
+          "angle": "Strategic business/developer implications of Anthropic's biggest model release ever, the new pricing model for programmatic usage, and what the Apple partnership means for enterprise AI adoption.",
+          "opening_line": "Anthropic just made its most powerful AI model publicly available — and gave every subscriber free access for two weeks. Here's what developers and business leaders need to act on before June 22.",
+          "cta": "Are you already on Claude Pro or Max? Drop a comment — and if you're not, check the link to grab Fable 5 access before the free window closes."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic dropped Claude Fable 5 yesterday and there's a LOT to unpack. Full thread on what changed, what it costs, and what you need to do before June 22 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "The most powerful AI Anthropic has ever released is free right now — but only for 11 more days. Here's what it can actually do.",
+          "script_outline": "Open: tease the 'free window closes June 22' urgency hook. Explain Mythos-class vs Opus (performance tier). Show where to access it (Claude.ai, API). Cover the safeguards (why some queries fall back to Opus 4.8). Mention the big side change: Agent SDK now billed separately from June 15 — what that means for Claude Code power users. Close: call to action to test Fable 5 this week."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5: The Complete Guide to Anthropic's First Public Mythos-Class Model",
+          "angle": "Comprehensive breakdown of capabilities, access windows, pricing changes, platform availability, and safeguard architecture — written for both non-technical readers and developers who need to migrate before June 15 deprecations."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-just-revealed-its-most-powerful-ai-yet-and-its-designed-for-general-use/",
+      "title": "Anthropic just publically released its Mythos-grade AI at no extra cost for a limited time",
+      "published_date": "2026-06-09",
+      "summary": "XDA Developers covers Anthropic's launch of Claude Fable 5, framing it as a landmark moment where Mythos-grade intelligence — previously locked away from the public — is now accessible to regular subscribers at no extra charge for a limited window. The article highlights the time-limited free access through June 23 for Pro, Max, Team, and Enterprise plan holders, explains that safeguards kick in for roughly less than 5% of sessions (routing to Opus 4.8 in sensitive topic areas like cybersecurity, biology, chemistry, and distillation), and contextualizes Fable 5 as the same underlying model weights as Mythos 5 but with an extra product-layer of safety controls. The piece underscores that this is the first time Anthropic has made a Mythos-class model available outside of its tightly controlled Project Glasswing program.",
+      "relevance_score": 96,
+      "accuracy_notes": "XDA is reporting on the official Anthropic announcement. The 'less than 5% of sessions' safeguard figure and the June 22/23 free access window are consistent across all sources. Minor discrepancy: XDA says 'June 23' while Anthropic's own release notes say 'through June 22' — likely a time-zone rounding difference, not a factual error. The Mythos 5 model weights claim is confirmed in Anthropic's official system card. Overall reliability: high.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Anthropic unlocked its SECRET AI model for everyone — and it's free right now. But only for 11 days.",
+          "slides": [
+            "Scene 1: Split screen — 'What Mythos users get' vs 'What you're about to get'",
+            "Scene 2: Quick demo of Claude Fable 5 answering a complex coding question",
+            "Scene 3: Show the access path (Claude.ai settings → model selector)",
+            "Scene 4: Countdown timer graphic — 'Free access expires June 22'",
+            "Scene 5: CTA — 'Follow for daily Claude updates'"
+          ]
+        },
+        "linkedin": {
+          "angle": "Opportunity framing for business professionals — what Mythos-class AI can do for knowledge work, and why the two-week free window is a genuine evaluation opportunity for teams deciding on AI stack.",
+          "opening_line": "For the first time ever, Anthropic has given every paying Claude subscriber access to Mythos-grade AI — the same tier that was previously reserved for a small group of vetted researchers.",
+          "cta": "If your team uses Claude, this is the perfect window to stress-test Fable 5 before pricing changes on June 22. What use cases are you most excited to try?"
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 Anthropic just unlocked Claude Fable 5 (Mythos-class) for ALL Pro/Max/Team subscribers — FREE until June 22. Here's what that means and how to use it right now:",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "They kept this AI locked away from the public — now it's free for 11 days. Here's what Claude Fable 5 actually does.",
+          "script_outline": "Hook: emphasize the 'locked away' narrative. Explain what Mythos was before (restricted access, Project Glasswing). Show how Fable 5 compares to previous Opus models on a task. Explain the free window (Pro/Max/Team/Enterprise, through June 22). Show the one caveat: safeguards on certain sensitive topics. Close: step-by-step on how to activate Fable 5 in Claude.ai today."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5 Free Access: How to Get Mythos-Grade AI Before June 22 (And What to Do With It)",
+          "angle": "Practical, action-oriented guide for Claude subscribers — what Fable 5 is, why it matters, how to access it today, what the safeguards mean in practice, and a list of 10 high-value use cases to test during the free window."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-in-browser-is-security-risk/",
+      "title": "Claude in your browser is a security risk, and this year proved it",
+      "published_date": "2026-06-10",
+      "summary": "XDA Developers published a retrospective security analysis on June 10-11, 2026, reviewing two significant vulnerabilities discovered in Claude's Chrome extension in 2026. The first, ShadowPrompt (disclosed March 2026 by Koi Security researcher Oren Yomtov), allowed any malicious website to inject instructions directly into Claude in Chrome via prompt injection. The second, ClaudeBleed (disclosed publicly May 2026 by LayerX, after private disclosure to Anthropic in late April), allowed a completely separate malicious Chrome extension with zero declared permissions to send commands directly to the Claude extension and execute them. Anthropic shipped a partial fix in version 1.0.70, but LayerX states the root cause has still not been fully resolved, leaving users at ongoing risk when using Claude in browser contexts.",
+      "relevance_score": 85,
+      "accuracy_notes": "XDA is synthesizing confirmed disclosures from Koi Security (ShadowPrompt) and LayerX (ClaudeBleed). Both vulnerability disclosures are corroborated by The Hacker News, eWeek, and the original research blogs. The 'version 1.0.70 partial fix' claim and 'root cause unresolved' assertion come from LayerX's disclosure — should be fact-checked against Anthropic's official security advisory if one exists. Note: the underlying security incidents occurred in March-May 2026; the XDA article is a recap/analysis piece published June 10-11. The article is primarily editorial in nature, not a new security disclosure.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Is Claude's Chrome extension putting you at risk? Two major security flaws were found in 2026 — here's what you need to know.",
+          "slides": [
+            "Slide 1: The problem — Claude's browser extension had 2 serious vulnerabilities in 2026",
+            "Slide 2: ShadowPrompt — how any website could hijack your Claude session",
+            "Slide 3: ClaudeBleed — how a hidden extension could command Claude without your knowledge",
+            "Slide 4: Is it fixed? (Partial fix only — root cause reportedly still unresolved)",
+            "Slide 5: What you can do right now to protect yourself"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise IT and security awareness — why browser-based AI tools introduce a new class of prompt injection risk, and what security teams should know about Claude's extension vulnerabilities.",
+          "opening_line": "If your team uses Claude's Chrome extension, there's a security conversation you should be having — two vulnerabilities found in 2026 reveal a new and largely underappreciated attack surface in AI browser tools.",
+          "cta": "Has your team audited your AI browser extension permissions? Share your approach in the comments — this is a challenge the whole industry is figuring out together."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude's Chrome extension had TWO serious security vulnerabilities discovered in 2026 — and one reportedly isn't fully fixed yet. Here's what happened and what to do about it 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Your AI assistant might be getting hijacked right now — and you'd have no idea. Here's the truth about Claude's browser security.",
+          "script_outline": "Hook: dramatize the 'silent hijack' concept. Explain prompt injection in plain language (30 seconds). Walk through ShadowPrompt: how a website could feed Claude secret instructions. Walk through ClaudeBleed: how a rogue extension with zero permissions could control Claude. Explain current fix status. Close: 3 things to do right now (update extension, check permissions, consider disabling for sensitive work)."
+        },
+        "ebook_blog": {
+          "title": "Claude Browser Security in 2026: ShadowPrompt, ClaudeBleed, and What AI Users Need to Know",
+          "angle": "Accessible explainer on prompt injection attacks in browser AI contexts, covering both disclosed vulnerabilities, current fix status, and practical steps for protecting yourself — targeting non-technical Claude users as well as IT/security professionals."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
