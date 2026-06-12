@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T15:07:10Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; search-based retrieval used. No Claude/Anthropic articles found within the 24-48h window (June 10-12). Most recent Claude article on XDA located: June 9, 2026 ('Anthropic just publically released its Mythos-grade AI at no extra cost for a limited time') — 72h prior, outside the collection window.",
+    "docs.anthropic.com": "Release notes overview page returned HTTP 403; Claude Code changelog confirmed via github.com/anthropics/claude-code/releases and supplementary search queries against docs.anthropic.com. All four Claude Code releases (v2.1.170, v2.1.173, v2.1.174, v2.1.175) within the June 10-12 window were retrieved and verified.",
+    "theverge.com": "Domain is blocked for web search crawler (403 + crawler policy restriction). Zero results available from this source today."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com — Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "title": "Claude Code v2.1.174 & v2.1.175: Enterprise model governance + 10+ bug fixes (June 12, 2026)",
+      "published_date": "2026-06-12",
+      "summary": "Two Claude Code releases shipped on June 12 within four hours of each other. v2.1.174 (01:16 UTC) delivers over ten bug fixes: the model picker now correctly surfaces Opus for Max/Team Premium/Enterprise plans, a false 'Fable 5 is consuming usage credits' banner no longer appears on enterprise accounts, Bedrock GovCloud regions no longer generate 400 errors due to a wrong inference profile prefix, and the VS Code extension gains a new usage attribution dashboard showing 24h/7d breakdowns by cache misses, subagents, and per-skill/agent/plugin token consumption. v2.1.175 (04:23 UTC) adds the `enforceAvailableModels` managed setting, which lets enterprise admins lock the Default model to an approved allowlist and prevent users or projects from widening that list.",
+      "relevance_score": 92,
+      "accuracy_notes": "Data sourced directly from the official anthropics/claude-code GitHub releases page. Release timestamps (01:16 and 04:23 UTC, June 12) are machine-generated commit metadata and highly reliable. The enforceAvailableModels feature is verified as a new managed enterprise setting. No red flags or unverified claims.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code dropped 10+ fixes in ONE day — here's what changed for developers and enterprises",
+          "slides": [
+            "Slide 1: Anthropic shipped TWO Claude Code updates on June 12 — here's your 60-second recap",
+            "Slide 2: Enterprise admins can now LOCK which Claude models agents use (`enforceAvailableModels`)",
+            "Slide 3: Model picker fixed — Opus now shows correctly on Max, Team Premium & Enterprise plans",
+            "Slide 4: False 'Fable 5 eating your credits' alert is gone for enterprise accounts",
+            "Slide 5: VS Code gets a new usage attribution dashboard — see exactly where your tokens go"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI governance — Anthropic is giving organizations hard enforcement over which Claude models their agents can use, closing a gap that forced teams to build their own model-restriction workarounds",
+          "opening_line": "Anthropic quietly shipped something important for enterprise AI teams today: the `enforceAvailableModels` setting — the ability to hard-lock which Claude models agents are allowed to use, with no override possible from user or project settings.",
+          "cta": "If you're managing AI deployments at scale, Claude Code v2.1.175 is worth a look. What model governance controls are still missing from your AI stack?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code shipped TWO releases today (June 12) — here's everything that changed and why the new `enforceAvailableModels` setting matters for enterprise AI teams 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code fixed 10 bugs AND added enterprise model lock-in — all before 5 AM UTC. Here's the 60-second breakdown.",
+          "script_outline": "Open with the two release timestamps (01:16 and 04:23 UTC). Hit the top 3 fixes: model picker (Opus visibility), Fable 5 false billing banner, GovCloud 400 errors. Then pivot to enforceAvailableModels: what it does, why enterprises care, how to enable it in managed settings. Close with the VS Code usage attribution reveal and a prompt to update now."
+        },
+        "ebook_blog": {
+          "title": "Enterprise-Grade Claude: How `enforceAvailableModels` Puts AI Governance Back in Your Hands",
+          "angle": "Walk through the new managed setting, explain the policy enforcement model, contrast it with previous DIY workarounds teams used to restrict model access, and position this as a maturation milestone in Anthropic's enterprise offering. Include a practical how-to for IT/security teams."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com — Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "title": "Claude Code v2.1.170 & v2.1.173: Claude Fable 5 fully integrated into the CLI (June 10-11, 2026)",
+      "published_date": "2026-06-10",
+      "summary": "Following Claude Fable 5's public launch on June 9, two Claude Code releases completed its CLI integration over the following 48 hours. v2.1.170 (June 10) added Fable 5 as a selectable model inside Claude Code and fixed VS Code terminal transcript saving. v2.1.173 (June 11, 05:41 UTC) refined the integration by automatically stripping the `[1m]` context-window suffix from Fable 5 model names — since 1M context is always included by default, the suffix was triggering model normalization errors. Together these two releases mark the first 48 hours of Fable 5 availability inside the developer CLI, bringing Anthropic's most capable public model into everyday coding workflows.",
+      "relevance_score": 88,
+      "accuracy_notes": "Release dates (June 10 and June 11) confirmed from the official GitHub releases page. The Fable 5 public launch date (June 9) is corroborated by multiple independent sources including TechCrunch (2026-06-09), CNBC (2026-06-09), and the Anthropic newsroom. The [1m] suffix normalization behavior is a verbatim description from the v2.1.173 changelog. No unverified claims.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic's most powerful public AI is now accessible from your terminal — and it's FREE until June 23",
+          "slides": [
+            "Slide 1: Claude Fable 5 launched June 9 — and it hit your terminal by June 11",
+            "Slide 2: What IS Fable 5? Mythos-class intelligence, made safe for general use, 1M context window",
+            "Slide 3: It's FREE on Pro, Max, Team & Enterprise until June 23 — then requires usage credits",
+            "Slide 4: How to access Fable 5 inside Claude Code: use /model and select claude-fable-5",
+            "Slide 5: Act now — use the free window to test Fable 5 on your hardest coding challenges"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity — Anthropic's most capable public model is now accessible from the CLI just 48 hours after launch, representing the fastest model-to-CLI pipeline Anthropic has shipped",
+          "opening_line": "Anthropic launched Fable 5 on Monday. By Wednesday it was selectable inside Claude Code. That's a 48-hour model-to-terminal pipeline — and if you're on Pro, Max, Team, or Enterprise, it's free to use right now.",
+          "cta": "The free window closes June 23. What complex engineering problem are you going to throw at Fable 5 this week?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 is now live in Claude Code (as of v2.1.170). Here's how to use it, what the CLI integration looks like under the hood, and what happens after June 23 when it leaves the free tier 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic's most powerful public AI just landed in your terminal. Here's how to use it in 60 seconds — before the free window closes.",
+          "script_outline": "Hook: 'Claude Fable 5 is now in Claude Code — and it's free until June 23.' Quick explainer on Fable 5 (Mythos-class, 1M context, state-of-the-art coding benchmarks). How to select it in the CLI (/model → claude-fable-5). Live demo snippet of a complex refactor or code generation task. Reminder: after June 23 it requires usage credits. CTA: update Claude Code and try it today."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5 in Your Terminal: A Developer's First-48-Hours Guide",
+          "angle": "Practical walkthrough of accessing Fable 5 inside Claude Code — model selection steps, benchmark context vs. Opus 4.8, best use cases for the 1M context window, and a strategic guide to making the most of the free window before June 23 pricing kicks in."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
