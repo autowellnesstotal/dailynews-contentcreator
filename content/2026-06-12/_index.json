@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-06-12",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "canva_status": "failed — todos los intentos de generación (8 llamadas) devolvieron status:failed con generated_designs:[] vacío. Reintenta manualmente en Canva.",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-12/update_001_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva_url": null,
+          "canva_error": "generate-design devolvió status:failed"
+        },
+        "linkedin": {
+          "file": "content/2026-06-12/update_001_linkedin.md"
+        },
+        "twitter_x": {
+          "file": "content/2026-06-12/update_001_twitter.md",
+          "format": "hilo (7 tweets)"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-12/update_001_youtube.md",
+          "canva_thumbnail_url": null,
+          "canva_error": "generate-design devolvió status:failed"
+        },
+        "blog": {
+          "file": "content/2026-06-12/update_001_blog.md",
+          "word_count_approx": 750
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-12/update_002_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva_url": null,
+          "canva_error": "generate-design devolvió status:failed"
+        },
+        "linkedin": {
+          "file": "content/2026-06-12/update_002_linkedin.md"
+        },
+        "twitter_x": {
+          "file": "content/2026-06-12/update_002_twitter.md",
+          "format": "hilo (8 tweets)"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-12/update_002_youtube.md",
+          "canva_thumbnail_url": null,
+          "canva_error": "generate-design devolvió status:failed"
+        },
+        "blog": {
+          "file": "content/2026-06-12/update_002_blog.md",
+          "word_count_approx": 820
+        }
+      }
+    }
+  ]
+}
