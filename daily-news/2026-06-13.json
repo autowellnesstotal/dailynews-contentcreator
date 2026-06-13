@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T15:04:13Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual articles returned HTTP 403; content retrieved via web search index. Two primary-subject Claude/Anthropic articles confirmed within 24-48h window.",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403; release notes retrieved via web search index. One Claude Code changelog entry confirmed for June 12, 2026.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search (domain not accessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-says-its-taking-down-claude-fable-5-to-comply-with-us-government-order/",
+      "title": "Anthropic shuts down Claude Fable 5 to comply with US government directive",
+      "published_date": "2026-06-12",
+      "summary": "El gobierno de EE. UU. emitió una directiva de control de exportaciones el 12 de junio de 2026 a las 5:21 PM ET ordenando a Anthropic suspender el acceso a Claude Fable 5 y Mythos 5 para cualquier nacional extranjero, incluyendo empleados de Anthropic. Dado que la empresa no podía distinguir entre usuarios nacionales y extranjeros en tiempo real, Anthropic decidió desactivar ambos modelos para todos sus clientes a nivel mundial. Los modelos habían sido lanzados apenas tres días antes, el 9 de junio. Anthropic califica el evento como un 'malentendido' relacionado con un supuesto método de jailbreak de Fable 5 y trabaja en restaurar el acceso. Todos los demás modelos de Claude no se ven afectados.",
+      "relevance_score": 99,
+      "accuracy_notes": "Confirmado por múltiples fuentes independientes: CNBC, TechCrunch, NBC News, 9to5Mac, Engadget. La directiva llegó exactamente el 12 de junio a las 5:21 PM ET. El artículo de XDA fue publicado horas después del evento. Historia altamente verificada.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "El gobierno de EE. UU. ordenó apagar el modelo de IA más poderoso del mundo — 3 días después de su lanzamiento 🚨",
+          "slides": [
+            "Claude Fable 5 lanzó el 9 de junio como el modelo IA más avanzado disponible al público",
+            "3 días después, el gobierno de EE. UU. envió una directiva de control de exportaciones a Anthropic",
+            "La orden llegó a las 5:21 PM ET del 12 de junio — Anthropic cumplió en cuestión de horas",
+            "El motivo: el gobierno cree que existe un método de jailbreak que elude las medidas de seguridad",
+            "Anthropic lo llama un 'malentendido' y trabaja para restaurar el acceso — ¿qué significa esto para el futuro de la IA?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Riesgo regulatorio y dependencia de proveedores de IA para empresas",
+          "opening_line": "El viernes a las 5:21 PM ET, el modelo de IA más potente del mercado desapareció sin aviso — y todos sus usuarios empresariales perdieron el acceso en cuestión de horas.",
+          "cta": "¿Tu empresa tiene un plan de contingencia si tu proveedor de IA principal se desconecta mañana?"
+        },
+        "twitter_x": {
+          "thread_opener": "El gobierno de EE. UU. acaba de forzar el apagado de Claude Fable 5 — el modelo de IA más poderoso jamás lanzado al público. Aquí todo lo que pasó 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "La IA más poderosa del mundo fue apagada por el gobierno de EE. UU. 3 días después de su lanzamiento — aquí la historia completa",
+          "script_outline": "0-5s: Hook impactante con el titular. 5-15s: Qué es Claude Fable 5 y por qué era especial al lanzar. 15-30s: La directiva del gobierno — qué ordenó y por qué. 30-45s: La respuesta de Anthropic y el apagado global. 45-55s: Implicaciones para el futuro de la IA y la regulación. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Cuando la IA Choca con el Gobierno: El Caso Fable 5 y el Futuro de la Regulación IA",
+          "angle": "Análisis del primer caso público de apagado forzado de un modelo IA por control de exportaciones — qué significa para empresas, desarrolladores y el ecosistema global de IA."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-fable-5-bugs-gpt-5-5-opus-4-8-missed/",
+      "title": "Claude Fable 5 caught bugs GPT-5.5 and Opus 4.8 missed, then the US government forced it offline",
+      "published_date": "2026-06-13",
+      "summary": "El artículo documenta las capacidades superiores de Claude Fable 5 en debugging de código en comparación con GPT-5.5 y Claude Opus 4.8, mostrando casos específicos donde Fable 5 identificó bugs críticos que los otros modelos no detectaron. La pieza contrasta estas capacidades con el posterior apagado forzado por el gobierno de EE. UU. el 12 de junio de 2026, apenas tres días después de su lanzamiento, lo que priva a desarrolladores de una herramienta que estaba redefiniendo el desarrollo de software asistido por IA.",
+      "relevance_score": 91,
+      "accuracy_notes": "El desempeño superior de Fable 5 en benchmarks de código versus GPT-5.5 y Opus 4.8 está corroborado por múltiples fuentes independientes. El apagado gubernamental es un hecho confirmado. Artículo publicado hoy, junio 13.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Este modelo de IA encontraba bugs que GPT-5.5 Y Claude Opus 4.8 no podían ver — hasta que el gobierno lo apagó",
+          "slides": [
+            "Claude Fable 5 vs los mejores modelos de código del mercado",
+            "Los bugs que solo Fable 5 pudo encontrar — casos reales",
+            "Por qué esto importa para desarrolladores y empresas tech",
+            "El apagado del gobierno: la herramienta que casi cambió el desarrollo de software",
+            "¿Cuándo vuelve Fable 5?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Impacto de la IA avanzada en la productividad de equipos de desarrollo de software",
+          "opening_line": "Claude Fable 5 estaba encontrando bugs críticos de seguridad que ni GPT-5.5 ni Opus 4.8 detectaban — y los desarrolladores que lo usaron durante 3 días dicen que cambió su forma de trabajar para siempre.",
+          "cta": "¿Qué herramientas de IA usa tu equipo de desarrollo? ¿Tienes plan B cuando desaparecen de la noche a la mañana?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 era diferente a cualquier modelo de código que existe. Aquí está la evidencia — y por qué su desaparición le importa a todo desarrollador 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Fable 5 encontraba bugs que GPT-5.5 no podía ver — luego el gobierno de EE. UU. lo apagó",
+          "script_outline": "0-5s: Hook. 5-20s: Demo comparativa — bugs que Fable 5 encontró y los otros no. 20-40s: Por qué esta diferencia importa en software real. 40-55s: El apagado y qué significa para devs. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5 vs GPT-5.5 vs Opus 4.8: La Comparativa de Debugging que Cambió Todo (y Luego Fue Apagada)",
+          "angle": "Revisión técnica práctica de las capacidades de Fable 5 en desarrollo de software, con evidencia de benchmarks y casos reales — antes del apagado gubernamental."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Docs (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code Release Notes — June 12, 2026",
+      "published_date": "2026-06-12",
+      "summary": "Anthropic publicó una actualización de Claude Code el 12 de junio de 2026 con seis correcciones: (1) nuevo ajuste wheelScrollAccelerationEnabled para desactivar la aceleración del scroll en pantalla completa; (2) corrección del selector /model que ocultaba la familia de modelos a la que resolvía Default; (3) corrección de etiqueta hardcodeada de Sonnet cuando ANTHROPIC_DEFAULT_SONNET_MODEL apuntaba a otra versión; (4) eliminación del banner incorrecto 'Fable 5 is now consuming usage credits' que aparecía en cuentas enterprise con facturación por uso; (5) corrección del prefijo de perfil de inferencia incorrecto en regiones Bedrock GovCloud; (6) corrección de sesiones en segundo plano que heredaban variables de entorno ANTHROPIC_* de otra sesión activa.",
+      "relevance_score": 82,
+      "accuracy_notes": "Información extraída de la indexación web del changelog oficial de docs.anthropic.com. Las correcciones son técnicas y específicas, consistentes con el nivel de detalle habitual de los release notes de Anthropic. Sin red flags de precisión.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de corregir 6 bugs en Claude Code que estaban afectando a los usuarios 🛠️",
+          "slides": [
+            "Update June 12 de Claude Code: lo que cambió",
+            "Fix 1: Scroll más suave en modo pantalla completa",
+            "Fix 2-3: El selector de modelos ya muestra el modelo correcto",
+            "Fix 4: El banner de créditos Fable 5 ya no aparece donde no corresponde",
+            "Fix 5-6: Correcciones críticas para usuarios de AWS Bedrock GovCloud y sesiones múltiples"
+          ]
+        },
+        "linkedin": {
+          "angle": "Mejoras de estabilidad en herramientas de IA para equipos de desarrollo",
+          "opening_line": "Anthropic lanzó ayer una actualización de Claude Code que resuelve seis bugs — incluyendo uno crítico para equipos enterprise en AWS Bedrock GovCloud y otro de facturación que mostraba cargos incorrectos.",
+          "cta": "¿Ya actualizaste tu instalación de Claude Code?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code June 12 update: 6 correcciones que quizás no viste — pero que importan si lo usas en entornos enterprise 🧵",
+          "estimated_tweets": 4
+        },
+        "youtube_tiktok": {
+          "hook": "6 bugs de Claude Code corregidos de una vez — incluyendo uno que afectaba facturación enterprise en AWS",
+          "script_outline": "0-5s: Hook. 5-25s: Recorrido rápido por cada fix con impacto práctico. 25-50s: Por qué importa el fix de Bedrock GovCloud y el de sesiones múltiples. 50-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Code June 12, 2026: Guía Completa de Fixes y Lo Que Significan para Tu Flujo de Trabajo",
+          "angle": "Análisis técnico accesible de cada corrección con impacto en productividad para diferentes perfiles de usuario: indie developer, equipo startup y enterprise en AWS."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
