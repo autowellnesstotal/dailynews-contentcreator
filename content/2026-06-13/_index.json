@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-13",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-06-13T00:00:00Z",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-13/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/iPaMXMicGAM98eN",
+            "https://www.canva.com/d/CgiWSaIRPKTwHzw",
+            "https://www.canva.com/d/jVdQPWysEkluMtM",
+            "https://www.canva.com/d/oz-iAPuMTJWvpKv"
+          ],
+          "canva_primary": "https://www.canva.com/d/iPaMXMicGAM98eN"
+        },
+        "linkedin": {
+          "file": "content/2026-06-13/update_001_linkedin.md",
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "twitter": {
+          "file": "content/2026-06-13/update_001_twitter.md",
+          "tweets": 7,
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "youtube": {
+          "file": "content/2026-06-13/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_candidates": [
+            "https://www.canva.com/d/dIjrsNjnQUNpKvm",
+            "https://www.canva.com/d/97gL2lynDyuPEoO",
+            "https://www.canva.com/d/vbxYu7iF2JdTnIu",
+            "https://www.canva.com/d/InzVQBuziFPF8Fx"
+          ],
+          "canva_primary": "https://www.canva.com/d/dIjrsNjnQUNpKvm"
+        },
+        "blog": {
+          "file": "content/2026-06-13/update_001_blog.md",
+          "canva_candidates": [],
+          "canva_primary": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-13/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/2FksVvNM7lm7fuB",
+            "https://www.canva.com/d/FZKGr9d4gpCuH_T",
+            "https://www.canva.com/d/wug7Stm1oH_Xf0g",
+            "https://www.canva.com/d/BqJFfvfy5IuT_qk"
+          ],
+          "canva_primary": "https://www.canva.com/d/2FksVvNM7lm7fuB"
+        },
+        "linkedin": {
+          "file": "content/2026-06-13/update_002_linkedin.md",
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "twitter": {
+          "file": "content/2026-06-13/update_002_twitter.md",
+          "tweets": 8,
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "youtube": {
+          "file": "content/2026-06-13/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_candidates": [
+            "https://www.canva.com/d/iqyZc__Q_7DnqfY",
+            "https://www.canva.com/d/7-LHpxjN0O4QpS2",
+            "https://www.canva.com/d/HxjkyFsJhbUSrRx",
+            "https://www.canva.com/d/L6U8Mf89_meKhxx"
+          ],
+          "canva_primary": "https://www.canva.com/d/iqyZc__Q_7DnqfY"
+        },
+        "blog": {
+          "file": "content/2026-06-13/update_002_blog.md",
+          "canva_candidates": [],
+          "canva_primary": null
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "update_001_instagram": "https://www.canva.com/d/iPaMXMicGAM98eN",
+    "update_001_youtube_thumbnail": "https://www.canva.com/d/dIjrsNjnQUNpKvm",
+    "update_002_instagram": "https://www.canva.com/d/2FksVvNM7lm7fuB",
+    "update_002_youtube_thumbnail": "https://www.canva.com/d/iqyZc__Q_7DnqfY"
+  }
+}
