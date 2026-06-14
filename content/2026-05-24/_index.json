@@ -1,0 +1,127 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-06-14T00:00:00Z",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-24/update_001_instagram.md",
+          "format": "carrusel (6 slides)",
+          "canva_candidates": [
+            "https://www.canva.com/d/W8Guo9yALVqfKXk",
+            "https://www.canva.com/d/gNrIMcZL5g2T1Xp",
+            "https://www.canva.com/d/m06SS0l-sM9BZIc",
+            "https://www.canva.com/d/V1cjujHn07UFtbi"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/rpM2flNfhUeWLBo",
+            "https://design.canva.ai/ldaaB6LI19_h2iw",
+            "https://design.canva.ai/kJg-2kdWnz1PbS1",
+            "https://design.canva.ai/Y5JN5q1hQOtPntI"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-24/update_001_linkedin.md",
+          "format": "post largo con hashtags",
+          "canva_candidates": null
+        },
+        "twitter": {
+          "file": "content/2026-05-24/update_001_twitter.md",
+          "format": "hilo de 7 tweets",
+          "canva_candidates": null
+        },
+        "youtube": {
+          "file": "content/2026-05-24/update_001_youtube.md",
+          "format": "guión 60s + título + descripción",
+          "canva_candidates": [
+            "https://www.canva.com/d/thT_2GsgbXk2Vbs",
+            "https://www.canva.com/d/Sheg5i7xOfFqbuZ",
+            "https://www.canva.com/d/je0OhNuQf0h2NYD",
+            "https://www.canva.com/d/RQHp1RgM_C_ztGQ"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/eYg8EpgM5AQY2GX",
+            "https://design.canva.ai/vsRovIiZ-ScJG4o",
+            "https://design.canva.ai/lUKQZrB9AUgDAyJ",
+            "https://design.canva.ai/zk9_OBUlPFwSJ8f"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-24/update_001_blog.md",
+          "format": "artículo 700 palabras",
+          "canva_candidates": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-05-24/update_002_instagram.md",
+          "format": "carrusel (6 slides)",
+          "canva_candidates": [
+            "https://www.canva.com/d/pi7iru6xQWIXIMb",
+            "https://www.canva.com/d/gRh1X-e-I02_WZa",
+            "https://www.canva.com/d/qSUTzG0j8HzPUiO",
+            "https://www.canva.com/d/oFe5_isfUPkaCPV"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/AVMccJy3e77xJ7m",
+            "https://design.canva.ai/VifIOZK5rDJ69Fz",
+            "https://design.canva.ai/gjdHiRqJOv8p4lN",
+            "https://design.canva.ai/Gz7yxydwpG3m3K6"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-05-24/update_002_linkedin.md",
+          "format": "post largo con hashtags",
+          "canva_candidates": null
+        },
+        "twitter": {
+          "file": "content/2026-05-24/update_002_twitter.md",
+          "format": "hilo de 8 tweets",
+          "canva_candidates": null
+        },
+        "youtube": {
+          "file": "content/2026-05-24/update_002_youtube.md",
+          "format": "guión 60s + título + descripción",
+          "canva_candidates": [
+            "https://www.canva.com/d/TW4IipuDQ_VJJoJ",
+            "https://www.canva.com/d/f9nnz5FqplKphfX",
+            "https://www.canva.com/d/qSmPI0x3_ubTmfK",
+            "https://www.canva.com/d/2aCL550aBXuEbih"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/byLnUrFdXA_SiuK",
+            "https://design.canva.ai/Xm6YThp_LHqV3SW",
+            "https://design.canva.ai/rddXnmgK703d_rf",
+            "https://design.canva.ai/XaKh6towNwTn6yb"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-05-24/update_002_blog.md",
+          "format": "artículo 750 palabras",
+          "canva_candidates": null
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "total_designs_generated": 4,
+    "total_candidates": 16,
+    "update_001_instagram_carousel": "4 candidatos — elegir en Canva y usar create-design-from-candidate",
+    "update_001_youtube_thumbnail": "4 candidatos",
+    "update_002_instagram_carousel": "4 candidatos (candidato dg-b08f1520 incluye 6 slides multi-página)",
+    "update_002_youtube_thumbnail": "4 candidatos"
+  }
+}
