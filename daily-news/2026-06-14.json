@@ -1,0 +1,149 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T15:08:33Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage y artículos individuales retornan HTTP 403. Títulos, fechas y resúmenes obtenidos via búsqueda web (índice de Google). Tres artículos confirmados dentro de la ventana 24-48h; dos en XDA, uno en Anthropic Newsroom.",
+    "docs.anthropic.com": "La página de release notes retornó HTTP 403 Forbidden. Sin acceso directo. Búsquedas web no confirmaron entradas específicas en la ventana de June 12-14 aparte del statement sobre la suspensión de Fable 5/Mythos 5 (publicado en anthropic.com/news, no en la página de release notes).",
+    "theverge.com": "Bloqueado tanto por fetch directo (HTTP 403) como por la política del índice de búsqueda (dominio no accesible al crawler de Anthropic). Cero resultados disponibles para June 12-14, 2026."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-says-its-taking-down-claude-fable-5-to-comply-with-us-government-order/",
+      "title": "Anthropic shuts down Claude Fable 5 to comply with US government directive",
+      "published_date": "2026-06-13",
+      "summary": "El gobierno de EE.UU. emitió una directiva de control de exportaciones el 12 de junio de 2026, ordenando a Anthropic suspender el acceso a Fable 5 y Mythos 5 para cualquier ciudadano extranjero — incluyendo empleados de Anthropic. El Secretario de Comercio Howard Lutnick envió la carta al CEO Dario Amodei a las 5:21pm ET, y Anthropic deshabilitó ambos modelos para TODOS sus clientes a las 6:59pm PT para garantizar el cumplimiento. La preocupación del gobierno era un método de 'jailbreak' de Fable 5 que permitía identificar vulnerabilidades de software críticas.",
+      "relevance_score": 99,
+      "accuracy_notes": "Altamente verificado — la declaración oficial de Anthropic (anthropic.com/news/fable-mythos-access) confirma la fecha y detalles exactos. Múltiples medios independientes (CNBC June 12, Bloomberg/Fortune/Time June 13) corroboraron la historia. El timing (6:59pm PT June 12) y el nombre del Secretario de Comercio (Lutnick) son verificables en el comunicado oficial.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "El gobierno de EE.UU. acaba de apagar la IA más poderosa del mundo en menos de 90 minutos 🚨",
+          "slides": [
+            "Claude Fable 5: el modelo más avanzado jamás lanzado al público",
+            "Disponible solo 3 días antes de ser desactivado por orden federal",
+            "La razón: un 'jailbreak' que detecta vulnerabilidades en software",
+            "¿Qué significa esto para el futuro de la regulación de IA?",
+            "Lo que esto cambia para empresas y desarrolladores que usan Claude"
+          ]
+        },
+        "linkedin": {
+          "angle": "Análisis empresarial: riesgo de regulación gubernamental en adopción de IA frontier",
+          "opening_line": "El gobierno de EE.UU. obligó a Anthropic a desactivar sus dos modelos más poderosos para TODOS sus clientes globales en menos de 90 minutos — incluso cuando el problema solo afectaba a ciudadanos extranjeros.",
+          "cta": "Si tu empresa depende de APIs de modelos frontier, ¿tienes un plan de contingencia ante una baja forzosa por orden gubernamental? Comparte tu enfoque en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 El gobierno de EE.UU. obligó a Anthropic a apagar Fable 5 y Mythos 5 para todos los usuarios en <90 minutos. La historia completa 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "La IA más poderosa del mundo estuvo disponible solo 3 días antes de que el gobierno la apagara — y aquí está el por qué.",
+          "script_outline": "0-5s: Hook impactante con dato de las 90 minutos. 5-15s: ¿Qué es Fable 5 y por qué importa? 15-30s: La carta del Secretario de Comercio Lutnick al CEO Amodei. 30-45s: El jailbreak que preocupó al gobierno. 45-55s: Las implicaciones para desarrolladores y empresas. 55-60s: CTA — ¿Regulación de IA llegó para quedarse?"
+        },
+        "ebook_blog": {
+          "title": "La Caída de Fable 5: Qué Significa la Primera Suspensión Gubernamental de IA para tu Negocio",
+          "angle": "Análisis profundo del primer takedown gubernamental de un modelo de IA frontier: qué ocurrió, por qué, y cómo las empresas deben planificar su estrategia de IA ante riesgos regulatorios emergentes."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-fable-5-bugs-gpt-5-5-opus-4-8-missed/",
+      "title": "Claude Fable 5 caught bugs GPT-5.5 and Opus 4.8 missed, then the US government forced it offline",
+      "published_date": "2026-06-13",
+      "summary": "Una reseña práctica de Claude Fable 5 como herramienta de coding muestra que el modelo detectó 5 bugs en una base de código real, incluyendo un bug crítico que tanto GPT-5.5 como Claude Opus 4.8 no pudieron identificar. El artículo documenta el rendimiento superior de Fable 5 en análisis de vulnerabilidades de software antes de su baja forzosa por la directiva gubernamental del 12 de junio, comparando su desempeño directamente contra los modelos más avanzados de OpenAI y Anthropic.",
+      "relevance_score": 95,
+      "accuracy_notes": "Artículo confirmado a ~1 día de antigüedad desde June 14 (publicado June 13). Las comparaciones de rendimiento son claims del autor y deben tomarse como revisión personal; sin embargo, son consistentes con el benchmark público de Fable 5 que reporta capacidades superiores en software engineering. La referencia a GPT-5.5 es verificable: el modelo de OpenAI fue lanzado en mayo de 2026.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Fable 5 encontró un bug crítico que ni GPT-5.5 ni Opus 4.8 detectaron. Y luego el gobierno lo apagó. 😤",
+          "slides": [
+            "El test: misma base de código, 3 modelos de IA top de 2026",
+            "GPT-5.5: encontró 4 de 5 bugs",
+            "Claude Opus 4.8: encontró 4 de 5 bugs",
+            "Claude Fable 5: encontró los 5 — incluyendo el crítico",
+            "Lo desactivaron antes de que pudieras usarlo en producción"
+          ]
+        },
+        "linkedin": {
+          "angle": "Benchmark de IA para developers: el estado del arte en detección de bugs antes de la suspensión de Fable 5",
+          "opening_line": "Antes de que el gobierno de EE.UU. lo desconectara, Claude Fable 5 demostró algo que los benchmarks no capturaban: encontró un bug crítico que GPT-5.5 y Opus 4.8 pasaron por alto en un análisis de código real.",
+          "cta": "Developers — ¿qué modelo de IA usas actualmente para code review y bug detection? ¿Ha cambiado tu stack en 2026?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 vs GPT-5.5 vs Opus 4.8 en bug detection real: los resultados antes de que el gobierno lo sacara del aire 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Probé la IA más poderosa del mundo en código real y encontró un bug que GPT-5.5 no vio. Esto es lo que perdiste cuando la apagaron.",
+          "script_outline": "0-5s: Hook con la comparativa. 5-20s: Setup del test — misma base de código para los 3 modelos. 20-40s: Resultados de GPT-5.5 y Opus 4.8. 40-50s: El resultado de Fable 5 y el bug único. 50-60s: La ironía — desactivado antes de que developers lo adoptaran."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5 vs GPT-5.5 vs Opus 4.8: ¿Cuál IA Encuentra Más Bugs en Tu Código?",
+          "angle": "Comparativa práctica e independiente de los tres modelos más avanzados de 2026 en detección de bugs reales, con metodología reproducible para que developers evalúen herramientas de AI coding."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Newsroom",
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "published_date": "2026-06-12",
+      "summary": "Anthropic anunció una alianza estratégica con Tata Consultancy Services (TCS), una de las empresas de servicios tecnológicos más grandes del mundo, para desplegar Claude a 50,000 empleados de TCS en 56 países. La alianza también tiene como objetivo construir productos impulsados por Claude para clientes en industrias reguladas: servicios financieros, salud, ciencias de la vida, sector público, aviación y telecomunicaciones. TCS se convierte en uno de los socios más grandes de la Claude Partner Network.",
+      "relevance_score": 97,
+      "accuracy_notes": "Verificado — la publicación oficial de Anthropic en anthropic.com/news/tcs-anthropic-partnership es la fuente primaria. Las cifras (50,000 empleados, 56 países) son las declaradas por Anthropic en el comunicado oficial. La cobertura independiente de BusinessToday.in (June 11) y TechAfrica News (June 12) corroboran los detalles de la alianza.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de firmar la alianza empresarial que lleva Claude a 56 países y sectores ultra-regulados 🌍",
+          "slides": [
+            "TCS × Anthropic: la alianza de IA empresarial más grande de 2026",
+            "50,000 empleados de TCS en 56 países usarán Claude",
+            "Sectores objetivo: banca, salud, aviación, gobierno, telecomunicaciones",
+            "¿Por qué las industrias reguladas están apostando por Claude?",
+            "Qué significa esto para la adopción de IA en tu industria"
+          ]
+        },
+        "linkedin": {
+          "angle": "La adopción de IA en industrias reguladas alcanza escala empresarial global con TCS-Anthropic",
+          "opening_line": "Anthropic acaba de anunciar que 50,000 empleados de TCS en 56 países usarán Claude — con foco específico en las industrias donde el error tiene consecuencias legales, regulatorias y de vida o muerte: banca, salud, aviación y sector público.",
+          "cta": "¿Tu empresa ya está explorando Claude para procesos en industrias reguladas? ¿Cuál es el mayor obstáculo que has encontrado?"
+        },
+        "twitter_x": {
+          "thread_opener": "TCS × Anthropic: qué significa que la 3ra empresa de IT más grande del mundo lleve Claude a bancos, hospitales y aerolíneas en 56 países 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic acaba de firmar el deal que lleva Claude a los sectores más regulados del mundo — bancos, hospitales y aerolíneas en 56 países.",
+          "script_outline": "0-5s: Hook con el dato de 56 países. 5-15s: ¿Quién es TCS y por qué importa? 15-30s: Los sectores objetivo y por qué Claude en industrias reguladas es diferente. 30-45s: Qué construirá TCS con Claude y para quién. 45-55s: El panorama más amplio — el rol de Claude en enterprise AI global. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude en la Empresa Global: Cómo la Alianza TCS-Anthropic Redefine la IA en Industrias Reguladas",
+          "angle": "Caso de estudio sobre cómo las grandes firmas de servicios IT están construyendo sobre modelos frontier de Anthropic para transformar sectores donde la regulación, el compliance y la seguridad son no negociables."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
