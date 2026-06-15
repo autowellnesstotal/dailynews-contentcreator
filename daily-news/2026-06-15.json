@@ -1,0 +1,254 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T15:03:27Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": "xda-developers.com: content retrieved via web search (direct fetch 403). docs.anthropic.com: content retrieved via web search (direct fetch 403). theverge.com: fully inaccessible — blocked to Anthropic's crawler per domain policy; zero articles retrieved.",
+  "total_updates_found": 7,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-says-its-taking-down-claude-fable-5-to-comply-with-us-government-order/",
+      "title": "Anthropic shuts down Claude Fable 5 to comply with US government directive",
+      "published_date": "2026-06-13",
+      "summary": "A US export-control directive received at 5:21 PM ET on June 12 ordered Anthropic to suspend access to Claude Fable 5 and Mythos 5 for all foreign nationals, citing national security concerns. Rather than attempt partial compliance, Anthropic pulled access for all customers worldwide to ensure full adherence. The government's stated rationale was a potential jailbreak method discovered by Amazon that could elicit cyberattack-relevant outputs — a claim Anthropic disputes, arguing that a narrow jailbreak does not warrant recalling a model deployed to hundreds of millions of users.",
+      "relevance_score": 99,
+      "accuracy_notes": "Widely confirmed across Bloomberg, CNN, CNBC, NBC News, Time, TechCrunch, and Anthropic's own statement (anthropic.com/news/fable-mythos-access). The Amazon jailbreak origin is reported consistently. The June 12 directive timestamp is confirmed. Anthropic's pushback and intent to restore access are documented in their official statement. High confidence on all key facts.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "The US just banned the world's most powerful AI — here's the full story",
+          "slides": [
+            "Slide 1: The AI Shutdown Nobody Saw Coming",
+            "Slide 2: What Is Claude Fable 5? (And Why It Mattered)",
+            "Slide 3: The Government Directive — Exactly What Was Ordered",
+            "Slide 4: The Amazon Jailbreak That Started It All",
+            "Slide 5: Anthropic's Response & What Happens Next"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise and regulatory risk: what happens when a government pulls the plug on your AI stack overnight with no notice",
+          "opening_line": "What happens when your enterprise AI stack gets shut down by a government order — with no warning and no rollback plan?",
+          "cta": "Is your team prepared for sudden AI model unavailability? Drop your disaster-recovery approach in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "BREAKING: The US government forced Anthropic to shut down Claude Fable 5 & Mythos 5 — its two most powerful models, launched just 4 days earlier. Here's everything that happened 🧵",
+          "estimated_tweets": 9
+        },
+        "youtube_tiktok": {
+          "hook": "The US government just banned the most powerful AI ever built — here's what actually happened in 72 hours",
+          "script_outline": "Open with dramatic news hook and benchmark stats → explain what Fable 5 is → timeline of events (launch June 9, directive June 12, shutdown June 13) → the Amazon jailbreak discovery explained → Anthropic's compliance + public dispute → legal challenge preview → what this precedent means for AI regulation"
+        },
+        "ebook_blog": {
+          "title": "When Governments Pull the Plug: The Fable 5 Shutdown and the Future of AI Governance",
+          "angle": "Deep dive into the regulatory precedent set by the forced suspension of Fable 5 and Mythos 5 — examining what export-control law means for frontier AI, what the jailbreak claim reveals about government AI security evaluation, and whether Anthropic's legal challenge could reshape the landscape"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-fable-5-bugs-gpt-5-5-opus-4-8-missed/",
+      "title": "Claude Fable 5 caught bugs GPT-5.5 and Opus 4.8 missed, then the US government forced it offline",
+      "published_date": "2026-06-13",
+      "summary": "An analysis of Claude Fable 5's benchmark performance shows it scored 80.3% on SWE-Bench Pro — 11 percentage points ahead of GPT-5.5 — and 13.4% on Cognition's FrontierCode Diamond benchmark compared to GPT-5.5's 6.3%. The article examines specific categories of bugs Fable 5 detected that rival models missed before the government-mandated shutdown removed it from general availability just four days after launch.",
+      "relevance_score": 93,
+      "accuracy_notes": "Benchmark figures (SWE-Bench Pro 80.3%, FrontierCode Diamond 13.4%) are independently reported across multiple sources. The comparison to GPT-5.5 and Opus 4.8 is consistent with available benchmarks. The 4-day availability window (launch June 9, shutdown June 13) is confirmed. Accuracy is high; specific bug-type claims in the XDA article could not be independently verified due to access block, but the headline benchmark numbers check out.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "The AI that caught what GPT-5.5 missed — and then got banned before most devs even tried it",
+          "slides": [
+            "Slide 1: Claude Fable 5: The Bug Hunter That Got Away",
+            "Slide 2: SWE-Bench Pro — 80.3% vs GPT-5.5's 69%",
+            "Slide 3: FrontierCode Diamond — 13.4% vs 6.3%",
+            "Slide 4: What Types of Bugs Did It Catch?",
+            "Slide 5: Gone in 4 Days — What Devs Are Saying"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity: what Fable 5's benchmark numbers mean for engineering teams, and the cost of losing access to a model this capable",
+          "opening_line": "For four days, developers using Claude Fable 5 were catching 11% more bugs than those using GPT-5.5. Then the government shut it down.",
+          "cta": "If you got to use Fable 5 before the shutdown, what did you notice? Share your dev experience below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 scored 80.3% on SWE-Bench Pro vs GPT-5.5's 69% — nearly double on FrontierCode Diamond. Then the US government forced it offline after 4 days. What did we actually lose? 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "This AI was catching bugs that GPT-5.5 completely missed — until the government banned it 4 days after launch",
+          "script_outline": "Open with benchmark comparison graphic → explain SWE-Bench Pro and FrontierCode Diamond in plain language → show Fable 5 vs GPT-5.5 vs Opus 4.8 side-by-side → walk through examples of bug categories → cut to shutdown news → ask: when will it come back and what do devs use now"
+        },
+        "ebook_blog": {
+          "title": "The 4-Day AI That Changed Software Testing: Inside Claude Fable 5's Coding Benchmarks",
+          "angle": "Data-driven breakdown of Fable 5's coding capabilities — what its SWE-Bench and FrontierCode scores actually mean in practice, what bug types it excelled at, and what the loss of access costs engineering teams"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/",
+      "title": "Anthropic's Claude subscriptions no longer include Agent SDK and claude -p usage",
+      "published_date": "2026-06-15",
+      "summary": "Effective today (June 15, 2026), Anthropic has split Agent SDK and claude -p programmatic usage into a separate monthly credit pool, decoupled from the main interactive subscription. Pro subscribers receive $20/month in dedicated programmatic credits, Max 5x receives $100, and Max 20x receives $200 — all billed at standard API rates. When the credit pool is exhausted, automated requests stop unless overflow billing is enabled; credits do not roll over.",
+      "relevance_score": 91,
+      "accuracy_notes": "Confirmed across Anthropic's own announcement (May 13), Releasebot, Codersera, TechTimes, and multiple developer community sources. The credit amounts and effective date are consistent across all sources. High confidence. Note: the announcement was made May 13; today (June 15) is the effective date — XDA's article likely published in the June 13-15 window covering the live rollout.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just changed how Claude billing works TODAY — is your automation still running?",
+          "slides": [
+            "Slide 1: Claude Billing Just Changed — June 15, 2026",
+            "Slide 2: What Is the Agent SDK Credit Pool?",
+            "Slide 3: How Much Does Each Plan Get?",
+            "Slide 4: What Breaks When the Credit Runs Out",
+            "Slide 5: Your 3-Step Action Checklist"
+          ]
+        },
+        "linkedin": {
+          "angle": "Budget impact for teams using Claude programmatically — the hidden cost increase hiding in plain sight",
+          "opening_line": "Starting today, your Claude Pro subscription no longer covers automated workflows — and if you haven't checked your settings, your bots may already be offline.",
+          "cta": "Has this billing change already hit your team? Share what you're seeing in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Today Anthropic split Claude's billing. If you use Agent SDK or claude -p, this is live RIGHT NOW and could break your automations 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic quietly changed how Claude Pro works today — and it could kill your AI automations if you're not paying attention",
+          "script_outline": "Explain old unified billing → new split system → amounts per plan → what breaks when credit runs out → how to enable overflow billing → action checklist for teams"
+        },
+        "ebook_blog": {
+          "title": "Claude's New Billing Architecture: A Complete Guide to Agent SDK Credits",
+          "angle": "Practical breakdown of the June 15 change — which use cases are affected, cost modeling at each plan tier, and how to structure your Claude usage to avoid automation downtime"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-keeps-taking-features-away-from-claude-pro-running-out-of-reasons-to-defend/",
+      "title": "Anthropic keeps taking features away from Claude Pro, and I'm running out of reasons to defend it",
+      "published_date": "2026-06-14",
+      "summary": "An editorial piece arguing that Anthropic has systematically eroded the value of the Claude Pro subscription throughout 2026 — citing the removal of Claude Code for new subscribers, the Agent SDK billing split, and other feature restrictions. The author frames this as a pattern of retroactive feature removal that undermines subscriber trust and questions whether the $20/month subscription remains defensible.",
+      "relevance_score": 86,
+      "accuracy_notes": "Opinion/editorial content; factual claims about feature removals (Claude Code A/B test, Agent SDK split) are independently verified. The framing and conclusions are the author's perspective. Relevance score reflects that this is a secondary analysis piece rather than a primary news report, but it directly concerns Anthropic's product and pricing strategy.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Is Claude Pro still worth $20/month? Honest answer incoming...",
+          "slides": [
+            "Reel concept: Rapid-fire timeline of every feature Anthropic removed from Claude Pro in 2026, ending with a 'should you cancel?' verdict screen with pros/cons overlay"
+          ]
+        },
+        "linkedin": {
+          "angle": "Vendor trust and subscription value erosion — what Anthropic's pricing strategy signals to enterprise and indie customers",
+          "opening_line": "When you subscribed to Claude Pro, what exactly were you paying for? In 2026, that answer keeps changing.",
+          "cta": "Are you still on Claude Pro? What keeps you subscribed — or what made you cancel? Let's hear it."
+        },
+        "twitter_x": {
+          "thread_opener": "Here's every feature Anthropic has stripped from Claude Pro in 2026. The list is longer than you think 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic keeps removing features from Claude Pro — here's the running tally and whether you should cancel",
+          "script_outline": "Timeline of Pro feature removals with dates → compare current Pro feature set vs 12 months ago → cost comparison to competitors → 'still worth it?' decision framework → alternatives if you cancel"
+        },
+        "ebook_blog": {
+          "title": "The Shrinking Claude Pro: Tracking Anthropic's Subscription Strategy in 2026",
+          "angle": "A chronological record of feature removals and billing changes to Claude Pro, with an analysis of Anthropic's likely business rationale and what subscribers should do next"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "Anthropic Docs (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code: Nested sub-agents, self-hosted sandboxes in public beta, and workflow improvements",
+      "published_date": "2026-06-14",
+      "summary": "Claude Code's latest release introduces nested sub-agents, allowing the agent loop to spawn specialized child agents for parallel task handling. Self-hosted sandboxes are now available in public beta, enabling tool execution to run in a user-configured environment while the agent loop stays on Anthropic's infrastructure. Additional improvements include smarter model and region handling, new plugin search, better Chrome/VSCode/terminal integration, and fixes to sessions, permissions, and UI.",
+      "relevance_score": 88,
+      "accuracy_notes": "Sourced from Anthropic's official release notes via web search results referencing docs.anthropic.com/en/release-notes/claude-code. The specific features (nested sub-agents, self-hosted sandboxes) are consistent across multiple sources including Releasebot and Enterprise DNA. Publication date is approximate (docs page was 403 during direct fetch); confirmed as June 2026 release. Medium-high confidence.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just unlocked a new level — your AI can now run other AIs inside it",
+          "slides": [
+            "Slide 1: Claude Code June 2026 — What's New",
+            "Slide 2: Nested Sub-Agents: AI Running AI",
+            "Slide 3: Self-Hosted Sandboxes Now in Beta",
+            "Slide 4: Smarter Model & Region Handling",
+            "Slide 5: New Plugin Search + IDE Improvements",
+            "Slide 6: How to Try It Today"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity and agentic coding workflow — how nested sub-agents change the complexity ceiling for Claude Code tasks",
+          "opening_line": "Claude Code can now spin up specialized child agents to handle parallel sub-tasks — meaning complex multi-step coding jobs just got significantly more tractable.",
+          "cta": "Dev teams: how are you using Claude Code in your current workflow? Let's compare notes below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code just added nested sub-agents + self-hosted sandboxes in beta. Here's what this means for agentic dev workflows 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code can now run agents inside agents — here's a live demo of what that actually looks like",
+          "script_outline": "What are nested sub-agents and why they matter → live demo: spawning child agents for parallel tasks → self-hosted sandbox setup walkthrough → performance and security benefits → who this feature is for and how to enable it"
+        },
+        "ebook_blog": {
+          "title": "Nested Sub-Agents in Claude Code: What the New Architecture Means for Engineering Teams",
+          "angle": "Technical breakdown of Claude Code's sub-agent architecture — how it works, use cases it unlocks, self-hosted sandbox configuration, and practical guidance for teams evaluating agentic coding workflows"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_006",
+      "source": "Anthropic Docs (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Model deprecations effective June 15: claude-sonnet-4-20250514 and claude-opus-4-20250514 retired",
+      "published_date": "2026-06-15",
+      "summary": "Anthropic has retired the original claude-sonnet-4-20250514 and claude-opus-4-20250514 model versions effective today, with API requests automatically redirecting to claude-sonnet-4-6 and claude-opus-4-8 respectively. There is no grace period — requests to deprecated model IDs will fail unless callers update their model strings. claude-opus-4-1 deprecation is also announced with a retirement date of August 5, 2026.",
+      "relevance_score": 82,
+      "accuracy_notes": "Confirmed via Anthropic's official model deprecation page and multiple third-party sources (Make.com help center, Enterprise DNA, Codersera). The specific model IDs and redirect targets are consistent across sources. Effective date confirmed as June 15, 2026. High confidence.",
+      "content_potential": "low",
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_007",
+      "source": "Anthropic Docs (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Advisor tool gains max_tokens parameter; API no longer bills for zero-output refusals",
+      "published_date": "2026-06-14",
+      "summary": "The advisor tool (which pairs a faster executor model with a higher-intelligence advisor model) now supports a max_tokens parameter on the tool definition, allowing callers to cap advisor output per call and reduce latency and cost for workloads that don't need full-length responses. Separately, the Claude API will no longer bill for requests that return stop_reason: 'refusal' with no output generated — a developer-friendly change that eliminates charges for safety-filtered requests.",
+      "relevance_score": 80,
+      "accuracy_notes": "Both features confirmed via web search referencing Anthropic's official release notes. The no-charge-for-refusals change is clearly documented. The advisor tool max_tokens detail is consistent across sources. Exact publication date is approximate (June 14) based on context; the docs page returned 403 on direct access. Medium-high confidence.",
+      "content_potential": "low",
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
