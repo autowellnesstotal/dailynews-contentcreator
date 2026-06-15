@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-06-15",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "canva_status": "SKIPPED — Canva requiere autenticación OAuth interactiva; no es posible en ejecución programada sin usuario presente. Crear diseños manualmente con el copy de los archivos de Instagram y YouTube.",
+  "output_directory": "content/2026-06-15/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design es la mejor función que Anthropic ha lanzado en un tiempo, pero tiene serias limitaciones",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "audience_note": "Adaptado para emprendedores novatos sin experiencia técnica; motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-15/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "hashtags": 17,
+          "canva_url": null,
+          "canva_status": "PENDIENTE — autenticación OAuth requerida"
+        },
+        "linkedin": {
+          "file": "content/2026-06-15/update_001_linkedin.md",
+          "format": "long-form post",
+          "hashtags": 5,
+          "canva_url": null
+        },
+        "twitter_x": {
+          "file": "content/2026-06-15/update_001_twitter.md",
+          "format": "thread",
+          "tweets": 7,
+          "canva_url": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-15/update_001_youtube.md",
+          "format": "60s script",
+          "title_youtube": "Claude Design de Anthropic: ¿Reemplaza a Canva y Figma? | Review Honesto 2026",
+          "title_tiktok": "Probé Claude Design y esto fue lo que pasó 👀 #ClaudeDesign #IA #Emprendedor",
+          "canva_url": null,
+          "canva_status": "PENDIENTE — thumbnail por generar manualmente"
+        },
+        "blog": {
+          "file": "content/2026-06-15/update_001_blog.md",
+          "format": "article",
+          "title": "Claude Design vs Figma vs Canva: La Comparación Honesta para Emprendedores en 2026",
+          "word_count_approx": 750,
+          "canva_url": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Agregué la memoria de Claude Code a mis flujos de trabajo y mi automatización se volvió sin esfuerzo",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "audience_note": "Adaptado para emprendedores novatos; concepto técnico traducido a lenguaje práctico de negocio; motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-15/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "hashtags": 17,
+          "canva_url": null,
+          "canva_status": "PENDIENTE — autenticación OAuth requerida"
+        },
+        "linkedin": {
+          "file": "content/2026-06-15/update_002_linkedin.md",
+          "format": "long-form post",
+          "hashtags": 6,
+          "canva_url": null
+        },
+        "twitter_x": {
+          "file": "content/2026-06-15/update_002_twitter.md",
+          "format": "thread",
+          "tweets": 8,
+          "canva_url": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-15/update_002_youtube.md",
+          "format": "60s script",
+          "title_youtube": "Dejé de re-explicarle todo a la IA en cada sesión — este setup de 5 minutos lo resolvió | Claude 2026",
+          "title_tiktok": "Tu IA ya puede recordar todo sobre tu negocio 🧠 #ClaudeAI #IA #Emprendedor #Automatizacion",
+          "canva_url": null,
+          "canva_status": "PENDIENTE — thumbnail por generar manualmente"
+        },
+        "blog": {
+          "file": "content/2026-06-15/update_002_blog.md",
+          "format": "article",
+          "title": "La Memoria Persistente de Claude: Cómo Hacer que tu IA Recuerde Todo sobre tu Negocio (Guía 2026)",
+          "word_count_approx": 820,
+          "canva_url": null
+        }
+      }
+    }
+  ]
+}
