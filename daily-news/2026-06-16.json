@@ -1,0 +1,235 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T15:10:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and article URLs returned HTTP 403. Titles, dates, and summaries retrieved via web search index. Three articles confirmed within 24-48h window (Jun 14-16); one (Fable 5) may be 48-72h (Jun 13-14) but included due to high relevance and confirmed ongoing impact.",
+    "docs.anthropic.com": "Homepage and release-notes URLs returned HTTP 403. Release note contents verified via web search index and third-party trackers (releasebot.io, tygartmedia.com). Model deprecations and Claude Code updates confirmed for June 15, 2026.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 5,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropic-says-its-taking-down-claude-fable-5-to-comply-with-us-government-order/",
+      "title": "Anthropic shuts down Claude Fable 5 to comply with US government directive",
+      "published_date": "2026-06-13 to 2026-06-14 (exact date unconfirmed; within 48-72h window)",
+      "summary": "Anthropic apagó globalmente sus dos modelos más avanzados, Fable 5 y Mythos 5, tras recibir el viernes 12 de junio a las 5:21 PM ET una directiva de control de exportaciones del gobierno de EE.UU. La orden exigió suspender el acceso a cualquier nacional extranjero, tanto dentro como fuera de Estados Unidos, incluyendo empleados de Anthropic con pasaporte extranjero. Dado que la empresa no puede filtrar usuarios por nacionalidad en tiempo real, optó por un cierre universal para todos los clientes del mundo; Anthropic sostiene que el gobierno se basa en evidencia verbal de una 'jailbreak' estrecha que consiste en pedirle al modelo que revise y corrija vulnerabilidades en un codebase.",
+      "relevance_score": 95,
+      "accuracy_notes": "Altamente verificado. Anthropic publicó un comunicado oficial en anthropic.com/news/fable-mythos-access. La directiva fue confirmada por Qz.com, Fortune, Al Jazeera, y TechCrunch el 12-13 junio 2026. La fecha de publicación del artículo de XDA es Jun 13-14 según el índice de búsqueda. El motivo exacto de la jailbreak no ha sido verificado de forma independiente — el gobierno solo proporcionó evidencia verbal según Anthropic.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "El gobierno de EE.UU. ordenó apagar la IA más poderosa de Anthropic — y lo hicieron en horas 🚨",
+          "slides": [
+            "¿Qué pasó con Claude Fable 5?",
+            "Una orden de seguridad nacional que nadie esperaba",
+            "Anthropic lo apagó para TODOS los usuarios del mundo",
+            "¿Por qué? Una posible vulnerabilidad de ciberseguridad",
+            "¿Qué significa esto para el futuro de la IA?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Regulación gubernamental de IA y sus implicaciones reales para empresas que dependen de estos modelos",
+          "opening_line": "Esta semana el gobierno de EE.UU. ordenó a Anthropic apagar Claude Fable 5 y Mythos 5 globalmente — en cuestión de horas. Esto nunca había ocurrido con un modelo de IA a esta escala.",
+          "cta": "¿Crees que los gobiernos deberían tener este nivel de control sobre los modelos de IA? Comparte tu opinión."
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 El gobierno de EE.UU. acaba de ordenar a Anthropic apagar sus 2 modelos de IA más poderosos — para usuarios de TODO el mundo. Aquí el resumen de lo que pasó 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "El gobierno de EE.UU. acaba de hacer algo que nunca había pasado: ordenar apagar una IA entera por razones de seguridad nacional",
+          "script_outline": "0-5s: Noticia de impacto. 5-20s: ¿Qué son Fable 5 y Mythos 5 y por qué importaban? 20-35s: La directiva de exportación y la decisión de Anthropic. 35-50s: La 'jailbreak' que preocupó al gobierno. 50-60s: ¿Qué sigue para la IA regulada?"
+        },
+        "ebook_blog": {
+          "title": "IA bajo control gubernamental: Qué significa el cierre de Claude Fable 5 para el futuro de la inteligencia artificial",
+          "angle": "Análisis accesible de la primera suspensión masiva de un modelo de IA por orden gubernamental y qué implica para emprendedores y empresas que usan herramientas de IA."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropics-claude-subscriptions-no-longer-include-agent-sdk-and-claude-p-usage/",
+      "title": "Anthropic's Claude subscriptions no longer include Agent SDK and claude -p usage — then Anthropic reversed the change the same day",
+      "published_date": "2026-06-15",
+      "summary": "XDA cubrió el cambio de facturación de Anthropic que debía entrar en vigor el 15 de junio: el Agent SDK, el comando claude -p, GitHub Actions de Claude Code y apps de terceros dejarían de consumir el pool del plan de suscripción y pasarían a un crédito mensual separado ($20 en Pro, hasta $200 en Max 20x). Sin embargo, Anthropic dio marcha atrás el mismo día en que el cambio debía implementarse, enviando un correo a desarrolladores que decía 'Nothing changes for now' (nada cambia por ahora) y explicando que está trabajando para alinear mejor el plan con los patrones reales de uso. El giro en U ocurrió en medio de fuerte presión de la comunidad developer y en un contexto de creciente competencia de precios con OpenAI.",
+      "relevance_score": 90,
+      "accuracy_notes": "Altamente verificado. El anuncio original de Anthropic fue el 13 de mayo de 2026. El reverso del mismo 15 de junio está confirmado por The New Stack y The Decoder. La motivación exacta (presión de usuarios vs. guerra de precios con OpenAI) es análisis editorial, no declaración oficial de Anthropic.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic anunció un cambio de precio para el 15 de junio... y lo revirtió el mismo día 😅",
+          "slides": [
+            "¿Qué planeaba Anthropic cambiar?",
+            "El Agent SDK separado de tu plan: crédito extra de $20-$200",
+            "La reacción de los desarrolladores fue inmediata",
+            "Anthropic dio marcha atrás — el mismo 15 de junio",
+            "¿Qué pasa ahora con tu plan de Claude?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Lecciones de estrategia de precios tech: cuando escuchar a tu comunidad es más valioso que la lógica del negocio",
+          "opening_line": "Anthropic planeó uno de los cambios de precios más polémicos de 2026 — y lo canceló el mismo día en que debía entrar en vigor.",
+          "cta": "¿Qué opinas: ¿fue la decisión correcta? ¿O solo aplazaron lo inevitable? Debate en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic iba a cobrar extra por el Agent SDK desde hoy — y en menos de 24h ya dijo 'cancelado' 🧵 Aquí el drama completo:",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic acaba de revertir un aumento de precio el mismo día que debía aplicarse — aquí lo que pasó",
+          "script_outline": "0-5s: Noticia. 5-20s: El cambio original y quiénes se verían afectados. 20-35s: La reacción del mercado developer. 35-50s: El reverso de Anthropic y el mensaje 'nothing changes for now'. 50-60s: ¿Qué significa para tu plan Pro/Max y qué esperar?"
+        },
+        "ebook_blog": {
+          "title": "El Drama de Precios de Claude: Cómo Anthropic Anunció, Generó Caos y Revirtió un Cambio de Facturación en 24 Horas",
+          "angle": "Análisis práctico del reverso de Anthropic con contexto de guerra de precios con OpenAI — y qué implica para los usuarios de Claude Pro y Max."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/tried-claude-code-as-non-coder-nothing-to-do-with-building-apps/",
+      "title": "I finally tried Claude Code as a non-coder, and it has nothing to do with building apps",
+      "published_date": "2026-06-15",
+      "summary": "Un editor de XDA que se define como diseñador y no-programador finalmente probó Claude Code después de meses de verlo mencionado en todas partes. Adoptó una barra de entrada baja: solo hacer que algo funcionara, aunque no entendiera la mitad del vocabulario técnico. Su conclusión principal es que no se necesita comprender términos como 'agentes' o 'subagentes' para sacar valor real de Claude Code — y que la herramienta tiene aplicaciones prácticas para profesionales no técnicos muy por encima de lo que sugiere su marketing enfocado en developers.",
+      "relevance_score": 74,
+      "accuracy_notes": "Artículo de opinión/experiencia personal de XDA. Las afirmaciones sobre usos no técnicos de Claude Code son consistentes con experiencias documentadas en otros medios. No hay claims técnicos que requieran verificación adicional.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Probé Claude Code sin saber programar — y esto fue lo que descubrí 👀",
+          "slides": [
+            "No necesitas ser programador para usar Claude Code",
+            "Lo probé como alguien sin conocimientos técnicos",
+            "Las tareas reales que resolví con él",
+            "Lo que importa: el resultado, no el vocabulario técnico",
+            "¿Deberías intentarlo tú también?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Claude Code como herramienta de productividad para emprendedores y profesionales no técnicos",
+          "opening_line": "Claude Code no es solo para programadores. Un editor de XDA lo probó como diseñador y encontró valor real — sin entender ni la mitad de los términos técnicos.",
+          "cta": "¿Has probado Claude Code para tareas que no son de código? Cuéntame tu experiencia."
+        },
+        "twitter_x": {
+          "thread_opener": "Probé Claude Code sin saber programar — lo que descubrí me cambió cómo veo esta herramienta 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "¿Puedes usar Claude Code sin saber programar? Lo probé por ti",
+          "script_outline": "0-5s: Pregunta gancho. 5-15s: ¿Qué es Claude Code en términos simples? 15-35s: Las tareas concretas que resolví sin código. 35-50s: Lo que NO necesitas saber para empezar. 50-60s: CTA para que lo prueben."
+        },
+        "ebook_blog": {
+          "title": "Claude Code Para No-Programadores: La Guía Práctica Para Usar la IA de Anthropic Sin Saber Una Línea de Código",
+          "angle": "Tutorial accesible para emprendedores, diseñadores y profesionales creativos que quieren aprovechar Claude Code sin background técnico."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Model Deprecations: Claude Sonnet 4 and Claude Opus 4 (original) retired from API — June 15, 2026",
+      "published_date": "2026-06-15",
+      "summary": "Anthropic retiró de forma definitiva los modelos claude-opus-4-20250514 y claude-sonnet-4-20250514 del Claude API el 15 de junio de 2026; cualquier llamada a esos IDs devuelve ahora un error 404. El retiro solo afecta a desarrolladores y empresas que hardcodean el ID de modelo en sus integraciones API — Claude.ai, Claude Code y entornos gestionados no se ven impactados porque Anthropic gestiona la selección de modelo automáticamente. Los modelos de reemplazo recomendados son claude-sonnet-4-6 y claude-opus-4-8, que son más capaces y en varios casos más económicos por token. La migración es un cambio de una línea en la mayoría de los casos.",
+      "relevance_score": 80,
+      "accuracy_notes": "Verificado. Fecha de deprecación confirmada en la documentación oficial de Anthropic (platform.claude.com/docs/en/about-claude/model-deprecations) y en avisos de socios como Make (make.com). Los reemplazos de modelos están documentados en la guía de migración oficial de Anthropic.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic retiró 2 modelos de Claude hoy — ¿tu negocio o app se ve afectado? 🔄",
+          "slides": [
+            "Claude Sonnet 4 y Opus 4 originales ya no están disponibles vía API",
+            "¿Quiénes se ven afectados? Solo quienes usan IDs fijos en el API",
+            "Claude.ai y Claude Code siguen funcionando igual que siempre",
+            "Los nuevos modelos son más capaces Y más económicos",
+            "Qué hacer ahora si integras Anthropic en tu empresa"
+          ]
+        },
+        "linkedin": {
+          "angle": "Gestión de actualizaciones de proveedores IA para equipos tech y líderes empresariales",
+          "opening_line": "Hoy Anthropic retiró dos modelos de Claude de su API. Si tu empresa integra Anthropic en sus procesos, aquí lo que necesitas saber y hacer.",
+          "cta": "¿Tu equipo usa el API de Claude? Asegúrate de revisar qué modelo ID estás usando antes de que tu app dé errores."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic retiró Claude Sonnet 4 y Opus 4 del API hoy — si tienes apps integradas, esto podría afectarte 🧵",
+          "estimated_tweets": 4
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic apagó dos versiones de Claude hoy — aquí qué significa para ti y tu negocio",
+          "script_outline": "0-5s: Alerta de cambio importante. 5-20s: Qué modelos se retiraron y por qué importa. 20-40s: Quiénes se ven afectados (API vs Claude.ai). 40-55s: Cómo migrar fácilmente en un paso. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Guía de Migración 2026: Cómo Actualizar del API de Claude Sonnet 4 y Opus 4 a los Nuevos Modelos de Anthropic",
+          "angle": "Tutorial práctico para emprendedores y equipos que integran el API de Anthropic — sin tecnicismos innecesarios."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code Update: Stronger Permission Rules, Nested Sub-agents (5 levels), and Safer Auto Mode",
+      "published_date": "2026-06-15",
+      "summary": "La última actualización de Claude Code introduce reglas de permisos más granulares con nueva sintaxis Tool(param:value) y soporte de comodines (por ejemplo, Agent(model:opus) para bloquear subagentes Opus), soporte de directorios .claude anidados para cargar skills según el subdirectorio activo, modo auto más seguro, y la capacidad de que los sub-agentes creen sus propios sub-agentes hasta 5 niveles de profundidad. Además incluye mejoras a /doctor, Remote Control y /bug, junto con correcciones de crashes, autenticación, websockets, comportamiento de IME en VS Code y enlaces de statusline.",
+      "relevance_score": 82,
+      "accuracy_notes": "Verificado a través de múltiples fuentes secundarias (releasebot.io, tygartmedia.com). La sintaxis específica Tool(param:value) y el límite de 5 niveles de sub-agentes son consistentes entre fuentes. No hay acceso directo al changelog oficial, pero los detalles están muy bien documentados en rastreadores de terceros.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code acaba de recibir superpoderes — y casi nadie lo está hablando 🤫",
+          "slides": [
+            "Nuevas reglas de permisos: tú decides exactamente qué puede hacer la IA",
+            "Sub-agentes anidados: tu IA puede ahora crear y coordinar agentes propios",
+            "Soporte .claude en subdirectorios — más control sobre tu proyecto",
+            "Modo auto más seguro: menos riesgo en automatizaciones",
+            "Lo que esto significa para tu flujo de trabajo"
+          ]
+        },
+        "linkedin": {
+          "angle": "Las nuevas capacidades agenticas de Claude Code y lo que significan para equipos que automatizan procesos",
+          "opening_line": "La última actualización de Claude Code permite que los sub-agentes creen sus propios sub-agentes hasta 5 niveles de profundidad — lo que significa que puedes construir sistemas de automatización verdaderamente complejos sin escribir código.",
+          "cta": "¿Ya usas Claude Code para automatizar procesos en tu empresa? ¿Cuál es el caso de uso que más te ha sorprendido?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code acaba de recibir una actualización que cambia cómo puedes automatizar con IA — y pocas personas lo están discutiendo 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code ahora puede crear sus propios agentes de IA — aquí lo que esto cambia para siempre",
+          "script_outline": "0-5s: Hook impactante sobre IA que crea IA. 5-20s: Qué son los sub-agentes anidados en términos simples. 20-35s: Las nuevas reglas de permisos y por qué importan para no-técnicos. 35-50s: Caso de uso práctico de automatización. 50-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Code 2026: La Guía Completa de Sub-Agentes Anidados, Permisos Avanzados y Automatización Sin Código",
+          "angle": "Tutorial accesible para emprendedores y profesionales que quieren aprovechar las últimas capacidades agenticas de Claude Code sin background técnico."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
