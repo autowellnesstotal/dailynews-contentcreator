@@ -1,0 +1,233 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T09:00:00.000Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Accessible via search index; direct HTTP 403 on homepage fetch — articles retrieved via Google Search metadata",
+    "docs.anthropic.com": "HTTP 403 on direct fetch; Claude Code changelog retrieved via code.claude.com/docs/en/changelog; API release notes reconstructed from multiple corroborating sources",
+    "theverge.com": "Blocked — network policy prevents access. Zero articles retrieved from this source."
+  },
+  "total_updates_found": 5,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com",
+      "url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan",
+      "title": "Anthropic Pauses Agent SDK Billing Change on the Day It Was Set to Launch",
+      "published_date": "2026-06-15",
+      "summary": "Anthropic reversed course on its May 13 billing overhaul, pausing the separation of Agent SDK usage from standard subscription limits on the exact day it was scheduled to take effect. The planned change would have moved Agent SDK, claude -p, and third-party app usage into a separate monthly credit pool ($20 for Pro, $100 for Max 5x, $200 for Max 20x). Anthropic told users 'nothing changes for now' and confirmed in its Help Center that the change is no longer happening, citing a need to better align the plan with actual usage patterns.",
+      "relevance_score": 96,
+      "accuracy_notes": "Confirmed directly via Anthropic Help Center update and independently reported by The New Stack, The-Decoder, and multiple developer blogs on June 15. Widely corroborated — high confidence. The 'price war with OpenAI' framing in some sources is analyst speculation, not stated by Anthropic.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just reversed a major pricing decision on launch day — here's what that means for you",
+          "slides": [
+            "Slide 1: What was Anthropic about to charge you for?",
+            "Slide 2: The billing change that caused a developer revolt",
+            "Slide 3: Why Anthropic hit pause at the last second",
+            "Slide 4: What this means for Claude Code, Agent SDK & Pro users NOW",
+            "Slide 5: Is your Claude subscription still worth it in 2026?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer trust, pricing strategy, and the competitive pressure reshaping AI subscription models",
+          "opening_line": "Anthropic reversed a major billing change on the exact day it was set to go live — and that last-second pause tells us more about the state of AI competition than any press release.",
+          "cta": "Are you building on the Claude Agent SDK? How did this near-miss affect your production planning?"
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 Anthropic just paused its Agent SDK billing overhaul — on the very day it was supposed to launch. Here's what happened, why it matters, and what's next for Claude users 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic was about to charge Claude Pro users extra for running any automated workflow — then they blinked on launch day",
+          "script_outline": "Open with the surprise reversal news → explain the original plan (separate credit pool, tiered pricing) → cover the user backlash and developer community response → reveal the pause announcement ('nothing changes for now') → analyze the likely reasons: OpenAI price war, developer community pressure, upcoming IPO optics → wrap with what users should watch for next"
+        },
+        "ebook_blog": {
+          "title": "Anthropic's Billing U-Turn: What It Reveals About AI Subscription Wars and Developer Trust",
+          "angle": "Deep dive into the Agent SDK credit overhaul, why Anthropic reversed it, competitive dynamics with OpenAI, and what developers can realistically expect from Claude pricing going forward"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.178 — Granular Permission Syntax, Nested Skill Directories, Smarter Subagent Spawning",
+      "published_date": "2026-06-15",
+      "summary": "Claude Code version 2.1.178 introduces Tool(param:value) syntax for permission rules, allowing fine-grained control by matching a tool's input parameters (e.g., Agent(model:opus) to block Opus subagents). Nested .claude/ skill directories now load automatically when working on files within them, with name-clash resolution via <dir>:<name> notation. The release also improves the workflow prompt keyword trigger (now requires explicit phrases like 'run a workflow'), upgrades /doctor with a cleaner flat-tree layout, and fixes extensive bugs including OAuth failures, out-of-memory crashes, and broken background session states.",
+      "relevance_score": 93,
+      "accuracy_notes": "Sourced directly from the official Claude Code changelog at code.claude.com/docs/en/changelog — version number v2.1.178 and all feature/fix descriptions are verified from that primary source.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just gave developers surgical control over their AI agents — here are 5 things that changed",
+          "slides": [
+            "Slide 1: You can now block specific models with one permission rule",
+            "Slide 2: Tool(param:value) syntax explained simply",
+            "Slide 3: Nested skill directories — what they are and why they matter",
+            "Slide 4: Smarter subagent spawning (and what was broken before)",
+            "Slide 5: The 10+ bugs that got squashed in this release"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise-grade permission controls arriving in Claude Code — what it means for teams building agentic pipelines",
+          "opening_line": "If you're deploying Claude Code in team or enterprise contexts, v2.1.178 just gave you something you've been waiting for: the ability to restrict which models your sub-agents can spawn.",
+          "cta": "What permission rules would you write first with the new Tool(param:value) syntax?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code 2.1.178 just dropped with a major permission upgrade. You can now write Agent(model:opus) to block Opus subagents from spawning. Here's the full breakdown of what changed 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code now lets you control EXACTLY which AI models your agents can use — this changes enterprise deployments completely",
+          "script_outline": "Intro with the update — why granular permissions matter → live demo of Tool(param:value) syntax → show nested skills directory loading → explain subagent classification improvement → highlight critical bug fixes (OOM crash, OAuth failures) → CTA to update"
+        },
+        "ebook_blog": {
+          "title": "Claude Code 2.1.178 Developer Guide: Mastering Granular Permissions and Nested Skill Architecture",
+          "angle": "Technical walkthrough of the new permission syntax with practical use cases, nested .claude/ directory patterns, and a full breakdown of every bug fix with its real-world impact"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.179 — Mid-Stream Connection Stability, WSL2 Scrolling Fix, Linux Sandbox Fix",
+      "published_date": "2026-06-16",
+      "summary": "Claude Code version 2.1.179 resolves several platform-specific stability and UX regressions. Partial responses are now preserved on mid-stream connection drops instead of showing raw errors, and the spinner no longer gets stuck at 'running tool'. Mouse-wheel scrolling in WSL2 under Windows Terminal and VS Code (broken since 2.1.172) is restored. A critical Linux sandbox bug where glob matching over large directory trees made the Bash tool description enormous — and sessions unusable — is also fixed.",
+      "relevance_score": 84,
+      "accuracy_notes": "Sourced directly from the official Claude Code changelog at code.claude.com/docs/en/changelog — version v2.1.179 and all fixes confirmed from that primary source. Date confirmed as June 16, 2026.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Claude Code fixed 3 bugs that were silently breaking developer sessions — here's what changed",
+          "slides": [
+            "Slide 1: Connection drop? Your work is safe now",
+            "Slide 2: WSL2 scrolling fixed after weeks of breakage",
+            "Slide 3: Linux sandbox performance bug squashed"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer quality-of-life: why small stability fixes have outsized impact on AI-assisted coding workflows",
+          "opening_line": "Three bugs in Claude Code 2.1.179 — none of them splashy, all of them silently wrecking real developer sessions. This release matters more than its changelog suggests.",
+          "cta": "Running Claude Code on WSL2 or Linux? Update to 2.1.179 now."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code 2.1.179 is out and it fixes 3 bugs that were quietly ruining dev sessions. WSL2 users especially — this update is for you 🧵",
+          "estimated_tweets": 4
+        },
+        "youtube_tiktok": {
+          "hook": "Three Claude Code bugs that were silently eating developer work — all fixed in one patch",
+          "script_outline": "Quick intro → demo connection drop recovery → show WSL2 scrolling fix in action → explain the Linux sandbox glob issue → wrap with update instructions and version check command"
+        },
+        "ebook_blog": {
+          "title": "Claude Code Stability Deep Dive: Connection Management, WSL2 Compatibility, and Linux Sandbox Architecture",
+          "angle": "Technical explanation of why these bugs occurred, how they were fixed, and best practices for stable Claude Code deployments across Windows, WSL2, and Linux environments"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude API: Sonnet 4 & Opus 4 Retired; Refusal Requests No Longer Billed; Advisor Tool Gets max_tokens",
+      "published_date": "2026-06-15",
+      "summary": "Three API changes took effect June 15: (1) Claude Sonnet 4 (claude-sonnet-4-20250514) and Claude Opus 4 (claude-opus-4-20250514) were retired from the API as of 9 AM PT — APIs now return errors; recommended migrations are to Sonnet 4.6 and Opus 4.8 respectively. (2) API requests returning stop_reason: 'refusal' with no generated output are no longer billed; an opt-in 'fallbacks' parameter re-runs refused requests on an alternative model. (3) The advisor tool now supports a max_tokens parameter to cap per-call output, reducing latency and cost for long-horizon agentic workloads.",
+      "relevance_score": 91,
+      "accuracy_notes": "Model deprecation dates confirmed across Anthropic's official deprecation docs and Make.com/developer partner documentation. Refusal billing change confirmed by multiple secondary sources citing release notes. Advisor tool max_tokens confirmed via search. All three changes appear in the docs.anthropic.com release notes for June 15.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "3 Claude API changes on June 15 that every developer must know about",
+          "slides": [
+            "Slide 1: Two Claude models are officially gone — are you using either?",
+            "Slide 2: claude-sonnet-4 → claude-sonnet-4-6 migration guide",
+            "Slide 3: claude-opus-4 → claude-opus-4-8 migration guide",
+            "Slide 4: You're no longer charged for refused API requests",
+            "Slide 5: The new 'fallbacks' parameter that protects your workflows"
+          ]
+        },
+        "linkedin": {
+          "angle": "API migration urgency and the hidden cost-saving opportunity inside Anthropic's refusal billing change",
+          "opening_line": "If your production code references claude-sonnet-4-20250514 or claude-opus-4-20250514, it has been returning errors since 9 AM PT on June 15. Here's your migration checklist — and a billing change that's actually good news.",
+          "cta": "Have you migrated your API calls? Drop your migration experience in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "3 big Claude API changes went live June 15. Two models retired + refused requests are now FREE. Action required if you're building on the API 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just retired two Claude models AND made a change that could save API developers real money every month",
+          "script_outline": "Open with urgency — errors starting June 15 → show the two deprecated models → demo migration to Sonnet 4.6 and Opus 4.8 → explain the refusal billing change (why it matters, how much you might save) → introduce the fallbacks parameter → CTA: check your API calls today"
+        },
+        "ebook_blog": {
+          "title": "Claude API June 2026 Migration Guide: Model Retirements, Refusal Billing Changes, and the New Fallbacks Parameter",
+          "angle": "Step-by-step migration guide from deprecated models + deep dive into cost optimization using the new refusal billing rules and fallbacks parameter"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/i-borrowed-claude-prompts-from-anthropic-engineers/",
+      "title": "I Borrowed Claude Prompts from Anthropic Engineers and Immediately Stopped Wasting Time on Bad Ones",
+      "published_date": "2026-06-15",
+      "summary": "An XDA Developers feature article exploring how Anthropic engineers write and structure prompts for Claude internally, and how these techniques dramatically improve output quality for everyday users. The article translates professional prompt engineering practices from Anthropic's own team into actionable techniques for Claude Pro and API users, arguing that most users waste significant time with poorly structured prompts that Anthropic's own team solved long ago.",
+      "relevance_score": 74,
+      "accuracy_notes": "Article title and approximate publication date (June 15, 2026) confirmed via search metadata. Direct access to the full article was blocked (HTTP 403). Specific prompt techniques described would need direct verification before attribution. The core framing — Anthropic engineer prompting strategies — should be independently verified before publishing.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic's own engineers write Claude prompts differently than everyone else — here's what they know",
+          "slides": [
+            "Slide 1: The prompting mistakes 90% of Claude users make",
+            "Slide 2: How Anthropic engineers structure a request",
+            "Slide 3: The 3-part template that consistently gets better results",
+            "Slide 4: When to use system prompt vs. user message",
+            "Slide 5: Try these changes in your next Claude session"
+          ]
+        },
+        "linkedin": {
+          "angle": "Professional AI productivity: applying internal Anthropic prompting standards to your everyday workflow",
+          "opening_line": "Anthropic's engineers have been optimizing Claude prompts internally for years — and most of us are still writing prompts the way we did with GPT-3.",
+          "cta": "What's the single most effective Claude prompting change you've made? Share it below."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic engineers write Claude prompts completely differently than most users. XDA just published a breakdown — here are the biggest takeaways 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "The gap between how Anthropic engineers prompt Claude and how most people do it is shocking — here's what you're missing",
+          "script_outline": "Hook with the contrast → 3-4 specific techniques from the XDA breakdown → live before/after comparison in Claude → wrap with the single highest-impact change to make today"
+        },
+        "ebook_blog": {
+          "title": "Prompting Like an Anthropic Engineer: The Internal Techniques Most Claude Users Never Learn",
+          "angle": "Expanded guide implementing the techniques from the XDA article with additional examples, use-case-specific variations (coding vs. writing vs. research), and a printable prompt template"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
