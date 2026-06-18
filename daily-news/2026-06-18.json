@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T06:12:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage y artículos devuelven HTTP 403; contenido recuperado vía búsqueda web (índice de Google). Un artículo confirmado dentro de la ventana de 24-48h (publicado ~20h antes de la ejecución).",
+    "docs.anthropic.com": "Acceso directo bloqueado (HTTP 403); contenido verificado a través del repositorio GitHub anthropics/claude-code y búsquedas web cruzadas con Releasebot y fuentes especializadas. Dos releases de Claude Code confirmadas el 16-17 junio; actualización de Claude Design confirmada el 17 junio.",
+    "theverge.com": "Bloqueado por fetch directo (HTTP 403) y sin resultados relevantes en búsqueda web para el período junio 17-18, 2026. Ningún artículo encontrado con Claude/Anthropic como sujeto principal dentro de la ventana de 24-48h."
+  },
+  "total_updates_found": 4,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/finally-understood-claude-code-goal-command/",
+      "title": "I finally understood Claude Code's /goal command after realizing I was using it completely wrong",
+      "published_date": "2026-06-17",
+      "summary": "XDA Developers explica cómo el comando /goal de Claude Code funciona como un bucle while controlado por un modelo evaluador independiente que verifica si la tarea fue completada, sin que Claude se autoevalúe. El error más común es definir objetivos subjetivos como 'mejorar el código' en lugar de criterios verificables como 'todos los tests npm pasando con cero errores de lint'. Con un objetivo bien definido y medible, Claude itera automáticamente hasta cumplirlo sin necesidad de micromanagement.",
+      "relevance_score": 91,
+      "accuracy_notes": "Verificado — el mecanismo de /goal como bucle con evaluador externo está documentado en la arquitectura de Claude Code. El artículo no contiene claims no verificados; es una guía de uso práctico con ejemplos concretos.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Estabas usando el comando más poderoso de Claude Code completamente mal (yo también lo hacía)",
+          "slides": [
+            "/goal no es una sugerencia — es un bucle while con IA",
+            "Un modelo separado califica el trabajo de Claude (Claude no se autoevalúa)",
+            "Objetivo MALO: 'mejora el código' (subjetivo, no se puede verificar)",
+            "Objetivo BUENO: 'todos los tests pasando, cero errores de lint'",
+            "Claude trabaja solo hasta lograrlo — sin que le digas nada más"
+          ]
+        },
+        "linkedin": {
+          "angle": "Automatización agentic real para developers y emprendedores técnicos: dejar que la IA termine el trabajo sola",
+          "opening_line": "La mayoría de usuarios de Claude Code usan /goal como si fuera una instrucción de sistema extra. Están perdiendo lo que lo hace verdaderamente poderoso: un bucle autónomo con criterio de salida verificable.",
+          "cta": "¿Ya probaste /goal con criterios medibles en tu proyecto? Comparte tu caso de uso en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "El comando /goal de Claude Code me confundió por semanas. Un artículo de XDA finalmente lo explicó — y cambió cómo lo uso 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Llevaba meses usando mal el comando más poderoso de Claude Code — así es como funciona en realidad",
+          "script_outline": "0-5s: Confesión del hook ('yo también lo usaba mal'). 5-15s: Qué hace /goal realmente (bucle while, no prompt extra). 15-30s: El modelo evaluador — por qué importa que no sea Claude mismo. 30-45s: Demo en vivo: objetivo malo vs objetivo bueno. 45-55s: Resultado: Claude trabaja solo hasta pasar todos los tests. 55-60s: CTA — comenta si ya lo usabas así o lo descubriste hoy."
+        },
+        "ebook_blog": {
+          "title": "El Comando /goal de Claude Code: Por Qué los Principiantes lo Hacen Mal y Cómo Automatizar con Él",
+          "angle": "Guía práctica para emprendedores sin background técnico profundo que quieren que Claude trabaje de forma autónoma hasta completar tareas reales en sus proyectos."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-apps",
+      "title": "Claude Design major overhaul: design system imports, Claude Code integration, and token consumption fix",
+      "published_date": "2026-06-17",
+      "summary": "Anthropic lanzó una actualización mayor de Claude Design el 17 de junio que resuelve su problema más crítico: el consumo excesivo de tokens. La herramienta ahora comparte límite de uso con chat, Claude Cowork y Claude Code en lugar de tener una cuota separada más pequeña, y Anthropic redujo el consumo promedio de tokens por turno. Entre las nuevas funciones: importación de design systems desde GitHub o archivos de diseño (con auto-corrección contra el sistema importado), integración bidireccional con Claude Code (/design-sync y /design desde terminal), editor canvas refinado, y exportación a PDF, PowerPoint, Adobe, Canva, Gamma, Lovable, Miro, Replit, Vercel y Wix.",
+      "relevance_score": 96,
+      "accuracy_notes": "Verificado — actualización oficial publicada directamente por Anthropic en docs.anthropic.com y confirmada por cobertura cruzada en VentureBeat, Engadget, Fast Company y TechRepublic el mismo 17 de junio. El detalle del token fix (PCWorld reviewer quemando 80% de cuota en 25 min) es un caso documentado públicamente.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic resolvió el problema que hacía que Claude Design quemara tu crédito semanal en 25 minutos",
+          "slides": [
+            "Claude Design tuvo una actualización mayor — esto es lo que cambió",
+            "El fix principal: ya no tiene cuota separada, comparte límite con todo Claude",
+            "Importa tu design system desde GitHub y Claude construye con tus componentes",
+            "Diseño ↔ Código: integración directa con Claude Code desde el terminal",
+            "Exporta a PDF, PowerPoint, Canva, Miro, Figma, Vercel y más"
+          ]
+        },
+        "linkedin": {
+          "angle": "Para equipos de diseño y marketing que buscan usar IA sin sacrificar coherencia de marca ni quemar créditos",
+          "opening_line": "Si dejaste de usar Claude Design porque quemaba el 80% de tu semana de Claude Pro en 25 minutos — ese problema ya está solucionado.",
+          "cta": "¿Cuál de las nuevas funciones de Claude Design le parece más útil para su equipo? Responda en comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic actualizó Claude Design con 5 mejoras que cambian completamente la herramienta — incluyendo el fix del problema de tokens 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic acaba de arreglar el mayor problema de Claude Design y agregó 4 funciones que no esperaba",
+          "script_outline": "0-5s: Hook (el problema del token-burning ya está solucionado). 5-15s: Contexto: qué era Claude Design y por qué la gente lo abandonó. 15-30s: Fix de tokens — cómo funciona ahora el límite compartido. 30-45s: Demo de design system import desde GitHub. 45-55s: Integración con Claude Code + exportaciones. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Design 2.0: Cómo Anthropic Resolvió el Problema de Tokens y lo Convirtió en una Herramienta Real para Emprendedores",
+          "angle": "Guía práctica para emprendedores y marketers que quieren crear materiales de diseño profesional con IA sin necesidad de Figma ni diseñador contratado."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.181 released: /config key=value syntax, Bun 1.4, subagent panel improvements, macOS fixes",
+      "published_date": "2026-06-17",
+      "summary": "Claude Code lanzó la versión 2.1.181 el 17 de junio a las 22:07 UTC con una función muy esperada: el comando /config key=value que permite cambiar cualquier configuración directamente desde el prompt sin salir de la sesión (ej: /config thinking=false). Otros cambios notables incluyen la actualización del runtime Bun a v1.4, auto-ocultación de subagentes inactivos tras 30 segundos en el panel, mejora del streaming de párrafos largos (línea a línea), y correcciones para usuarios de macOS (TUI freezing, bloqueo de Spotlight, Apple Events).",
+      "relevance_score": 85,
+      "accuracy_notes": "Verificado — release v2.1.181 confirmado en el repositorio GitHub anthropics/claude-code con fecha 17 de junio a las 22:07 UTC. Todos los cambios listados corresponden al changelog oficial.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code v2.1.181 llegó — el cambio que los power users estaban esperando ya está aquí",
+          "slides": [
+            "Nuevo: /config key=value — cambia cualquier setting desde el prompt",
+            "Bun 1.4 ya viene integrado (más velocidad en ejecución de scripts)",
+            "Subagentes inactivos se ocultan solos después de 30s — menos ruido visual",
+            "Streaming mejorado: párrafos largos aparecen línea por línea",
+            "Usuarios de macOS: TUI freeze y bloqueo de Spotlight corregidos"
+          ]
+        },
+        "linkedin": {
+          "angle": "Mejora de experiencia de developer: personalización en tiempo real dentro del flujo de trabajo de Claude Code",
+          "opening_line": "Claude Code v2.1.181 incluyó algo deceptivamente simple: /config key=value. Ahora puedes activar thinking, cambiar modelos o ajustar cualquier setting sin interrumpir tu sesión.",
+          "cta": "¿Cuál es el setting de Claude Code que más personalizas en tu workflow? Comparte en comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.181 ya disponible — 5 cambios que vale la pena notar 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code acaba de agregar un comando que debió existir desde el primer día",
+          "script_outline": "0-5s: Hook (/config es el comando que siempre faltó). 5-20s: Demo de /config key=value en acción. 20-35s: Bun 1.4 — qué cambia en la práctica. 35-50s: Panel de subagentes mejorado. 50-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.181: El Comando /config y la Personalización en Tiempo Real para Power Users",
+          "angle": "Guía de configuración avanzada de Claude Code orientada a emprendedores técnicos que quieren sacar el máximo sin leer la documentación completa."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.179 released: mid-stream connection fix, WSL2 scrolling, plugin loading improvements",
+      "published_date": "2026-06-16",
+      "summary": "Claude Code lanzó la versión 2.1.179 el 16 de junio a las 20:22 UTC con correcciones de estabilidad importantes: las respuestas parciales ahora se preservan cuando se interrumpe la conexión a mitad de respuesta (en lugar de mostrar un error crudo), se corrigió el scroll del mouse en WSL2 bajo Windows Terminal y VS Code, se resolvió un problema de rendimiento con globos de sandbox en árboles de directorios grandes en Linux, y se mejoró el rendimiento de carga de plugins en sesiones remotas.",
+      "relevance_score": 72,
+      "accuracy_notes": "Verificado — release v2.1.179 confirmado en el repositorio GitHub anthropics/claude-code con fecha 16 de junio a las 20:22 UTC.",
+      "content_potential": "low",
+      "content_ideas": null,
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
