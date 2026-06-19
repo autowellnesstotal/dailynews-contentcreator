@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-19",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-06-19T00:00:00Z",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-19/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/mG7eWFMIyXlprE2",
+            "https://www.canva.com/d/2jn-8t1wrcjhhOA",
+            "https://www.canva.com/d/QymlInYufJqkLJ4",
+            "https://www.canva.com/d/83XxwcsqOh0kE1k"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-19/update_001_linkedin.md",
+          "canva_candidates": []
+        },
+        "twitter": {
+          "file": "content/2026-06-19/update_001_twitter.md",
+          "tweets": 7,
+          "canva_candidates": []
+        },
+        "youtube": {
+          "file": "content/2026-06-19/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/_AfO-4l9O7pLqSc",
+            "https://www.canva.com/d/4WGAlhH1M1zeuxD",
+            "https://www.canva.com/d/ik7POU5YfBrzDw_",
+            "https://www.canva.com/d/g9vifF55IdFb71F"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-19/update_001_blog.md",
+          "canva_candidates": []
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-19/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/IcIsXdsZ7U-nKVG",
+            "https://www.canva.com/d/8lag-VZik7k9Y3T",
+            "https://www.canva.com/d/p_UbiB_xFAm68RC",
+            "https://www.canva.com/d/hw5LFbTSuN11EkT"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-19/update_002_linkedin.md",
+          "canva_candidates": []
+        },
+        "twitter": {
+          "file": "content/2026-06-19/update_002_twitter.md",
+          "tweets": 8,
+          "canva_candidates": []
+        },
+        "youtube": {
+          "file": "content/2026-06-19/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/PotSLtsZIzxSDsN",
+            "https://www.canva.com/d/TcHLyCLIR26Xj-4",
+            "https://www.canva.com/d/kzf8Anb5G31Xevr",
+            "https://www.canva.com/d/Q4eczwUVTvT3csQ"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-19/update_002_blog.md",
+          "canva_candidates": []
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "total_designs_generated": 4,
+    "total_candidates": 16,
+    "update_001_instagram_cover": [
+      "https://www.canva.com/d/mG7eWFMIyXlprE2",
+      "https://www.canva.com/d/2jn-8t1wrcjhhOA",
+      "https://www.canva.com/d/QymlInYufJqkLJ4",
+      "https://www.canva.com/d/83XxwcsqOh0kE1k"
+    ],
+    "update_001_youtube_thumbnail": [
+      "https://www.canva.com/d/_AfO-4l9O7pLqSc",
+      "https://www.canva.com/d/4WGAlhH1M1zeuxD",
+      "https://www.canva.com/d/ik7POU5YfBrzDw_",
+      "https://www.canva.com/d/g9vifF55IdFb71F"
+    ],
+    "update_002_instagram_cover": [
+      "https://www.canva.com/d/IcIsXdsZ7U-nKVG",
+      "https://www.canva.com/d/8lag-VZik7k9Y3T",
+      "https://www.canva.com/d/p_UbiB_xFAm68RC",
+      "https://www.canva.com/d/hw5LFbTSuN11EkT"
+    ],
+    "update_002_youtube_thumbnail": [
+      "https://www.canva.com/d/PotSLtsZIzxSDsN",
+      "https://www.canva.com/d/TcHLyCLIR26Xj-4",
+      "https://www.canva.com/d/kzf8Anb5G31Xevr",
+      "https://www.canva.com/d/Q4eczwUVTvT3csQ"
+    ]
+  }
+}
