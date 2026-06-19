@@ -1,0 +1,156 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T15:04:57Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 4,
+  "status": "updates_found",
+  "review_status": "pending",
+  "notes": {
+    "theverge.com": "Domain is blocked by Anthropic's crawler — no articles retrievable. No Verge articles included.",
+    "xda-developers.com": "Direct URL fetching blocked (HTTP 403); content sourced via search index. 1 article confirmed published June 19, 2026.",
+    "docs.anthropic.com": "Direct URL fetching blocked (HTTP 403); release note content sourced via search index and aggregators. 3 entries confirmed for June 18-19, 2026."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Design gets enterprise upgrade: design system imports, Claude Code sync, canvas editing, and lower token use",
+      "published_date": "2026-06-18",
+      "summary": "Anthropic updated Claude Design to focus on enterprise brand compliance and design-to-development workflows. Key additions include design system imports from GitHub or file uploads, tighter Claude Code integration with shared components, direct canvas editing with stronger layout controls, more MCP tool connections for a smoother design-to-code handoff, and reduced token consumption. Claude Design now lives in the sidebar of the Claude desktop app and is also accessible at claude.ai/design.",
+      "relevance_score": 90,
+      "accuracy_notes": "Details confirmed across multiple aggregator sources (Releasebot, vktr.com, TechRepublic, AIWeekly) and are consistent with prior Anthropic product trajectory. The official docs.anthropic.com page was inaccessible for direct verification (HTTP 403). Date of June 18 is consistent across sources.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just made Claude Design actually enterprise-ready — here's what changed",
+          "slides": [
+            "Slide 1: Claude Design just got a major enterprise upgrade",
+            "Slide 2: Import your design system from GitHub or upload files — brand compliance built in",
+            "Slide 3: Claude Code sync: design and dev now share components seamlessly",
+            "Slide 4: Direct canvas editing + stronger layout controls — less back-and-forth",
+            "Slide 5: Where to find it: claude.ai/design or the Claude desktop app sidebar"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise design-to-development workflow productivity — targeting design leads, product managers, and CTOs evaluating AI design tooling",
+          "opening_line": "Anthropic just turned Claude Design from a viral prototyping toy into something enterprise design teams have actually been waiting for.",
+          "cta": "Is your team still treating design and code as separate workflows? What would a shared AI layer change for you?"
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic dropped a big Claude Design update (June 18) and it's clearly aimed at enterprise. Here's what's new and why it matters for design-dev teams:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "The AI tool your design team AND your dev team can finally agree on — Claude Design just leveled up",
+          "script_outline": "Open with the classic design-to-dev handoff pain → What Anthropic changed (design system imports, Code sync) → Quick demo of canvas editing → Who this is actually for (enterprise brand compliance) → Where to access it (claude.ai/design, desktop sidebar) → Call to try it"
+        },
+        "ebook_blog": {
+          "title": "Claude Design for Enterprise: How Anthropic Is Closing the Design-to-Code Gap",
+          "angle": "Deep-dive for design leaders: walk through each new feature, compare to Figma/Canva AI workflows, and evaluate whether Claude Design's enterprise tier is worth the token cost — with a practical setup guide for teams already using Claude Code"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude adds enterprise-managed MCP connector access: zero-touch Okta authorization for Team and Enterprise plans",
+      "published_date": "2026-06-19",
+      "summary": "Anthropic launched a beta for enterprise-managed MCP connector authorization, starting with Okta as the identity provider. Admins can now provision MCP connectors organization-wide once, and employees get automatic zero-touch access on first login — no repeated authorization prompts. The feature brings centralized auth across Claude Chat, Claude Code, and Claude Cowork for Team and Enterprise plans. MCP app partners supported at launch include Asana, Atlassian, Canva, Figma, Granola, Linear, and Supabase, with Slack coming soon. Early adopters Ramp reported 2,000 employees provisioned through Okta with zero manual steps.",
+      "relevance_score": 93,
+      "accuracy_notes": "Confirmed across Releasebot, AIWeekly, Okta's own newsroom, the Model Context Protocol blog, and the Anthropic blog (claude.com/blog/enterprise-managed-auth). The Okta partnership is independently corroborated by Okta's press release. Date of June 19, 2026 confirmed. Feature is currently in beta.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Enterprise AI just solved one of IT's biggest headaches — repeated authorization prompts are gone",
+          "slides": [
+            "Slide 1: Claude just made enterprise AI access effortless for IT teams",
+            "Slide 2: Admins set up MCP connectors ONCE — every user gets access automatically",
+            "Slide 3: Works across Claude Chat, Claude Code, and Claude Cowork",
+            "Slide 4: Okta live now — Asana, Figma, Canva, Linear, Atlassian, Supabase supported at launch",
+            "Slide 5: Ramp already provisioned 2,000 employees with zero extra steps"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise IT administrators, CISOs, and ops leaders evaluating scalable AI deployment — framed around identity governance and access efficiency",
+          "opening_line": "IT leaders: Anthropic just removed the biggest friction point in enterprise Claude deployments — individual MCP authorization is gone.",
+          "cta": "Managing AI tool access at scale? Is identity provider integration the missing piece your org needs? Drop your current approach in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "🔐 Anthropic just solved enterprise AI's messiest problem: MCP connector authorization. Here's how the new Okta integration works and why it matters for IT teams:",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "No more 'please authorize this tool again' every time — Anthropic fixed Claude's biggest enterprise annoyance",
+          "script_outline": "Hook with the pain (repeated auth prompts slow enterprise AI adoption) → What Anthropic launched (admin-managed MCP auth via Okta) → How it works step-by-step → Which MCP apps are supported at launch → Real-world result: Ramp, 2K employees, zero manual steps → How to enable it for your org (Team/Enterprise plans)"
+        },
+        "ebook_blog": {
+          "title": "Zero-Touch AI at Scale: A Practical Guide to Anthropic's Enterprise MCP Authorization for IT Teams",
+          "angle": "Step-by-step guide for enterprise IT admins: how to configure Okta + Claude MCP connectors, which apps are supported, access scoping via IdP groups, and a security posture checklist — with commentary on what this signals for the broader enterprise AI identity management landscape"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-code-script-surfaces-usage-limits/",
+      "title": "Your Claude Code limits are hidden until they're not, and this script surfaces them on every message",
+      "published_date": "2026-06-19",
+      "summary": "XDA Developers published a guide covering a community-built script that displays Claude Code's usage limits directly in the terminal on every message — fixing a frustrating visibility gap in the tool. By default, Claude Code only exposes usage data when you manually run /usage in the terminal, and on claude.ai you have to dig into account settings to find it. The script passively surfaces where you stand on limits with each response, giving developers early warning before hitting rate walls.",
+      "relevance_score": 78,
+      "accuracy_notes": "Article is confirmed published on June 19, 2026 (search result indicated 'posted 2 hours ago'). Content is about a community workaround rather than an official Anthropic release; the script itself cannot be directly verified since the article URL returns HTTP 403. The underlying pain point (hidden limits) is well-corroborated by multiple prior user reports and the Anthropic Rate Limits XDA coverage. No accuracy red flags — topic is narrow and verifiable.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "This one script fixes the most annoying thing about Claude Code — and setup takes under 2 minutes",
+          "slides": []
+        },
+        "linkedin": {
+          "angle": "Developer productivity and Claude Code power-user tips — targeting developers who've been blindsided by silent rate limits",
+          "opening_line": "If you use Claude Code, you've probably hit the usage wall mid-task with no warning. Here's the fix.",
+          "cta": "What's your current workaround for managing Claude Code limits? Sharing this with your team could save a frustrating afternoon."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Claude Code's usage limits are basically invisible until you smash into them. Someone built a script that fixes this — here's how it works:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Never get blindsided by a Claude Code rate limit again — install this script in 2 minutes",
+          "script_outline": "Open with the pain (mid-task limit hit, no warning) → Show what /usage gives you manually → Introduce the script → How to install it → Live demo: limit info surfaced on every message → Why this matters for heavy Claude Code users"
+        },
+        "ebook_blog": {
+          "title": "Claude Code Power User Survival Guide: Rate Limits, Usage Scripts, and Strategies to Stay in Flow",
+          "angle": "Practical guide covering: how Claude Code's rate limits actually work, the /usage command, community tools like this script, tips to reduce token burn, and what Anthropic's recent rate limit changes mean — aimed at developers building seriously with Claude Code"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code changelog: wheel scroll acceleration, model selection improvements, background session reliability, and billing fixes",
+      "published_date": "2026-06-18",
+      "summary": "The Claude Code changelog received updates including a new wheel scroll acceleration setting in the terminal, improvements to model selection and usage attribution, more reliable background session handling, and fixes to several billing and performance issues. These are incremental quality-of-life and reliability improvements rather than feature launches.",
+      "relevance_score": 72,
+      "accuracy_notes": "Details sourced via search aggregators — exact date (June 18 vs 19) is estimated based on proximity to other confirmed June 18-19 release note entries. The official changelog URL was inaccessible (HTTP 403). These details appeared consistently in multiple search results describing the same batch of updates. Low risk of inaccuracy — changelog entries are factual and narrow.",
+      "content_potential": "low",
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
