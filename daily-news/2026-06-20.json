@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T15:07:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 1,
+  "status": "updates_found",
+  "review_status": "pending",
+  "scrape_notes": {
+    "xda-developers.com": "Homepage and article URLs returned HTTP 403. Searched via WebSearch — found Claude/Anthropic articles but none from June 18-20 with Claude/Anthropic as the PRIMARY subject. One June 19 XDA article found ('I replaced Claude Design, Figma Make, and Replit...') was excluded because its primary subject is a third-party alternative tool (Subframe), not Claude or Anthropic.",
+    "docs.anthropic.com": "Main release-notes page returned HTTP 403. Successfully retrieved Claude Code changelog via code.claude.com/docs/en/changelog (official Anthropic mirror). One update confirmed on June 19, 2026 (v2.1.183).",
+    "theverge.com": "Blocked — both WebFetch and WebSearch report this domain is inaccessible to the crawler. No Verge articles could be checked."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (Claude Code Release Notes)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.183 — Improved Auto Mode Safety, Deprecation Warnings & Bug Fixes",
+      "published_date": "2026-06-19",
+      "summary": "Anthropic released Claude Code v2.1.183 on June 19, 2026, introducing critical safety guardrails for auto mode: destructive git commands (git reset --hard, git checkout -- ., git clean -fd, git stash drop) are now blocked unless explicitly requested, git commit --amend is blocked when the commit was not made by the agent in the current session, and terraform/pulumi/cdk destroy commands require explicit confirmation before running. The update also adds model deprecation warnings in print (-p) mode and for models set in agent frontmatter, a new attribution.sessionUrl setting to omit claude.ai session links from commits/PRs, and a /config --help command listing all shorthand keys. Numerous bugs were fixed spanning JetBrains IDE flickering, subagent spawning errors, WebSearch empty results in subagents, TUI corruption under heavy load, tmux pane launch failures, and background task lifecycle issues.",
+      "relevance_score": 97,
+      "accuracy_notes": "Sourced directly from the official Anthropic Claude Code changelog at code.claude.com/docs/en/changelog — a first-party Anthropic property. All details are verifiable product release notes. No red flags or unverified claims. Cross-confirmed via GitHub releases and Releasebot aggregator.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just got serious about protecting your codebase — here's everything that changed in v2.1.183",
+          "slides": [
+            "Claude Code v2.1.183: The Safety Update AI Developers Needed",
+            "BLOCKED: git reset --hard, git clean -fd, git checkout -- . (unless you asked for it)",
+            "BLOCKED: git commit --amend on any commit the agent didn't make this session",
+            "BLOCKED: terraform destroy / pulumi destroy / cdk destroy without your explicit go-ahead",
+            "PLUS: Model deprecation warnings, /config --help, 10+ critical bug fixes"
+          ]
+        },
+        "linkedin": {
+          "angle": "What guardrails in AI coding agents mean for engineering teams considering autonomous development workflows in production",
+          "opening_line": "Anthropic just shipped Claude Code v2.1.183, and buried inside a routine changelog is one of the most important safety shifts yet for teams deploying AI agents against real codebases and infrastructure.",
+          "cta": "If your team is evaluating AI coding agents for enterprise use, this update signals a maturation worth tracking. Which safety guardrails matter most to your organization when adopting autonomous coding tools?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.183 just shipped and it quietly fixes one of the biggest risks of autonomous AI coding: agents accidentally destroying your git history or nuking your infrastructure. Here's the full breakdown 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just stopped Claude Code from being able to accidentally delete your entire git history — and this is a massive deal for developers using AI agents",
+          "script_outline": "Open with the nightmare scenario (autonomous agent runs git reset --hard mid-session and wipes uncommitted work), pivot to the v2.1.183 announcement, walk through each blocked command category (git destructive ops, amend ownership check, IaC destroy), demonstrate the /config --help quality-of-life upgrade, close with what this signals about AI coding agent safety and why this matters for enterprise adoption"
+        },
+        "ebook_blog": {
+          "title": "Safety Rails for AI Coding Agents: How Claude Code v2.1.183 Sets a New Standard for Autonomous Development",
+          "angle": "Deep dive into the specific safety design decisions in v2.1.183 — session-scoped ownership checks, destructive command intent inference, infrastructure protection guardrails — and what this maturation curve means for enterprise teams evaluating agentic coding tools in 2026"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
