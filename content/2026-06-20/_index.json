@@ -1,0 +1,89 @@
+{
+  "date": "2026-06-20",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-06-20T00:00:00Z",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "audience_note": "Emprendedores novatos / sin equipo técnico — motivar compra de ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-20/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/nmkw5kQfknBNlzD",
+            "https://www.canva.com/d/w_V-az5AdHsffUE",
+            "https://www.canva.com/d/_TzrYaQ5Y3B10kg",
+            "https://www.canva.com/d/YKN1XVA5H6uJ1aO"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-20/update_001_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-06-20/update_001_twitter.md",
+          "tweets": 7
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-20/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/1Istb0ymj5BUXpM",
+            "https://www.canva.com/d/HBTdi613THIEB0Q",
+            "https://www.canva.com/d/Yd9c_ge2g5eTutH",
+            "https://www.canva.com/d/AE5eSHcWMEAYgfr"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-20/update_001_blog.md",
+          "approx_words": 750
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "audience_note": "Emprendedores novatos / sin equipo técnico — motivar compra de ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-20/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/RjqDqWihaxY6kvz",
+            "https://www.canva.com/d/KTvEWeA-F8vcWju",
+            "https://www.canva.com/d/rJT1lkhuY8f_pHl",
+            "https://www.canva.com/d/GSKbUDODc6DVtKT"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-20/update_002_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-06-20/update_002_twitter.md",
+          "tweets": 8
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-20/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/gDSQmvzwyjV0P3G",
+            "https://www.canva.com/d/gy-YNS3f6AiTaBh",
+            "https://www.canva.com/d/YhCeCsvdXy7cmPx",
+            "https://www.canva.com/d/5XmRcHuCB6F9_8_"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-20/update_002_blog.md",
+          "approx_words": 800
+        }
+      }
+    }
+  ]
+}
