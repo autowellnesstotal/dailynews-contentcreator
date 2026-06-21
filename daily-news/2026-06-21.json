@@ -1,0 +1,114 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T00:00:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com",
+      "url": "https://claude.com/blog/enterprise-managed-auth",
+      "title": "Anthropic Launches Enterprise-Managed Authorization for Claude MCP Connectors (Okta Integration)",
+      "published_date": "2026-06-18",
+      "summary": "Anthropic launched Enterprise-Managed Authorization (EMA), a zero-touch OAuth system allowing enterprise IT admins to provision MCP connector access once via their identity provider (Okta), so employees automatically inherit access on first login with no individual consent screens required. Seven MCP connectors support EMA at launch — Asana, Atlassian, Canva, Figma, Granola, Linear, and Supabase — with Slack coming soon. The feature is live across Claude chat, Claude Code, and Claude Cowork for Team and Enterprise plans, built on the IETF-adopted MCP authorization spec declared stable on June 18, 2026.",
+      "relevance_score": 92,
+      "accuracy_notes": "Confirmed via Anthropic blog post (claude.com/blog/enterprise-managed-auth), Okta official press release, and multiple trade sources (TechTimes June 19, testingcatalog.com, aiweekly.co). Launch date June 18, 2026 is consistent across sources. MCP spec adoption by IETF in Sept 2025 and declared stable June 18, 2026 is independently verifiable. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Your new hire just got access to every AI tool on day one — without opening a single ticket. Here's how Anthropic just changed enterprise AI forever.",
+          "slides": [
+            "Slide 1: The Problem — Your team drowns in OAuth screens just to use AI tools",
+            "Slide 2: The Old Way — Every employee manually connects Figma, Atlassian, Asana... one by one",
+            "Slide 3: The New Way — Anthropic's Zero-Touch MCP Auth with Okta",
+            "Slide 4: How It Works — Admins authorize once → employees inherit access on first login",
+            "Slide 5: 7 Apps Supported at Launch (+ Slack coming soon)"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise IT leaders and CTOs: Claude just eliminated a major AI adoption friction point with identity-driven zero-touch MCP authorization.",
+          "opening_line": "If your company is rolling out Claude to hundreds of employees, you just got a major gift from Anthropic: zero-touch AI tool access via your existing Okta setup.",
+          "cta": "Is your team using Claude Enterprise? Drop a comment — I'd love to hear how you're managing MCP connector access today."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just quietly solved one of enterprise AI's biggest headaches: getting employees set up with AI tools without IT intervention. Here's what dropped on June 18 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Your new employee walks in on day one — and they already have access to every AI tool the company approved. No tickets. No OAuth screens. Here's how Anthropic just made that possible.",
+          "script_outline": "0-5s: Hook — new hire day-one access scenario. 5-20s: The old problem — explain OAuth friction for enterprise AI tools. 20-40s: What Anthropic launched — Enterprise-Managed Auth with Okta, zero-touch provisioning. 40-55s: What apps are supported and who this affects. 55-60s: CTA — Link to Anthropic blog post in bio."
+        },
+        "ebook_blog": {
+          "title": "Zero-Touch AI at Work: How Anthropic's Enterprise MCP Auth Removes the Last Barrier to Claude Adoption",
+          "angle": "A practical explainer for IT decision-makers — covering what EMA is, how it compares to traditional OAuth flows, which connectors are supported, and what it means for enterprise AI governance and compliance posture."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+      "title": "Claude Code v2.1.183 — Auto Mode Safety Guardrails, Model Deprecation Warnings, and Major Bug Fixes",
+      "published_date": "2026-06-19",
+      "summary": "Claude Code v2.1.183 introduced significant safety guardrails in auto mode: destructive git commands (git reset --hard, git checkout -- ., git clean -fd, git stash drop) are now blocked unless the user explicitly asked to discard local work, and git commit --amend is blocked for commits not made by the agent. Infrastructure destroy commands (terraform destroy, pulumi destroy, cdk destroy) are also blocked unless the specific stack was requested. The release also adds model deprecation warnings, a new attribution.sessionUrl setting, /config --help, and fixes over a dozen bugs spanning subagents, WebSearch, TUI rendering, tmux, and background task handling.",
+      "relevance_score": 95,
+      "accuracy_notes": "Confirmed directly from GitHub releases page (github.com/anthropics/claude-code/releases) with exact timestamp June 19, 01:20 UTC. All specific command names and behaviors are from the official changelog. The bug fixes list is exhaustive and matches the code.claude.com changelog. No accuracy concerns.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just stopped itself from deleting your entire repo. Here's the safety update that every developer needs to know about.",
+          "slides": [
+            "Slide 1: Claude Code v2.1.183 — The Safety Update Devs Have Been Waiting For",
+            "Slide 2: Commands Now BLOCKED in Auto Mode (git reset --hard, git clean, etc.)",
+            "Slide 3: Infrastructure Destroy Commands — Blocked Unless You Asked",
+            "Slide 4: New: Model Deprecation Warnings So You're Never Caught Off Guard",
+            "Slide 5: 12+ Bug Fixes — Subagents, WebSearch, TUI, tmux & More"
+          ]
+        },
+        "linkedin": {
+          "angle": "For engineering leads evaluating AI coding tools: Claude Code's latest update addresses a major trust concern — the risk of irreversible operations running in auto mode.",
+          "opening_line": "One of the biggest fears around AI coding agents is that they'll accidentally run a command you can't undo. Anthropic just addressed this directly in Claude Code v2.1.183.",
+          "cta": "Are you using Claude Code in auto mode for production workflows? How are you handling safety guardrails? Share your approach below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.183 just dropped and it includes something every developer running AI agents should care about: auto mode now blocks destructive commands unless you explicitly ask for them. Thread 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "What if your AI coding assistant decided to run 'git reset --hard' while you were away from your desk? Claude Code just made sure that can't happen without your permission.",
+          "script_outline": "0-5s: Hook — horror scenario of AI deleting local work. 5-20s: What auto mode is and why it's powerful but risky. 20-40s: The 4 git commands now blocked + terraform/pulumi/cdk destroy. 40-55s: Other improvements (model warnings, bug fixes). 55-60s: CTA — update your Claude Code and link to full changelog."
+        },
+        "ebook_blog": {
+          "title": "How Anthropic Is Building Trust Into Claude Code: A Deep Dive Into the v2.1.183 Safety Guardrails",
+          "angle": "A technical breakdown for developers — covering exactly which commands are blocked, how the detection logic works, why git commit --amend was added to the list, and what this means for teams running Claude Code in CI/CD pipelines."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
+      "title": "Claude Code v2.1.185 — Stream-Stall Hint UX Improvement",
+      "published_date": "2026-06-20",
+      "summary": "Claude Code v2.1.185 refined the stream-stall notification text from the alarming 'No response from API · Retrying in …' to the calmer 'Waiting for API response · will retry in …', and extended the trigger threshold from 10 seconds of silence to 20 seconds. This is a minor UX polish update that reduces false-alarm anxiety for developers during normal API latency spikes.",
+      "relevance_score": 62,
+      "accuracy_notes": "Confirmed from GitHub releases page with exact timestamp June 20, 20:59 UTC and code.claude.com changelog. Straightforward UX copy change — no verification concerns.",
+      "content_potential": "low",
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
