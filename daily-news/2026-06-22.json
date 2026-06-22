@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T15:07:26Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "agent_scrape_notes": "docs.anthropic.com returned HTTP 403 on direct fetch; release notes were sourced via the official Claude Code changelog at code.claude.com/docs/en/changelog (linked from the release notes overview) and confirmed through multiple web search results. xda-developers.com homepage returned HTTP 403; article search found no XDA articles with a confirmed June 21-22 publication date about Claude/Anthropic. theverge.com is fully blocked from web crawling (API 400 error) and no Verge articles appeared in search results for this date range. NOTABLE UNVERIFIED EVENT (not from monitored sources): A 90-minute Claude platform outage occurred on June 22 2026, 00:37-02:06 UTC, affecting 5 models (Opus 4.8, 4.7, 4.6, Sonnet 4.6, Haiku 4.5) and all Claude services. Covered by Cyber Security News and TechRadar but could not be confirmed via the three primary monitored sources.",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Release Notes — docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Code v2.1.185: Stream-Stall Retry Hint Wording and Timing Improved",
+      "published_date": "2026-06-20",
+      "summary": "Claude Code v2.1.185 (released June 20, 2026) refines how Claude Code communicates API delays to users: the stream-stall hint now reads 'Waiting for API response · will retry in…' instead of the previous 'No response from API · Retrying in…', and the trigger threshold was extended from 10 seconds of silence to 20 seconds. The change reduces false-alarm anxiety during slower but still-active API calls and gives users clearer language about what Claude Code is doing during long-running requests. This is a UX polish update shipped within the broader cadence of rapid Claude Code releases throughout June 2026.",
+      "relevance_score": 68,
+      "accuracy_notes": "Confirmed directly via the official Claude Code changelog at code.claude.com/docs/en/changelog. The June 20 date and change description are from the primary source. Minor UX fix; low risk of inaccuracy. Note: this release sits on the 48-hour boundary (June 20 vs June 22 today). Context: Claude's infrastructure experienced a significant 90-minute multi-model outage on June 22 (00:37-02:06 UTC) — the third outage this month — affecting Opus 4.8/4.7/4.6, Sonnet 4.6, and Haiku 4.5. This event was not found on the three monitored sources within the scrape window and is flagged here for reviewer awareness only.",
+      "content_potential": "low",
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Official Documentation — docs.anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "title": "Claude Fable 5 Removed from Subscription Plans Today — Usage Credits Now Required",
+      "published_date": "2026-06-22",
+      "summary": "Today (June 22, 2026) marks the final day Claude Fable 5 is included at no extra cost on Pro, Max, Team, and seat-based Enterprise plans. Starting June 23, continued access to Fable 5 requires usage credits; Anthropic has priced Fable 5 at $10 per million input tokens and $50 per million output tokens, making it the most expensive generally available frontier model Anthropic offers — double the price of Opus 4.8. Anthropic has stated its intention to restore Fable 5 as a standard plan feature once capacity allows, but has not provided a timeline, leaving subscribers who relied on it facing an unexpected cost increase or a capability downgrade.",
+      "relevance_score": 91,
+      "accuracy_notes": "This is a time-sensitive plan change directly affecting all Claude subscribers. The June 22 free-inclusion deadline and June 23 credit-requirement date are confirmed across multiple sources including Anthropic's own documentation, the Claude Fable 5 launch announcement (June 9, 2026), and coverage on Developers Digest and Claude Fast. Note: the original announcement was published June 9; today's significance is the deadline event itself rather than a new article. Included because it is the single most impactful Claude development for subscribers on this date. Reviewer should verify whether an XDA or Verge article covering this deadline was published June 21-22 that the scrape missed due to access restrictions.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Fable 5 just disappeared from your plan. Here's what happened and what to do next.",
+          "slides": [
+            "Slide 1: What is Claude Fable 5? (The most powerful Claude model ever made publicly available)",
+            "Slide 2: What changed today? (Removed from Pro/Max/Team/Enterprise — now costs usage credits)",
+            "Slide 3: What does it cost now? ($10/M input, $50/M output — 2× more than Opus 4.8)",
+            "Slide 4: What are your options? (Stay on Opus 4.8 free tier vs. buy credits vs. wait for reinclusion)",
+            "Slide 5: Anthropic's promise — they plan to bring it back to plans, but no date given"
+          ]
+        },
+        "linkedin": {
+          "angle": "Professional cost-impact and strategic planning angle: teams that integrated Fable 5 workflows now face unexpected AI spend increases and need a decision framework.",
+          "opening_line": "If your team has been using Claude Fable 5 this month, you woke up today to a meaningful cost change — and Anthropic hasn't given a timeline for when it goes back to being free on your plan.",
+          "cta": "What's your team's plan — absorb the credit cost, downgrade to Opus 4.8, or benchmark alternatives? Drop your approach in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 is gone from your subscription as of today (June 23). Here's the full breakdown of what it costs now, who's affected, and what Anthropic actually said about bringing it back 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just quietly removed the most powerful Claude model from your subscription plan today — and it now costs TWICE as much as Opus 4.8 if you want to keep using it.",
+          "script_outline": "0-5s: Hook — 'Claude Fable 5 is gone from your plan today.' 5-20s: Context — what Fable 5 is and why users loved it. 20-35s: What changed — free inclusion ended, credits now required, pricing breakdown. 35-50s: Your options — Opus 4.8 vs credits vs waiting. 50-60s: CTA — subscribe for Claude updates."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5 Is Gone From Your Plan: What Every Subscriber Needs to Know Right Now",
+          "angle": "Practical subscriber guide: explain the change, break down the new cost structure, compare Opus 4.8 capabilities as the fallback, outline Anthropic's stated intent to restore inclusion, and provide a decision framework for individuals vs. teams vs. enterprise users."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
