@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-06-22T00:00:00Z",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "content_folder": "content/2026-06-22",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design es el mejor lanzamiento reciente de Anthropic, pero tiene serias limitaciones",
+      "source": "XDA Developers",
+      "reviewer_notes": "Contenido adaptado para emprendedores novatos, enfoque práctico, motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-22/update_001_instagram.md",
+          "format": "carrusel 7 slides",
+          "canva_designs": [
+            "https://www.canva.com/d/qYvfILAsZDgEkv6",
+            "https://www.canva.com/d/J3iTugwGxJqnwgS",
+            "https://www.canva.com/d/cckw0UGtGNEBPFG",
+            "https://www.canva.com/d/fCO_HweCMGRDyz6"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-22/update_001_linkedin.md",
+          "canva_designs": []
+        },
+        "twitter_x": {
+          "file": "content/2026-06-22/update_001_twitter.md",
+          "tweets": 7,
+          "canva_designs": []
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-22/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnails": [
+            "https://www.canva.com/d/Fdxu8CfBE_DKUM9",
+            "https://www.canva.com/d/pinFCEw9KKokywo",
+            "https://www.canva.com/d/ngnDKEl_CL879hX",
+            "https://www.canva.com/d/VhjXGmMdWqh8QKK"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-22/update_001_blog.md",
+          "word_count": "~780"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code tiene memoria persistente: Auto Memory y CLAUDE.md para automatización sin fricción",
+      "source": "XDA Developers",
+      "reviewer_notes": "Contenido adaptado para emprendedores novatos, enfoque práctico, motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-22/update_002_instagram.md",
+          "format": "carrusel 7 slides",
+          "canva_designs": [
+            "https://www.canva.com/d/Lk8bWb-fKS-Z3wC",
+            "https://www.canva.com/d/KPe4HaWoR4ygfV6",
+            "https://www.canva.com/d/-1mVWlyuLgf-pUT",
+            "https://www.canva.com/d/IxzgLWhLukj0ysj"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-22/update_002_linkedin.md",
+          "canva_designs": []
+        },
+        "twitter_x": {
+          "file": "content/2026-06-22/update_002_twitter.md",
+          "tweets": 8,
+          "canva_designs": []
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-22/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnails": [
+            "https://www.canva.com/d/bYfe-sm36QyDgnk",
+            "https://www.canva.com/d/Qh-3E36NdpHopVq",
+            "https://www.canva.com/d/u-AJIii0GwnjmJ5",
+            "https://www.canva.com/d/0wPX217R_M32ub6"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-06-22/update_002_blog.md",
+          "word_count": "~820"
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "total_designs_generated": 16,
+    "instagram_designs": 8,
+    "youtube_thumbnails": 8,
+    "failures": []
+  }
+}
