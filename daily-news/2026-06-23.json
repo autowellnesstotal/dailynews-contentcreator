@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T15:06:05Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual articles also blocked. Article title, date, and details retrieved via web search. One article confirmed within the 24-48h window (June 23 outage coverage).",
+    "docs.anthropic.com": "Direct fetch blocked (403). Content retrieved via web search. Claude Code release notes (v2.1.166–v2.1.176) with auto mode for Bedrock/Vertex/Foundry confirmed within the June 22-23 window.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and Anthropic web crawler policy. Domain not accessible to this agent's search tools. Zero Verge results available for this run."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/anthropics-claude-is-down/",
+      "title": "Anthropic's Claude is down... again",
+      "published_date": "2026-06-23",
+      "summary": "Claude sufrió una interrupción masiva del servicio el 23 de junio de 2026, comenzando alrededor de las 14:19 UTC (10:02 AM ET). El fallo afectó a los modelos Opus 4.8, 4.7, 4.6, Sonnet 4.6 y Haiku 4.5 en todas las plataformas: claude.ai, Claude Code, Claude Cowork y la API — con la única excepción de Claude for Government. Anthropic confirmó en su página de estado que estaba investigando tasas elevadas de error y que se estaba implementando una corrección. La interrupción duró aproximadamente 90 minutos y se suma a dos incidentes previos en junio (días 18 y 21).",
+      "relevance_score": 90,
+      "accuracy_notes": "Confirmado por múltiples fuentes independientes: página de estado oficial de Anthropic, live blog de TechRadar específico del 23-Jun-2026, y comunidades de usuarios en DesignTAXI Community. El patrón de caídas múltiples en junio 2026 es consistente entre fuentes.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude se cayó de nuevo y miles de usuarios perdieron horas de trabajo — esto no puede seguir pasando 🔴",
+          "slides": [
+            "¿Qué pasó el 23 de junio con Claude?",
+            "Todos los modelos afectados: Claude Code, claude.ai, API",
+            "Ya es el 3er incidente de Claude en junio 2026",
+            "Qué hacer cuando tu IA de trabajo no responde",
+            "Por qué necesitas un plan B para tus flujos con IA"
+          ]
+        },
+        "linkedin": {
+          "angle": "Resiliencia operativa para emprendedores que dependen de herramientas IA como Claude",
+          "opening_line": "Si hoy Claude dejó de funcionar y tu trabajo se detuvo por 90 minutos, este post es para ti.",
+          "cta": "¿Tienes un plan de respaldo cuando tu herramienta IA principal falla? Cuéntame abajo."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude cayó de nuevo hoy — Opus 4.8, Sonnet 4.6, Claude Code, todo offline por ~90 minutos. Ya es el 3er incidente en junio 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Mi herramienta IA favorita se cayó en medio de un proyecto — así es como reacciono cuando pasa",
+          "script_outline": "0-5s: Hook (muestra pantalla de error). 5-15s: Qué pasó el 23 de junio con Claude. 15-30s: Contexto — patrón de caídas en junio 2026. 30-50s: Mi plan de respaldo práctico y fácil de implementar. 50-60s: CTA — guarda este video para la próxima vez."
+        },
+        "ebook_blog": {
+          "title": "Cuando Claude Falla: Guía para Emprendedores que Dependen de la IA en su Trabajo Diario",
+          "angle": "Plan de contingencia práctico y sin tecnicismos para emprendedores que usan IA en sus procesos, con alternativas reales y un checklist de respaldo listo para usar."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Claude Code Release Notes)",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code lanza auto mode en Bedrock, Vertex y Foundry; múltiples mejoras de estabilidad y UX (v2.1.166–v2.1.176)",
+      "published_date": "2026-06-22",
+      "summary": "Anthropic liberó múltiples actualizaciones de Claude Code (versiones v2.1.166 a v2.1.176) en la ventana del 22-23 de junio de 2026. El cambio más importante es la disponibilidad de auto mode en AWS Bedrock, Google Vertex y Azure Foundry para los modelos Opus 4.7 y Opus 4.8 — se activa configurando CLAUDE_CODE_ENABLE_AUTO_MODE=1. También incluye: mejoras en el streaming de párrafos largos, reintento automático cuando la conexión API se interrumpe durante un proceso de razonamiento, panel de subagentes mejorado, estilo actualizado en la página OAuth de MCP, y cambios en el comportamiento de apertura de URLs en modo pantalla completa.",
+      "relevance_score": 95,
+      "accuracy_notes": "Fuente: notas de versión oficiales de Anthropic para Claude Code (docs.anthropic.com). El rango v2.1.166–v2.1.176 es consistente con el ritmo de actualizaciones frecuentes de Claude Code. Auto mode en Bedrock/Vertex/Foundry verificado en documentación oficial y mencionado en comunidades de desarrolladores.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code acaba de volverse mucho más accesible para empresas — ahora funciona en las 3 nubes grandes ☁️",
+          "slides": [
+            "¿Qué es Claude Code y por qué le importa a tu negocio?",
+            "Auto mode ahora disponible: AWS Bedrock, Google Vertex, Azure Foundry",
+            "¿Qué cambia para las empresas con esto?",
+            "Otras mejoras: streaming, reintentos automáticos, subagentes",
+            "¿Deberías empezar a usar Claude Code en tu empresa?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Claude Code escala al ecosistema cloud empresarial — lo que esto significa para equipos que ya usan AWS, Google Cloud o Azure",
+          "opening_line": "Si tu empresa ya usa AWS, Google Cloud o Azure, Claude Code acaba de volverse mucho más fácil de integrar en tus flujos de trabajo existentes.",
+          "cta": "¿Tu equipo ya está evaluando Claude Code? Comparte en comentarios cómo lo están usando o considerando."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code ya corre en AWS Bedrock, Google Vertex y Azure Foundry con auto mode — y casi nadie lo notó 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code ahora funciona en AWS, Google Cloud y Azure — y no lo viste en ningún titular",
+          "script_outline": "0-5s: Hook — dato sorpresa. 5-15s: Qué es auto mode y por qué importa para empresas. 15-30s: Las 3 plataformas cloud: Bedrock, Vertex, Foundry. 30-45s: Otras mejoras incluidas en esta actualización. 45-55s: Cómo activarlo (sin tecnicismos). 55-60s: CTA — suscribirse para más actualizaciones de Claude."
+        },
+        "ebook_blog": {
+          "title": "Claude Code para Empresas 2026: Cómo Usar Auto Mode en AWS, Google Cloud y Azure sin Ser Técnico",
+          "angle": "Guía práctica para emprendedores y equipos no técnicos que quieren integrar Claude Code en su infraestructura cloud existente, explicado paso a paso con lenguaje accesible."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
