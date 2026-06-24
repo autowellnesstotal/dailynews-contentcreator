@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T15:06:11Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returns HTTP 403; individual articles also blocked. WebSearch used instead. No Claude/Anthropic articles confirmed published on June 23-24, 2026 window.",
+    "docs.anthropic.com": "Homepage returns HTTP 403; Claude Code changelog fetched successfully via code.claude.com/docs/en/changelog (linked from release notes). Claude Tag found via official anthropic.com/news announcement cross-referenced with Anthropic release note coverage.",
+    "theverge.com": "Completely inaccessible — Anthropic's crawler is explicitly blocked by The Verge (API error 400: domain not accessible to Anthropic user agent). No articles retrievable for this run."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Newsroom",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "title": "Introducing Claude Tag: Anthropic Launches Persistent AI Teammate for Slack",
+      "published_date": "2026-06-23",
+      "summary": "Anthropic launched Claude Tag on June 23, 2026 — a new product that embeds Claude directly into Slack as a persistent, shared AI team member. Teams invite Claude to specific channels and delegate tasks by typing @Claude; Claude then independently breaks the task into stages, works through them, and delivers the result back in Slack. Unlike individual chatbot interactions, Claude Tag has a shared identity visible to all channel members, allowing teammates to hand off in-progress work and build shared context over time. The product runs on Claude Opus 4.8 and is available in research preview for Claude Enterprise and Claude Team customers, with a 30-day migration window planned for existing Claude-in-Slack users.",
+      "relevance_score": 98,
+      "accuracy_notes": "Confirmed across multiple independent reputable sources all dated June 23, 2026: Fortune, Bloomberg, Engadget, The Next Web, Neowin, SiliconANGLE, Benzinga. Official Anthropic blog post exists at anthropic.com/news/introducing-claude-tag. All key facts (Opus 4.8, Enterprise/Team research preview, @Claude invocation, shared identity model, 30-day migration window) are consistent across sources. No red flags or contradictions detected.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just added Claude as an actual Slack team member — here's what that changes for your workflow",
+          "slides": [
+            "Slide 1: Claude Tag — Your New AI Coworker Lives in Slack",
+            "Slide 2: Just @Claude in any channel to hand off a task",
+            "Slide 3: Claude breaks it into stages and reports back independently",
+            "Slide 4: Your whole team shares one Claude — hand off mid-task, pick up seamlessly",
+            "Slide 5: Now in research preview for Enterprise & Team users — here's how to get it"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI collaboration is entering a new phase — Claude is no longer a tool you visit, it's a colleague who lives in your team's Slack and handles work while you sleep.",
+          "opening_line": "Anthropic just made Claude a permanent member of your Slack workspace — and the way it handles shared tasks, persistent context, and team handoffs could fundamentally change how enterprise teams work with AI.",
+          "cta": "Is your team ready to add an AI teammate to your channels? Drop your biggest question about enterprise AI adoption below."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic just shipped Claude Tag for Slack — a true AI teammate that lives IN your channels, not a bot you DM. Here's what's genuinely different and why this matters:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "You can now add Claude as an actual MEMBER of your Slack channel — type @Claude and it takes over tasks while your team sleeps.",
+          "script_outline": "1) Open with @Claude moment in a real Slack thread. 2) What makes Claude Tag different from Slackbot or other AI bots (shared identity, task breakdown, handoffs). 3) Walk through a real delegation example from start to finish. 4) Show admin security controls. 5) Who gets access now and what's coming. 6) Close: what this means for the future of AI at work."
+        },
+        "ebook_blog": {
+          "title": "Claude Tag for Slack: The Complete Guide to Anthropic's AI Teammate (2026 Edition)",
+          "angle": "Practical deep-dive for business and IT leaders — what Claude Tag is, how it compares to existing Slack bots, enterprise security controls, step-by-step setup guide, and real-world use cases for teams."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Code v2.1.187 — Credential Security, Org Model Controls & 15+ Bug Fixes",
+      "published_date": "2026-06-23",
+      "summary": "Anthropic shipped Claude Code version 2.1.187 on June 23, 2026, with meaningful security and reliability improvements. The headline addition is a new sandbox.credentials setting that prevents sandboxed commands from reading credential files and secret environment variables — directly addressing a key enterprise security concern. The release also adds org-level model restriction controls visible in the model picker with clear 'restricted by your organization's settings' messaging, and mouse click support for menus in fullscreen mode. Over 15 bugs were fixed including --resume failures on pipeline runs, structured output loops in workflow agents, remote MCP tool calls hanging for 5 minutes, and Korean/CJK text encoding corruption in certain terminals.",
+      "relevance_score": 86,
+      "accuracy_notes": "Sourced directly from the official Claude Code changelog at code.claude.com/docs/en/changelog, which loaded successfully. Version 2.1.187 and June 23, 2026 date confirmed in the changelog. All listed features and fixes match what was returned from the live page. Technical claims are straightforward release notes — no marketing embellishment or unverified assertions.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code v2.1.187 just dropped — here's the security upgrade developers actually needed",
+          "slides": [
+            "Slide 1: Claude Code v2.1.187 — June 23 Update Breakdown",
+            "Slide 2: New: sandbox.credentials blocks API keys from sandboxed commands",
+            "Slide 3: New: Org model restrictions now visible in the picker with clear messaging",
+            "Slide 4: Fixed: MCP tool calls no longer hang 5 minutes — they fail fast now",
+            "Slide 5: 15+ bug fixes. Update now. Here's the full changelog link."
+          ]
+        },
+        "linkedin": {
+          "angle": "Security and enterprise readiness: the Claude Code v2.1.187 release brings credential isolation and organizational model governance controls that enterprise security teams have been asking for.",
+          "opening_line": "If your team runs Claude Code in sandboxed or shared environments, the June 23 update includes a credential isolation feature that directly closes an API key exposure risk — and it shipped quietly, so you may have missed it.",
+          "cta": "Running Claude Code at scale? Check the full changelog and test sandbox.credentials in your pipeline this week."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.187 dropped June 23 and the credential security fix alone makes it worth updating immediately 🧵 Here's what changed:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "This Claude Code update quietly fixed a security gap that could expose your API credentials inside sandboxed environments — here's exactly what changed.",
+          "script_outline": "1) Open with the real risk: API keys leaking inside sandboxed AI dev environments. 2) Introduce sandbox.credentials — show config and what it blocks. 3) Walk through org model restrictions in the picker. 4) Hit the top bug fixes: MCP timeouts, resume failures, CJK text corruption. 5) Show how to update Claude Code. 6) Why staying current on Claude Code matters for security."
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.187 Security Update: What Every Enterprise Developer Needs to Know",
+          "angle": "Technical breakdown for developers and security engineers — what sandbox.credentials does and how to configure it, how org model restrictions work, and a fully annotated bug fix list with impact assessment."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
