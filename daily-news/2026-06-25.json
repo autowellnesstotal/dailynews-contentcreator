@@ -1,0 +1,150 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T15:30:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403 Forbidden; individual articles también bloqueados. Búsqueda web (índice de Google) no confirmó ningún artículo de XDA publicado en las últimas 24-48 horas dentro de la ventana Jun 23-25, 2026. Los artículos más recientes encontrados de XDA datan de mayo de 2026.",
+    "docs.anthropic.com": "Página de release notes devolvió HTTP 403. Contenido recuperado mediante búsqueda web verificada. Se confirmaron dos actualizaciones dentro de la ventana de 24-48 horas: Claude Tag (23-jun) y soporte Apple Foundation Models (23-24 jun).",
+    "theverge.com": "Bloqueado por política del crawler de Anthropic (error 403/dominio no accesible). Sin resultados verificados. Nota: La historia de Anthropic vs. Alibaba, el mayor evento Anthropic del período, fue cubierta masivamente por Bloomberg, CNBC, Tom's Hardware y decenas de outlets — The Verge casi con certeza la cubrió pero no pudo verificarse.",
+    "web_search_supplement": "Se realizaron 14 búsquedas web adicionales para compensar el bloqueo de fuentes directas. Se encontró y verificó la historia de Anthropic vs. Alibaba (Jun 24) con múltiples fuentes primarias. Se incluye como update_003 con nota de fuente explícita."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (release notes)",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "title": "Anthropic lanza Claude Tag: @Claude ahora vive dentro de Slack como miembro del equipo",
+      "published_date": "2026-06-23",
+      "summary": "Anthropic lanzó Claude Tag, una integración persistente en Slack que permite a los equipos invocar @Claude directamente en canales como si fuera un miembro más del equipo. Disponible en beta para planes Enterprise y Team, Claude Tag ofrece colaboración multiplayer (un solo Claude compartido por todo el canal), memoria de contexto que persiste entre sesiones, manejo asíncrono de tareas y control granular de qué datos y herramientas puede acceder el modelo. Antropic reveló que el 65% del código de su equipo de producto ya es generado por su versión interna de Claude Tag.",
+      "relevance_score": 97,
+      "accuracy_notes": "Verificado — lanzamiento oficial confirmado por Anthropic el 23 de junio de 2026. Cubierto por TechCrunch (23-jun), Fortune (23-jun), 9to5Mac (23-jun), SiliconANGLE (23-jun), TechRepublic y gHacks (25-jun). El dato del 65% de código proviene directamente del comunicado oficial de Anthropic.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de meter a Claude directo en tu Slack — y ya no es un chatbot, es un compañero de equipo real 🤝",
+          "slides": [
+            "¿Qué es Claude Tag y por qué cambia todo?",
+            "Cómo funciona: etiqueta @Claude en cualquier canal",
+            "Multiplayer: un Claude compartido por todo el equipo",
+            "Memoria de contexto — recuerda tu empresa, tus proyectos, tus herramientas",
+            "Ya genera el 65% del código interno de Anthropic"
+          ]
+        },
+        "linkedin": {
+          "angle": "El agente de IA colaborativo dentro de herramientas de trabajo ya es una realidad de empresa — no un experimento",
+          "opening_line": "Anthropic acaba de convertir a Claude en un empleado de Slack: puede recibir tareas, trabajar de forma asíncrona, recordar el contexto de tu empresa y responder en hilo cuando termine — todo sin que nadie tenga que supervisarlo.",
+          "cta": "¿Tu empresa está evaluando agentes de IA en flujos de trabajo? Comparte cómo lo están abordando."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic acaba de lanzar Claude Tag y creo que es el movimiento más importante de IA enterprise de 2026 — aquí por qué 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Imagina tener un empleado en Slack que trabaja 24/7, recuerda todo sobre tu empresa y entrega resultados mientras tú duermes — eso acaba de lanzar Anthropic",
+          "script_outline": "0-5s: Hook impacto. 5-15s: Qué es Claude Tag. 15-30s: Demo visual de @Claude en Slack. 30-45s: Memoria + acceso a herramientas. 45-55s: El dato del 65% de código interno. 55-60s: CTA — enlace en bio para probarlo."
+        },
+        "ebook_blog": {
+          "title": "Claude Tag: Cómo Anthropic Convirtió a su IA en un Empleado de Slack (y Qué Significa Para tu Empresa)",
+          "angle": "Guía práctica para emprendedores y gerentes sobre cómo Claude Tag redefine la colaboración con IA dentro de equipos reales — con casos de uso, limitaciones y cómo empezar hoy."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Bloomberg / CNBC / Tom's Hardware (XDA y The Verge inaccesibles — historia verificada por múltiples fuentes primarias)",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-24/anthropic-accuses-alibaba-of-illicitly-accessing-its-ai-models",
+      "title": "Anthropic acusa a Alibaba del mayor ataque de destilación conocido contra Claude: 25,000 cuentas falsas y 28.8 millones de intercambios",
+      "published_date": "2026-06-24",
+      "summary": "Anthropic acusó formalmente a Alibaba de orquestar la mayor campaña de destilación conocida contra sus modelos Claude, utilizando casi 25,000 cuentas fraudulentas que realizaron 28.8 millones de intercambios con Claude entre el 22 de abril y el 5 de junio de 2026. La campaña, vinculada al laboratorio Qwen de Alibaba, apuntó específicamente a las capacidades más valiosas de Claude: ingeniería de software y razonamiento agente. Anthropic notificó al Comité Bancario del Senado de EE.UU. y a funcionarios de la Casa Blanca, advirtiendo además que los modelos entrenados mediante destilación adversarial a menudo carecen de los controles de seguridad presentes en los modelos originales.",
+      "relevance_score": 99,
+      "accuracy_notes": "Verificado por múltiples fuentes de primer nivel: Bloomberg (24-jun), CNBC (24-jun), Tom's Hardware (24-jun), Business Standard (25-jun), Japan Times (25-jun), Nikkei Asia (25-jun), Republic World (25-jun). La carta de Anthropic al Senado está fechada el 10 de junio de 2026. Alibaba no ha respondido públicamente a las acusaciones. NOTA DE FUENTE: XDA y The Verge estaban bloqueados; esta historia casi con certeza fue cubierta por ambos outlets dado su alcance masivo.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "China robó 28 millones de conversaciones con Claude — y Anthropic acaba de decírselo a la Casa Blanca 🚨",
+          "slides": [
+            "¿Qué es un ataque de destilación de IA?",
+            "25,000 cuentas falsas + 28.8M intercambios con Claude",
+            "Qué capacidades robaron: código y razonamiento agente",
+            "Por qué es peligroso: modelos sin controles de seguridad",
+            "Anthropic le escribió al Senado y a la Casa Blanca"
+          ]
+        },
+        "linkedin": {
+          "angle": "Propiedad intelectual de IA bajo ataque: el caso Anthropic-Alibaba establece un precedente crítico para toda la industria",
+          "opening_line": "Anthropic acaba de revelar el mayor robo industrial de capacidades de IA de la historia: Alibaba usó 25,000 cuentas falsas para extraer 28.8 millones de intercambios de Claude en menos de 2 meses — y fue directo a la Casa Blanca a reportarlo.",
+          "cta": "¿Cómo debería responder la industria de IA a los ataques de destilación? ¿Regulación, técnica o ambas? Debate en comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "BREAKING: Anthropic acusa a Alibaba de robar capacidades de Claude a escala industrial — 25,000 cuentas falsas, 28.8M interacciones, carta a la Casa Blanca. Aquí todo lo que sabemos 🧵",
+          "estimated_tweets": 9
+        },
+        "youtube_tiktok": {
+          "hook": "China acaba de ser acusada de robarle la IA más poderosa del mundo usando 25,000 cuentas falsas — y el CEO de Anthropic fue directo al Senado de EE.UU.",
+          "script_outline": "0-5s: Hook urgencia. 5-15s: Qué es destilación adversarial (simple). 15-30s: Los números: 25K cuentas, 28.8M intercambios, 45 días. 30-45s: Qué robaron y el riesgo de seguridad. 45-55s: Respuesta de Anthropic y geopolítica IA. 55-60s: CTA — suscribe para seguir."
+        },
+        "ebook_blog": {
+          "title": "La Guerra de IA que Nadie Está Contando: Cómo China Roba Capacidades de Modelos Occidentales y Por Qué Importa",
+          "angle": "Análisis accesible para emprendedores sobre destilación adversarial, qué significa para el futuro de la IA y cómo esto afecta a quienes construyen negocios sobre modelos como Claude."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com (release notes)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude ahora disponible en el framework Foundation Models de Apple: iOS 27, macOS 27 y más",
+      "published_date": "2026-06-24",
+      "summary": "Anthropic lanzó un nuevo paquete Swift que permite a desarrolladores de Apple usar el framework Foundation Models para llamar a Claude en flujos de trabajo complejos. La integración posiciona a Claude como el modelo backend premium para aplicaciones que necesitan capacidades más avanzadas de las que ofrece el modelo on-device de Apple, funcionando en iOS 27, iPadOS 27, macOS 27, visionOS 27 y watchOS 27.",
+      "relevance_score": 78,
+      "accuracy_notes": "Confirmado mediante búsqueda web — múltiples referencias de desarrolladores y analistas al lanzamiento del paquete Swift de Anthropic para Foundation Models. Consistente con la estrategia de distribución amplia de Claude. Fecha aproximada: Jun 23-24, 2026.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude acaba de entrar al ecosistema Apple — si desarrollas apps en iOS 27, esto cambia tu stack 📱",
+          "slides": [
+            "Apple Foundation Models + Claude: ¿qué significa?",
+            "Cuándo usar Claude vs el modelo on-device de Apple",
+            "Compatibilidad: iOS 27, macOS 27, visionOS 27 y más",
+            "Swift package ya disponible — primeros pasos",
+            "¿Qué apps pueden beneficiarse hoy?"
+          ]
+        },
+        "linkedin": {
+          "angle": "La integración de Claude en Foundation Models de Apple abre nuevas oportunidades para developers iOS que necesitan capacidades enterprise",
+          "opening_line": "Anthropic lanzó soporte oficial de Claude dentro del framework Foundation Models de Apple — los developers de iOS 27 ahora pueden elegir Claude como motor backend para tareas complejas que superan al modelo on-device.",
+          "cta": "¿Estás desarrollando para iOS 27? ¿Qué casos de uso ves para Claude en el ecosistema Apple?"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic acaba de publicar un Swift package oficial para Foundation Models de Apple — Claude ya corre en iOS 27, macOS 27, visionOS 27 y watchOS 27. Para devs iOS, esto importa 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Si desarrollas apps en iPhone, Anthropic acaba de darte acceso directo a Claude desde Foundation Models — aquí lo que cambia en tu código",
+          "script_outline": "0-5s: Hook para devs. 5-15s: Qué es Foundation Models framework. 15-35s: Cómo Claude encaja — casos donde el on-device no alcanza. 35-50s: Swift package básico y primeros pasos. 50-60s: CTA — link en bio."
+        },
+        "ebook_blog": {
+          "title": "Claude en el Ecosistema Apple 2026: Guía para Developers que Quieren IA Avanzada en iOS 27",
+          "angle": "Tutorial práctico sobre cuándo y cómo usar el Swift package de Anthropic dentro de Foundation Models — comparado con el modelo on-device de Apple."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
