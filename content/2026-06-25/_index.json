@@ -1,0 +1,110 @@
+{
+  "generated_date": "2026-06-25",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design es la mejor característica que Anthropic ha lanzado en un tiempo, pero tiene serias limitaciones",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-25/update_001_instagram.md",
+          "format": "carousel_7_slides",
+          "canva_candidates": [
+            "https://www.canva.com/d/WtSYEIcpRSJ-_Xh",
+            "https://www.canva.com/d/r2qWkJVfY2-1_D_",
+            "https://www.canva.com/d/iu6LdTth_9F7dR1",
+            "https://www.canva.com/d/FgaLezUF4uuLyBc"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/D4dBQ3shnHusGgO",
+            "https://design.canva.ai/dHBzS88xZ-rJDsE",
+            "https://design.canva.ai/jX5kJxYtv6eck7F",
+            "https://design.canva.ai/x7rEVNm9UEztaP6"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-25/update_001_linkedin.md",
+          "format": "post_with_5_hashtags"
+        },
+        "twitter_x": {
+          "file": "content/2026-06-25/update_001_twitter.md",
+          "format": "hilo_7_tweets"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-25/update_001_youtube.md",
+          "format": "guion_60s_con_titulo_descripcion",
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/344KOHhHYtGnJ8Q",
+            "https://www.canva.com/d/DNjdvSQ53NizzKu",
+            "https://www.canva.com/d/STNlxT2QF6GXBYV",
+            "https://www.canva.com/d/ou7Y3zuxTLF8fo1"
+          ],
+          "canva_thumbnail_previews": [
+            "https://design.canva.ai/NzsB6edEiD6nEn9",
+            "https://design.canva.ai/VTQ7JqlvlSu7GPU",
+            "https://design.canva.ai/6tu39HtBYu204fS",
+            "https://design.canva.ai/nEBBhLZX88djwRv"
+          ]
+        },
+        "blog_ebook": {
+          "file": "content/2026-06-25/update_001_blog.md",
+          "format": "articulo_800_palabras"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Agregué la memoria de Claude Code a mis flujos de trabajo y mi automatización se volvió sin esfuerzo",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-06-25/update_002_instagram.md",
+          "format": "carousel_7_slides",
+          "canva_candidates": [
+            "https://www.canva.com/d/f1wG9Y5iSkPyPLm",
+            "https://www.canva.com/d/loTznI6CdkEY3zM",
+            "https://www.canva.com/d/9vObtGruy6szKZk",
+            "https://www.canva.com/d/VWSSfUteFPtSXzj"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/Xhz9cQ_2K7WwEby",
+            "https://design.canva.ai/NxKvA0nlxa320DT",
+            "https://design.canva.ai/IQBTZVFHy_trOkf",
+            "https://design.canva.ai/e-xg1WvbL4-kse1"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-06-25/update_002_linkedin.md",
+          "format": "post_with_5_hashtags"
+        },
+        "twitter_x": {
+          "file": "content/2026-06-25/update_002_twitter.md",
+          "format": "hilo_8_tweets"
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-06-25/update_002_youtube.md",
+          "format": "guion_60s_con_titulo_descripcion",
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/X7DjVTR5udVOUB0",
+            "https://www.canva.com/d/uG1MFQ2Es7HbPv9",
+            "https://www.canva.com/d/pWf3WJCQSWN0YMr",
+            "https://www.canva.com/d/9gA3C7Vkz3KZ2bj"
+          ],
+          "canva_thumbnail_previews": [
+            "https://design.canva.ai/xgxLbCPG9Eh6-do",
+            "https://design.canva.ai/Wbs6cRMM5QEOQ9J",
+            "https://design.canva.ai/XhpStYe8z4KUHF4",
+            "https://design.canva.ai/G_bUyXuHQx2XBN-"
+          ]
+        },
+        "blog_ebook": {
+          "file": "content/2026-06-25/update_002_blog.md",
+          "format": "articulo_820_palabras"
+        }
+      }
+    }
+  ]
+}
