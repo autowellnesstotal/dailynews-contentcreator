@@ -1,0 +1,81 @@
+{
+  "date": "2026-06-26",
+  "digest_source": "daily-news/2026-05-24.json",
+  "generated_at": "2026-06-26T00:00:00Z",
+  "total_approved_articles": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "reviewer_notes": "Adapta para emprendedor novato, sin tecnicismos, motivación para comprar ebook.",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-06-26/update_001_instagram.md",
+        "linkedin": "content/2026-06-26/update_001_linkedin.md",
+        "twitter": "content/2026-06-26/update_001_twitter.md",
+        "youtube": "content/2026-06-26/update_001_youtube.md",
+        "blog": "content/2026-06-26/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_cover_slide": {
+          "candidates": [
+            "https://www.canva.com/d/Td3sUWbXC5_sSSk",
+            "https://www.canva.com/d/3HCUUROyVWiTXSt",
+            "https://www.canva.com/d/rFnfLDX9_IcflJc",
+            "https://www.canva.com/d/gGhMe0Z1Z3yXi2p"
+          ],
+          "selected": "https://www.canva.com/d/Td3sUWbXC5_sSSk",
+          "thumbnail_preview": "https://design.canva.ai/9Dx8GlmbhKDaG4Y"
+        },
+        "youtube_thumbnail": {
+          "candidates": [
+            "https://www.canva.com/d/N0uTPCeN3ZLSIco",
+            "https://www.canva.com/d/pF37Esvbc8a3ycR",
+            "https://www.canva.com/d/MGRfk6iO7xcqc8n",
+            "https://www.canva.com/d/hORJaDEnIIWzHXe"
+          ],
+          "selected": "https://www.canva.com/d/N0uTPCeN3ZLSIco",
+          "thumbnail_preview": "https://design.canva.ai/h2myBF_nPzqsA0S"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "reviewer_notes": "Adapta para emprendedor novato, sin tecnicismos, motivación para comprar ebook.",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-06-26/update_002_instagram.md",
+        "linkedin": "content/2026-06-26/update_002_linkedin.md",
+        "twitter": "content/2026-06-26/update_002_twitter.md",
+        "youtube": "content/2026-06-26/update_002_youtube.md",
+        "blog": "content/2026-06-26/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_cover_slide": {
+          "candidates": [
+            "https://www.canva.com/d/ljuyyBxoIZb1XMi",
+            "https://www.canva.com/d/kK7roUaEuli3sQl",
+            "https://www.canva.com/d/_7tCEOUh3IPfPA0",
+            "https://www.canva.com/d/aj-Vjts0CTNAa_A"
+          ],
+          "selected": "https://www.canva.com/d/ljuyyBxoIZb1XMi",
+          "thumbnail_preview": "https://design.canva.ai/bLqWhoE-zFuqZfE"
+        },
+        "youtube_thumbnail": {
+          "candidates": [
+            "https://www.canva.com/d/z7O2iUMG00mO_-z",
+            "https://www.canva.com/d/tw8Wtw276mtYrO9",
+            "https://www.canva.com/d/rIPbah36IPR_Sby",
+            "https://www.canva.com/d/8KATyDXp9aqxdjr"
+          ],
+          "selected": "https://www.canva.com/d/z7O2iUMG00mO_-z",
+          "thumbnail_preview": "https://design.canva.ai/i6Vtn53ziqzoHVw"
+        }
+      }
+    }
+  ]
+}
