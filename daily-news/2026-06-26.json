@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T15:05:39Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "HTTP 403 Forbidden on direct fetch; domain-filtered web searches returned Claude/Anthropic articles but no publication dates confirmed within the June 24-26 window. Recommend manually checking https://www.xda-developers.com/claude/ for recent coverage.",
+    "docs.anthropic.com": "Accessed via code.claude.com/docs/en/changelog. Two Claude Code releases confirmed within the 24-48h window: v2.1.191 (June 24) and v2.1.193 (June 25).",
+    "theverge.com": "Domain blocked by both direct WebFetch and web search provider crawler policy. Zero articles accessible."
+  },
+  "notable_external_news": "MAJOR story not confirmable from monitored sources — On June 24, Anthropic publicly accused Alibaba of the largest known AI distillation attack ever: ~25,000 fraudulent accounts ran 28.8M Claude API exchanges (Apr 22–Jun 5) to harvest model capabilities for Alibaba's Qwen AI lab. Anthropic formally notified the US Senate Banking Committee; Alibaba stock fell ~3%. Covered by Bloomberg, CNBC, Tom's Hardware, The Next Web, TweakTown, and TechTimes. Manually check XDA and The Verge for their take — this story likely appeared on both and would be high-value social content.",
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.191 — /rewind command, MCP reliability improvements, 37% CPU reduction",
+      "published_date": "2026-06-24",
+      "summary": "Anthropic released Claude Code v2.1.191 on June 24, introducing /rewind — a command that restores the conversation to the state it was in before /clear was run, recovering lost session context instantly. The update also cuts streaming CPU usage by ~37% by coalescing text updates to 100ms intervals and improves MCP server reliability with automatic retries on transient network errors. Over 20 bugs were fixed, including background agents resurrecting after being stopped, scroll-position jumping during active streaming, and /voice showing a generic error when disabled by org policy.",
+      "relevance_score": 95,
+      "accuracy_notes": "Sourced directly from the official Claude Code changelog at code.claude.com/docs/en/changelog. Version number, date, and every feature detail verified from official release notes. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Ya no perderás el contexto de Claude Code por accidente — esto lo cambia todo",
+          "slides": [
+            "El problema: /clear borraba tu contexto para siempre",
+            "Nuevo en Claude Code: el comando /rewind",
+            "Cómo funciona: regresa al estado exacto antes del /clear",
+            "Bonus: streaming 37% más rápido y MCP más estable",
+            "Actualiza a v2.1.191 — ya disponible"
+          ]
+        },
+        "linkedin": {
+          "angle": "Productividad para developers — /rewind cambia cómo los equipos gestionan sesiones largas de Claude Code sin perder contexto crítico",
+          "opening_line": "Si alguna vez ejecutaste /clear en Claude Code y perdiste horas de contexto de proyecto, la versión 2.1.191 acaba de resolver ese problema de raíz.",
+          "cta": "¿Usas Claude Code en tu empresa o como freelancer? Cuéntame en los comentarios cómo lo integras en tu flujo de trabajo."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.191 acaba de salir y el comando /rewind es algo que los developers estaban esperando desde hace meses. Todo lo que cambió 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Ejecuté /clear por error en Claude Code con horas de contexto — así me salvó el nuevo /rewind",
+          "script_outline": "0-5s: Hook (mostrar pérdida de contexto). 5-15s: El antes (sin /rewind). 15-35s: Demo de /rewind recuperando sesión. 35-50s: Tour rápido del resto — CPU 37% más rápido, fixes MCP. 50-60s: CTA para actualizar Claude Code."
+        },
+        "ebook_blog": {
+          "title": "Guía Completa de Comandos Claude Code 2026: /rewind, /clear y Gestión de Contexto Sin Perder Trabajo",
+          "angle": "Guía práctica para emprendedores y equipos que usan Claude Code a diario — cómo recuperar sesiones, evitar perder contexto y sacar el máximo a cada conversación"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.193 — Shell auto-classification, live bash autocomplete, OpenTelemetry assistant logging",
+      "published_date": "2026-06-25",
+      "summary": "Anthropic shipped Claude Code v2.1.193 on June 25, adding autoMode.classifyAllShell — a setting that routes every Bash and PowerShell command through Claude's security classifier rather than only high-risk patterns, giving teams tighter control over AI-generated shell actions. Developers also get live file path autocomplete in bash mode (!) and a new OpenTelemetry log event capturing assistant responses for enterprise audit pipelines. Multiple background agent lifecycle fixes and improved MCP OAuth with automatic header-refresh on 401/403 errors are also included.",
+      "relevance_score": 92,
+      "accuracy_notes": "Sourced directly from the official Claude Code changelog at code.claude.com/docs/en/changelog. Version number, date, and all feature details verified from official release notes. OpenTelemetry note: the new OTEL_LOG_ASSISTANT_RESPONSES var defaults to follow OTEL_LOG_USER_PROMPTS behavior — teams already logging prompts will automatically start receiving response content on upgrade unless they set the var to 0.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code ahora revisa CADA comando de terminal antes de ejecutarlo — aquí lo que cambió",
+          "slides": [
+            "El problema anterior: no todos los comandos shell se clasificaban",
+            "Nuevo: autoMode.classifyAllShell — control total",
+            "Autocompletado de rutas en bash — menos errores, más velocidad",
+            "OpenTelemetry: auditoría completa para equipos empresariales",
+            "Claude Code v2.1.193 — seguridad y productividad juntas"
+          ]
+        },
+        "linkedin": {
+          "angle": "Gobernanza de IA para equipos empresariales — las nuevas funciones de clasificación de shell y observabilidad de Claude Code cubren un gap real de cumplimiento",
+          "opening_line": "Los equipos que implementan Claude Code en entornos empresariales ahora tienen lo que pedían: visibilidad completa de cada comando shell y cada respuesta del modelo vía OpenTelemetry.",
+          "cta": "¿Tu empresa ya tiene política de auditoría para herramientas de IA generativa? Este es el momento de establecerla — comparte tu enfoque en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.193 es una release técnica pero con implicaciones enormes para equipos que cuidan la seguridad y el cumplimiento. Hilo 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code puede ejecutar comandos de terminal peligrosos — así es como la v2.1.193 te da control total sobre lo que hace",
+          "script_outline": "0-5s: Hook (mostrar un comando risky que Claude podría ejecutar). 5-15s: Explicar el riesgo anterior. 15-35s: Demo de autoMode.classifyAllShell activado. 35-50s: Demo de autocompletado bash. 50-60s: OpenTelemetry para empresas + CTA para actualizar."
+        },
+        "ebook_blog": {
+          "title": "Claude Code para Empresas 2026: Cómo Configurar Seguridad, Auditoría y autoMode Paso a Paso",
+          "angle": "Guía práctica para equipos de IT, DevOps y fundadores que quieren implementar Claude Code de forma segura — autoMode, OpenTelemetry y control de permisos explicados sin jerga técnica"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
