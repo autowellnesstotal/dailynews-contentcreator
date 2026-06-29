@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T15:12:42Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual article URLs returned HTTP 403 Forbidden. Article titles retrieved via web search index. No Claude/Anthropic-primary articles confirmed with a publication date of June 27–29, 2026. Most recent Claude/Anthropic articles found via search are dated May–early June 2026 (Claude Code SpaceX deal, Fable 5 shutdown, subscription changes). Broader web search showed no new XDA Claude articles from the June 27–29 window.",
+    "docs.anthropic.com": "docs.anthropic.com/en/release-notes/overview returned HTTP 403. Equivalent content accessed at platform.claude.com/docs/en/release-notes/overview. Most recent API/Platform entry: June 26, 2026 — Claude API rate limits raised (Sonnet and Haiku limits now match Opus; tiers consolidated to Start, Build, Scale). Most recent Claude Code entry: June 26, 2026 — v2.1.195 (fullscreen mouse click controls, voice dictation fixes, hook matcher fix, background agent fixes, Remote session startup improvements). No entries dated June 27, 28, or 29 found across API, Claude Code, or Claude Apps release notes.",
+    "theverge.com": "Blocked by direct fetch (HTTP 403) and additionally blocked by web search index policy (domain not accessible to Anthropic crawling agent). Zero articles retrievable. Cannot confirm or deny Claude/Anthropic coverage from June 27–29."
+  },
+  "broader_context_note": "Significant Anthropic news circulating in broader media (NOT from the 3 specified sources, therefore excluded): (1) US government cleared Mythos 5 for limited release to ~100 companies and federal agencies on June 26–27 (covered by Fortune, Semafor, CNN, CNBC, The Hill). Fable 5 clearance still pending. (2) Anthropic's Senate letter alleging Alibaba/Qwen ran 28.8M illicit Claude exchanges via 25,000 fake accounts continues to generate coverage through June 29 (original letter dated June 10; covered by CNBC, Tom's Hardware, TechTimes, YourNews). (3) TechCrunch (June 27): 'Asian AI startups launch Mythos-like models as Anthropic's export ban drags on.' These items did not appear in XDA or The Verge search results during the 24–48h window.",
+  "total_updates_found": 0,
+  "status": "no_updates_today",
+  "review_status": "pending",
+  "updates": []
+}
