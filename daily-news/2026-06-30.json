@@ -1,0 +1,132 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T15:04:33Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "source_summary": {
+    "xda_developers": {
+      "articles_scanned": "homepage + claude tag page",
+      "claude_anthropic_articles_last_48h": 0,
+      "note": "No XDA articles about Claude/Anthropic confirmed published June 28-30, 2026. Most recent articles were from June 12 (Claude Fable 5 shutdown) and earlier May 2026."
+    },
+    "docs_anthropic": {
+      "articles_scanned": "release notes overview, Claude Code changelog, developer platform notes",
+      "claude_anthropic_articles_last_48h": 3,
+      "note": "Three confirmed updates from June 29, 2026."
+    },
+    "the_verge": {
+      "articles_scanned": "homepage search",
+      "claude_anthropic_articles_last_48h": 0,
+      "note": "The Verge domain blocked Anthropic web crawler; direct fetch returned error. No recent Claude/Anthropic articles found via search for June 28-30, 2026."
+    }
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (Anthropic Blog)",
+      "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+      "title": "Claude in Microsoft Foundry is Now Generally Available on Azure",
+      "published_date": "2026-06-29",
+      "summary": "Anthropic's Claude models — Opus 4.8 and Haiku 4.5 — are now generally available in Microsoft Foundry, running natively on Azure infrastructure powered by NVIDIA GB300 Blackwell Ultra GPUs. Enterprises can access Claude through their existing Azure accounts, with unified auth, billing, governance, networking controls, and an optional US data zone for data residency requirements. This marks a major shift from the earlier preview, with the 'Hosted on Azure' deployment option now fully production-ready while 'Hosted on Anthropic infrastructure' remains in preview.",
+      "relevance_score": 95,
+      "accuracy_notes": "Confirmed by official Anthropic blog post, Microsoft Azure Blog, and NVIDIA blog simultaneously published June 29, 2026. Multiple independent sources corroborate all key details. No red flags — this is a first-party announcement.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude just went native on Azure — and it changes everything for enterprise AI 🔵",
+          "slides": [
+            "Slide 1: Claude is NOW on Microsoft Azure — Here's What That Means",
+            "Slide 2: Claude Opus 4.8 & Haiku 4.5 — Available in Messages API on Azure",
+            "Slide 3: Your Existing Azure Auth, Billing & Governance — Zero Setup",
+            "Slide 4: US Data Zone Option — Built-in Compliance for Regulated Industries",
+            "Slide 5: NVIDIA GB300 Blackwell Ultra Powering It — The Fastest Claude Yet"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI governance & cloud-native strategy — targeting CTOs, AI leads, and enterprise architects",
+          "opening_line": "Your team already trusts Azure for identity, compliance, and billing. Now Claude runs inside that same perimeter — no new vendor relationships required.",
+          "cta": "If you're building AI products in regulated industries, this is the release you've been waiting for. Drop a comment — which Claude use case are you finally ready to ship?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude just went GA in Microsoft Foundry on Azure. Here's why this is bigger than it sounds 🧵 (1/7)",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Claude is officially on Azure — and enterprises no longer have an excuse to avoid AI. Here's the 60-second breakdown.",
+          "script_outline": "Open: 'Anthropic just flipped a switch that could accelerate enterprise AI adoption by years.' Beat 1: What Azure Foundry is. Beat 2: Which Claude models are available. Beat 3: The Azure-native advantage — auth, billing, governance, data residency. Beat 4: NVIDIA GB300 Blackwell infrastructure detail. Close: 'If your company runs on Azure, Claude just became a native citizen of your stack.'"
+        },
+        "ebook_blog": {
+          "title": "The Enterprise AI Stack Just Got Easier: Claude on Azure Foundry Explained",
+          "angle": "Step-by-step guide for enterprise architects on deploying Claude via Microsoft Foundry, covering authentication, data residency options, available models, compliance considerations, and cost management with Claude Consumption Units (CCUs)."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Claude Code Changelog)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.196: Org Default Models, Trusted Devices, Security Hardening & UX Upgrades",
+      "published_date": "2026-06-29",
+      "summary": "Claude Code released version 2.1.196 on June 29, adding organization default models (admins set once; shows as 'Org default' in /model for users), Trusted Devices for Remote Control requiring device verification before viewing or steering local Claude Code sessions, and clickable file attachments (Cmd/Ctrl-click to reveal in Finder/Explorer). A significant security fix prevents claude mcp list/get from spawning .mcp.json servers in untrusted repositories — untrusted workspaces now show a 'Pending approval' state. The /code-review workflow was also improved, cutting token usage by approximately 25% by merging cleanup finders.",
+      "relevance_score": 88,
+      "accuracy_notes": "Confirmed directly from the GitHub releases page (anthropics/claude-code) with exact version v2.1.196 dated June 29, 23:27. All feature details match the official changelog. The security fix for untrusted MCP repos is a notable detail worth highlighting. Token savings figure (~25%) comes from the official release notes.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just got a serious security upgrade — here are the 5 changes every developer needs to know",
+          "slides": [
+            "Slide 1: Claude Code v2.1.196 — The Update Developers Were Asking For",
+            "Slide 2: Org Default Models — Admins Set It Once, Everyone Gets It",
+            "Slide 3: Trusted Devices — No More Unauthorized Remote Session Access",
+            "Slide 4: MCP Security Fix — Untrusted Repos Can't Spawn Servers Anymore",
+            "Slide 5: /code-review Now Uses 25% Fewer Tokens — Same Quality, Less Cost"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity & enterprise security — targeting engineering managers, platform engineers, and senior devs using Claude Code",
+          "opening_line": "If your team runs Claude Code at scale, v2.1.196 just solved two problems you've probably run into: rogue MCP servers in untrusted repos, and no clean way to enforce a company-wide default model.",
+          "cta": "The Trusted Devices feature for Remote Control is the one I'd roll out immediately. Are you running Claude Code for your engineering team yet?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.196 dropped and the security changes alone make it worth the update. Quick thread on what's new 🧵 (1/5)",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code just fixed a sneaky security hole — and added 4 features your team will actually use.",
+          "script_outline": "Open: 'If you use Claude Code for real work, pause what you're doing — version 2.1.196 just landed.' Beat 1: The MCP security fix explained simply. Beat 2: Org default models demo. Beat 3: Trusted Devices for Remote Control. Beat 4: 25% token savings in /code-review. Close: 'Update now and watch your org's Claude Code setup get cleaner overnight.'"
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.196: A Developer's Guide to the New Security Model and Org Features",
+          "angle": "Technical deep-dive for engineering teams on what the MCP untrusted repo fix means in practice, how to configure org default models, and how Trusted Devices changes your remote dev workflow."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com (API Release Notes)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Fast Mode Removed for Claude Opus 4.6 — Migrate to Opus 4.8",
+      "published_date": "2026-06-29",
+      "summary": "Anthropic removed fast mode support for Claude Opus 4.6. Requests to claude-opus-4-6 that include speed: 'fast' will no longer execute at fast speed or incur premium pricing — they will now run at standard speed and be billed at standard rates, with no error returned. Developers who rely on fast mode must migrate to Claude Opus 4.8, which is the currently supported model for fast mode inference.",
+      "relevance_score": 72,
+      "accuracy_notes": "Consistent across multiple search sources covering the June 29 developer platform release notes. Straightforward API change. Main thing to verify: confirm exact date as part of June 29 platform release batch (high confidence based on context). No speculative claims.",
+      "content_potential": "low",
+      "content_ideas": {},
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
