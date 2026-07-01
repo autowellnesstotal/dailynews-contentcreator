@@ -1,0 +1,317 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T08:00:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 7,
+  "status": "updates_found",
+  "review_status": "pending",
+  "notes": "theverge.com blocked all crawler access (domain restriction). xda-developers.com and docs.anthropic.com returned 403 on direct fetch; content accessed via web search. 2 XDA articles confirmed published June 29 (by author/date metadata in search results). Anthropic official news accessed via anthropic.com and docs.anthropic.com release-notes search results.",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic (docs.anthropic.com release notes + anthropic.com/news)",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "title": "Anthropic Releases Claude Sonnet 5 — New Default Model with Near-Opus Performance and 1M Token Context",
+      "published_date": "2026-06-30",
+      "summary": "Anthropic launched Claude Sonnet 5 on June 30, 2026, making it the new default model for Free and Pro tiers immediately across all plans (Free, Pro, Max, Team, Enterprise, Claude Code, and the Claude Platform). The model closes the performance gap with Opus 4.8 on agentic tasks including reasoning, tool use, software coding, and knowledge work. Introductory pricing is $2/M input and $10/M output tokens through August 31, 2026, rising to $3/$15 afterward; Claude Code ships Sonnet 5 as its default with a native 1M-token context window.",
+      "relevance_score": 100,
+      "accuracy_notes": "Confirmed via Anthropic official news page and independently corroborated by TechCrunch, MacRumors, 9to5Mac, and TechTimes. Pricing figures and context window size are consistent across all sources. Performance gap vs Opus 4.8 is based on Anthropic benchmarking — independent third-party benchmark validation pending.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just dropped Claude Sonnet 5 — the model that punches way above its price tag",
+          "slides": [
+            "Slide 1: What is Claude Sonnet 5 and why does it matter?",
+            "Slide 2: Near-Opus performance — what that means in practice",
+            "Slide 3: 1 million token context window in Claude Code explained",
+            "Slide 4: $2/M tokens intro pricing — how long it lasts",
+            "Slide 5: Should you switch from GPT-5.5 or Gemini Ultra?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI cost optimization — how Sonnet 5 reshapes the frontier model ROI equation",
+          "opening_line": "Anthropic just made it significantly cheaper to run high-performance AI agents. Claude Sonnet 5 delivers near-Opus results at a fraction of the cost — and that changes the calculus for every AI budget conversation.",
+          "cta": "Building AI agents or evaluating Claude for your stack? Comment below on whether the Sonnet vs Opus price-performance tradeoff matters for your use case."
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 Anthropic dropped Claude Sonnet 5 and it's now the default across ALL plans. Here's every key detail in one thread 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "The AI model that's almost as good as the best — at a fraction of the price — just launched today",
+          "script_outline": "Open with price-vs-performance comparison graphic vs Opus 4.8 → explain what 'agentic performance' means without jargon → show Claude Code 1M token window real-world use case → walk through intro pricing window (ends Aug 31) → who should use Sonnet 5 vs Opus 4.8 → call to action to try it"
+        },
+        "ebook_blog": {
+          "title": "Claude Sonnet 5 Complete Guide: Features, Pricing & Who Should Use It in 2026",
+          "angle": "Practical breakdown for developers and businesses evaluating Claude models — covering benchmark performance, pricing tiers, Claude Code integration, context window advantages, and comparison to Opus 4.8 for real-world agent workflows"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic (anthropic.com/news)",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "title": "Anthropic Redeploys Claude Fable 5 After US Lifts Export Controls — New Classifier Blocks Jailbreak in 99%+ of Cases",
+      "published_date": "2026-07-01",
+      "summary": "Claude Fable 5 returned globally on July 1, 2026 after the US Commerce Department lifted the export controls it had imposed on June 12, which forced Anthropic to suspend the model for all users worldwide. The ban was triggered by Amazon researchers discovering a jailbreak that could cause the model to identify software vulnerabilities and, in one case, write exploit code. Anthropic deployed a new cybersecurity classifier that blocks the specific jailbreak technique in over 99% of attempts; blocked requests silently fall back to Claude Opus 4.8, and Anthropic opened a HackerOne bug bounty program for new Fable 5 jailbreaks.",
+      "relevance_score": 99,
+      "accuracy_notes": "Confirmed via Anthropic's official redeployment post, corroborated by The Hacker News, Tom's Hardware, 9to5Mac, Gizmodo, TechTimes, Infosecurity Magazine, and Medianama. The 99%+ block rate is Anthropic's own self-reported figure and has not been independently audited. The June 12 export control order date and June 30 Commerce Department lift date are consistently reported across all sources.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude's most powerful AI was banned by the US government 19 days ago. It just came back — here's the full story.",
+          "slides": [
+            "Slide 1: Fable 5 is BACK — What happened?",
+            "Slide 2: The Amazon jailbreak that triggered a government ban",
+            "Slide 3: What a US export control order actually means for AI",
+            "Slide 4: How Anthropic fixed it: the new 99% classifier",
+            "Slide 5: What's different about Fable 5 now — and what it still can't do"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI safety governance in practice — what the Fable 5 ban-and-return cycle teaches enterprise leaders about frontier model risk",
+          "opening_line": "An AI model got banned by the US government, patched, and redeployed — in 19 days. That timeline is either alarming or impressive depending on how you look at it. Here's what it means for how enterprises think about frontier AI risk.",
+          "cta": "How is your organization thinking about AI compliance as models grow more capable? Share your risk management approach below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 is back online today. It was suspended by US government order 19 days ago after a jailbreak that could write exploit code. Here's exactly what happened and what changed 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "An AI so capable the US government banned it — and it just came back with new guardrails",
+          "script_outline": "Open with dramatic government ban angle → explain what Fable 5 is and its benchmark scores (80.3% SWE-Bench Pro) → Amazon's jailbreak discovery explained in plain terms → what export controls are and why they apply to AI → the 19-day fix: how the classifier works → what's different now → what the HackerOne bounty program signals about where AI safety is going"
+        },
+        "ebook_blog": {
+          "title": "The Fable 5 Affair: AI Export Controls, Jailbreaks, and What It Means for Frontier Model Governance",
+          "angle": "In-depth analysis of the first major government-forced AI model takedown and reinstatement — covering the technical jailbreak, US Commerce Department export control authority, Anthropic's classifier-based fix, and what this signals for the intersection of national security policy and commercial AI"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic (anthropic.com/news)",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "title": "Anthropic Launches Claude Science — AI Workbench for Researchers with 60+ Scientific Databases",
+      "published_date": "2026-06-30",
+      "summary": "Anthropic launched Claude Science in beta on June 30, an AI research workbench that integrates over 60 scientific databases and toolkits spanning genomics, proteomics, structural biology, and cheminformatics — available immediately to Pro, Max, Team, and Enterprise subscribers. The platform is not a new model but runs on existing Claude models (including Opus 4.8), and every output includes an auditable history for reproducibility. Early results include a UCSF epidemiologist completing germline analyses in one-tenth the previous time, and an Allen Institute neuroscientist compressing a two-year literature review into hours. Anthropic is funding up to 50 research projects with grants of up to $30,000 in credits, with applications open through July 15, 2026.",
+      "relevance_score": 97,
+      "accuracy_notes": "Confirmed via Anthropic official news page, TechCrunch, Dataconomy, Northeastern University press release, Yahoo Tech, The Next Web, and pharmaphorum. The '60+ databases' figure, grant program terms, and early user results are consistent across sources. The comparison to OpenAI's GPT-Rosalind (launched April 2026) is noted by TechCrunch as competitive context.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "AI just entered the science lab — and it compressed a 2-year literature review into hours",
+          "slides": [
+            "Slide 1: What is Claude Science? (and what it's NOT)",
+            "Slide 2: 60+ databases — which fields are covered",
+            "Slide 3: Real results: 10x faster at UCSF, 2-year review in hours at Allen Institute",
+            "Slide 4: Auditable outputs — why reproducibility matters in science",
+            "Slide 5: How to apply for up to $30K in research grants (deadline July 15)"
+          ]
+        },
+        "linkedin": {
+          "angle": "Scientific research acceleration — how Claude Science could reshape drug discovery timelines and academic research velocity",
+          "opening_line": "A UCSF epidemiologist just completed germline analyses in a tenth of the previous time using Anthropic's new Claude Science workbench. The race to apply AI to scientific research has a new serious contender.",
+          "cta": "Are you in biotech, pharma, or academic research? The $30K AI for Science grant applications are open until July 15 — tag a colleague who should apply."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic launched Claude Science today and it's NOT a new AI model — it's something more interesting. Here's what it actually does for researchers 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "What if AI could compress a 2-year literature review into hours? An Anthropic tool just did that.",
+          "script_outline": "Open with Allen Institute neuroscientist's 2-year-to-hours story → explain Claude Science in plain English (workflow, not a new model) → walk through the 60+ database connectors → UCSF germline analysis speed example → who qualifies for the $30K grants and how to apply → compare to OpenAI's GPT-Rosalind for context"
+        },
+        "ebook_blog": {
+          "title": "Claude Science: The AI Research Workbench Changing How Scientists Work in 2026",
+          "angle": "Comprehensive guide for researchers — what Claude Science does, which fields benefit most, how auditable outputs work, how to access it, and a step-by-step guide to applying for the $30K AI for Science grants before July 15"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "TechCrunch / Governor of California Official Press Release",
+      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "title": "Anthropic and Gov. Newsom Forge First-of-Its-Kind Deal — Claude at 50% Discount for All California Government Agencies",
+      "published_date": "2026-06-29",
+      "summary": "Governor Gavin Newsom announced June 29 that Anthropic and California have formed a first-of-its-kind partnership making Claude available to all state agencies and local governments (cities, counties) at a 50% discounted price, along with free workforce training and Anthropic developer support. The CA DMV is using Claude to improve customer service and reduce wait times, while the Department of Healthcare Services — the largest Medicaid agency in the US — is using it for internal workflows. The deal comes amid Anthropic's public dispute with the Pentagon, which rejected the company's AI safety guardrails and signed with OpenAI instead.",
+      "relevance_score": 94,
+      "accuracy_notes": "Confirmed via the Governor of California's official press release (gov.ca.gov), TechCrunch, The Next Web, and PYMNTS. The 'first-of-its-kind' designation and 50% discount terms come directly from the Governor's press office. The Pentagon-Anthropic dispute context is corroborated by multiple tech news sources but is background context, not part of today's announcement itself.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "The Pentagon rejected Anthropic's AI. California just deployed it to 40 million people.",
+          "slides": [
+            "Slide 1: Anthropic + California — a historic government AI deal",
+            "Slide 2: What '50% discount for all agencies' actually means",
+            "Slide 3: Which California agencies are already using Claude?",
+            "Slide 4: Why the Pentagon said no — and California said yes",
+            "Slide 5: What this means for AI in government nationwide"
+          ]
+        },
+        "linkedin": {
+          "angle": "Government AI strategy — why the California-Anthropic deal signals a new model for responsible public-sector AI adoption",
+          "opening_line": "The Pentagon refused Anthropic over AI safety guardrails. California's governor just partnered with them statewide. This week's deal reveals two very different visions for how governments should deploy AI.",
+          "cta": "If you work in govtech, public policy, or enterprise AI — is this the right template for responsible government AI adoption? What's missing from this approach?"
+        },
+        "twitter_x": {
+          "thread_opener": "California just made Claude the first AI tool available to ALL state agencies — at half price. Here's the full story behind the Anthropic-Newsom deal and why it matters 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "The US military banned Anthropic's AI. California just deployed it to every government office in the state.",
+          "script_outline": "Hook with Pentagon vs California irony → explain the deal terms clearly → show which agencies are using it and for what → break down the safety conditions Anthropic demanded from DoD that they rejected → why California is a better fit → implications for other states and countries considering similar deals"
+        },
+        "ebook_blog": {
+          "title": "Claude Goes to Sacramento: Inside Anthropic's Landmark California Government Partnership",
+          "angle": "Analysis of the first statewide government AI deployment deal — covering the terms, agencies involved, the workforce training component, the Pentagon contrast, and what this signals for how AI companies are choosing their government partners on safety grounds"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "Anthropic / claude.com blog",
+      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "title": "Anthropic Introduces Claude Apps Gateway — Self-Hosted Enterprise Control Plane for Claude Code on AWS, GCP & Azure",
+      "published_date": "2026-06-29",
+      "summary": "Anthropic launched the Claude apps gateway, a self-hosted control plane for enterprise Claude Code deployments on Amazon Bedrock, Google Cloud, and Microsoft Foundry. The gateway runs as a single stateless container backed by PostgreSQL and provides corporate SSO, centrally enforced usage policy, role-based access control, per-user cost attribution, and configurable daily/weekly/monthly spend caps per org, group, or user. For Bedrock or GCP deployments, inference traffic and usage data stay on the customer's infrastructure and are never sent to Anthropic.",
+      "relevance_score": 91,
+      "accuracy_notes": "Confirmed via Anthropic's official Claude blog, Claude Code docs, DevOps.com, TipRanks, and blockchain.news. Technical architecture details (stateless container, PostgreSQL backing) come directly from official documentation. Microsoft Foundry support appears in some sources alongside the claude.com docs and should be treated as confirmed. Data privacy claim is a significant enterprise selling point — verified in official docs.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just got the enterprise features that CIOs have been asking for",
+          "slides": [
+            "Slide 1: What is the Claude Apps Gateway?",
+            "Slide 2: SSO + policy + RBAC — explained without jargon",
+            "Slide 3: AWS, Google Cloud, and Microsoft Foundry support",
+            "Slide 4: Your data stays on YOUR infrastructure — why this matters",
+            "Slide 5: Who needs this and how to deploy it"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI infrastructure — how the Claude apps gateway solves the credential and governance gap for large-scale Claude Code rollouts",
+          "opening_line": "If your team has been provisioning a separate cloud credential for every developer using Claude Code, Anthropic just solved that problem with a single self-hosted container.",
+          "cta": "Engineering leaders and CIOs — does your current Claude Code setup have the governance controls you need? Drop your biggest enterprise AI deployment challenge below."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic shipped the enterprise control plane for Claude Code that was blocking big company deployments. Here's what the apps gateway actually solves 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Why big companies couldn't deploy Claude Code at scale — until today",
+          "script_outline": "Open with the 'one credential per developer' enterprise pain point → explain what a control plane is in plain terms → show the three cloud providers and failover capability → SSO and RBAC in practice → data privacy advantage vs cloud-only options → who should deploy this and when"
+        },
+        "ebook_blog": {
+          "title": "Claude Apps Gateway: Complete Enterprise Setup Guide for AWS, Google Cloud & Microsoft Foundry",
+          "angle": "Technical and strategic guide for IT leaders evaluating the Claude apps gateway for enterprise Claude Code rollouts — covering architecture, data privacy, cost controls, SSO integration, and step-by-step deployment"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_006",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/forget-vibe-coding-apps-people-are-now-vibe-editing-videos-with-claude-code/",
+      "title": "Forget Vibe-Coding Apps — People Are Now Vibe-Editing Videos in Claude Code",
+      "published_date": "2026-06-29",
+      "summary": "XDA Developers reports that Claude Code is expanding beyond software development into video editing, highlighted by Anthropic staffer Thariq Shihipar publicly sharing that he edited Fable 5's own launch video entirely inside Claude Code. The article explores how Claude Code's agentic architecture — reading and writing files, running terminal commands, installing dependencies, and calling external tools — makes it a general-purpose automation platform well beyond coding. The piece frames this as a 'vibe-editing' trend where non-technical creators are using AI agents for media production tasks.",
+      "relevance_score": 80,
+      "accuracy_notes": "Published June 29, 2026 (confirmed by search metadata showing 'published June 29, 3:08 PM EDT'). The Thariq Shihipar claim is attributed to an Anthropic staff member's public share, which is independently verifiable. The broader capability claims about Claude Code file/command handling are consistent with official Claude Code documentation.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "An Anthropic engineer edited Claude's own launch video inside Claude Code. Here's why that changes everything.",
+          "slides": [
+            "Hook: Not just code — Claude Code is editing videos now",
+            "Show: What 'vibe-editing' looks like vs traditional editing",
+            "Explain: Why Claude Code can do this (file I/O + terminal + tools)",
+            "Inspire: Non-coding use cases you can try today",
+            "CTA: Comment your most unexpected Claude Code use case"
+          ]
+        },
+        "linkedin": {
+          "angle": "The agentic shift — when AI coding assistants become general-purpose automation platforms that anyone can use",
+          "opening_line": "An Anthropic engineer just edited a video entirely inside Claude Code. If that surprises you, it means we've all been thinking about AI coding tools too narrowly.",
+          "cta": "What's the most unexpected task your team has accomplished with Claude Code or another AI agent? I'm collecting non-coding examples — share yours below."
+        },
+        "twitter_x": {
+          "thread_opener": "Someone used Claude Code to edit a video. Not metaphorically. Literally cut, arranged, and rendered it. Here's why this matters 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code isn't a coding tool anymore — and this video edit proves it",
+          "script_outline": "Open by showing video editing inside a terminal/Claude Code environment → define 'vibe-editing' concept for non-technical viewers → break down how Claude Code handles file operations, commands, and external tools → compare time vs traditional video editing workflow → challenge viewers to try one non-coding task in Claude Code this week"
+        },
+        "ebook_blog": {
+          "title": "Beyond Code: How Claude Code Became the Most Versatile AI Automation Tool of 2026",
+          "angle": "Deep-dive into Claude Code's real-world non-coding use cases — from video editing to document automation and research pipelines — with practical workflow templates for creators and non-developers who want to leverage it"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_007",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/paired-these-chrome-extensions-with-claude/",
+      "title": "I Paired These Chrome Extensions with Claude and My Workflow Completely Changed",
+      "published_date": "2026-06-29",
+      "summary": "XDA Developers writer Mahnoor Faisal shares how Chrome extensions — particularly ClaudeKarma — dramatically improved their Claude workflow by solving the usage-limit visibility problem Anthropic's native interface lacks. ClaudeKarma provides a live session gauge showing percentage of the 5-hour rate limit used, per-model usage breakdowns displayed as stacked bars, a GitHub-style usage heatmap across weeks and months, and a peak-hours countdown to help users shift heavy tasks to off-peak windows. The article addresses a widespread frustration among Claude Pro and Max subscribers who frequently hit rate limits without warning.",
+      "relevance_score": 72,
+      "accuracy_notes": "Published June 29, 2026 (confirmed by search metadata showing 'published June 29, 8:30 AM EDT'). ClaudeKarma features described are based on the author's personal use and should be verified against the extension's current release. The '5-hour limit' and peak hours system are consistent with Anthropic's documented rate-limiting structure.",
+      "content_potential": "low",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Tired of hitting Claude's limits and not knowing why? These Chrome extensions fix that.",
+          "slides": [
+            "Slide 1: The Claude usage limit problem no one talks about",
+            "Slide 2: ClaudeKarma — see exactly where your limits stand in real time",
+            "Slide 3: The GitHub-style usage heatmap feature explained",
+            "Slide 4: Peak hours countdown — shift heavy work, save your limits",
+            "Slide 5: Your essential Claude browser extension stack"
+          ]
+        },
+        "linkedin": {
+          "angle": "Claude power-user productivity — how browser extensions are solving the usage visibility gap Anthropic hasn't addressed natively",
+          "opening_line": "Claude's rate limits are real, and Anthropic's interface doesn't make them easy to track. Here's the Chrome extension stack that solves the visibility problem for Pro and Max subscribers.",
+          "cta": "What's your Claude productivity setup? Drop your favorite extension or workflow trick below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude doesn't tell you how close you are to your usage limit. This Chrome extension does — and it's a game changer. Here's the full extension stack 🧵",
+          "estimated_tweets": 4
+        },
+        "youtube_tiktok": {
+          "hook": "Claude keeps cutting you off without warning? This Chrome extension shows you exactly why — in real time",
+          "script_outline": "Open with the common frustration of unexpected Claude limit hits mid-session → install and demo ClaudeKarma live gauge → walk through the usage heatmap → peak hours countdown trick and how to use it strategically → full recommended browser extension stack for Claude power users"
+        },
+        "ebook_blog": {
+          "title": "The Claude Power User Extension Stack: Get More From Your Pro or Max Subscription",
+          "angle": "Practical guide to the best third-party Chrome extensions that enhance Claude.ai — focused on usage visibility, rate limit management, and productivity workflows for subscribers frustrated by Anthropic's native usage tracking"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
