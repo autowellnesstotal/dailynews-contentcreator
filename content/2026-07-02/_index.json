@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-02",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_processed": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-02/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva": {
+            "design_id": "DAHORPzz8H0",
+            "title": "Post para Instagram - ¿Sin diseñador y sin Canva?",
+            "edit_url": "https://www.canva.com/d/loMmR11C1l_XnZl",
+            "view_url": "https://www.canva.com/d/LDcQsAFtEZAh_R1",
+            "note": "Cover/portada slide generada. Generar slides 2-7 manualmente con el copy del archivo MD."
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-07-02/update_001_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-07-02/update_001_twitter.md",
+          "tweets": 8
+        },
+        "youtube": {
+          "file": "content/2026-07-02/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva": {
+            "design_id": "DAHORJmAw-8",
+            "title": "Miniatura de YouTube - Presentación Rápida",
+            "edit_url": "https://www.canva.com/d/9gDm7Zs6bCYJHf2",
+            "view_url": "https://www.canva.com/d/voCJfnsJ_0u6761"
+          }
+        },
+        "blog": {
+          "file": "content/2026-07-02/update_001_blog.md",
+          "word_count_approx": 850
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-02/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva": {
+            "design_id": "DAHORExjkq8",
+            "title": "Modern Instagram Carousel Cover with Brain Icon",
+            "edit_url": "https://www.canva.com/d/Znr4HeNHcsulDXD",
+            "view_url": "https://www.canva.com/d/jelKuqbwADPdyrh",
+            "note": "Cover/portada slide generada. Generar slides 2-7 manualmente con el copy del archivo MD."
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-07-02/update_002_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-07-02/update_002_twitter.md",
+          "tweets": 8
+        },
+        "youtube": {
+          "file": "content/2026-07-02/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva": {
+            "design_id": "DAHORAmECoI",
+            "title": "Digital Illustration for YouTube Thumbnail with AI Theme",
+            "edit_url": "https://www.canva.com/d/epRetAOh_SSa6oJ",
+            "view_url": "https://www.canva.com/d/rUQavbDVXYD-cw4"
+          }
+        },
+        "blog": {
+          "file": "content/2026-07-02/update_002_blog.md",
+          "word_count_approx": 900
+        }
+      }
+    }
+  ],
+  "canva_designs_generated": 4,
+  "generated_at": "2026-07-02T00:00:00Z"
+}
