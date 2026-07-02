@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T15:45:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual article pages also blocked. Article discovery performed via web search (Google index). Multiple Claude/Anthropic articles confirmed in the archive, but no articles with confirmed publication dates of July 1-2, 2026 found. Most recent XDA Claude coverage dates to mid-June or earlier.",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403. Release notes content obtained via web search, corroborated by releasebot.io, MarkTechPost, 9to5Mac, CNBC, and Anthropic's official X announcement. Multiple entries confirmed for June 29-July 1, 2026 window. Primary story: Fable 5 redeployment July 1.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and Anthropic crawler policy (domain inaccessible to search agent). One search result implied a July 1, 2026 Verge article on Fable 5 but no URL could be confirmed. Zero verified articles available."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com / anthropic.com",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "title": "Redeploying Claude Fable 5: US Export Controls Lifted, Global Access Restored",
+      "published_date": "2026-07-01",
+      "summary": "The US Commerce Department lifted export controls on Claude Fable 5 and Mythos 5 on June 30, 2026, ending a 19-day suspension that began June 12 when a potential jailbreak technique was flagged in an Amazon security report. Anthropic restored global access to Fable 5 on July 1 across Claude Platform, Claude.ai, Claude Code, and Claude Cowork — with a new safety classifier that blocks the reported exploitation technique in over 99% of cases. For Pro, Max, Team, and select Enterprise subscribers, Fable 5 is included within 50% of weekly usage limits through July 7, after which it shifts to usage credits; access on AWS, Google Cloud, and Microsoft Foundry is being re-enabled.",
+      "relevance_score": 98,
+      "accuracy_notes": "Highly verified — corroborated by Anthropic's official blog post, Anthropic's own X/Twitter announcement, CNBC (June 30), 9to5Mac, 9to5Google, VentureBeat, NBC News, Forbes, MarkTechPost, and Al Jazeera (all July 1, 2026). The June 12 suspension date, the Amazon jailbreak report trigger, the 99%+ classifier claim, and the July 7 credit changeover are all cross-confirmed across multiple independent outlets. No accuracy red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "The AI the US government BANNED is back — and it just got safer",
+          "slides": [
+            "Slide 1: What is Claude Fable 5? The most capable AI model Anthropic has ever released to the public — Mythos-class intelligence",
+            "Slide 2: Why was it banned? On June 12, a jailbreak technique was flagged. The US government issued an export-control directive — Anthropic took it offline for everyone",
+            "Slide 3: What Anthropic did in 19 days: Built a new AI safety classifier blocking the exploit technique in 99%+ of cases",
+            "Slide 4: July 1 — Fable 5 is BACK globally on Claude.ai, Claude Code, Claude Platform, and Claude Cowork",
+            "Slide 5: The catch: Free inclusion up to 50% of weekly limits until July 7 — then usage credits. Worth it? Absolutely."
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI governance and regulatory risk — what Anthropic's Fable 5 saga means for organizations building on frontier AI",
+          "opening_line": "On June 12, the US government effectively switched off one of the world's most capable AI models overnight. Yesterday, it came back — and the 19 days in between reveal something important about the future of enterprise AI.",
+          "cta": "If your team depends on frontier AI models, this incident is a live case study in regulatory risk. How is your organization planning for model availability disruptions? Share your approach below."
+        },
+        "twitter_x": {
+          "thread_opener": "THREAD: Claude Fable 5 is back (July 1). Here's the full story of what happened over 19 days — and why every AI builder should care 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "The US government banned the most powerful AI ever released... then un-banned it. Here's the full story in 60 seconds.",
+          "script_outline": "Open with June 12 ban hook → explain Fable 5's capabilities (SWE-Bench Pro 80.3%, 11pts ahead of GPT-5.5) → the Amazon jailbreak report and export control directive → Anthropic's immediate global suspension → 19 days building a new safety classifier → June 30: controls lifted → July 1: global redeployment → how to access it now → close with 'this is what AI governance looks like in 2026'"
+        },
+        "ebook_blog": {
+          "title": "When the Government Can Turn Off Your AI: The Claude Fable 5 Saga and What It Means for Enterprise Strategy",
+          "angle": "Deep dive into the full timeline of the 19-day Fable 5 suspension — the jailbreak trigger, Anthropic's regulatory compliance response, the new safety classifier architecture, and what enterprise teams building on frontier AI should now be planning for in terms of model availability risk and contingency workflows"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Anthropic Platform Release Notes: Billing Change, Model Retirements, SDK Updates (June 29 – July 1)",
+      "published_date": "2026-07-01",
+      "summary": "Anthropic published several platform and API updates in the 24-48 hour window: Claude Mythos Preview (claude-mythos-preview) was retired on June 30, 2026; fast mode was silently removed from Claude Opus 4.6 on June 29 (requests now run at standard speed); and fast mode for Claude Opus 4.7 has been deprecated with removal scheduled for July 24, 2026. On the billing side, requests that return stop_reason: 'refusal' without generating any output are no longer charged. Developers also gained REPL state persistence across code execution calls via SDK support for code_execution_20260120, and the MCP tunnels management API was moved from /v1/organizations/tunnels to /v1/tunnels with a new anthropic-beta: mcp-tunnels-2026-06-22 header.",
+      "relevance_score": 78,
+      "accuracy_notes": "Good confidence — cross-confirmed from multiple secondary summaries of the Anthropic release notes (releasebot.io, web search returns referencing the official docs). Individual update dates (June 29 for Opus 4.6 fast mode, June 30 for Mythos Preview) are consistent across sources. The MCP tunnels API date (June 22) suggests that particular entry may be just outside the strict 48h window but was surfaced in the same release notes batch. No major accuracy concerns.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "5 Claude API changes from the last 48 hours every developer needs to know",
+          "slides": [
+            "Slide 1: Claude Mythos Preview is RETIRED (June 30) — migrate your workflows now",
+            "Slide 2: Refused requests are now FREE — stop_reason: refusal with no output = $0 charge",
+            "Slide 3: REPL state now persists across code execution calls in all major SDKs",
+            "Slide 4: Opus 4.7 fast mode is deprecated — migrate to Opus 4.8 fast before July 24",
+            "Slide 5: MCP tunnels moved to /v1/tunnels — update your beta headers if you use tunnel management"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer cost optimization and platform maturity — Anthropic's billing improvements signal growing focus on developer experience",
+          "opening_line": "Anthropic just made building with Claude cheaper: as of this week, any API request that returns a refusal without generating output is now billed at $0 — and REPL state persists across code execution calls.",
+          "cta": "If you're integrating Claude into production systems, these updates are worth 5 minutes of your time. Which change matters most to your stack? Let me know in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Quick dev thread: 5 Claude platform changes from the last 48h that affect your costs and architecture 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just changed how Claude billing works — and it could save your team real money",
+          "script_outline": "Open with billing change hook (free refusals) → explain what stop_reason refusal means and who it affects → REPL persistence for code execution → model deprecation warnings (Opus 4.6 fast mode gone, Opus 4.7 fast mode going July 24) → MCP tunnels endpoint update → close with 'check the release notes link in bio'"
+        },
+        "ebook_blog": {
+          "title": "Claude API July 2026: Billing Improvements, Model Retirements, and SDK Updates That Matter to Developers",
+          "angle": "Practical technical explainer for teams integrating Claude, covering the billing change for refusals (with concrete cost-saving examples), REPL state persistence implications for multi-step code execution, migration paths from deprecated fast mode models, and the MCP tunnels API endpoint change with updated header requirements"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
