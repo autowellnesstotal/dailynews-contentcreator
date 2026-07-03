@@ -1,0 +1,120 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T15:12:31Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "scrape_notes": {
+    "xda-developers.com": "Direct page fetch returned HTTP 403. Used WebSearch to retrieve article index. All confirmed Claude/Anthropic articles found via search had publication dates of May 2026 or earlier (e.g., SpaceX rate-limit article: May 6; subscription credit article: May 25; OpenClaw article: Apr 4). No XDA article with a confirmed July 1-3 2026 publish date and Claude/Anthropic as primary subject was found.",
+    "docs.anthropic.com": "Direct page fetch returned HTTP 403. Used WebSearch against docs.anthropic.com and corroborated via releasebot.io and anthropic.com. Three qualifying updates confirmed for July 1-3 2026.",
+    "theverge.com": "Site blocks Anthropic's crawler agent (HTTP 403 on direct fetch; WebSearch returned: 'The following domains are not accessible to our user agent: theverge.com'). No Verge articles could be retrieved. Zero qualifying articles from this source."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (release notes) + anthropic.com/news",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "title": "Anthropic Redeploys Claude Fable 5 and Mythos 5 Globally After US Lifts Export Controls",
+      "published_date": "2026-07-01",
+      "summary": "Anthropic restored global access to Claude Fable 5 and Mythos 5 on July 1, 2026, ending a 19-day suspension that began June 12 when the US Commerce Department applied export controls after Amazon researchers publicly disclosed a technique to bypass Fable 5's safety guardrails. To redeploy, Anthropic added a new cybersecurity classifier that blocks the reported jailbreak method in over 99% of cases, rerouting any flagged requests to Claude Opus 4.8. Through July 7, Fable 5 is included for up to 50% of weekly usage limits across Pro, Max, Team, and select Enterprise plans; after that date, access requires metered usage credits at $10 per million input tokens and $50 per million output tokens.",
+      "relevance_score": 98,
+      "accuracy_notes": "Highly verified. Confirmed across Anthropic's own official blog post (anthropic.com/news/redeploying-fable-5), Al Jazeera, NBC News, The Hacker News, MacRumors, MarkTechPost, and CoinDesk. The July 1 restoration date, 19-day suspension, 99% classifier effectiveness, and July 7 pricing transition are consistent across all sources. The original ban trigger (Amazon researcher jailbreak report) is also independently corroborated.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Fable 5 is BACK — and here's everything that changed in 19 days 🔒→🔓",
+          "slides": [
+            "Slide 1: Fable 5 was banned by the US government on June 12 — here's the full story",
+            "Slide 2: The reason: researchers found a way to bypass its safety guardrails",
+            "Slide 3: 19 days later — the ban is lifted and Anthropic has a fix",
+            "Slide 4: The new cybersecurity classifier blocks the jailbreak 99%+ of the time",
+            "Slide 5: How to access Fable 5 now (and what changes on July 7)"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI safety meets geopolitics: what the Fable 5 saga reveals about the new era of frontier model governance",
+          "opening_line": "19 days ago, the US government forced Anthropic to shut down its most powerful model. Yesterday, it came back — with new guardrails that matter for every enterprise AI deployment.",
+          "cta": "If your team relies on frontier AI, the Fable 5 incident is a case study in why model governance frameworks matter. What's your org's plan when a key model goes offline overnight?"
+        },
+        "twitter_x": {
+          "thread_opener": "Fable 5 is back — but the 19 days it was banned changed everything about how Anthropic ships powerful AI models. Here's the full breakdown 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "The US government forced Anthropic to shut down its best AI model — and what happened next is a story about power, safety, and who controls the most powerful AI in the world.",
+          "script_outline": "Open with the June 12 ban news flash → explain what Fable 5 is and why it matters → reveal the jailbreak technique that caused the ban → cover the 19-day period (what users did, model alternatives) → explain the new classifier fix and 99% block rate → explain the July 7 credit-pricing change → close with: what this means for the future of AI regulation and export controls"
+        },
+        "ebook_blog": {
+          "title": "The Fable 5 Incident: What Happens When Governments Start Controlling AI Models",
+          "angle": "Use the 19-day Fable 5 ban as a narrative spine to explore the emerging landscape of AI export controls, the tension between safety and accessibility, how Anthropic responded technically and politically, and what enterprise AI users need to plan for in a world where frontier models can be switched off overnight."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (release notes) + claude.com/blog",
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "title": "Claude Enterprise Gains Richer Admin Analytics, Model-Level Entitlements, and Spend Alerts",
+      "published_date": "2026-07-03",
+      "summary": "Anthropic shipped a set of Claude Enterprise admin control updates on July 3, 2026, giving organization administrators significantly deeper visibility and governance over AI usage and cost. The new analytics dashboard surfaces per-user and per-group usage breakdowns alongside cost attribution for artifacts, files edited, skills, and connectors. Model-level entitlements now allow admins to set which Claude model new conversations default to across chat, Cowork, and Claude Code, and to restrict which models specific roles can access. Spend-threshold alerts notify admins at 75% and 90% of an org-level budget cap, with users receiving in-app alerts at 75% and 95% and the ability to request limit increases directly within the interface. An Admin API enables programmatic cost-control automation at scale.",
+      "relevance_score": 88,
+      "accuracy_notes": "Well-verified. Cross-referenced against Anthropic's official release notes page (docs.anthropic.com/en/release-notes/overview), claude.com/blog, and releasebot.io which tracks Anthropic release notes. The July 3 date is confirmed by releasebot. Feature details (dashboard metrics, 75/90% thresholds, Admin API) are consistent across multiple independent descriptions of the release.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Enterprise AI just got a finance dashboard — Anthropic's new Claude controls explained",
+          "slides": [
+            "Slide 1: Running Claude across your company? You now have real spend controls",
+            "Slide 2: New analytics: see who's using what, and exactly what it costs",
+            "Slide 3: Model entitlements: choose which AI model each team can use",
+            "Slide 4: Spend alerts at 75% and 90% — no more surprise invoices",
+            "Slide 5: Admin API: automate cost governance at scale"
+          ]
+        },
+        "linkedin": {
+          "angle": "The CFO conversation about AI spend just got a lot easier — Anthropic's new Enterprise controls give admins the visibility they've been asking for",
+          "opening_line": "One of the biggest friction points in enterprise AI adoption isn't the technology — it's the inability to answer 'what is this actually costing us, per team, per user, per week.' Anthropic just addressed that directly.",
+          "cta": "If you're managing Claude at scale, these controls are worth a close read. Are per-user cost breakdowns and model entitlements the feature your procurement team has been waiting for?"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just shipped the enterprise AI admin features that CFOs and IT leads have been requesting for months. Here's what's new in Claude Enterprise today 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Your company is probably spending way more on AI than anyone realizes — Anthropic just gave enterprise admins the tools to actually see it and control it.",
+          "script_outline": "Open with the 'AI shadow spend' problem in enterprises → introduce the new Claude Enterprise dashboard → walk through per-user/per-group analytics → explain model entitlements and why model-level control matters for cost → demonstrate spend alert system → close with why this matters for AI adoption at scale and the role of the Admin API"
+        },
+        "ebook_blog": {
+          "title": "Governing AI at Scale: How Claude Enterprise's New Admin Controls Change the ROI Conversation",
+          "angle": "Frame this as a practical guide for IT/finance decision-makers on using Claude Enterprise's new visibility and governance features to build defensible AI budgets, demonstrate ROI by team, and prevent runaway AI spend — including a walkthrough of the analytics dashboard, model entitlements, and Admin API use cases."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com (release notes / status)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Opus 4.8 Experienced Elevated Error Rates on July 2 — Now Resolved",
+      "published_date": "2026-07-02",
+      "summary": "On July 2, 2026, Claude Opus 4.8 experienced a period of elevated error rates on the Claude Platform affecting API users. Anthropic confirmed the incident was investigated and resolved the same day. No further details about root cause were publicly disclosed in the release notes.",
+      "relevance_score": 58,
+      "accuracy_notes": "Sourced from Anthropic's own release notes/status page as surfaced via WebSearch against docs.anthropic.com. The July 2 date and 'elevated errors on Claude Opus 4.8' phrasing were returned consistently. Lower confidence on specific duration or impact scope as direct page access was blocked (HTTP 403). No independent news coverage of this incident found — treat as minor service note.",
+      "content_potential": "low",
+      "content_ideas": {},
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
