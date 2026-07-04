@@ -1,0 +1,91 @@
+{
+  "generated_date": "2026-07-04",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: la herramienta de diseño con IA de Anthropic",
+      "source_url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-04/update_001_instagram.md",
+        "linkedin": "content/2026-07-04/update_001_linkedin.md",
+        "twitter": "content/2026-07-04/update_001_twitter.md",
+        "youtube": "content/2026-07-04/update_001_youtube.md",
+        "blog": "content/2026-07-04/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel": {
+          "selected_candidate_id": "dg-a5a6e97c-b194-44bc-a750-5bad1cc98e74",
+          "design_url": "https://www.canva.com/d/NNh6eBMC-DtNbNG",
+          "thumbnail_url": "https://design.canva.ai/7NuiWdpr0Gj5rDr",
+          "all_candidate_urls": [
+            "https://www.canva.com/d/dNu9P6Cn9N70bYv",
+            "https://www.canva.com/d/wVs5Vx2FbTZGOuP",
+            "https://www.canva.com/d/NNh6eBMC-DtNbNG",
+            "https://www.canva.com/d/VBQ49vQ0e06-moc"
+          ],
+          "slides_preview_thumbnails": [
+            "https://design.canva.ai/7NuiWdpr0Gj5rDr",
+            "https://design.canva.ai/2yd3jXPelvddoYM",
+            "https://design.canva.ai/43JLWuqJ8_5b4bH",
+            "https://design.canva.ai/_LlQhjJK-kDr4v4",
+            "https://design.canva.ai/0mQzc9c52lrWr-7",
+            "https://design.canva.ai/i4TFqQ9I_1SWERP",
+            "https://design.canva.ai/2JH9RxsGvMOj-tG"
+          ]
+        },
+        "youtube_thumbnail": {
+          "selected_candidate_id": "dg-0b2abc26-093f-43ca-b2f7-174a6e5d9c54",
+          "design_url": "https://www.canva.com/d/dhTSkYKHKbqOwlO",
+          "thumbnail_url": "https://design.canva.ai/Z4ID98k8qc5wPdi",
+          "all_candidate_urls": [
+            "https://www.canva.com/d/dhTSkYKHKbqOwlO",
+            "https://www.canva.com/d/5xMClOkqhkgy9Ig",
+            "https://www.canva.com/d/UqBwNeIR6AGnW0m",
+            "https://www.canva.com/d/Xko_X_tkkwesOSd"
+          ]
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code Memory: Auto Memory y CLAUDE.md para emprendedores",
+      "source_url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-04/update_002_instagram.md",
+        "linkedin": "content/2026-07-04/update_002_linkedin.md",
+        "twitter": "content/2026-07-04/update_002_twitter.md",
+        "youtube": "content/2026-07-04/update_002_youtube.md",
+        "blog": "content/2026-07-04/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel": {
+          "selected_candidate_id": "dg-4e3f6c83-bd92-4059-a10f-95b75fefc899",
+          "design_url": "https://www.canva.com/d/gcA0sCNkfnkT2Or",
+          "thumbnail_url": "https://design.canva.ai/khDdjk_NnQdJMFY",
+          "all_candidate_urls": [
+            "https://www.canva.com/d/gcA0sCNkfnkT2Or",
+            "https://www.canva.com/d/degxbVAR82P2baa",
+            "https://www.canva.com/d/XSp5lt0GaF-6Utj",
+            "https://www.canva.com/d/5lS6ooYnOvSIWzk"
+          ]
+        },
+        "youtube_thumbnail": {
+          "selected_candidate_id": "dg-1cb87e29-0af6-46a8-ac74-a2ee50d12d26",
+          "design_url": "https://www.canva.com/d/mPjTE8demiP6Yhy",
+          "thumbnail_url": "https://design.canva.ai/m7Uwih1Nn1q6KtJ",
+          "all_candidate_urls": [
+            "https://www.canva.com/d/mPjTE8demiP6Yhy",
+            "https://www.canva.com/d/DGkc_I3dGpEIACi",
+            "https://www.canva.com/d/biqR_JYS-4Goxe5",
+            "https://www.canva.com/d/dYGTDYEKO7ThRmy"
+          ]
+        }
+      }
+    }
+  ]
+}
