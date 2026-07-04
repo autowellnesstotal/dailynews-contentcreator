@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T15:11:54Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_notes": {
+    "theverge.com": "Blocked — domain not accessible to the web-search agent (API 400: domain not reachable by user agent). No Verge articles could be retrieved.",
+    "xda-developers.com": "Homepage returned HTTP 403; individual article pages returned HTTP 403. Content retrieved via web search.",
+    "docs.anthropic.com": "Homepage returned HTTP 403; changelog fetched via code.claude.com/docs/en/changelog and web search."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA-Developers",
+      "url": "https://www.xda-developers.com/claude-just-added-fable-5-back-to-your-subscription-but-theres-a-catch/",
+      "title": "Claude just added Fable 5 back to your subscription, but there's a catch",
+      "published_date": "2026-07-04",
+      "summary": "Anthropic has re-added Claude Fable 5 to all paid Claude plans (Pro, Max, Team, select Enterprise) following the lifting of US export controls on June 30, 2026 — but the inclusion is temporary. Subscribers can use Fable 5 for up to 50% of their weekly usage limit through July 7, after which the model will only be available via usage credits. The export controls, which forced an immediate global suspension in mid-June because Anthropic had no real-time nationality-verification mechanism, have now been fully lifted.",
+      "relevance_score": 90,
+      "accuracy_notes": "Publication date confirmed as July 4, 2026 (article appeared as '2 hours ago' in search metadata). Core facts corroborated by Anthropic's own newsroom post (anthropic.com/news/redeploying-fable-5), MacRumors, and BleepingComputer. The July 7 cut-off date and 50%-of-weekly-limit cap are verified via the official Claude X/Twitter account post. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Fable 5 is BACK in your Claude plan — but the clock is ticking 🕐",
+          "slides": [
+            "Slide 1: Fable 5 is back — what happened and why it disappeared",
+            "Slide 2: The US export-control story in 60 seconds",
+            "Slide 3: What you get — 50% of weekly usage, all paid plans, now through July 7",
+            "Slide 4: What happens after July 7 — usage credits only, here's the pricing",
+            "Slide 5: How to access Fable 5 right now on Claude.ai, Claude Code & API"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise and power-user impact of Fable 5's limited return — why the July 7 deadline matters for teams running long-horizon agentic tasks",
+          "opening_line": "If your team relies on Claude for multi-day agentic workflows, you have a narrow window to squeeze maximum value out of Fable 5 — here's exactly what you need to know before July 7.",
+          "cta": "Have you updated your Claude Code or API workflows to take advantage of Fable 5 while it's still included? Drop your use-case in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Fable 5 is back in your Claude subscription — but only until July 7. Here's the full story and what to do right now:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Claude just brought back its most powerful AI model — but you only have 3 days to use it for free.",
+          "script_outline": "Open with the headline news (Fable 5 is back). Explain in 15s what Fable 5 is and why it was banned (export controls). Reveal the July 7 deadline and 50% usage cap. Show on screen how to find Fable 5 in Claude.ai settings. Close with what happens after July 7 and whether to upgrade."
+        },
+        "ebook_blog": {
+          "title": "The Complete Guide to Claude Fable 5's Return: Export Controls, the July 7 Deadline, and What Comes Next",
+          "angle": "Explainer + action guide — cover the government export-control saga, what Fable 5 can do that other models can't (multi-day agentic tasks, sub-agent orchestration), and a tactical checklist for getting the most out of the limited inclusion window before usage-credit pricing kicks in."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com — Claude Code Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.200–2.1.201 Released: Manual Permission Mode, AskUserQuestion Overhaul, and 15+ Bug Fixes",
+      "published_date": "2026-07-03",
+      "summary": "Anthropic shipped two Claude Code releases on July 3, 2026. v2.1.201 patches Claude Sonnet 5 sessions so harness reminders no longer inject into the mid-conversation system role. v2.1.200 introduces a renamed 'Manual' default permission mode (replacing 'default') and changes AskUserQuestion dialogs to not auto-continue — users must now opt into idle timeouts via /config. The release also fixes 15+ bugs covering background-session reliability, crash-on-startup edge cases, subagent rate-limit handling, plugin loading from git worktrees, screen-reader accessibility, voice dictation false errors, and tmux 3.4+ rendering flicker.",
+      "relevance_score": 95,
+      "accuracy_notes": "Version numbers, dates, and all bullet points verified directly from the official Claude Code changelog at code.claude.com/docs/en/changelog (HTTP 200 response). No interpretation required — this is primary-source Anthropic documentation. Very high confidence.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just shipped 15+ fixes — here are the 5 that matter most to developers",
+          "slides": [
+            "Slide 1: New 'Manual' permission mode is now the default — what that means for your workflow",
+            "Slide 2: AskUserQuestion no longer auto-continues — you're in control again",
+            "Slide 3: Background sessions fixed — no more silent stops after sleep/wake",
+            "Slide 4: Plugin + git worktree bug squashed — project-scoped plugins now load correctly",
+            "Slide 5: Accessibility wins — screen reader, voice dictation, and tmux rendering all improved"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer-productivity angle — how the new Manual permission mode and AskUserQuestion changes shift the human-in-the-loop balance for AI coding agents",
+          "opening_line": "Anthropic just quietly made Claude Code's autonomy model more conservative by default — and for teams using it in production pipelines, that's a bigger deal than it sounds.",
+          "cta": "Are you running Claude Code in automated or background-agent workflows? These changes affect you — read the full changelog before your next deploy."
+        },
+        "twitter_x": {
+          "thread_opener": "🛠️ Claude Code v2.1.200 dropped yesterday with a default permission mode change + 15+ fixes. Here's what actually matters for devs:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code's new update makes it ask for permission more — here's why Anthropic did that on purpose.",
+          "script_outline": "Open with the permission-mode rename announcement. Explain why 'Manual' is the new default and what it means (less autonomous action by default). Cover the AskUserQuestion change. Highlight the top 3 background-session fixes for power users. Close with how to opt into the old auto-continue behavior via /config."
+        },
+        "ebook_blog": {
+          "title": "Claude Code 2.1.200 Deep Dive: The Manual Permission Mode, 15 Bug Fixes, and What Anthropic Is Signaling About AI Autonomy",
+          "angle": "Technical breakdown paired with strategic commentary — explain each fix, then zoom out on what the shift to 'Manual' as a default says about Anthropic's current thinking on agentic AI safety and human oversight."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com — Claude Platform Release Notes",
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "title": "Claude Enterprise Gets Richer Admin Analytics, Model-Level Entitlements, and Spend Alerts",
+      "published_date": "2026-07-03",
+      "summary": "Anthropic rolled out a major upgrade to Claude Enterprise's admin console on July 3, 2026. Admins now see usage and cost breakdowns by SCIM group and individual user, with productivity outputs (artifacts created, files edited, skills and connectors used) displayed alongside their cost. New model-level entitlements let admins set defaults and hard limits per group, and configurable spend-threshold alerts prevent surprise overages. The same metrics are exposed via an Analytics API for integration with existing finance and IT reporting systems. Claude Code gets two new admin-console tabs showing active developers, session counts, and top commands across the org.",
+      "relevance_score": 92,
+      "accuracy_notes": "Update date of July 3, 2026 confirmed via multiple search results referencing the releasebot.io Anthropic changelog. Feature details corroborated by the Claude Enterprise Analytics API support article (support.claude.com) and langwatch.ai breakdown. Blog URL verified as a real Anthropic page (claude.com/blog). High confidence — details are consistent across independent sources.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude for business just got CFO-friendly: spend controls, usage dashboards, and org-level AI governance are here",
+          "slides": [
+            "Slide 1: What's new — admin analytics upgrade in one sentence",
+            "Slide 2: See exactly who's using Claude and what it's costing by team and user",
+            "Slide 3: Set model-level entitlements and usage caps per SCIM group",
+            "Slide 4: Spend alerts — get notified before you exceed your AI budget",
+            "Slide 5: Pull the same data via the Analytics API into your existing finance dashboards"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI governance — how Anthropic's new admin controls solve the 'shadow AI spend' problem that's blocking wider Claude adoption in large organizations",
+          "opening_line": "One of the biggest blockers to enterprise Claude adoption just got addressed: finance teams can now see exactly which teams are spending how much on AI, broken down by model, user, and group.",
+          "cta": "If you're evaluating Claude for enterprise or already running it, these controls should change your TCO calculation — what visibility did your team need that wasn't there before?"
+        },
+        "twitter_x": {
+          "thread_opener": "🏢 Big update for enterprise Claude users: Anthropic just shipped admin analytics, spend alerts, and model-level entitlements. Here's what changed and why it matters for AI budgeting at scale:",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Your company's Claude bill just became fully transparent — Anthropic's new admin update explained in 60 seconds.",
+          "script_outline": "Open with the problem: companies adopting Claude couldn't easily see who was using what and at what cost. Reveal the solution: new admin console breakdown by group and user. Show the spend alert feature. Highlight model-level entitlements for IT control. Close with the Analytics API for finance teams and why this accelerates enterprise adoption."
+        },
+        "ebook_blog": {
+          "title": "Claude Enterprise's New Admin Controls: A Complete Guide to Analytics, Spend Alerts, and Model Entitlements",
+          "angle": "Practical guide for enterprise IT admins and finance teams — walk through each new feature with screenshots and setup steps, then include a governance framework for organizations standardizing on Claude across departments."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
