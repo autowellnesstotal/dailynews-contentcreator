@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T15:30:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "source_summary": {
+    "xda-developers.com": "1 article found within 24-48h window (July 4, 2026)",
+    "docs.anthropic.com": "1 release notes entry found within 24-48h window (July 3, 2026 — Claude Code v2.1.200 + v2.1.201)",
+    "theverge.com": "0 articles found — domain blocks automated crawlers; no Claude/Anthropic articles surfaced via search for July 4-5 window"
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-just-added-fable-5-back-to-your-subscription-but-theres-a-catch/",
+      "title": "Claude just added Fable 5 back to your subscription, but there's a catch",
+      "published_date": "2026-07-04",
+      "summary": "Anthropic restored Claude Fable 5 — its most powerful frontier model — to subscriber plans after the US Commerce Department lifted export control restrictions on June 30. The inclusion is time-limited: Fable 5 is free for Pro, Max, Team, and Enterprise subscribers only until July 7, 2026, after which usage will draw from API billing credits. Anthropic also shipped a new cybersecurity and biology safety classifier that routes sensitive queries to Opus 4.8 instead of Fable 5, blocking the specific jailbreak technique that triggered the original government order in over 99% of cases.",
+      "relevance_score": 93,
+      "accuracy_notes": "Core facts confirmed across multiple independent sources including official Anthropic blog post ('Redeploying Claude Fable 5'), The Hacker News, 9to5Google, and VentureBeat. July 7 subscription deadline and the 99% classifier block rate are sourced from Anthropic's own writing. The article is squarely about a Claude subscription change — high factual confidence.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Fable 5 just came back to your Claude plan — but the free window closes in days 🔥",
+          "slides": [
+            "Slide 1: Claude Fable 5 is BACK in your subscription (and most people missed it)",
+            "Slide 2: What is Fable 5? Anthropic's most powerful model — briefly banned by the US government",
+            "Slide 3: Why it was taken down — a jailbreak, a government order, and national security fears",
+            "Slide 4: The catch: free access ends July 7. After that, it moves to API billing credits",
+            "Slide 5: What to do right now — how to access Fable 5 before the clock runs out"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI governance and the policy-product intersection — how a government export order reshaped Claude's subscription model",
+          "opening_line": "Anthropic just restored Fable 5 to paid Claude plans — but quietly set a July 7 expiration before it shifts to usage-based billing, and most subscribers have no idea.",
+          "cta": "If you're on a Pro, Max, Team, or Enterprise Claude plan, log in now and experiment with Fable 5 this week. Drop a comment with what you're testing — curious what workflows are benefitting most."
+        },
+        "twitter_x": {
+          "thread_opener": "THREAD: Claude's most powerful AI model just returned to your subscription — but there's a 3-day expiration date most users haven't noticed 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "The most powerful AI in the world was banned by the US government, then brought back — and right now it's included in your $20/month Claude plan. Here's what changed.",
+          "script_outline": "0-5s: Hook — Fable 5 is back and most subscribers don't know. 5-20s: Brief backstory — what Fable 5 is, why the government banned it (jailbreak + national security). 20-35s: The comeback — export controls lifted June 30, Anthropic added a new classifier. 35-50s: The catch — July 7 deadline, then it becomes pay-per-use credits. 50-60s: CTA — open Claude.ai right now, switch to Fable 5 in model settings, go build something with it before the window closes."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5: The AI That Got Banned, Came Back Stronger, and What It Means for Your Subscription",
+          "angle": "A narrative explainer combining the national security drama with practical subscriber guidance — covering the original export order, the new safety classifier, the July 7 deadline, and what kinds of tasks Fable 5 excels at before it becomes a paid add-on."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Release Notes)",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "title": "Claude Code v2.1.200 & v2.1.201 — Permission model overhaul, background agent stability, and Sonnet 5 fix",
+      "published_date": "2026-07-03",
+      "summary": "Anthropic shipped two Claude Code releases on July 3. Version 2.1.200 is a significant UX and safety update: it renames the 'default' permission mode to 'Manual' across CLI, VS Code, and JetBrains, meaning the tool now asks before acting by default everywhere, and stops AskUserQuestion dialogs from auto-continuing without user input. It also resolves a batch of background agent reliability issues including stalled sessions after sleep/wake cycles and daemon handover failures on Linux. Version 2.1.201 is a focused fix ensuring Claude Sonnet 5 sessions no longer inject mid-conversation system-role reminders from the harness.",
+      "relevance_score": 87,
+      "accuracy_notes": "Release details sourced directly from the official anthropics/claude-code GitHub releases page. Version numbers, dates, and changelogs are factual and verifiable. The permission-mode rename is a meaningful UX shift worth flagging to developers. No speculative claims.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just changed how it asks for your permission — and most developers missed it",
+          "slides": [
+            "Slide 1: Claude Code v2.1.200 just dropped — here's the one change that affects every user",
+            "Slide 2: 'Default' mode is now called 'Manual' — Claude Code now asks before every action",
+            "Slide 3: AskUserQuestion dialogs no longer auto-continue — you're in control again",
+            "Slide 4: Background agent bug fixes — no more stalled sessions after sleep/wake",
+            "Slide 5: v2.1.201 bonus fix — Sonnet 5 sessions no longer get noisy system-role injections"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer trust and AI tool safety — Anthropic's deliberate move to make Claude Code more conservative by default signals a maturing stance on human-in-the-loop workflows",
+          "opening_line": "Anthropic just flipped Claude Code's permission defaults to 'Manual' across every editor — a quiet but meaningful shift in how the tool handles autonomous actions.",
+          "cta": "If you're using Claude Code, update to v2.1.200 and check your settings. Worth knowing what changed before it surprises you in a live session. What's your current permission setup?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.200 just made a stealth change to how it asks for permission — and if you're using it daily, you'll want to know what moved to 'Manual' 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code just changed its default behavior in a way that could break your existing workflow — here's the 2-minute explanation every developer needs.",
+          "script_outline": "0-5s: Hook — Claude Code changed how it asks permission and most devs don't know. 5-20s: What changed — 'default' mode renamed to 'Manual', AskUserQuestion no longer auto-continues. 20-35s: Why it matters — implications for automated pipelines and unattended sessions. 35-50s: The background agent fixes — stalls, daemon issues, Sonnet 5 noise. 50-60s: CTA — run 'claude --version', update to 2.1.200, check the changelog link in bio."
+        },
+        "ebook_blog": {
+          "title": "Claude Code 2.1.200: Why Anthropic Switched to Manual Mode by Default — and What It Means for Your Dev Workflow",
+          "angle": "A developer-focused deep dive into the permission model change, its implications for CI/CD pipelines, agentic loops, and unattended Claude Code sessions, plus a full changelog walkthrough of all the background agent reliability fixes."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
