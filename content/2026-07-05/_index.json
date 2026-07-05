@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-07-05",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "content_folder": "content/2026-07-05/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "audience_note": "Emprendedores novatos, sin perfil técnico, motivación para adquirir ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-05/update_001_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva_designs": [
+            "https://www.canva.com/d/ZMp8vjf81Lw6cfK",
+            "https://www.canva.com/d/iPwPCeO8xYgQnce",
+            "https://www.canva.com/d/6BmSQXclJ9pLHA7",
+            "https://www.canva.com/d/3zl1FX7WJFKmbQ2"
+          ],
+          "canva_note": "4 variantes generadas (portada del carrusel). Seleccionar la preferida y usar create-design-from-candidate para guardarla en la cuenta."
+        },
+        "linkedin": {
+          "file": "content/2026-07-05/update_001_linkedin.md",
+          "format": "post formateado con párrafos cortos",
+          "canva_designs": []
+        },
+        "twitter": {
+          "file": "content/2026-07-05/update_001_twitter.md",
+          "format": "hilo de 7 tweets",
+          "canva_designs": []
+        },
+        "youtube": {
+          "file": "content/2026-07-05/update_001_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva_designs": [
+            "https://www.canva.com/d/fs5yOV1fb1ze0jf",
+            "https://www.canva.com/d/oTc004F_V0yP0Tm",
+            "https://www.canva.com/d/Ouu_-tCWsResirL",
+            "https://www.canva.com/d/vjzKuILqEmnnu-_"
+          ],
+          "canva_note": "4 variantes de thumbnail generadas. Seleccionar la preferida y usar create-design-from-candidate para guardarla."
+        },
+        "blog": {
+          "file": "content/2026-07-05/update_001_blog.md",
+          "format": "artículo 750 palabras con título, subtítulos y CTA",
+          "canva_designs": []
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "audience_note": "Emprendedores novatos, sin perfil técnico, motivación para adquirir ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-05/update_002_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva_designs": [
+            "https://www.canva.com/d/QPCYLs8CSvkTEC3",
+            "https://www.canva.com/d/gnEcGtvSEsb4sy1",
+            "https://www.canva.com/d/7AABl19k4jpgFG4",
+            "https://www.canva.com/d/xQ7wl0Q6XcWiNgI"
+          ],
+          "canva_note": "4 variantes generadas (portada del carrusel). Seleccionar la preferida y usar create-design-from-candidate para guardarla en la cuenta."
+        },
+        "linkedin": {
+          "file": "content/2026-07-05/update_002_linkedin.md",
+          "format": "post formateado con párrafos cortos",
+          "canva_designs": []
+        },
+        "twitter": {
+          "file": "content/2026-07-05/update_002_twitter.md",
+          "format": "hilo de 8 tweets",
+          "canva_designs": []
+        },
+        "youtube": {
+          "file": "content/2026-07-05/update_002_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva_designs": [
+            "https://www.canva.com/d/eOYxptSN3JAtYq5",
+            "https://www.canva.com/d/ivP3jeMngxHzLcH",
+            "https://www.canva.com/d/zYs3g64VmtL9wyy",
+            "https://www.canva.com/d/pCNVkq2CGfOHYxO"
+          ],
+          "canva_note": "4 variantes de thumbnail generadas. Seleccionar la preferida y usar create-design-from-candidate para guardarla."
+        },
+        "blog": {
+          "file": "content/2026-07-05/update_002_blog.md",
+          "format": "artículo 780 palabras con título, subtítulos y CTA",
+          "canva_designs": []
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "total_designs_generated": 16,
+    "update_001_instagram_candidates": 4,
+    "update_001_youtube_candidates": 4,
+    "update_002_instagram_candidates": 4,
+    "update_002_youtube_candidates": 4,
+    "next_step": "Visitar los links de Canva, elegir la variante preferida de cada set, y usar mcp__Canva__create-design-from-candidate con el candidate_id correspondiente para guardar el diseño final en tu cuenta."
+  }
+}
