@@ -1,0 +1,65 @@
+{
+  "date": "2026-07-06",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-07-06T00:00:00Z",
+  "total_approved_processed": 2,
+  "total_files_created": 10,
+  "canva_status": "failed — Canva API returned design_generation_error en los 4 intentos (2 carruseles Instagram + 2 thumbnails YouTube). Continuar manualmente o reintentar.",
+  "canva_urls": [],
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: La herramienta de diseño IA de Anthropic",
+      "source": "XDA Developers",
+      "source_url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
+      "reviewer_notes": "Enfoque emprendedor novato, motivar compra de ebook",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-06/update_001_instagram.md",
+        "linkedin": "content/2026-07-06/update_001_linkedin.md",
+        "twitter": "content/2026-07-06/update_001_twitter.md",
+        "youtube": "content/2026-07-06/update_001_youtube.md",
+        "blog": "content/2026-07-06/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel": {
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        },
+        "youtube_thumbnail": {
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code Memory: Auto Memory y CLAUDE.md para automatización",
+      "source": "XDA Developers",
+      "source_url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
+      "reviewer_notes": "Enfoque emprendedor novato, motivar compra de ebook",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-06/update_002_instagram.md",
+        "linkedin": "content/2026-07-06/update_002_linkedin.md",
+        "twitter": "content/2026-07-06/update_002_twitter.md",
+        "youtube": "content/2026-07-06/update_002_youtube.md",
+        "blog": "content/2026-07-06/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel": {
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        },
+        "youtube_thumbnail": {
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        }
+      }
+    }
+  ]
+}
