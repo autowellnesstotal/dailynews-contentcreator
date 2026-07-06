@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T00:00:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned 403; articles discovered via WebSearch. 1 article confirmed within 24-48h window.",
+    "docs.anthropic.com": "Release notes page returned 403; changelog content retrieved via GitHub releases (code.claude.com/docs/en/changelog) and Releasebot cross-reference. Releases v2.1.201 and v2.1.200 confirmed July 3; platform API updates confirmed July 4-5.",
+    "theverge.com": "Blocked — domain returns 403 and is excluded from crawler access per Anthropic policy. WebSearch also returned access error. No Verge articles from July 4-6 could be confirmed."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-just-added-fable-5-back-to-your-subscription-but-theres-a-catch/",
+      "title": "Claude just added Fable 5 back to your subscription, but there's a catch",
+      "published_date": "2026-07-04",
+      "summary": "Following the US government lifting export controls on Anthropic's Fable 5 and Mythos 5 models, Anthropic temporarily re-added Fable 5 access to Pro, Max, Team, and select Enterprise subscription plans — covering up to 50% of weekly usage limits. The inclusion window closes July 7, 2026, after which Fable 5 usage shifts to API-rate usage credits. A Claude Code lead engineer clarified that this is a capacity management measure, not a permanent removal; Anthropic intends to restore Fable 5 as a standard subscription benefit 'as soon as capacity allows.'",
+      "relevance_score": 90,
+      "accuracy_notes": "Core facts corroborated by multiple outlets (Digital Trends, BleepingComputer, PCWorld, Hacker News thread). The July 7 cutoff date and the 'not permanent' clarification from a Claude engineer are consistent across sources. No red flags; story is grounded in Anthropic's public communications.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "You have until July 7 to use Claude Fable 5 for FREE — here's what you need to know before the deadline 🔔",
+          "slides": [
+            "Slide 1: Fable 5 is back in your Claude subscription — but only until July 7",
+            "Slide 2: What is Claude Fable 5? (Anthropic's most powerful model, previously export-restricted)",
+            "Slide 3: Which plans get access? (Pro, Max, Team, select Enterprise — up to 50% of weekly limits)",
+            "Slide 4: What happens after July 7? (Moves to usage credits / API billing — no longer free)",
+            "Slide 5: Is this permanent? Anthropic says NO — plans to restore it 'as capacity allows'"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise and developer cost-planning perspective — understanding Anthropic's capacity-driven model access strategy and what it means for AI budgeting in 2026.",
+          "opening_line": "If your team is on Claude Pro, Max, or Team, you have a 72-hour window to leverage Anthropic's most powerful model at no extra cost — here's what's happening and how to plan around it.",
+          "cta": "Have you built Fable 5 into your team's workflows yet? Share how you're planning for the July 7 cutover in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 BREAKING: Claude Fable 5 is back in your subscription — but only until July 7. Here's the full story and what you should do right now:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just quietly gave Claude subscribers access to its most powerful model — but you only have a few days left to use it for free.",
+          "script_outline": "Open with the surprise announcement → explain what Fable 5 is and why it was previously unavailable (US export controls) → outline who gets access and the 50% weekly limit cap → explain the July 7 deadline and what changes (usage credits / API billing) → share the engineer's clarification that this is temporary, not permanent → close with action: log in now, run your most demanding tasks, and watch for the restoration announcement."
+        },
+        "ebook_blog": {
+          "title": "The Claude Fable 5 Subscription Window: What It Is, Why It Ends July 7, and What Comes Next",
+          "angle": "A clear explainer for Claude subscribers navigating Anthropic's rapidly shifting model-access policy — covering the export-control backstory, the current window, and a practical checklist for maximizing usage before the deadline."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Docs — Claude Developer Platform Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Developer Platform: Rate limits raised, tiers consolidated, cache diagnostics beta, and billing fix for refusals",
+      "published_date": "2026-07-04",
+      "summary": "Anthropic published a cluster of Claude Platform API updates around July 4-5. Rate limits were raised across all plans (Chat, Cowork, Claude Code, API), and the usage tier structure was simplified from multiple tiers down to three: Start, Build, and Scale — with Claude Sonnet and Haiku limits now matching Opus at every tier. Cache diagnostics launched in public beta, letting developers pass a diagnostics.previous_message_id field to receive a cache_miss_reason explaining where the prompt cache prefix diverged. Additionally, API requests that return stop_reason: 'refusal' without generating any output are no longer billed.",
+      "relevance_score": 95,
+      "accuracy_notes": "All updates sourced from Anthropic's official release notes page and corroborated by Releasebot (releasebot.io/updates/anthropic/claude-developer-platform). No contradictions found across sources. The refusal-billing fix and cache diagnostics are specifically mentioned in multiple independent summaries of the July 4-5 release notes.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just quietly upgraded the Claude API for everyone — and developers are excited 🛠️",
+          "slides": [
+            "Slide 1: Claude API just got faster — rate limits raised across ALL plans",
+            "Slide 2: New simplified tier structure: Start → Build → Scale (no more confusion)",
+            "Slide 3: Cache diagnostics beta: finally know WHY your prompt cache missed",
+            "Slide 4: No more charges for refusals — if Claude refuses, you don't pay",
+            "Slide 5: What this means for your AI projects in 2026"
+          ]
+        },
+        "linkedin": {
+          "angle": "Technical business case — how Anthropic's simplified tier structure and billing fairness changes (no charge for refusals) lower the barrier for enterprise API adoption.",
+          "opening_line": "Anthropic just made the Claude API more predictable for enterprise teams — simplified billing tiers, higher rate limits, and no more charges when Claude refuses a request.",
+          "cta": "If you've been on the fence about moving your team's AI workloads to the Claude API, this week's updates are worth a serious look."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic dropped a set of Claude API updates this week that developers will want to know about. Thread:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just made the Claude API fairer — you're no longer billed when Claude refuses to answer. Here's everything that changed.",
+          "script_outline": "Intro hook with billing-fairness angle → explain the refusal stop_reason billing fix and why it matters → walk through the new Start/Build/Scale tier structure → explain rate limit increases (what they unlock) → introduce cache diagnostics beta with a quick demo concept → close with who benefits most (indie devs, startups, enterprises)."
+        },
+        "ebook_blog": {
+          "title": "Claude API July 2026 Updates: Simpler Tiers, Higher Limits, and Fairer Billing — A Developer's Guide",
+          "angle": "Practical walkthrough for developers: what each change means in code and budget, with migration tips for teams still on the old tier structure."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Docs — Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.201 & v2.1.200: Manual permission mode default, background-agent stability, and Sonnet 5 session fix",
+      "published_date": "2026-07-03",
+      "summary": "Anthropic released Claude Code v2.1.201 and v2.1.200 on July 3. The most significant change is that the default permission mode has been switched to 'Manual' across the CLI, VS Code, JetBrains, and --help output — meaning Claude Code will no longer act autonomously on file/system operations without explicit user approval by default. AskUserQuestion dialogs no longer auto-continue; users must opt into idle timeouts via /config. v2.1.201 also fixes a bug where Claude Sonnet 5 sessions incorrectly injected harness reminders via the mid-conversation system role. Numerous reliability fixes landed for background agents, plugin loading from git worktrees, screen-reader accessibility, voice dictation, and terminal rendering under tmux.",
+      "relevance_score": 92,
+      "accuracy_notes": "Directly sourced from the official Claude Code changelog at code.claude.com/docs/en/changelog and cross-verified against the GitHub release history at github.com/anthropics/claude-code/releases. Version numbers, dates, and feature descriptions match verbatim. High-confidence, no red flags.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just changed a default setting that affects EVERY user — do you know about it? 👀",
+          "slides": [
+            "Slide 1: Claude Code's biggest default just changed — here's what it means",
+            "Slide 2: Old default: Auto mode (Claude could act without asking). New default: Manual mode (you approve every action)",
+            "Slide 3: Why this matters for your workflow and security",
+            "Slide 4: Background agents now auto-commit + open draft PRs when done — huge for async work",
+            "Slide 5: Full update rundown: what else shipped in v2.1.200 and v2.1.201"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI governance and enterprise security — the shift to Manual-by-default in Claude Code signals Anthropic's commitment to human oversight in agentic coding tools.",
+          "opening_line": "Anthropic just changed Claude Code's default from 'act first, ask later' to 'always ask first' — a small setting change with big implications for how enterprises should think about AI autonomy in developer tools.",
+          "cta": "Is your team running Claude Code? You'll want to audit your current permission mode setting after this update."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Claude Code just shipped two releases (v2.1.200 + v2.1.201) and one change stands out above the rest: Manual mode is now the DEFAULT. Here's why that matters:",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code just flipped a switch that changes how much control it has over your computer — and you need to know about it.",
+          "script_outline": "Hook with the 'permission mode' framing → explain what Auto vs Manual mode means in practice → show what Manual mode looks like (approval prompts for file edits, commands) → explain why Anthropic made this the default (safety, enterprise adoption, user trust) → cover the background-agent auto-PR feature as a bonus → end with how to switch back to Auto if you want full autonomy."
+        },
+        "ebook_blog": {
+          "title": "Claude Code's New Manual Mode Default: What Changed, Why It Matters, and How to Configure It for Your Workflow",
+          "angle": "Step-by-step guide for developers covering what the Manual mode default means day-to-day, how to configure permission modes per project, and a broader discussion on the human-oversight trend in agentic AI tools."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
