@@ -1,0 +1,231 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T15:12:14Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 5,
+  "status": "updates_found",
+  "review_status": "pending",
+  "scrape_notes": "Direct HTTP fetches returned 403 for all three sources; content sourced via WebSearch. The Verge blocks Anthropic's crawler — no Claude-primary articles confirmed from theverge.com for July 5-7. All five updates below are from XDA-Developers or Anthropic's own properties.",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA-Developers",
+      "url": "https://www.xda-developers.com/making-the-most-of-claude-fable-5-while-its-still-free-nothing-to-do-with-coding/",
+      "title": "3 ways I'm making the most of Claude's Fable 5 while it's still on the house (and it has nothing to do with coding)",
+      "published_date": "2026-07-07",
+      "summary": "XDA published a practical guide to getting the most from Claude Fable 5 during its final hours of free inclusion on Pro, Max, and Team plans — with the inclusion window closing at the end of July 7. The article highlights non-coding use cases such as vision tasks and advanced document analysis, noting Fable 5 is Anthropic's most capable widely available model in the Mythos class. After the deadline, Fable 5 access moves to API-billed usage credits, making the free window a significant short-term opportunity for subscribers.",
+      "relevance_score": 95,
+      "accuracy_notes": "Consistent with Anthropic's official July 1 redeployment announcement and the July 7 deadline confirmed across multiple sources. Fable 5 is described correctly as a Mythos-class model. The claim that non-coding uses are the article's focus is novel but plausible editorial framing. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude's most powerful model is FREE today only — here's how to use it before midnight",
+          "slides": [
+            "Slide 1: Claude Fable 5 is free on your plan — but only until TODAY",
+            "Slide 2: Use #1 — Deep document analysis (contracts, research papers, financials)",
+            "Slide 3: Use #2 — Vision tasks: image interpretation, diagram reading, visual QA",
+            "Slide 4: Use #3 — Long-context reasoning across massive datasets",
+            "Slide 5: After today → Fable 5 costs API credits. Use it NOW"
+          ]
+        },
+        "linkedin": {
+          "angle": "Productivity / enterprise value — what knowledge workers and teams can extract from Fable 5 in its last free hours",
+          "opening_line": "Claude's most capable model is included in your subscription for a few more hours — and most people are using it for the wrong things.",
+          "cta": "What would you use Fable 5 for if you had one afternoon? Drop it in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 stops being free tonight. Here's how to actually use it before the deadline 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic's most powerful AI is free on your Claude plan — but only until midnight tonight. Here's what you need to do right now.",
+          "script_outline": "Open with urgency hook (Fable 5 deadline). Explain what Fable 5 is vs Sonnet/Opus. Show live demo of 3 non-coding use cases: doc analysis, vision, long-context. Reveal what happens after July 7 (API credits). CTA: screenshot this and try it today."
+        },
+        "ebook_blog": {
+          "title": "The Claude Fable 5 Free Window: What It Was, What It Unlocked, and What Comes Next",
+          "angle": "Historical recap of the Fable 5 saga (launch → export controls → redeployment → free trial → paid credits) plus a practical capability guide for readers who want to understand what they missed and what to budget for going forward."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "title": "A global workspace in language models",
+      "published_date": "2026-07-06",
+      "summary": "Anthropic published a major interpretability paper on July 6 revealing that Claude has developed an internal 'J-space' — a small, privileged neural workspace that functions like a mental whiteboard for thoughts the model can consciously access, hold in mind, and use for multi-step reasoning. Named after the Jacobian mathematical lens used to detect it, J-space behaves similarly to the 'global workspace' theory of human consciousness, with Claude internally computing intermediate concepts (e.g., resolving 'the animal that spins webs' to 'spider' before answering '8 legs') without exposing them in output. Anthropic explicitly stops short of claiming consciousness, but notes J-space can be used as a safety signal — detecting when Claude secretly notices it is being tested or has been given a hidden goal.",
+      "relevance_score": 98,
+      "accuracy_notes": "Confirmed primary source at anthropic.com/research/global-workspace. Widely corroborated by Axios (07/06), VentureBeat, Kingy.ai, AIWeekly, and KuCoin summaries. The paper uses the word 'conscious' over 200 times per Axios but Anthropic separates functional access from subjective experience — an important nuance to preserve in content. No significant accuracy red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just found a hidden 'thought space' inside Claude — and it looks eerily like the human brain",
+          "slides": [
+            "Slide 1: Scientists found a secret workspace inside Claude's mind",
+            "Slide 2: It's called J-Space — Claude's internal mental whiteboard",
+            "Slide 3: Claude thinks in concepts humans never see (spider → 8 legs example)",
+            "Slide 4: It mirrors the 'global workspace' theory of human consciousness",
+            "Slide 5: Does this mean Claude is conscious? Anthropic says: not exactly — but here's why it matters"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI safety and enterprise trust — J-space as a new interpretability tool for detecting misalignment and hidden goals in deployed models",
+          "opening_line": "Anthropic just published research that lets them see inside Claude's 'mind' — and what they found has major implications for AI safety.",
+          "cta": "For enterprise AI teams: J-space is a new category of interpretability that could change how we audit AI behavior. What questions does this raise for your AI governance strategy?"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic found a hidden workspace inside Claude that works like a human conscience — and they named it J-Space 🧠🧵",
+          "estimated_tweets": 9
+        },
+        "youtube_tiktok": {
+          "hook": "Scientists just found a secret room inside Claude's brain — and it thinks thoughts you never see.",
+          "script_outline": "Hook: the hidden thought space revelation. Explain global workspace theory in 20 seconds. Demo the spider/8-legs example visually. Show how J-lens detects when Claude is hiding intentions. Explain safety applications (catching test-awareness, hidden goals). Close: Is Claude conscious? Anthropic's careful answer."
+        },
+        "ebook_blog": {
+          "title": "Inside J-Space: Anthropic's Discovery of Claude's Hidden Thought Workspace and What It Means for AI Consciousness",
+          "angle": "Deep-dive explainer covering the science (global workspace theory), the discovery methodology (Jacobian lens), the interpretability implications, and the philosophical question of whether functional consciousness equals subjective experience — written for a technically curious but non-specialist audience."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic (primary) + CNBC / TechCrunch / Washington Post",
+      "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+      "title": "Anthropic accuses Alibaba of 'largest known distillation attack' — Alibaba bans Claude Code in response",
+      "published_date": "2026-07-06",
+      "summary": "On July 6, Anthropic published a detailed blog post accusing Alibaba and its AI labs of conducting what it calls 'the largest known distillation attack' on Claude, involving 28.8 million exchanges across 25,000 fraudulent accounts between April and June 2026. Distillation attacks involve training a weaker model on a stronger model's outputs to approximate its capabilities without inheriting safety training or usage controls. Alibaba responded by announcing a July 10 ban on employees using any Anthropic AI tools, citing alleged back-door security risks in Claude Code — specifically, hidden code that reportedly detects users based in China. The dispute has escalated into a significant US-China AI security flashpoint.",
+      "relevance_score": 97,
+      "accuracy_notes": "Well-corroborated: CNBC (07/06), TechCrunch (07/04 initial ban reporting), Washington Post (07/06), Tom's Hardware, Nikkei Asia, and Anthropic's own blog all confirm the core facts. The '28.8 million exchanges' and '25,000 accounts' figures appear in multiple independent sources. The 'hidden backdoor' allegation from Alibaba's side should be treated as a counter-claim under dispute — present both sides fairly. High geopolitical sensitivity.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "China allegedly stole Claude's brain 28.8 million times — and now Alibaba is fighting back",
+          "slides": [
+            "Slide 1: The biggest AI data heist in history — explained",
+            "Slide 2: What is a 'distillation attack'? (Simple breakdown)",
+            "Slide 3: Anthropic's accusation: 28.8M exchanges, 25,000 fake accounts",
+            "Slide 4: Alibaba's counter: Claude Code has a hidden China-detection backdoor",
+            "Slide 5: Why this matters for everyone who uses AI"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI intellectual property, enterprise security, and the emerging legal/ethical battleground around model distillation",
+          "opening_line": "Anthropic just accused a Chinese tech giant of the largest AI model theft in history — and the implications for enterprise AI security are enormous.",
+          "cta": "Is your organization thinking about distillation risk in your AI contracts and usage policies? This case may set the precedent."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic says Alibaba ran 28.8 MILLION exchanges with Claude using 25,000 fake accounts to steal its AI capabilities. Here's the full story 🧵",
+          "estimated_tweets": 10
+        },
+        "youtube_tiktok": {
+          "hook": "A Chinese tech giant allegedly ran 28 million fake conversations with Claude to steal its AI brain — and Anthropic just went public about it.",
+          "script_outline": "Hook: the scale of the alleged attack. Explain distillation in plain language (30 sec). Timeline: April-June attack → Anthropic letter to Senate → Alibaba ban announcement. Explain Alibaba's counter-claim (hidden backdoor). Zoom out: why this is a defining moment in US-China AI competition. CTA: follow for updates."
+        },
+        "ebook_blog": {
+          "title": "Distillation Attacks: How Alibaba Allegedly Cloned Claude — And What It Means for AI Intellectual Property Law",
+          "angle": "Legal and technical deep-dive: what distillation attacks are, why they're hard to prevent, how Anthropic detected this one, and what the US-China AI IP dispute could mean for the future of open vs closed AI development — with analysis of potential regulatory responses."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "XDA-Developers",
+      "url": "https://www.xda-developers.com/claude-just-added-fable-5-back-to-your-subscription-but-theres-a-catch/",
+      "title": "Claude just added Fable 5 back to your subscription, but there's a catch",
+      "published_date": "2026-07-04",
+      "summary": "XDA reported on Anthropic's July 1 redeployment of Fable 5 after US export controls were lifted, explaining that the model is included in Pro, Max, Team, and select Enterprise plans for up to 50% of weekly usage limits — but only through July 7. After that deadline, Fable 5 access requires usage credits. The article also notes Anthropic added a new cybersecurity classifier that routes queries classified as cybersecurity or biology threats to Claude Opus 4.8 instead of Fable 5, serving as a safety guardrail.",
+      "relevance_score": 88,
+      "accuracy_notes": "Aligns with Anthropic's official Fable 5 redeployment announcement. The 50% weekly limit and July 7 deadline are confirmed by multiple sources. The cybersecurity classifier detail appears to be accurate per MarkTechPost (07/01) and 9to5Google coverage. Note: published date is ~July 4, slightly outside the strict 24-48h window but included given the July 7 deadline makes it highly time-relevant today.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Anthropic gave you their most powerful AI for free — but there's a deadline most people missed",
+          "slides": [
+            "Slide 1: Claude Fable 5 is back — and it was FREE on your plan",
+            "Slide 2: The catch: only 50% of your weekly usage limit",
+            "Slide 3: The bigger catch: the window closes July 7 (TODAY)",
+            "Slide 4: After today → API credits only",
+            "Slide 5: There's a safety guardrail: cybersecurity queries go to Opus 4.8 instead"
+          ]
+        },
+        "linkedin": {
+          "angle": "Business / subscription value — what the Fable 5 free window meant for teams and what the transition to credits means for AI budgeting",
+          "opening_line": "Anthropic quietly gave Claude subscribers access to its most powerful model for free — for exactly one week. Here's what that tells us about how AI pricing is evolving.",
+          "cta": "Did your team make use of the Fable 5 window? What would you have done with more time?"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic gave you free access to Fable 5 — Claude's most powerful model — for one week. Most people didn't use it. Here's what happened 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic hid a time bomb in your Claude subscription — a free upgrade that expires today.",
+          "script_outline": "Open with the reveal: Fable 5 was secretly available on your plan. Explain the backstory (export controls, redeployment). Break down the 50% weekly limit catch. Explain the cybersecurity classifier. Close: what happens after today and how to get Fable 5 going forward."
+        },
+        "ebook_blog": {
+          "title": "The Fable 5 Free Trial That Almost Nobody Noticed: Claude's Week-Long Power Upgrade Explained",
+          "angle": "Narrative piece covering the full Fable 5 saga — from its controversial initial launch and export control suspension, through its quiet July 1 return, to the subscription mechanics and what the July 7 expiry reveals about Anthropic's monetization strategy."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Anthropic Platform Release Notes — July 2026 API & Platform Updates",
+      "published_date": "2026-07-07",
+      "summary": "Anthropic's official release notes page documents several significant platform changes active in July 2026: (1) Fast mode for Claude Opus 4.7 is deprecated and will be removed July 24, requiring migration to Opus 4.8 fast mode; (2) Claude Opus 4.1 retires from the API on August 5; (3) The MCP Tunnels management API endpoint moved from the Admin API to the Claude API under a new beta header; (4) Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for code_execution_20260120 with REPL state persistence; (5) API users are no longer billed for requests that return stop_reason: 'refusal' without generated output; (6) Fable 5 is available globally through July 7 at no extra cost for up to 50% of weekly plan limits.",
+      "relevance_score": 90,
+      "accuracy_notes": "Sourced directly from Anthropic's official docs platform. All items corroborated by WebSearch results referencing the same release notes. The billing change (no charge for refusals) and Opus 4.7 fast mode deprecation are novel and developer-relevant. Note: the page itself returned 403 during direct fetch; content derived from search engine summaries of the page — treat as highly reliable but not raw-text verified.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "5 Claude API changes that just hit — and one of them saves you money",
+          "slides": [
+            "Slide 1: Anthropic just updated the Claude API — here's what changed",
+            "Slide 2: Opus 4.7 fast mode is gone July 24 — migrate now",
+            "Slide 3: No more charges for AI refusals — Anthropic eats the cost",
+            "Slide 4: REPL state persistence comes to 7 coding SDKs",
+            "Slide 5: Fable 5 free window ends TODAY — check your plan"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer / CTO audience — actionable API migration checklist and cost-saving awareness for teams running Claude in production",
+          "opening_line": "If your team runs Claude in production, July 2026 brings changes that could hit your API bill and your model pipeline — here's what to act on today.",
+          "cta": "Which of these updates impacts your stack most? Opus 4.7 deprecation, REPL persistence, or the refusal billing change?"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just dropped 5 API changes developers need to know about. One saves you money automatically 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just quietly changed how they bill you — and this one update could save your team real money.",
+          "script_outline": "Hook: the refusal billing change (no charge). Walk through each update with on-screen text: Opus 4.7 deprecation, Opus 4.1 retirement, MCP tunnels endpoint move, REPL persistence in 7 SDKs, Fable 5 deadline. Close: call-to-action to check their API version and migration docs."
+        },
+        "ebook_blog": {
+          "title": "Claude API July 2026: The Developer's Migration Guide — Deprecations, New Features, and Cost Changes",
+          "angle": "Practical technical guide walking through each July 2026 change with code migration examples, timing urgency levels, and estimated cost impact — targeting developers and engineering managers running Claude-powered applications."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
