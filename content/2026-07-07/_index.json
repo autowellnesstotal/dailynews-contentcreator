@@ -1,0 +1,77 @@
+{
+  "generated_date": "2026-07-07",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_articles": 2,
+  "total_files_created": 10,
+  "canva_status": "failed — design_generation_error en todos los intentos (4 intentos para carruseles de Instagram + 4 intentos para thumbnails de YouTube). Sin URLs de Canva disponibles.",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: la herramienta de diseño IA de Anthropic",
+      "source_url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-07/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_url": null,
+          "canva_error": "design_generation_error"
+        },
+        "linkedin": {
+          "file": "content/2026-07-07/update_001_linkedin.md",
+          "format": "post"
+        },
+        "twitter_x": {
+          "file": "content/2026-07-07/update_001_twitter.md",
+          "format": "hilo",
+          "tweets": 7
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-07/update_001_youtube.md",
+          "format": "guion_60s",
+          "canva_url": null,
+          "canva_error": "design_generation_error"
+        },
+        "blog": {
+          "file": "content/2026-07-07/update_001_blog.md",
+          "format": "articulo",
+          "word_count_approx": 750
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code Memory: Auto Memory y CLAUDE.md para emprendedores",
+      "source_url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-07/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 6,
+          "canva_url": null,
+          "canva_error": "design_generation_error"
+        },
+        "linkedin": {
+          "file": "content/2026-07-07/update_002_linkedin.md",
+          "format": "post"
+        },
+        "twitter_x": {
+          "file": "content/2026-07-07/update_002_twitter.md",
+          "format": "hilo",
+          "tweets": 8
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-07/update_002_youtube.md",
+          "format": "guion_60s",
+          "canva_url": null,
+          "canva_error": "design_generation_error"
+        },
+        "blog": {
+          "file": "content/2026-07-07/update_002_blog.md",
+          "format": "articulo",
+          "word_count_approx": 820
+        }
+      }
+    }
+  ]
+}
