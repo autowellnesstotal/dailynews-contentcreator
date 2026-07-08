@@ -1,0 +1,321 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T15:12:27Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual article pages also blocked. Article titles, dates, and summaries retrieved via Google web search index. Two XDA articles confirmed within the July 7-8, 2026 window based on publication dates in search snippets.",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403. Release note content retrieved via web search (releasebot.io aggregator + Anthropic newsroom search results). Multiple updates confirmed for July 7, 2026.",
+    "theverge.com": "Multiple search attempts returned no Claude/Anthropic-primary articles from The Verge for July 7-8, 2026. Domain also blocked direct fetch. Zero qualifying articles found."
+  },
+  "total_updates_found": 7,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Release Notes",
+      "url": "https://claude.com/blog/cowork-web-mobile",
+      "title": "Claude Cowork expands to web and mobile — tasks now run in the cloud with no device required",
+      "published_date": "2026-07-07",
+      "summary": "Anthropic announced on July 7 that Claude Cowork, previously desktop-only since its January launch, is now available on web and mobile for Max plan subscribers, with a gradual rollout to other plans. Tasks can now run autonomously in the cloud even when a user's device is closed, and Claude sends alerts when human input is needed. In a notable finding, Anthropic disclosed that more than 90% of Cowork usage is not software development — the top categories are business process operations (33.4%) and content creation/copywriting (16.4%). Chat and Cowork also now share a single unified home tab.",
+      "relevance_score": 98,
+      "accuracy_notes": "Confirmed via Anthropic's official blog (claude.com/blog/cowork-web-mobile). Usage statistics (90%+ non-coding, 33.4% business ops, 16.4% content) cited directly from Anthropic data. Cross-verified by TechCrunch, VentureBeat, MacRumors, NBC News, 9to5Mac all reporting July 7, 2026. High confidence.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude just became the AI agent that works while you sleep — no laptop required 🤖",
+          "slides": [
+            "Claude Cowork is now on your phone & browser",
+            "Tasks run in the cloud even when your laptop is closed",
+            "90%+ of users aren't using it for coding — here's what they ARE doing",
+            "Business ops 33% · Content creation 16% · Research · Scheduling",
+            "Start on laptop, check status on phone, finish in the cloud"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI agents are moving from dev tools to mainstream knowledge work — Anthropic's usage data proves it",
+          "opening_line": "Anthropic just revealed something surprising: 90% of people using Claude Cowork aren't coding. They're doing exactly the work most professionals hate — reconciling spreadsheets, building onboarding docs, turning call transcripts into slide decks.",
+          "cta": "What tedious knowledge-work task would you hand to an AI agent first? Drop it in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Cowork just went cross-device — and the usage data Anthropic dropped is way more interesting than the feature itself 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just launched something that could genuinely replace your Monday morning admin routine — and 90% of users are already using it for exactly that.",
+          "script_outline": "Hook: 'Your AI agent can now work all night with your laptop closed.' Context: Cowork launched desktop-only in January, now goes cross-device July 7. Feature demo: start a task on laptop → close lid → Claude finishes in cloud → notification on phone. Stat reveal: 90% of Cowork isn't coding — what IS it? Business ops, content creation, scheduling. Rollout: Max plan first, more plans coming. CTA: 'What work task would you automate first?'"
+        },
+        "ebook_blog": {
+          "title": "The AI Agent Era Is Here: How Claude Cowork's Usage Data Reveals the Future of Knowledge Work",
+          "angle": "Use Anthropic's real-world usage breakdown as a lens to explore how AI agents are automating white-collar administrative work, not just coding — with practical examples of the top use cases (business ops, content creation) and how to set up Cowork to handle them."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Release Notes",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "title": "Claude Opus 4.8 launches with larger default context window and stronger capabilities across API, Bedrock, and Vertex AI",
+      "published_date": "2026-07-07",
+      "summary": "Anthropic released Claude Opus 4.8 with a larger default context window and improved capabilities compared to its predecessor. The model is available across the API, Amazon Bedrock, Google Vertex AI, Claude Code, and developer tools. The release represents an upgrade to Anthropic's highest-capability model tier, expanding support for complex, long-context tasks.",
+      "relevance_score": 95,
+      "accuracy_notes": "Confirmed via Anthropic Developer Platform release notes (July 7, 2026). Cross-referenced with releasebot.io aggregator. URL points to likely announcement page — verify exact URL on anthropic.com/news. Context window size and specific benchmark improvements not yet publicly detailed in search results.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just upgraded their most powerful AI — Claude Opus 4.8 is here 🔥",
+          "slides": [
+            "Claude Opus 4.8 just dropped",
+            "Bigger context window = longer documents, deeper analysis",
+            "Available: API · Amazon Bedrock · Google Vertex AI · Claude Code",
+            "What this means for developers building with Claude",
+            "How to access it today"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI infrastructure upgrade — Opus 4.8 raises the ceiling for long-context enterprise workflows",
+          "opening_line": "Anthropic released Claude Opus 4.8 today — their most capable model just got a bigger context window and stronger capabilities, now available across AWS Bedrock, Google Vertex, and the direct API.",
+          "cta": "Building with Claude? What's your biggest use case for long-context models? Share below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Opus 4.8 just dropped — here's what's new, where to access it, and why the larger context window actually matters for real workflows 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just upgraded their flagship model — Claude Opus 4.8 is now available and it's got a bigger brain.",
+          "script_outline": "Hook: 'The most powerful Claude model just got more powerful.' What's new: larger default context window, stronger capabilities. Where it's available: API, Bedrock, Vertex, Claude Code. Practical demo: what you can now do with longer context that wasn't practical before. CTA: 'Drop your API key and try it today.'"
+        },
+        "ebook_blog": {
+          "title": "Claude Opus 4.8: What the Larger Context Window Means for Enterprise AI Workflows",
+          "angle": "Deep dive into practical implications of the Opus 4.8 upgrade — which workflows benefit most from expanded context, how to migrate from 4.7 to 4.8 via API, and a cost-benefit analysis for teams deciding between Opus and Sonnet."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude gains Microsoft 365 write tools — can now draft email, manage calendars, and create OneDrive/SharePoint files",
+      "published_date": "2026-07-07",
+      "summary": "Anthropic released write capabilities for the Microsoft 365 connector, significantly expanding beyond previous read-only search functionality. Claude can now draft and send emails, manage calendar events and mailbox settings, and create or update files in OneDrive and SharePoint — turning it into an active participant in the Microsoft 365 ecosystem rather than just a search tool.",
+      "relevance_score": 92,
+      "accuracy_notes": "Confirmed via Anthropic release notes aggregated by releasebot.io for July 7, 2026. Feature scope (email, calendar, OneDrive, SharePoint) appears detailed in multiple aggregator summaries. Verify exact connector name and whether this requires a specific Claude plan or connector setup.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude can now write your emails, manage your calendar, and save files to SharePoint 👀",
+          "slides": [
+            "Claude just got Microsoft 365 write access",
+            "Draft + send emails from Claude",
+            "Manage calendar events automatically",
+            "Create & update OneDrive and SharePoint files",
+            "How to set this up in your workspace"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI-powered workflow automation just entered the Microsoft 365 ecosystem — practical implications for enterprise teams",
+          "opening_line": "Claude can now write emails, manage your calendar, and create files in OneDrive — not just search them. This is the integration enterprise teams using Microsoft 365 have been waiting for.",
+          "cta": "Is your team using Microsoft 365? What's the first workflow you'd automate with Claude write access? Let me know below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude now has write access to Microsoft 365 — email, calendar, OneDrive, SharePoint. Here's what that actually unlocks for your daily workflow 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude just got write access to Microsoft 365 — it can now send your emails and manage your calendar.",
+          "script_outline": "Hook: 'Your AI assistant can now actually DO things in Outlook and SharePoint, not just search them.' What's new: write tools for M365 connector. Demo: prompt Claude to draft and send email, create calendar event, save summary to SharePoint. Business impact: saves 1-2 hours of admin daily. How to enable: connector setup steps. CTA: 'Try it and share your results.'"
+        },
+        "ebook_blog": {
+          "title": "Claude + Microsoft 365: The Complete Guide to AI-Powered Office Automation",
+          "angle": "Step-by-step guide to using Claude's new M365 write tools for email drafting, calendar management, and document creation — with real workflow templates for sales teams, operations managers, and executives."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "Anthropic Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude for Government launches FedRAMP High beta — Claude Code and Cowork now available for public sector teams",
+      "published_date": "2026-07-07",
+      "summary": "Anthropic launched a public beta of Claude Code and Claude Cowork within Claude for Government Desktop, bringing FedRAMP High authorized AI to public sector teams for the first time. The offering includes desktop file-based work, stronger admin controls, tamper-evident audit logs, and spend governance tools designed for government agency requirements.",
+      "relevance_score": 88,
+      "accuracy_notes": "Confirmed via Anthropic release notes aggregated for July 7, 2026. FedRAMP High authorization is a significant compliance milestone for government AI deployments. Details on which agencies have access and specific pricing are not yet confirmed in search results.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "The US government just got access to Claude Code and Cowork — this is bigger than it sounds",
+          "slides": [
+            "Anthropic launches Claude for Government beta",
+            "FedRAMP High authorized = trusted for sensitive govt work",
+            "Claude Code + Cowork: now in federal agencies",
+            "Tamper-evident audit logs · Admin controls · Spend governance",
+            "Why this matters for AI in the public sector"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise compliance milestone — FedRAMP High sets the bar for trusted AI in government and regulated industries",
+          "opening_line": "Anthropic just achieved something most AI companies haven't: FedRAMP High authorization for Claude Code and Cowork. This opens the door for federal agencies to use advanced AI agents in compliance with the strictest government security standards.",
+          "cta": "Working in govtech or regulated industries? I'd love to hear how your team is thinking about AI procurement. Comment below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude just cleared FedRAMP High — which means US federal agencies can now use Claude Code and Cowork. Here's why this is a bigger deal than most people realize 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "The US government can now officially use Claude — and that changes the AI landscape in ways most people aren't talking about.",
+          "script_outline": "Hook: 'Anthropic just got FedRAMP High — the highest bar for government AI trust.' What FedRAMP High means: toughest US government security certification. What's included: Claude Code, Cowork, audit logs, admin controls. Who this affects: federal agencies, defense contractors, regulated industries. Why it matters: positions Anthropic as the leading enterprise-safe AI provider. CTA: 'Is your industry next?'"
+        },
+        "ebook_blog": {
+          "title": "Claude for Government: What FedRAMP High Certification Means for Public Sector AI Adoption",
+          "angle": "Explainer on FedRAMP High requirements, what Anthropic's certification means for federal agencies, and how Claude for Government compares to other AI options in the GovCloud space."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "Anthropic Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Anthropic raises API rate limits and simplifies usage tiers to three levels: Start, Build, and Scale",
+      "published_date": "2026-07-07",
+      "summary": "Anthropic raised API rate limits for Claude Sonnet and Haiku models to match Claude Opus limits at every usage tier, and consolidated the usage tier structure into three levels: Start, Build, and Scale. The change makes it easier for developers to scale their applications without hitting model-specific rate limit ceilings and reduces friction in the developer onboarding and upgrade experience.",
+      "relevance_score": 84,
+      "accuracy_notes": "Confirmed via Anthropic Developer Platform release notes aggregated for July 7, 2026. Specific token-per-minute figures for each new tier not yet confirmed in available search results. Verify exact limits and tier definitions at docs.anthropic.com.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just made the Claude API a lot more developer-friendly — here's what changed",
+          "slides": [
+            "Claude API rate limits just went up across the board",
+            "Sonnet & Haiku now match Opus limits at every tier",
+            "3 simple tiers: Start · Build · Scale",
+            "No more model-specific ceilings blocking your app",
+            "What this means if you're building with Claude"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer experience improvement — simpler pricing tiers and higher limits reduce friction for production AI apps",
+          "opening_line": "Anthropic just raised Claude API rate limits and collapsed the tier structure to just three levels: Start, Build, and Scale. If you've been hitting walls scaling your Claude-powered app, this is the update you've been waiting for.",
+          "cta": "Building with the Claude API? What rate limit issues have you hit? Let's discuss below."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just raised Claude API rate limits AND simplified the tier structure. Here's exactly what changed and what it means for your build 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just made it way easier to scale apps built on Claude — higher rate limits and only 3 tiers to worry about.",
+          "script_outline": "Hook: 'If you've been hitting Claude API rate limits, this update is for you.' What changed: Sonnet/Haiku now match Opus limits. Tier simplification: Start, Build, Scale. Before vs. after: how this removes a common scaling bottleneck. Who benefits: developers building production AI apps. CTA: 'Check the docs and upgrade your plan.'"
+        },
+        "ebook_blog": {
+          "title": "Claude API Rate Limits 2026: New Tier Structure and What It Means for Scaling Your AI App",
+          "angle": "Practical guide to the new Start/Build/Scale tier structure, how to migrate from legacy tiers, and a comparison of throughput benchmarks before and after the update."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_006",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/i-used-claude-fable-5-for-zero-shot-coding-and-understood-why-anthropic-locked-it-down/",
+      "title": "I used Claude Fable 5 for zero-shot coding, and understood why Anthropic locked it down",
+      "published_date": "2026-07-07",
+      "summary": "XDA reviews Claude Fable 5's coding performance after the model became temporarily accessible to paid subscribers (July 1-7) following its redeployment post-government export control suspension. The article explores Fable 5's exceptional zero-shot coding capabilities — and draws a direct line between that power and why the US Department of Commerce originally moved to restrict its global access on national security grounds. The article contextualizes July 7 as the final day Fable 5 is included in consumer plans before moving to API-only access via usage credits.",
+      "relevance_score": 91,
+      "accuracy_notes": "Article and date confirmed via Google web search snippets showing July 7, 2026 publication. Timeline of events is accurate: Fable 5 launched June 9, US export control order June 12, redeployment July 1, plan inclusion ended July 7. Author's coding benchmarks are first-person/opinion — verify claims against official Anthropic benchmarks for Fable 5.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "The most powerful AI coding model just left consumer plans — and now we know why the US government tried to ban it",
+          "slides": [
+            "Claude Fable 5: banned, restored, now paywalled",
+            "The full timeline: launch → US ban → return → API-only",
+            "What made Fable 5 so powerful the government got nervous",
+            "Zero-shot coding test results from XDA",
+            "Can you still access it? Here's what you need to know"
+          ]
+        },
+        "linkedin": {
+          "angle": "The intersection of frontier AI capability and national security — what Fable 5's export control saga reveals about where AI governance is heading",
+          "opening_line": "Claude Fable 5 was launched, banned by the US government, restored three weeks later, and today moved off consumer plans entirely. XDA's hands-on review explains why a coding AI triggered national security concerns — and what we learned from testing it.",
+          "cta": "Do you think export controls are the right tool for managing advanced AI risk? I'd love to hear your take."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5's saga in 60 days: launched → US govt banned it globally → restored → moved to API-only TODAY. I tried it for zero-shot coding and here's what I found 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "The most powerful AI coding model in the world just left your subscription plan — and the reason is wilder than you think.",
+          "script_outline": "Hook: 'Claude Fable 5 launched in June. The US government banned it 3 days later. Today it disappeared from your plan.' Timeline: June 9 launch → June 12 export control order → 3-week blackout → July 1 return → July 7 API-only. Why the concern? Zero-shot coding capability so strong it triggered national security review. Zero-shot coding demo: show examples of Fable 5 solving complex code with no examples. Current access: still available via API/usage credits. CTA: 'Should governments be able to ban AI models? Drop your take.'"
+        },
+        "ebook_blog": {
+          "title": "Inside Claude Fable 5: The AI Coding Model So Powerful the US Government Tried to Ban It",
+          "angle": "Narrative deep-dive combining the geopolitical story (export controls, AI governance) with a technical review of Fable 5's zero-shot coding performance — what made it powerful enough to trigger a national security response, and what developers can still access today."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_007",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/making-the-most-of-claude-fable-5-while-its-still-free-nothing-to-do-with-coding/",
+      "title": "3 ways I'm making the most of Claude's Fable 5 while it's still on the house (and it has nothing to do with coding)",
+      "published_date": "2026-07-07",
+      "summary": "XDA shares three non-coding use cases for Claude Fable 5 while it was still included in paid consumer plans through July 7, emphasizing creative and knowledge work applications that leverage the model's superior capabilities beyond software development. The article is timed as a last-call piece for users to extract value from Fable 5 within their subscription before it shifted to API-only access via usage credits.",
+      "relevance_score": 82,
+      "accuracy_notes": "Article confirmed via Google web search snippets; July 7 publication aligns with the Fable 5 plan-inclusion deadline. Specific use cases mentioned are editorial/first-person. No factual claims requiring external verification beyond the Fable 5 access timeline, which is well-documented.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude's most powerful model was free in your plan until today — here's how to use it for more than coding",
+          "slides": [
+            "Fable 5 wasn't just for developers",
+            "Use case 1: long-form research synthesis",
+            "Use case 2: complex writing and creative work",
+            "Use case 3: multi-step analysis and reasoning tasks",
+            "Still accessible via usage credits — here's how"
+          ]
+        },
+        "linkedin": {
+          "angle": "Non-technical professionals are missing out on frontier AI model capabilities — practical use cases for Fable 5 beyond code",
+          "opening_line": "Most coverage of Claude Fable 5 focused on coding benchmarks. XDA's piece today reminds us what non-developers can actually do with a frontier model — and the use cases are compelling.",
+          "cta": "What's your most creative non-coding use for advanced AI models? Share it below."
+        },
+        "twitter_x": {
+          "thread_opener": "Everyone talked about Fable 5 for coding. Here are 3 non-coding things it did better than any other AI I've tried 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Fable 5 was in your subscription for free — and most people used it completely wrong.",
+          "script_outline": "Hook: 'Most people who had Fable 5 used it for code. Here's what they should've used it for instead.' Three use cases: 1) Deep research synthesis across long documents, 2) Complex creative writing with nuanced direction, 3) Multi-step analytical reasoning. How to still access it: usage credits on API. CTA: 'What would YOU use a frontier model for outside of coding?'"
+        },
+        "ebook_blog": {
+          "title": "Beyond the Code: 10 Non-Technical Use Cases Where Claude Fable 5 Outperforms Every Other AI",
+          "angle": "Expand the XDA framing into a comprehensive guide for non-developers — marketers, researchers, writers, executives — on using frontier AI models for knowledge work, with specific Fable 5 prompts and output examples."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
