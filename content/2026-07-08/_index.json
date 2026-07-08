@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-07-08",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_articles": 2,
+  "total_files_created": 10,
+  "output_folder": "content/2026-07-08/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "audience_note": "Novatos y emprendedores sin contexto técnico — motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-08/update_001_instagram.md",
+          "format": "Carrusel 7 slides + 20 hashtags + CTA",
+          "canva_candidates": [
+            "https://www.canva.com/d/3oIHYNPIwYMXPwD",
+            "https://www.canva.com/d/DG0CNy3gCbDswHL",
+            "https://www.canva.com/d/dcoFhlyoPmWQ92R",
+            "https://www.canva.com/d/DZDRrh8k8BD78CT"
+          ],
+          "canva_primary": "https://www.canva.com/d/3oIHYNPIwYMXPwD"
+        },
+        "linkedin": {
+          "file": "content/2026-07-08/update_001_linkedin.md",
+          "format": "Post completo con gancho, desarrollo y CTA + 6 hashtags",
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "twitter_x": {
+          "file": "content/2026-07-08/update_001_twitter.md",
+          "format": "Hilo de 7 tweets numerados",
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-08/update_001_youtube.md",
+          "format": "Guión 60s + título SEO + descripción",
+          "canva_candidates": [
+            "https://www.canva.com/d/C6esTrZKXwxgoCi",
+            "https://www.canva.com/d/VT6LU19Ww0KAiuh",
+            "https://www.canva.com/d/BbviERHSLK2c28K",
+            "https://www.canva.com/d/MelHhe9LeCvpK83"
+          ],
+          "canva_primary": "https://www.canva.com/d/C6esTrZKXwxgoCi"
+        },
+        "blog": {
+          "file": "content/2026-07-08/update_001_blog.md",
+          "format": "Artículo ~750 palabras con título, subtítulos y conclusión",
+          "canva_candidates": [],
+          "canva_primary": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "audience_note": "Novatos y emprendedores sin contexto técnico — motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-08/update_002_instagram.md",
+          "format": "Carrusel 7 slides + 20 hashtags + CTA",
+          "canva_candidates": [
+            "https://www.canva.com/d/B8XKZJTE07PS2Q7",
+            "https://www.canva.com/d/04BrvPsJB2j2zRT",
+            "https://www.canva.com/d/BrFJLVSRXWMEaSW",
+            "https://www.canva.com/d/3p5-2zFd4_Qfpo9"
+          ],
+          "canva_primary": "https://www.canva.com/d/B8XKZJTE07PS2Q7"
+        },
+        "linkedin": {
+          "file": "content/2026-07-08/update_002_linkedin.md",
+          "format": "Post completo con gancho, desarrollo y CTA + 6 hashtags",
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "twitter_x": {
+          "file": "content/2026-07-08/update_002_twitter.md",
+          "format": "Hilo de 8 tweets numerados",
+          "canva_candidates": [],
+          "canva_primary": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-08/update_002_youtube.md",
+          "format": "Guión 60s + título SEO + descripción",
+          "canva_candidates": [
+            "https://www.canva.com/d/E_1I7rzFLdCpOXl",
+            "https://www.canva.com/d/qoiQfeckE9Nibyz",
+            "https://www.canva.com/d/jYL_1ddNKK9SGzD",
+            "https://www.canva.com/d/Wqxu52Hj04Dx0TH"
+          ],
+          "canva_primary": "https://www.canva.com/d/E_1I7rzFLdCpOXl"
+        },
+        "blog": {
+          "file": "content/2026-07-08/update_002_blog.md",
+          "format": "Artículo ~800 palabras con título, subtítulos y conclusión",
+          "canva_candidates": [],
+          "canva_primary": null
+        }
+      }
+    }
+  ]
+}
