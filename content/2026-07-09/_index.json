@@ -1,0 +1,106 @@
+{
+  "generated_date": "2026-07-09",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-09/update_001_instagram.md",
+          "format": "Carrusel 7 slides + caption + 18 hashtags + CTA",
+          "status": "generated"
+        },
+        "linkedin": {
+          "file": "content/2026-07-09/update_001_linkedin.md",
+          "format": "Post largo con gancho + párrafos + 5 hashtags",
+          "status": "generated"
+        },
+        "twitter": {
+          "file": "content/2026-07-09/update_001_twitter.md",
+          "format": "Hilo de 7 tweets numerados",
+          "status": "generated"
+        },
+        "youtube": {
+          "file": "content/2026-07-09/update_001_youtube.md",
+          "format": "Guion 60s + título SEO + descripción",
+          "status": "generated"
+        },
+        "blog": {
+          "file": "content/2026-07-09/update_001_blog.md",
+          "format": "Artículo 750+ palabras con subtítulos",
+          "status": "generated"
+        }
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "job_id": "cc0b722b-158f-4a7a-8a6d-2a4975d9a365",
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        },
+        "youtube_thumbnail": {
+          "job_id": "1713e50b-bb18-4aee-83cd-aff71d00b8aa",
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-09/update_002_instagram.md",
+          "format": "Carrusel 7 slides + caption + 18 hashtags + CTA",
+          "status": "generated"
+        },
+        "linkedin": {
+          "file": "content/2026-07-09/update_002_linkedin.md",
+          "format": "Post largo con gancho + párrafos + 5 hashtags",
+          "status": "generated"
+        },
+        "twitter": {
+          "file": "content/2026-07-09/update_002_twitter.md",
+          "format": "Hilo de 8 tweets numerados",
+          "status": "generated"
+        },
+        "youtube": {
+          "file": "content/2026-07-09/update_002_youtube.md",
+          "format": "Guion 60s + título SEO + descripción",
+          "status": "generated"
+        },
+        "blog": {
+          "file": "content/2026-07-09/update_002_blog.md",
+          "format": "Artículo 750+ palabras con subtítulos",
+          "status": "generated"
+        }
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "job_id": "b0504826-addf-49b4-b00a-d743c8b7fe32",
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        },
+        "youtube_thumbnail": {
+          "job_id": "4b44d7cd-ff80-42d7-aa52-b20dcbb0d2c6",
+          "status": "failed",
+          "error": "design_generation_error",
+          "url": null
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "attempted": 4,
+    "succeeded": 0,
+    "failed": 4,
+    "note": "Todos los intentos de generación Canva fallaron con 'design_generation_error'. Los diseños deberán crearse manualmente usando los textos de cada archivo .md como brief."
+  }
+}
