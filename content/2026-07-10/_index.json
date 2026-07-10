@@ -1,0 +1,90 @@
+{
+  "generated_date": "2026-07-10",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_items": 2,
+  "total_files_created": 10,
+  "canva_status": "FAILED — Canva MCP returned design_generation_error on all calls (4 attempts). Likely an account authentication issue. Retry manually in Canva.",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design es la mejor función que Anthropic ha lanzado en un tiempo, pero tiene serias limitaciones",
+      "source": "XDA Developers",
+      "reviewer_notes": "Contenido adaptado para emprendedor novato, tono práctico, CTA hacia ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-10/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 8,
+          "hashtags": 18,
+          "canva_url": null,
+          "canva_note": "FAILED — design_generation_error"
+        },
+        "linkedin": {
+          "file": "content/2026-07-10/update_001_linkedin.md",
+          "hashtags": 5,
+          "canva_url": null
+        },
+        "twitter_x": {
+          "file": "content/2026-07-10/update_001_twitter.md",
+          "tweets": 8,
+          "canva_url": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-10/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_url": null,
+          "canva_note": "FAILED — design_generation_error"
+        },
+        "blog": {
+          "file": "content/2026-07-10/update_001_blog.md",
+          "word_count_approx": 750,
+          "canva_url": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Agregué la memoria de Claude Code a mis workflows y mi automatización se volvió eficiente",
+      "source": "XDA Developers",
+      "reviewer_notes": "Contenido adaptado para emprendedor novato, tono práctico, CTA hacia ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-10/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "hashtags": 18,
+          "canva_url": null,
+          "canva_note": "FAILED — design_generation_error"
+        },
+        "linkedin": {
+          "file": "content/2026-07-10/update_002_linkedin.md",
+          "hashtags": 5,
+          "canva_url": null
+        },
+        "twitter_x": {
+          "file": "content/2026-07-10/update_002_twitter.md",
+          "tweets": 8,
+          "canva_url": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-10/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_url": null,
+          "canva_note": "FAILED — design_generation_error"
+        },
+        "blog": {
+          "file": "content/2026-07-10/update_002_blog.md",
+          "word_count_approx": 820,
+          "canva_url": null
+        }
+      }
+    }
+  ],
+  "canva_attempts": [
+    {"job_id": "8a285495-1732-499d-8e42-69dc7969a3fc", "type": "instagram_post", "update": "001", "status": "failed"},
+    {"job_id": "c1259d85-051f-4c9e-8202-e929bd2103ff", "type": "instagram_post", "update": "002", "status": "failed"},
+    {"job_id": "9b9dcfd5-7d34-48b9-b61d-5bd8eb6be9cd", "type": "instagram_post", "update": "001_retry", "status": "failed"},
+    {"job_id": "51fb32f2-c4fa-4061-b053-debf79233668", "type": "youtube_thumbnail", "update": "002", "status": "failed"},
+    {"job_id": "a726b855-7264-4673-85d2-526b4a3c771b", "type": "instagram_post", "update": "minimal_test", "status": "failed"}
+  ]
+}
