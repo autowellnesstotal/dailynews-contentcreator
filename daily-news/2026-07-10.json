@@ -1,0 +1,235 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T07:42:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and tag pages returned HTTP 403. Article titles, dates, and summaries retrieved via web search index. Two articles confirmed within the 24-48h window (July 9-10, 2026).",
+    "docs.anthropic.com": "Release notes page returned HTTP 403 on direct fetch. Content retrieved via web search (Releasebot aggregator + multiple tech outlets citing official release notes). Three entries confirmed for July 7-9, 2026 window.",
+    "theverge.com": "Blocked by both direct fetch and web search index policy (domain inaccessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 5,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-apps",
+      "title": "Claude Reflect Launches in Beta — Usage Dashboard with Monthly Recap and Focus Settings",
+      "published_date": "2026-07-09",
+      "summary": "Anthropic launched Claude Reflect in beta on July 9, a built-in dashboard found at Settings > Reflect that visualises how users engage with Claude. The monthly recap shows topics covered, most active day and peak hour, and observations framed around Anthropic's AI Fluency Framework (delegation, description, discernment, diligence). A companion Settings > Time and focus lets users set break reminders and quiet hours; it also surfaces reflective questions such as 'What's one thing you want to keep doing yourself, even if Claude could do it faster?' The feature is available on Free, Pro, and Max plans on Claude.ai and Claude Desktop and requires memory to be enabled; incognito chats and health-integration conversations are excluded from reports.",
+      "relevance_score": 97,
+      "accuracy_notes": "Confirmed by TechCrunch (July 9), MacRumors (July 9), Eastern Herald (July 10), Digital Trends, and Testing Catalog — all citing the Anthropic release notes directly. No accuracy concerns; feature is live and verifiable in-app.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just gave Claude a Spotify Wrapped — for your AI habits 👀",
+          "slides": [
+            "Slide 1: Claude now has a usage dashboard called 'Reflect' — here's what it shows you",
+            "Slide 2: Your monthly recap: topics, most active day, peak hour",
+            "Slide 3: AI Fluency Framework — are you delegating, describing, or just vibing?",
+            "Slide 4: Set quiet hours and break reminders inside Claude settings",
+            "Slide 5: Is this the start of 'mindful AI' — or a retention play? You decide"
+          ]
+        },
+        "linkedin": {
+          "angle": "Professional reflection on AI tool habits — Reflect as a productivity audit tool for teams and solopreneurs",
+          "opening_line": "Anthropic just shipped a feature that no other major AI company has built yet: a mirror that shows you exactly how you're using their product — and asks if that's actually good for you.",
+          "cta": "Which category do you fall into: delegation, description, discernment, or diligence? Drop it in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just launched 'Reflect' — a usage dashboard inside Claude that's part productivity audit, part digital wellness feature. Here's what it does and why it's a bigger deal than it looks 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic built a Spotify Wrapped for your AI conversations — and it'll make you question how you're actually using Claude",
+          "script_outline": "Open with the Wrapped analogy → show Settings > Reflect UI → explain monthly recap metrics → reveal the AI Fluency Framework framing → discuss the reflective questions feature → hot take: is this a retention tactic or genuine digital wellness? → CTA to check your own settings"
+        },
+        "ebook_blog": {
+          "title": "The Reflect Reckoning: What Your Claude Usage Dashboard Reveals About How You Really Work with AI",
+          "angle": "Use Claude Reflect data as a starting point for auditing your AI workflow — practical guide on interpreting your recap, identifying over-delegation patterns, and setting healthy AI boundaries with quiet hours"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Cowork Expands to Web and Mobile with Cross-Device Sync and Background Processing",
+      "published_date": "2026-07-07",
+      "summary": "Anthropic rolled out Claude Cowork to web, iOS, and Android on July 7, extending the previously desktop-only agentic workspace to all devices. Key new capabilities include cross-device session sync (start a task on desktop, monitor on mobile), true background processing with no device online required, and a unified interface that merges chat, projects, and artifacts into one sidebar. The beta rollout starts with Max plan subscribers and gradually expands. Anthropic also released usage data from 1.2 million anonymised Cowork sessions showing business process operations (reconciling spreadsheets, onboarding checklists, report consolidation) as the largest use category at 33.4%. Usage limits for Cowork are doubled through August 5 to mark the launch.",
+      "relevance_score": 94,
+      "accuracy_notes": "Confirmed by TechCrunch (July 7), VentureBeat (July 7), 9to5Mac (July 7), Android Authority, Android Headlines, and PYMNTS. Usage statistics sourced from Anthropic's own release data. High confidence.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Cowork just went mobile — and you can now run AI agents while your laptop is closed",
+          "slides": [
+            "Slide 1: Claude Cowork is now on web, iOS, and Android — what changed",
+            "Slide 2: Start a task on your desk, check it from your phone, retrieve results anywhere",
+            "Slide 3: Background processing: Claude keeps working even when you're offline",
+            "Slide 4: 1.2M Cowork sessions analysed — #1 use case is NOT coding (it's biz ops)",
+            "Slide 5: How to get access: starts with Max plan, rolling out to others"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise productivity angle — what Anthropic's Cowork mobile launch means for async work and distributed teams",
+          "opening_line": "The most interesting number in Anthropic's Cowork launch: 33.4% of sessions are business process operations — not coding, not research — just the admin work nobody wants to do.",
+          "cta": "Are you using Claude Cowork yet? What's the first admin task you'd automate if you could run it in the background from your phone?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Cowork just launched on mobile and web. The headline is cross-device sync. The real story is in the data: Anthropic analysed 1.2M sessions and the biggest use case isn't what anyone expected 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "You can now run Claude agents in the background from your phone — even when your laptop is off. Here's how Cowork mobile actually works",
+          "script_outline": "Open with the 'laptop closed' demo concept → explain what Cowork is for new viewers → walk through the three new features (cross-device, background, unified UI) → show the 33.4% biz ops stat and why it matters → compare to how ChatGPT and Gemini handle agentic tasks → CTA: check if you're on Max plan to try it"
+        },
+        "ebook_blog": {
+          "title": "Claude Cowork on Mobile: The Complete Guide to Running Background AI Agents from Any Device",
+          "angle": "Step-by-step practical guide: setting up Cowork on mobile, the best admin tasks to delegate first, how background processing works, and what the 1.2M-session usage data tells us about real-world AI adoption"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Microsoft 365 Connector Now Supports Write Tools — Draft Email, Manage Calendar, Edit OneDrive Files",
+      "published_date": "2026-07-09",
+      "summary": "The Microsoft 365 connector for Claude has been upgraded with write-tool support. Claude can now draft, send, and organise email; create and update calendar events; modify mailbox settings; and create or update files in OneDrive and SharePoint. This expands the connector from read-only context retrieval to full bi-directional productivity automation within Microsoft's ecosystem.",
+      "relevance_score": 82,
+      "accuracy_notes": "Confirmed via Anthropic release notes (cited in multiple Releasebot summaries and the July 9 daily newsletter). The feature is gated by the Microsoft 365 connector being enabled. No contradictory reports found.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude can now write your emails, update your calendar, and edit your OneDrive files — directly inside Microsoft 365",
+          "slides": [
+            "Slide 1: Claude + Microsoft 365 just got a major upgrade",
+            "Slide 2: Write and send emails with Claude in the loop",
+            "Slide 3: Calendar management: create events, update invites",
+            "Slide 4: OneDrive and SharePoint: create and edit files via Claude",
+            "Slide 5: How to enable Microsoft 365 write tools in your Claude settings"
+          ]
+        },
+        "linkedin": {
+          "angle": "B2B productivity — Microsoft 365 users can now integrate Claude deeply into their daily workflows without leaving the Office ecosystem",
+          "opening_line": "Claude just became a full participant in your Microsoft 365 workflow — not just a reader of context, but a writer of emails, calendar entries, and OneDrive documents.",
+          "cta": "If you manage your work life in Microsoft 365, this is worth testing. What would you automate first?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude's Microsoft 365 connector just got write access. Here's what that actually means for your daily workflow 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude can now write emails, create calendar events, and edit files inside Microsoft 365 — here's how to set it up in 2 minutes",
+          "script_outline": "Hook with time-saving claim → explain the connector upgrade → demo each write tool (email, calendar, OneDrive) → compare to Copilot → CTA: enable it in Claude settings"
+        },
+        "ebook_blog": {
+          "title": "Claude as Your Microsoft 365 Co-Pilot: Setting Up Write Tools for Email, Calendar, and OneDrive Automation",
+          "angle": "Practical setup guide plus 10 ready-to-use Claude prompts for managing Microsoft 365 tasks — from inbox triage to SharePoint document creation"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/i-used-claude-fable-5-for-zero-shot-coding-and-understood-why-anthropic-locked-it-down/",
+      "title": "I Used Claude Fable 5 for Zero-Shot Coding, and Understood Why Anthropic Locked It Down",
+      "published_date": "2026-07-10",
+      "summary": "XDA's hands-on evaluation of Claude Fable 5 — tested via zero-shot coding (building an original 2D game in Python using Pygame) after the model's turbulent timeline: public release June 9, US Dept. of Commerce withdrawal June 12 over export control concerns, and redeployment July 1. The review finds that the redeployed version performs materially closer to Claude Opus 4.8 than launch-day coverage implied, consistent with the hypothesis that Anthropic tightened safety controls during the model's three-week absence. The article concludes that Fable 5 in its current form is impressive but not the dramatic capability jump early benchmarks suggested.",
+      "relevance_score": 88,
+      "accuracy_notes": "Well-researched hands-on test. The author's observation about post-return capability differences is consistent with independent reports and aligns with Anthropic's public acknowledgment of safety adjustments. The Fable 5 timeline (June 9 release, June 12 withdrawal, July 1 redeployment) is independently verified across multiple outlets.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Anthropic's most powerful AI got blocked by the US government — then came back different. Here's what Fable 5 can actually do now",
+          "slides": [
+            "Hook: 'The AI the US government banned is back — but is it the same?'",
+            "Beat 2: Fable 5 timeline — released, pulled, returned",
+            "Beat 3: Zero-shot coding test results vs Opus 4.8",
+            "Beat 4: Safety controls theory — why it may have changed",
+            "Beat 5: Should you use Fable 5 credits now or wait?"
+          ]
+        },
+        "linkedin": {
+          "angle": "AI governance / enterprise risk — the Fable 5 story as a case study in model deployment under export control pressure",
+          "opening_line": "A major AI model gets released, pulled by government order within 72 hours, quietly modified, then redeployed — and most users never noticed the difference. The Claude Fable 5 story is the most interesting AI governance episode of 2026.",
+          "cta": "Have you tested Fable 5 since it came back? Share your benchmark results below."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 is back. But is it the same model? XDA just ran zero-shot coding tests and the results are surprising 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "The US government banned Anthropic's best AI — then it came back. I tested it and something changed",
+          "script_outline": "Open with the government ban news → explain Fable 5 timeline → show zero-shot coding test (game in Python) → compare outputs to Opus 4.8 → present the safety-controls-adjustment theory → verdict: is it worth your usage credits?"
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5: Before and After the Ban — What Actually Changed and What It Means for AI Developers",
+          "angle": "Deep-dive into the Fable 5 saga as a window into how governments, AI labs, and safety constraints interact — plus practical benchmarks for developers deciding whether to spend usage credits on Fable 5 vs Opus 4.8"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_005",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/automated-admin-tasks-with-claude-code-and-cowork-only-one-stuck/",
+      "title": "I Automated My Admin Tasks with Claude Code and Cowork — Here's Which One Actually Stuck",
+      "published_date": "2026-07-09",
+      "summary": "XDA hands-on comparison of Claude Code and Claude Cowork for administrative task automation, timed to coincide with Cowork's mobile and web expansion. The author finds Cowork better suited for folder-level, pattern-based admin tasks (tracking article pitches in a markdown table, auto-updating project files via conversation), while Claude Code — essentially Claude with direct folder access — offers more flexibility for custom scripting and edge-case handling. The headline finding: Cowork is the tool that 'stuck' for daily admin, while Claude Code remains preferred for complex or code-adjacent automation.",
+      "relevance_score": 80,
+      "accuracy_notes": "Opinion and how-to piece based on first-person use. Claims are consistent with known capabilities of both tools. No extraordinary technical claims; standard product comparison. Cowork's July 7 expansion context is accurate.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code vs Claude Cowork for admin tasks — only one actually stuck after a month of testing",
+          "slides": [
+            "Slide 1: Two Claude tools, one admin challenge — which wins?",
+            "Slide 2: What Claude Code is (Claude + direct folder access)",
+            "Slide 3: What Cowork is (agent mode for non-coders)",
+            "Slide 4: The result: Cowork for daily admin, Code for custom workflows",
+            "Slide 5: Which one should YOU use? A quick decision guide"
+          ]
+        },
+        "linkedin": {
+          "angle": "Productivity professionals choosing between two Anthropic tools — practical decision framework for non-coders vs. power users",
+          "opening_line": "Two months ago I started testing whether Claude Code or Cowork was the better tool for the admin work I hate. The answer surprised me — and it depends entirely on whether you want to talk to Claude or script it.",
+          "cta": "Are you using Claude for admin tasks? Drop your setup in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code vs Claude Cowork for admin automation — I ran both for a month. Here's the honest breakdown of which one actually changed my workflow 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "I gave two different Claude tools the same admin tasks — only one is still open on my computer",
+          "script_outline": "Hook with the winner reveal teaser → explain the two tools briefly → show three admin task head-to-heads (pitch tracker, file update, email draft) → verdict with use-case split → CTA to try Cowork now it's on mobile"
+        },
+        "ebook_blog": {
+          "title": "Claude Code vs. Claude Cowork: The Complete Admin Automation Showdown for 2026",
+          "angle": "Side-by-side comparison with real task examples, setup requirements, and a decision tree — who should use which tool based on technical comfort level and task type"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
