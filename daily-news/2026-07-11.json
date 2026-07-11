@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T15:14:57Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual articles also blocked. Article titles and dates retrieved via web search. No XDA articles confirmed published on July 10-11 about Claude/Anthropic as primary subject. Most recent XDA Claude coverage confirmed is July 7, 2026.",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403. Content retrieved via web search and code.claude.com/docs (official Anthropic Claude Code docs — same content ecosystem). Two major updates confirmed within the 24-48h window: Claude Code Week 28 digest (published July 10) and Claude Reflect dashboard (published July 9).",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Docs (Claude Code)",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w28",
+      "title": "Claude Code Week 28: In-app browser on Desktop and /doctor setup checkup",
+      "published_date": "2026-07-10",
+      "summary": "Claude Code para escritorio ahora incluye un navegador integrado que permite a Claude abrir sitios web, leer documentación, hacer clic en elementos e interactuar con páginas web directamente desde la app, sin salir del entorno de desarrollo. El navegador está aislado (sandboxed) y es configurable. Además, se lanzó el comando /doctor que diagnostica y repara problemas de configuración automáticamente, revisa habilidades no usadas, archivos CLAUDE.md duplicados y hooks lentos.",
+      "relevance_score": 97,
+      "accuracy_notes": "Verificado — entrada oficial del digest semanal de Claude Code (Week 28, v2.1.202-v2.1.206), publicada directamente en code.claude.com/docs/en/whats-new/2026-w28 por Anthropic. El lanzamiento del navegador integrado fue reportado también por 9to5Mac y Digital Trends el 10 de julio. Ningún red flag de exactitud.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code ya no necesita que abras Chrome — tiene su propio navegador integrado 🖥️",
+          "slides": [
+            "¿Qué es el navegador integrado de Claude Code?",
+            "Qué puede hacer Claude dentro del navegador (leer docs, hacer clic, interactuar)",
+            "Cómo abrirlo: Cmd+Shift+B en Mac / Ctrl+Shift+B en Windows",
+            "¿Es seguro? Perfil aislado, sin historial ni cookies personales",
+            "Esto cambia tu flujo de trabajo como developer — aquí está cómo"
+          ]
+        },
+        "linkedin": {
+          "angle": "Productividad para developers — cómo el navegador integrado elimina el cambio constante de contexto",
+          "opening_line": "Anthropic acaba de eliminar uno de los mayores ladrones de tiempo de los developers: saltar entre el editor y el navegador para buscar documentación.",
+          "cta": "¿Ya lo probaste? ¿Cómo cambió tu flujo? Comparte en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code acaba de recibir una actualización que cambia completamente cómo trabajas como developer 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Le dije a Claude que construyera una app Y que revisara la documentación en tiempo real — sin salir del editor",
+          "script_outline": "0-5s: Hook mostrando el problema (tabs infinitas). 5-15s: Qué es el navegador integrado. 15-35s: Demo: Claude abre docs, lee y aplica cambios. 35-50s: /doctor checkup command. 50-60s: CTA — cuándo actualizar."
+        },
+        "ebook_blog": {
+          "title": "Claude Code Week 28: El Navegador Integrado Que Elimina el Tab Switching Para Siempre",
+          "angle": "Guía práctica para developers: cómo configurar y aprovechar el navegador integrado y el comando /doctor para optimizar tu flujo de trabajo."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Docs / Anthropic Blog",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "title": "A new way to reflect on how you use Claude — Reflect dashboard beta",
+      "published_date": "2026-07-09",
+      "summary": "Anthropic lanzó en beta 'Reflect', un dashboard estilo Spotify Wrapped para usuarios de Claude que muestra resúmenes mensuales de uso: temas más frecuentes, día y hora de mayor actividad, tipo de tareas, y observaciones sobre cómo se usa la IA. También incluye 'Time and Focus', una sección donde los usuarios pueden programar recordatorios de descanso y horas de silencio. Disponible en planes Free, Pro y Max (con Memory activada) desde la web y Claude Desktop.",
+      "relevance_score": 93,
+      "accuracy_notes": "Verificado — anuncio oficial en anthropic.com/news/reflect-with-claude publicado el 9 de julio de 2026. Reportado también por Engadget, TechTimes y EasternHerald el mismo día. Información consistente entre todas las fuentes. El lanzamiento es en beta, disponible únicamente para usuarios con Memory activada.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic lanzó algo que ninguna empresa de IA se había atrevido a hacer: decirte cuándo deberías cerrar la app 😳",
+          "slides": [
+            "¿Qué es Claude Reflect?",
+            "Tu resumen mensual: temas, horas, patrones de uso",
+            "Time & Focus: recordatorios de descanso y horas de silencio",
+            "¿Por qué Anthropic construyó esto? La filosofía detrás",
+            "Cómo activarlo: Settings > Reflect (necesitas Memory activada)"
+          ]
+        },
+        "linkedin": {
+          "angle": "Liderazgo en IA responsable — la empresa que construyó un dashboard para que uses menos su producto",
+          "opening_line": "Anthropic acaba de lanzar una función que va en contra de todo lo que la industria tech normalmente hace: te ayuda a usar menos su IA.",
+          "cta": "¿Crees que las empresas de IA deberían promover el uso moderado de sus productos? Opina abajo."
+        },
+        "twitter_x": {
+          "thread_opener": "La empresa de IA más valiosa del mundo acaba de lanzar una función diseñada para que uses menos su IA. Esto no es accidente 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Claude ahora te manda recordatorios para que te alejes de Claude — y tiene mucho sentido",
+          "script_outline": "0-5s: Hook con el ángulo contraintuitivo. 5-15s: Qué es Reflect y cómo se ve. 15-30s: Demo del resumen mensual (temas, patrones, horarios). 30-45s: La filosofía de Anthropic sobre uso saludable de IA. 45-55s: Cómo activarlo. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Claude Reflect: El Dashboard Que Quiere Que Uses Menos IA (Y Por Qué Eso Es Brillante)",
+          "angle": "Análisis de la estrategia de Anthropic de usar el autocontrol como diferenciador de marca — y cómo aprovechar Reflect para usar Claude de forma más intencional y productiva."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
