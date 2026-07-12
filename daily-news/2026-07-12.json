@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T15:08:46Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual article pages also blocked. Article titles and dates retrieved via web search (Google index). No Claude/Anthropic articles confirmed within the July 11-12 24-48h window — most recent XDA Claude article found was July 6, 2026. Articles excluded from this digest.",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403; content retrieved via web search, GitHub release page (github.com/anthropics/claude-code/releases/tag/v2.1.207), and third-party changelog aggregators (releasebot.io, claudeupdates.dev). Three distinct release-note updates confirmed for July 11, 2026.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic's web crawler per Anthropic support docs). Zero results available. Not included in this digest."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com — Claude Code Release Notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+      "title": "Claude Code v2.1.207: Auto Mode Goes Default on Bedrock, Vertex AI & Foundry + Major Security Hardening",
+      "published_date": "2026-07-11",
+      "summary": "Anthropic lanzó Claude Code v2.1.207 el 11 de julio de 2026, activando el modo automático (auto mode) por defecto en Bedrock, Vertex AI y Foundry — eliminando la necesidad de activar la variable de entorno CLAUDE_CODE_ENABLE_AUTO_MODE. El modelo predeterminado en Bedrock también cambió a Claude Opus 4.8. La actualización incluyó endurecimiento de seguridad en plugins (rechazo de shell-injection en comandos, configuración de plugins solo desde ajustes de usuario), corrección de un bug crítico donde los ajustes gestionados de forma remota eran registrados como consentidos sin mostrar el diálogo de seguridad, y 20+ correcciones de bugs que van desde congelamiento del terminal hasta cuelgues en AWS en Windows.",
+      "relevance_score": 98,
+      "accuracy_notes": "Verificado directamente desde la página de release en GitHub (github.com/anthropics/claude-code/releases/tag/v2.1.207). Todos los cambios listados son oficiales de Anthropic. Fechado 11 de julio de 2026 por múltiples fuentes independientes (DevelopersIO, claudeupdates.dev, releasebot.io).",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code acaba de hacer un cambio que los desarrolladores en AWS, Google Cloud y Azure estaban esperando 🔧",
+          "slides": [
+            "¿Qué es Auto Mode y por qué importa?",
+            "Ahora activo por defecto en Bedrock, Vertex AI y Foundry",
+            "Bedrock cambia su modelo base a Claude Opus 4.8",
+            "Seguridad reforzada: plugins, configuración y más",
+            "Cómo actualizar y aprovechar todo esto hoy"
+          ]
+        },
+        "linkedin": {
+          "angle": "Actualización técnica de alto impacto para empresas que usan Claude Code en infraestructura cloud",
+          "opening_line": "Si tu empresa usa Claude Code en AWS Bedrock, Google Vertex AI o Azure Foundry, hubo un cambio importante ayer que debes conocer: el modo automático ya está activo por defecto.",
+          "cta": "¿Ya actualizaste tu Claude Code? Comenta qué impacto ves en tu equipo."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.207 acaba de salir y tiene más de 24 cambios importantes 🧵 Aquí lo más relevante para developers en la nube:",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic acaba de cambiar cómo funciona Claude Code en AWS, Google Cloud y Azure — y la mayoría de empresas no lo saben todavía",
+          "script_outline": "0-5s: Hook con el cambio más grande (auto mode por defecto). 5-20s: Qué era antes y qué cambió. 20-35s: Impacto en equipos que usan Bedrock/Vertex/Foundry. 35-50s: Las 3 correcciones de seguridad más importantes. 50-60s: Cómo actualizar hoy."
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.207: La Guía Completa del Auto Mode en la Nube y las Mejoras de Seguridad 2026",
+          "angle": "Guía práctica para emprendedores y equipos que usan Claude en infraestructura cloud, explicando los cambios sin tecnicismos innecesarios y qué acción tomar."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com — Claude Apps & Platform Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude in Chrome Sale de Preview para Todos + Claude Desktop Llega a Linux en Beta",
+      "published_date": "2026-07-11",
+      "summary": "En la misma ronda de actualizaciones del 11 de julio, Anthropic anunció dos expansiones de plataforma significativas. Primero, la integración Claude in Chrome salió de su fase de preview y ahora está disponible para todos los usuarios con un plan directo de Anthropic — permitiéndole a Claude Code abrir pestañas, navegar páginas, rellenar formularios, leer logs de consola y compartir sesión de login para probar apps en tiempo real. Segundo, la app de escritorio Claude Desktop llegó en beta a Linux (Ubuntu 22.04+ y Debian 12+) en arquitecturas x86_64 y arm64, ofreciendo la misma experiencia de Chat, Cowork y Claude Code disponible en macOS y Windows. También se añadieron notificaciones para agentes en segundo plano mediante hooks (agent_needs_input / agent_completed).",
+      "relevance_score": 95,
+      "accuracy_notes": "Claude in Chrome GA confirmado por múltiples fuentes (9to5Mac 10-Jul, releasebot.io). Linux Desktop Beta confirmado por OMG! Ubuntu, Basic Tutorials, y la documentación oficial code.claude.com/docs/en/desktop-linux. Características faltantes en Linux confirmadas: Computer Use, entrada de voz, hotkeys nativas de Wayland.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de abrir Claude Code a millones de nuevos usuarios con 2 anuncios que pasaron casi desapercibidos 👇",
+          "slides": [
+            "Claude in Chrome: de beta exclusiva a disponible para todos",
+            "Qué puede hacer: navegar, hacer clic, rellenar formularios, leer errores",
+            "Claude Desktop en Linux — la app oficial ya existe",
+            "Compatible con Ubuntu 22.04+ y Debian 12+",
+            "¿Qué falta aún? Computer Use, voz y Wayland"
+          ]
+        },
+        "linkedin": {
+          "angle": "Expansión de accesibilidad de Claude Code — estrategia de Anthropic para llegar a más desarrolladores",
+          "opening_line": "Anthropic dio ayer dos pasos silenciosos pero muy estratégicos: Claude in Chrome salió de beta para todos, y Linux por fin tiene su app oficial de Claude Desktop.",
+          "cta": "¿Usas Linux o Chrome como parte de tu flujo de trabajo de IA? Cuéntame cómo impacta esto en tu día a día."
+        },
+        "twitter_x": {
+          "thread_opener": "2 noticias de Anthropic que casi nadie está hablando hoy pero que cambian el juego 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code puede controlar tu navegador Chrome — y acaban de abrirlo para todo el mundo",
+          "script_outline": "0-5s: Demo de Claude abriendo el navegador y haciendo clicks. 5-20s: Qué es Claude in Chrome y por qué importa. 20-35s: Cómo configurarlo paso a paso. 35-50s: Claude Desktop en Linux — demo rápida. 50-60s: CTA a probar ambas cosas hoy."
+        },
+        "ebook_blog": {
+          "title": "Claude in Chrome + Linux Desktop: La Guía Completa para Emprendedores que Quieren Automatizar con IA en 2026",
+          "angle": "Explicar sin tecnicismos qué significa que Claude pueda controlar el navegador, casos de uso prácticos para negocios (testing, scraping supervisado, formularios) y cómo instalar el desktop en Linux."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com — Claude Platform Announcements",
+      "url": "https://www.anthropic.com/claude/fable",
+      "title": "Claude Fable 5 Sale de los Planes de Suscripción Hoy — Pasa a Créditos de Uso a Precios Récord",
+      "published_date": "2026-07-12",
+      "summary": "Hoy 12 de julio de 2026 es el último día que Claude Fable 5 está incluido dentro de los planes de suscripción Pro, Max, Team y Enterprise elegibles. A las 11:59:59 PM PT de esta noche, el acceso incluido al modelo más poderoso de Anthropic (clase Mythos) finaliza, y quienes quieran seguir usándolo deberán activar créditos de uso a $10 por millón de tokens de entrada y $50 por millón de salida — los precios más altos publicados por Anthropic para un modelo de disponibilidad general. Este cierre es una extensión de cinco días respecto al plazo original del 7 de julio, que Anthropic retrasó horas antes del corte ante la presión de los suscriptores. Un ingeniero líder de Claude Code confirmó que Anthropic busca reintegrar Fable 5 a los planes en cuanto la capacidad lo permita.",
+      "relevance_score": 93,
+      "accuracy_notes": "Confirmado por múltiples fuentes: anuncio oficial de Anthropic en @claudeai en X, Android Authority, Softonic, Forbes, Cybersecurity News, The New Stack, y más. Fecha de cierre (12 de julio, 11:59:59 PM PT) consistente en todas las fuentes. Nota: Android Authority actualiza su artículo con 'Updated: Not yet', sugiriendo posible nueva extensión — pendiente de confirmación.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "El modelo de IA más poderoso de Anthropic desaparece de tu suscripción esta noche a medianoche 🚨",
+          "slides": [
+            "¿Qué es Claude Fable 5 y por qué importa?",
+            "Hoy 12 de julio es el último día incluido",
+            "Después: $10 por millón de tokens de entrada",
+            "¿Vale la pena pagar? La respuesta honesta",
+            "Qué hacer antes de medianoche"
+          ]
+        },
+        "linkedin": {
+          "angle": "Cambio en la economía de los modelos de IA — lección para empresas sobre acceso y presupuesto",
+          "opening_line": "Hoy vence el acceso gratuito a Claude Fable 5 dentro de las suscripciones de Anthropic — y la forma en que esto terminó dice mucho sobre hacia dónde va el pricing de la IA.",
+          "cta": "¿Activarás créditos de uso para seguir con Fable 5 o migrarás a Opus 4.8? Comenta tu estrategia."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Fable 5 sale de tu suscripción ESTA NOCHE. Aquí lo que necesitas saber antes de medianoche 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Tienes hasta medianoche para usar el modelo de IA más potente que Anthropic ha lanzado — gratis en tu plan",
+          "script_outline": "0-5s: Urgencia — cuenta regresiva visual. 5-15s: Qué es Fable 5 y qué lo hace especial. 15-30s: Qué pasa exactamente después de esta noche. 30-45s: ¿Vale $10/millón de tokens? Comparativa rápida. 45-55s: Las 3 tareas que darías a Fable 5 antes de medianoche. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Adiós Claude Fable 5 Gratis: Qué Cambió, Cuánto Cuesta Ahora y Si Realmente Vale la Pena Para Tu Negocio",
+          "angle": "Guía honesta para emprendedores: comparar el ROI de pagar créditos de uso de Fable 5 vs. quedarse con Opus 4.8 en suscripción, con casos de uso reales y números claros."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
