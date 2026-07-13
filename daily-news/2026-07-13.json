@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T00:00:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Direct fetch blocked (HTTP 403); articles identified via web search index",
+    "docs.anthropic.com": "Direct fetch blocked (HTTP 403); release notes identified via GitHub, third-party aggregators, and official Anthropic announcements",
+    "theverge.com": "Completely inaccessible — blocked by Anthropic crawler policy (HTTP 400 with explicit crawler-block notice); no data retrievable"
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic (docs.anthropic.com / support announcement)",
+      "url": "https://support.anthropic.com",
+      "title": "Anthropic Extends Claude Fable 5 Free Access Through July 19 — Claude Code Rate Limits Also Stay Elevated",
+      "published_date": "2026-07-12 to 2026-07-13",
+      "summary": "Anthropic extended free access to Claude Fable 5 for Pro, Max, Team, and eligible Enterprise subscribers through July 19, 2026 at 11:59:59 PM PT, marking the third extension since the original June 22 cutoff date (previously pushed to July 7, then July 12). Subscribers can use Fable 5 for up to 50% of their weekly usage limits at no extra cost, though it draws from the same pool as other models. Claude Code's 50% higher weekly rate limits are also extended through July 19; after that date all Fable 5 usage requires prepaid usage credits at $10 per million input tokens and $50 per million output tokens.",
+      "relevance_score": 98,
+      "accuracy_notes": "Confirmed by BleepingComputer, Dataconomy, Forbes (July 12–13), TechTimes (July 12), and multiple other independent tech publications citing Anthropic's official support document. Pricing and deadline details are consistent across all sources. The 'third extension' count is verified against prior July 7 and July 12 deadlines. High confidence.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just gave you one more week with their most powerful AI — here's what that really means",
+          "slides": [
+            "Slide 1: Fable 5 is STILL free for paid Claude users (until July 19)",
+            "Slide 2: What is Fable 5? Anthropic's most capable publicly available model",
+            "Slide 3: Who qualifies? Pro, Max, Team & eligible Enterprise plans",
+            "Slide 4: The catch — it counts toward your 50% weekly limit cap",
+            "Slide 5: After July 19: $10/M input & $50/M output tokens — plan ahead"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise planning perspective — AI budget forecasting and the shift from subscription to usage-based pricing for premium models",
+          "opening_line": "If your team uses Claude Fable 5, the clock is ticking: Anthropic just extended the free window to July 19 — after that it's $10/M input tokens on usage credits.",
+          "cta": "Is your org ready for token-level billing on frontier AI? Drop your thoughts below — this is the direction the whole industry is heading."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic blinked again. Claude Fable 5 is staying free for another week (July 19) — here's the full breakdown of what's changing and what comes next 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic keeps pushing back the date when their best AI costs extra — here's why, and what to do before July 19",
+          "script_outline": "Open with the timeline of extensions (June 22 → July 7 → July 12 → July 19). Explain what Fable 5 is and why it matters. Cover who qualifies and the 50% weekly limit rule. Explain the post-July-19 pricing. Close with action items: use Fable 5 NOW for your hardest tasks, and decide if usage credits are worth it for your workflow."
+        },
+        "ebook_blog": {
+          "title": "The Claude Fable 5 Pricing Transition: What Every Subscriber Needs to Know Before July 19",
+          "angle": "Practical guide covering the access timeline, what the 50% cap means in practice, token pricing math vs. subscription value, and how to maximize Fable 5 use in the remaining window"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA-Developers",
+      "url": "https://www.xda-developers.com/claude-code-best-productivity-tool-i-installed-this-year-dont-need-to-write-code-to-use-it/",
+      "title": "Claude Code is the best productivity tool I've installed this year, and you don't need to write a single line of code to use it",
+      "published_date": "2026-07-12T07:30:00-04:00",
+      "summary": "XDA writer argues that Claude Code is the standout productivity tool of 2026 for non-developers, explaining that pointing it at a folder lets it treat the entire directory as a system — noticing file relationships, catching inconsistencies, and understanding structural conventions without any coding from the user. The article traces the author's journey from dismissing Claude Code as a developer tool to relying on it daily for productivity workflows. The piece highlights how Claude Code's ability to hold a whole folder in context differentiates it from simpler chatbot interactions.",
+      "relevance_score": 84,
+      "accuracy_notes": "Published article from a reputable tech outlet; reflects first-hand user experience rather than official Anthropic data. Claims about Claude Code's folder-awareness and file-relationship understanding align with documented Claude Code capabilities. Note: this is an opinion/how-to piece, so the 'best tool' framing is subjective. Verify Claude Code's current Pro plan inclusion status given recent A/B test reports.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "You've been sleeping on Claude Code — and you don't even need to know how to code",
+          "slides": [
+            "Slide 1: Claude Code isn't just for developers anymore",
+            "Slide 2: Point it at a folder — it maps the whole system for you",
+            "Slide 3: It catches inconsistencies across files automatically",
+            "Slide 4: Real talk: how non-coders are using it daily",
+            "Slide 5: Try this TODAY — your first Claude Code productivity setup"
+          ]
+        },
+        "linkedin": {
+          "angle": "Professional productivity angle — AI tools reshaping knowledge work beyond traditional coding workflows",
+          "opening_line": "I stopped thinking of Claude Code as a developer tool the moment I pointed it at my project folder — it understood my entire workspace instantly.",
+          "cta": "How are you using AI agents in your daily workflow? Share your setup — I'm collecting the best non-developer Claude Code use cases."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code changed how I work and I don't write a single line of code. Here's the non-developer setup that actually sticks 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "You don't need to be a developer to use Claude Code — this is how to turn it into your personal productivity AI in under 10 minutes",
+          "script_outline": "Start with the misconception that Claude Code is only for programmers. Demo the folder-pointing workflow. Show 3 specific non-coding tasks it handles well (document organization, inconsistency catching, pattern recognition). Compare it to regular Claude chat. End with a beginner setup guide and call to action."
+        },
+        "ebook_blog": {
+          "title": "Claude Code for Non-Developers: The Complete Productivity Guide for 2026",
+          "angle": "Step-by-step guide for knowledge workers, writers, and business professionals to harness Claude Code's folder-awareness for real-world productivity — no code required"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
