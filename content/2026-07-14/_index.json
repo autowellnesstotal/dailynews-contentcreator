@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-07-14",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-14/update_001_instagram.md",
+          "format": "carrusel 7 slides",
+          "status": "generado"
+        },
+        "linkedin": {
+          "file": "content/2026-07-14/update_001_linkedin.md",
+          "status": "generado"
+        },
+        "twitter": {
+          "file": "content/2026-07-14/update_001_twitter.md",
+          "format": "hilo 7 tweets",
+          "status": "generado"
+        },
+        "youtube": {
+          "file": "content/2026-07-14/update_001_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "status": "generado"
+        },
+        "blog": {
+          "file": "content/2026-07-14/update_001_blog.md",
+          "word_count_approx": 750,
+          "status": "generado"
+        }
+      },
+      "canva": {
+        "instagram_cover": {
+          "status": "fallido",
+          "error": "design_generation_error — Canva MCP devolvió error en todos los intentos. Generar manualmente usando el brief del slide 1 en update_001_instagram.md."
+        },
+        "youtube_thumbnail": {
+          "status": "fallido",
+          "error": "design_generation_error — Canva MCP devolvió error en todos los intentos. Generar manualmente usando el concepto de thumbnail en update_001_youtube.md."
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-14/update_002_instagram.md",
+          "format": "carrusel 7 slides",
+          "status": "generado"
+        },
+        "linkedin": {
+          "file": "content/2026-07-14/update_002_linkedin.md",
+          "status": "generado"
+        },
+        "twitter": {
+          "file": "content/2026-07-14/update_002_twitter.md",
+          "format": "hilo 8 tweets",
+          "status": "generado"
+        },
+        "youtube": {
+          "file": "content/2026-07-14/update_002_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "status": "generado"
+        },
+        "blog": {
+          "file": "content/2026-07-14/update_002_blog.md",
+          "word_count_approx": 800,
+          "status": "generado"
+        }
+      },
+      "canva": {
+        "instagram_cover": {
+          "status": "fallido",
+          "error": "design_generation_error — Canva MCP devolvió error en todos los intentos. Generar manualmente usando el brief del slide 1 en update_002_instagram.md."
+        },
+        "youtube_thumbnail": {
+          "status": "fallido",
+          "error": "design_generation_error — Canva MCP devolvió error en todos los intentos. Generar manualmente usando el concepto de thumbnail en update_002_youtube.md."
+        }
+      }
+    }
+  ],
+  "canva_note": "Todos los intentos de generación automática en Canva fallaron con 'design_generation_error'. Se intentaron 6 llamadas (2 rounds de reintentos). El contenido escrito de cada pieza incluye briefs detallados para creación manual. Revisar autenticación del MCP de Canva para la próxima ejecución."
+}
