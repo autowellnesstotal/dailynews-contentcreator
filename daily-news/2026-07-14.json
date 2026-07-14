@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T00:00:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual article pages returned HTTP 403 Forbidden. Article discovery performed via web search index. No XDA articles with confirmed July 12–14, 2026 publication date found for Claude/Anthropic; most recent confirmed XDA Claude articles dated July 7–10 (Fable 5 extension) and are outside the 24–48 h window.",
+    "docs.anthropic.com": "Direct fetch of docs.anthropic.com/en/release-notes/overview returned HTTP 403. Release note content retrieved via web search and multiple third-party changelog trackers (Releasebot, GitHub releases, developer changelog sites). Claude Code v2.1.208 and Claude Platform API updates confirmed published July 14, 2026.",
+    "theverge.com": "Blocked by both direct fetch and web search index policy (domain not accessible to Anthropic crawler). Zero Verge results available for the July 12–14 window."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "TechCrunch (India pricing announcement — XDA / The Verge inaccessible)",
+      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+      "published_date": "2026-07-13",
+      "summary": "Anthropic launched India-specific rupee pricing for all Claude subscription tiers on July 13, 2026, targeting its second-largest global market where it accounts for 5.8% of worldwide Claude usage. Claude Pro is listed at ₹2,000/month (annual, ~$21) vs. $17 in the US; Claude Max starts at ₹11,999/month (~$125) vs. $100 in the US; and Team plans begin at ₹2,399/seat/month (~$25) vs. $20 in the US. UPI — India's dominant payment rail — is not yet supported; users must pay by card or through Apple/Google app store billing. The move follows Anthropic opening a Bengaluru office in February 2026, appointing former Microsoft India MD Irina Ghose to lead its India operations, and signing enterprise partnerships with Infosys and TCS.",
+      "relevance_score": 95,
+      "accuracy_notes": "Confirmed across TechCrunch, Business Standard, Eastern Herald, Analytics Insight, and CryptoBriefing — all citing the same price points. UPI limitation corroborated by multiple independent reports. Anthropic's Bengaluru office and Irina Ghose appointment are verifiable facts. Pricing comparisons to US rates are consistent across all sources. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just made Claude dramatically more affordable for 1.4 billion people — here's what changed 🇮🇳",
+          "slides": [
+            "India is Claude's #2 market globally (5.8% of all usage)",
+            "Claude Pro India: ₹2,000/mo annual — what you get",
+            "Claude Max India: ₹11,999/mo — is it worth it?",
+            "The catch: no UPI yet. Card or App Store only",
+            "What this means: AI going mainstream in the world's largest democracy"
+          ]
+        },
+        "linkedin": {
+          "angle": "Anthropic's India market entry signals the next phase of enterprise AI expansion in South Asia — localized pricing, local leadership, local partnerships",
+          "opening_line": "Anthropic just confirmed what the usage data already showed: India is too big to ignore — and they're going all-in with rupee pricing, a Bengaluru office, and TCS + Infosys partnerships.",
+          "cta": "If you're building AI products for global markets, this pricing move is worth studying. What market do you think gets localized next? Drop your take below."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just launched India-specific pricing for Claude — and the numbers reveal exactly how they're thinking about global AI expansion 🇮🇳🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "The AI company that just crossed $10B valuation is now betting big on India — and here's why the pricing math is fascinating",
+          "script_outline": "Open with India as Claude's #2 market stat → reveal the rupee price points and compare to US → explain why UPI absence matters for adoption → cover Anthropic's local infrastructure (office, Irina Ghose, TCS/Infosys) → close with what this signals for AI's global expansion playbook"
+        },
+        "ebook_blog": {
+          "title": "Anthropic's India Playbook: What Claude's Localized Pricing Reveals About AI's Next Billion Users",
+          "angle": "Analyze Anthropic's multi-pronged India strategy (pricing localization + local leadership + enterprise partnerships) as a template for how Western AI companies will compete for emerging-market dominance in 2026–2028"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Official Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.208: Screen Reader Mode, Vim Remaps, Corporate Launcher Support",
+      "published_date": "2026-07-14",
+      "summary": "Anthropic shipped Claude Code v2.1.208 on July 14, 2026, with 45 changes. The headline feature is opt-in screen reader mode — activate via `claude --ax-screen-reader`, the environment variable `CLAUDE_AX_SCREEN_READER=1`, or `\"axScreenReader\": true` in settings — which renders plain text optimized for NVDA and JAWS, hides decorative glyphs, and labels transcript symbols as short readable strings. Other additions include a `vimInsertModeRemaps` setting for mapping two-key sequences (e.g. `jj` → Escape) in vim mode, `CLAUDE_CODE_PROCESS_WRAPPER` to force every Claude Code self-spawn through a corporate launcher executable (enterprise compliance use case), and mouse-click support for multi-select menus in fullscreen mode. Bug fixes address fast mode failing to restore when switching back to a supported model, and background-agent replies being silently dropped on delivery failure.",
+      "relevance_score": 85,
+      "accuracy_notes": "Sourced from official Anthropic Claude Code release notes via multiple changelog trackers (Releasebot, GitHub anthropics/claude-code releases, and developer changelog sites). The specific version number (2.1.208) and feature list are consistent across all trackers. No red flags.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Claude Code just got a feature that most AI coding tools completely ignore — accessibility",
+          "slides": [
+            "What screen reader mode is and why it matters",
+            "How to enable it (3 ways)",
+            "vimInsertModeRemaps — every vim user's dream",
+            "Enterprise: CLAUDE_CODE_PROCESS_WRAPPER explained",
+            "The bug fixes that will quietly save your workflow"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer tools that prioritize accessibility are rare — Claude Code's screen reader mode is a step toward making AI coding assistance truly inclusive",
+          "opening_line": "Most AI developer tools ship features for the 95% and forget the 5% who rely on screen readers to do their best work. Claude Code v2.1.208 is a notable exception.",
+          "cta": "If you use NVDA or JAWS in your development workflow, try `claude --ax-screen-reader` and share what you find."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.208 dropped today and buried in the 45-change release is something most AI tools don't bother with: real screen reader support 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "This one Claude Code update could be a game-changer for visually impaired developers — here's what changed",
+          "script_outline": "Open by noting how AI coding tools rarely think about accessibility → demo the --ax-screen-reader flag and its three activation methods → explain the vim remaps feature with quick demo → cover the corporate launcher use case for enterprise viewers → close with the bug fixes and what v2.1.208 signals about Anthropic's broader developer focus"
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.208 Deep Dive: The Accessibility Update That Puts Other AI Coding Tools to Shame",
+          "angle": "Technical walkthrough of all 45 changes with special focus on accessibility, enterprise configurability, and the vim-mode improvements — positioned as a comprehensive changelog analysis for developers evaluating Claude Code"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Official Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Claude Platform API Updates: Key Expiration, Rate Limit Parity, Opus 4.7 Fast Mode Deprecation",
+      "published_date": "2026-07-14",
+      "summary": "Anthropic published a batch of Claude Platform API updates on July 14, 2026 covering security, billing, rate limits, and model lifecycle. API key expiration is now configurable in the Claude Console (preset, custom, or never) with email notifications before expiry for keys with at least 7-day lifetimes. Rate limits for Claude Sonnet and Claude Haiku have been raised to match Claude Opus across all three usage tiers (Start, Build, Scale). Fast mode for Claude Opus 4.7 is deprecated effective today, with hard removal on July 24, 2026 — after which requests with `speed: \"fast\"` on claude-opus-4-7 will return an error; Anthropic recommends migrating to fast mode on Claude Opus 4.8. A new `agent-memory-2026-07-22` beta header changes memory-listing behavior (stable server-defined order, stricter depth/path_prefix validation). Billing improvement: requests that return `stop_reason: \"refusal\"` with zero generated tokens are no longer charged. All major SDKs (Python, TypeScript, Go, Java, Ruby, PHP, C#) now include code execution tool support for `code_execution_20260120`, enabling REPL state persistence and programmatic tool calling.",
+      "relevance_score": 82,
+      "accuracy_notes": "Release notes content confirmed via Releasebot, releases.sh, and multiple developer changelog trackers that mirror docs.anthropic.com. The July 24 removal date for Opus 4.7 fast mode is specific enough to be verifiable. Billing change (no charge for refusals) is a notable policy shift worth flagging as high-value for API users. No red flags.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just updated the Claude API — here are the 5 changes every developer needs to know about",
+          "slides": [
+            "API key expiration is finally here — set it or forget it (securely)",
+            "Haiku & Sonnet rate limits now match Opus — no more tier anxiety",
+            "Heads up: Opus 4.7 fast mode dies July 24. Migrate now",
+            "Memory listing just got more predictable with the new beta header",
+            "Best change: you're no longer charged when Claude refuses a request"
+          ]
+        },
+        "linkedin": {
+          "angle": "Anthropic's July 14 API update is a developer-friendly batch that improves security, reduces cost surprise, and levels the playing field on rate limits",
+          "opening_line": "Anthropic just shipped API updates that will save developers money (no billing on refusals), reduce security risk (API key expiration), and remove a painful bottleneck (Haiku/Sonnet rate limits now match Opus).",
+          "cta": "If you're running Claude in production, audit your Opus 4.7 fast-mode usage now — the removal deadline is July 24. Link to migration guide in comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic dropped a batch of Claude API updates today that every developer using Claude in production needs to see 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "If you use the Claude API, you need to act before July 24 — or your app will break",
+          "script_outline": "Open with the Opus 4.7 fast-mode deadline as the urgency hook → walk through the deprecation and migration path → pivot to the positive changes: no billing on refusals, rate limit parity, key expiration security → close with memory beta header for advanced users → CTA to check docs"
+        },
+        "ebook_blog": {
+          "title": "Claude API July 2026 Update: What Changed, What to Migrate, and What It Means for Production Apps",
+          "angle": "Practitioner-focused breakdown of all July 14 platform changes with code snippets for the Opus 4.7 migration, API key expiration setup, and the new memory-store beta header — targeting teams actively running Claude in production"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
