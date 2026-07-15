@@ -1,0 +1,59 @@
+{
+  "generated_date": "2026-07-15",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_articles": 2,
+  "total_files_created": 10,
+  "canva_status": "failed — all 4 generate-design calls returned design_generation_error; no Canva URLs available",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: la mejor herramienta reciente de Anthropic (con limitaciones serias)",
+      "source_url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
+      "reviewer_notes": "Target novato/emprendedor, práctico, motivar compra de ebook",
+      "files": {
+        "instagram": "content/2026-07-15/update_001_instagram.md",
+        "linkedin": "content/2026-07-15/update_001_linkedin.md",
+        "twitter": "content/2026-07-15/update_001_twitter.md",
+        "youtube_tiktok": "content/2026-07-15/update_001_youtube.md",
+        "blog": "content/2026-07-15/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel": {
+          "status": "failed",
+          "job_id": "d519d615-05d3-4a20-bc38-d66ecdeb632a",
+          "url": null
+        },
+        "youtube_thumbnail": {
+          "status": "failed",
+          "job_id": "2ddb4ca3-e383-4a20-9f90-8950b9f2c505",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code memoria persistente: Auto Memory y CLAUDE.md para automatizaciones",
+      "source_url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
+      "reviewer_notes": "Target novato/emprendedor, práctico, motivar compra de ebook",
+      "files": {
+        "instagram": "content/2026-07-15/update_002_instagram.md",
+        "linkedin": "content/2026-07-15/update_002_linkedin.md",
+        "twitter": "content/2026-07-15/update_002_twitter.md",
+        "youtube_tiktok": "content/2026-07-15/update_002_youtube.md",
+        "blog": "content/2026-07-15/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel": {
+          "status": "failed",
+          "job_id": "6b218858-4456-4f6e-8f95-b7a77240834e",
+          "url": null
+        },
+        "youtube_thumbnail": {
+          "status": "failed",
+          "job_id": "f395645e-6401-426d-99d3-e4fdf824f056",
+          "url": null
+        }
+      }
+    }
+  ]
+}
