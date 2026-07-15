@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T15:13:40Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage y artículos individuales retornaron HTTP 403. Búsqueda web encontró artículos recientes de Claude en XDA, pero ninguno con fecha confirmada de julio 14-15 — los resultados más recientes no incluyen cobertura del lanzamiento de Claude for Teachers. Artículo excluido de update_001 por falta de confirmación de fecha.",
+    "docs.anthropic.com": "Fetch directo retornó HTTP 403. Contenido del changelog recuperado mediante búsquedas web a través de agregadores (Releasebot, BuildFastWithAI, fuentes secundarias). Actualizaciones de julio 14 confirmadas: Claude for Teachers, subida de rate limits, expiración de API keys, deprecación de fast mode Opus 4.7, actualizaciones de accesibilidad en Claude Code.",
+    "theverge.com": "Dominio bloqueado por política del web crawler de Anthropic (HTTP 403 + error de dominio en búsqueda web). Sin resultados disponibles para ninguna fecha."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Newsroom",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "title": "Anthropic lanza Claude for Teachers: acceso premium gratuito para educadores K-12 de EEUU",
+      "published_date": "2026-07-14",
+      "summary": "Anthropic lanzó oficialmente Claude for Teachers el 14 de julio de 2026, dando acceso gratuito durante un año a todas las herramientas premium de Claude a educadores verificados de K-12 en Estados Unidos. La oferta incluye Claude Code, Claude Cowork, el conector Learning Commons (con estándares curriculares de los 50 estados), y habilidades pedagógicas desarrolladas con científicos del aprendizaje. Las maestras y maestros que se registren antes del 30 de junio de 2027 obtienen acceso completo; los datos compartidos no se usan para entrenar modelos y el programa cumple con FERPA. Anthropic desarrolló el producto junto a la American Federation of Teachers.",
+      "relevance_score": 97,
+      "accuracy_notes": "Verificado directamente en anthropic.com/news/claude-for-teachers. Cubierto de forma consistente por The Hill, Chalkbeat, Forbes, 9to5Mac, EdSurge y Benzinga el mismo 14 de julio. La fecha de deadline (30 jun 2027) y el alineamiento con la AFT confirmados en múltiples fuentes independientes.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de darle acceso GRATIS a la IA premium a todos los maestros de EEUU — y esto cambia la educación 🎒",
+          "slides": [
+            "¿Qué es Claude for Teachers? (El lanzamiento que no esperabas)",
+            "Lo que incluye gratis: Claude Code, Cowork, estándares curriculares de los 50 estados",
+            "Cómo funciona en clase: planes de lección, datos de estudiantes, adaptación de materiales",
+            "Privacidad garantizada: sin uso en entrenamiento de IA, compatible con FERPA",
+            "Cómo registrarte antes del 30 junio 2027 (paso a paso)"
+          ]
+        },
+        "linkedin": {
+          "angle": "Equidad educativa y IA: Anthropic apuesta por los maestros antes que por los estudiantes",
+          "opening_line": "La mayoría de las apuestas de IA en educación apuntan a los alumnos. Anthropic acaba de apostar por los maestros — y hay algo muy estratégico en esa decisión.",
+          "cta": "¿Crees que la IA gratuita para maestros cambiará realmente el aula? Comenta tu perspectiva."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic acaba de lanzar acceso GRATIS a su IA premium para todos los maestros K-12 de EEUU. Todo lo que incluye (y lo que no dicen en el titular): 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Los maestros de EEUU acaban de recibir una IA que vale $20/mes — completamente gratis. Así funciona Claude for Teachers.",
+          "script_outline": "0-5s: Hook impacto (gratis para maestros). 5-15s: Qué es Claude for Teachers. 15-35s: Demo de características clave: planes de lección + datos de alumnos. 35-50s: Privacidad y FERPA. 50-60s: Cómo registrarse + CTA."
+        },
+        "ebook_blog": {
+          "title": "Guía Completa de Claude for Teachers 2026: Todo lo que los Educadores Necesitan Saber",
+          "angle": "Guía práctica orientada a maestros no técnicos: qué ofrece, cómo registrarse, y casos de uso reales en el aula."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Release Notes julio 14: rate limits aumentados, expiración de API keys, deprecación de fast mode Opus 4.7 y gestión de usuarios Enterprise",
+      "published_date": "2026-07-14",
+      "summary": "Anthropic publicó múltiples actualizaciones de plataforma el 14 de julio: (1) Los rate limits de Claude Sonnet y Haiku ahora igualan a Claude Opus en todos los tiers de uso — un aumento significativo para desarrolladores. (2) Ya es posible configurar una fecha de expiración al crear API keys desde la consola, con notificación por email para claves con duración mínima de 7 días. (3) Fast mode para Claude Opus 4.7 será eliminado el 24 de julio; las peticiones con speed: \"fast\" retornarán error — migrar a Opus 4.8. (4) La Admin API (beta) permite gestionar miembros de Claude Enterprise: listar, cambiar roles, remover y administrar grupos, usando el header anthropic-beta: ce-user-management-2026-07-13.",
+      "relevance_score": 82,
+      "accuracy_notes": "Información obtenida mediante búsquedas web a través de fuentes agregadoras (Releasebot, BuildFastWithAI). Fecha de deprecación Opus 4.7 fast mode (24 julio) confirmada en múltiples fuentes. El header beta ce-user-management-2026-07-13 sugiere fecha de disponibilidad 13 julio. No se pudo acceder directamente a docs.anthropic.com.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de subir los límites de velocidad de su API — y hay una fecha límite importante que debes conocer antes del 24 de julio ⚠️",
+          "slides": [
+            "4 cambios en la plataforma de Anthropic que impactan a developers",
+            "Rate limits aumentados: Sonnet y Haiku ahora igual a Opus",
+            "API keys con expiración: nuevo control de seguridad",
+            "Fast mode Opus 4.7 se elimina el 24 julio — ¿qué hacer?",
+            "Enterprise: gestión de usuarios vía Admin API (beta)"
+          ]
+        },
+        "linkedin": {
+          "angle": "Actualización técnica para equipos que usan la API de Claude en producción",
+          "opening_line": "Si tu equipo usa Claude Sonnet o Haiku a través de la API, tus rate limits acaban de aumentar significativamente — sin cambiar de plan ni de precio.",
+          "cta": "¿Cuál de estos cambios impacta más tu stack? Comparte en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic empujó 4 actualizaciones de plataforma hoy. Una tiene deadline el 24 julio. Resumen rápido para developers 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Tienes hasta el 24 de julio para migrar este ajuste en tu código de Claude — o empezarás a recibir errores",
+          "script_outline": "0-5s: Alerta de deprecación. 5-20s: Qué es fast mode y por qué desaparece. 20-40s: Los 3 cambios positivos (rate limits, API keys, Enterprise). 40-55s: Checklist de migración. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Guía de Migración: Cambios en la API de Anthropic — Julio 2026",
+          "angle": "Checklist técnico paso a paso para developers que usan Claude Opus 4.7 fast mode y necesitan migrar antes del 24 de julio."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code actualización: modo screen reader, atajos vim en insert-mode y soporte de clics del mouse en menús de selección múltiple",
+      "published_date": "2026-07-14",
+      "summary": "La actualización de Claude Code del 14 de julio incorpora tres mejoras de accesibilidad y usabilidad: (1) Modo screen reader opcional que activa renderizado en texto plano puro, mejorando la compatibilidad con lectores de pantalla. (2) Remapeo de teclas en modo insert de vim, permitiendo mayor personalización del editor. (3) Soporte de clic del mouse para menús de selección múltiple en modo pantalla completa, mejorando la interacción sin depender solo del teclado.",
+      "relevance_score": 72,
+      "accuracy_notes": "Información confirmada por búsquedas web a través de fuentes agregadoras. Estas actualizaciones son incrementales y de baja prioridad desde el punto de vista de contenido de marketing.",
+      "content_potential": "low",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code se vuelve más accesible — 3 actualizaciones pequeñas que importan para muchos desarrolladores",
+          "slides": [
+            "Modo screen reader en Claude Code (ya disponible)",
+            "Soporte vim insert-mode personalizable",
+            "Mouse en menús de selección — fullscreen más cómodo",
+            "Pequeño update, gran impacto para accesibilidad"
+          ]
+        },
+        "linkedin": {
+          "angle": "Accesibilidad en herramientas de desarrollo IA: Anthropic da un paso en la dirección correcta",
+          "opening_line": "Claude Code acaba de agregar soporte para screen readers — un recordatorio de que la accesibilidad en herramientas de developer todavía es una deuda pendiente en la industria.",
+          "cta": "¿Usas herramientas de accesibilidad en tu flujo de desarrollo? Cuéntame en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code empujó 3 actualizaciones de accesibilidad hoy. Pequeñas, pero importantes. Resumen en 3 tweets 🧵",
+          "estimated_tweets": 3
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code ahora funciona con screen readers — ¿por qué tardó tanto la industria de IA en llegar aquí?",
+          "script_outline": "0-5s: Hook sobre accesibilidad. 5-25s: Qué es screen reader mode en Claude Code. 25-45s: Las otras dos mejoras. 45-60s: Reflexión sobre accesibilidad en IA + CTA."
+        },
+        "ebook_blog": {
+          "title": "Accesibilidad en IA: Lo que Claude Code Está Haciendo Bien (y lo que Falta)",
+          "angle": "Análisis del estado de la accesibilidad en herramientas de desarrollo con IA, usando las novedades de Claude Code como punto de partida."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
