@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T15:14:10Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual article URLs returned HTTP 403. Article titles retrieved via web search (Google index). No XDA articles confirmed published within the July 14-16 window for Claude/Anthropic topics; most recent XDA Claude articles dated ~July 6-12.",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403. Release note entries retrieved via web search and Google cache. One confirmed entry within the 24-48h window: Claude Enterprise User Management via Admin API (July 13, 2026 beta header). Additional context from Anthropic official news blog (anthropic.com/news) surfaced Claude for Teachers (July 14, 2026), which aligns with the claude-apps release notes scope at docs.anthropic.com.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic (Official News / docs.anthropic.com scope)",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "title": "Introducing Claude for Teachers",
+      "published_date": "2026-07-14",
+      "summary": "Anthropic launched Claude for Teachers on July 14, 2026, a free product for verified K-12 educators in the US that provides access to premium Claude capabilities, a library of teaching skills grounded in learning science, and evidence-based curricula (OpenSciEd, Illustrative Mathematics) mapped to academic standards across all 50 states. Teachers can use it to plan lessons, differentiate materials for individual learners, and generate classroom-ready content — all without Anthropic training its models on teacher or student data. Verified educators who sign up by June 30, 2027 receive one full year of free access, and the platform complies with FERPA through a K-12 data processing agreement co-developed with the American Federation of Teachers.",
+      "relevance_score": 96,
+      "accuracy_notes": "Confirmed by Anthropic official announcement (anthropic.com/news/claude-for-teachers) and independently covered by Chalkbeat, The Hill, Forbes, 9to5Mac, EdSurge, and Benzinga — all dating publication to July 14, 2026. Privacy commitments (no model training on teacher conversations, FERPA alignment) are stated in Anthropic's own announcement. No conflicting claims or red flags found across sources.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de hacer que la IA premium sea GRATIS para maestros 🎓 — esto es lo que obtienes",
+          "slides": [
+            "Claude para Maestros: 1 año GRATIS para docentes K-12 verificados en EE.UU.",
+            "Clases alineadas a los estándares de los 50 estados — generadas en segundos",
+            "Diferencia materiales para cada nivel de aprendizaje con un solo prompt",
+            "Sin entrenamiento de IA con tus datos — FERPA compliant + AFT partnership",
+            "¿Eres docente? Regístrate antes del 30 de junio de 2027 y obtén 1 año gratis"
+          ]
+        },
+        "linkedin": {
+          "angle": "La guerra de las BigTech por el aula: por qué Anthropic regala IA premium a los maestros y qué significa para el futuro de la educación",
+          "opening_line": "Anthropic acaba de lanzar Claude for Teachers — una versión gratuita de Claude diseñada para docentes K-12 verificados, con currículo alineado a los estándares de los 50 estados y protección de datos FERPA desde el primer día.",
+          "cta": "¿Crees que la IA en el aula es una revolución educativa o un riesgo para la privacidad de los estudiantes? Comparte tu perspectiva."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic lanzó Claude for Teachers el 14 de julio. Gratis para docentes K-12 verificados. Esto es lo que obtienes — y por qué es una jugada estratégica enorme:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic acaba de regalar IA de nivel premium a todos los maestros de EE.UU. — estas son las 3 cosas que pueden hacer con ella HOY",
+          "script_outline": "1) Hook: Anthropic lanzó herramienta de IA gratuita para maestros (0-5s). 2) Qué es Claude for Teachers y quién puede acceder (5-15s). 3) Las 3 funciones más poderosas: planificación de clases con currículo alineado, diferenciación de materiales, generación de actividades interactivas (15-45s). 4) La batalla de las BigTech (Google, OpenAI, Khan Academy vs. Anthropic) por controlar las aulas (45-55s). 5) CTA: enlace en bio para registrarte antes del 30-Jun-2027 (55-60s)."
+        },
+        "ebook_blog": {
+          "title": "Claude for Teachers: Guía Completa para Docentes K-12 que Quieren Usar IA de Forma Ética y Efectiva",
+          "angle": "Tutorial paso a paso de las funciones principales de Claude for Teachers (planificación, diferenciación, generación de materiales), comparación con herramientas similares de Google y OpenAI, y análisis de las implicaciones de privacidad y FERPA para administradores escolares."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Release Notes — API)",
+      "url": "https://docs.anthropic.com/en/release-notes/api",
+      "title": "Claude Enterprise Organization Management via Admin API (Beta)",
+      "published_date": "2026-07-13",
+      "summary": "Anthropic released a new beta capability on July 13, 2026, enabling enterprise administrators to manage their Claude Enterprise organizations directly through the Admin API using the header `anthropic-beta: ce-user-management-2026-07-13`. The feature supports listing members, changing roles, removing members, and managing groups and custom roles programmatically. This reduces the dependency on the Claude dashboard for large-scale user management and gives IT and DevOps teams full API-level control over access and permissions in Claude Enterprise deployments.",
+      "relevance_score": 80,
+      "accuracy_notes": "Confirmed via Anthropic's official release notes (docs.anthropic.com/en/release-notes) retrieved through web search. The specific beta header `ce-user-management-2026-07-13` is consistent with Anthropic's established beta-header naming convention. No conflicting information found. Audience is primarily enterprise developers and IT admins — narrower than consumer news but highly verifiable.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic le da a las empresas control total sobre Claude Enterprise vía API 🏢 — esto cambia cómo los equipos IT gestionan el acceso",
+          "slides": [
+            "Nueva API Beta: Gestión completa de organizaciones Claude Enterprise",
+            "Administra miembros, roles y grupos sin tocar el dashboard",
+            "Activa el beta con: anthropic-beta: ce-user-management-2026-07-13",
+            "Ideal para empresas medianas/grandes con muchos usuarios de Claude",
+            "La IA empresarial se vuelve más fácil de controlar y escalar"
+          ]
+        },
+        "linkedin": {
+          "angle": "Anthropic da control de nivel enterprise a los administradores IT: gestión de usuarios, roles y grupos en Claude Enterprise ahora disponible vía Admin API (beta desde julio 13)",
+          "opening_line": "Si tu empresa usa Claude Enterprise, ya no necesitas entrar al dashboard para gestionar quién tiene acceso y con qué permisos — la Admin API de Anthropic ahora lo maneja todo.",
+          "cta": "¿Tu equipo ya evalúa Claude Enterprise para escalar el uso de IA? Cuéntame en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic añadió gestión de organizaciones a Claude Enterprise vía Admin API (beta, julio 13). Para equipos IT que quieren automatizar acceso y roles — esto es lo que cambia:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Si tu empresa usa Claude Enterprise, esta actualización de API acaba de eliminar el mayor dolor de cabeza de los administradores IT",
+          "script_outline": "1) Hook: gestionar 100+ usuarios en Claude era un dolor — ya no (0-5s). 2) Qué es la Admin API de Anthropic y qué permite la nueva beta (5-20s). 3) Demo rápido: cómo activar el header y qué endpoints están disponibles (20-45s). 4) Casos de uso reales: onboarding masivo, rotación de roles, grupos por departamento (45-55s). 5) CTA: link a la documentación oficial (55-60s)."
+        },
+        "ebook_blog": {
+          "title": "Guía Técnica: Automatiza la Gestión de Claude Enterprise con la Admin API (Beta julio 2026)",
+          "angle": "Tutorial con ejemplos de código (Python/cURL) para implementar la Claude Enterprise Admin API: crear grupos, asignar roles custom, eliminar miembros en bulk, y automatizar el onboarding de equipos grandes."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
