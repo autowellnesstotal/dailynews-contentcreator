@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T15:15:58Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "scraping_notes": {
+    "xda-developers.com": "All direct fetch attempts returned HTTP 403. WebSearch found no Claude/Anthropic articles published on July 16-18; most recent XDA article was July 15 ('My $0 local coding agent does more than $20 Claude Code').",
+    "theverge.com": "Source blocked by site policy — proxy returned fetch error on all URL patterns. No data retrieved.",
+    "docs.anthropic.com": "Direct fetch returned 403; content retrieved via WebSearch and third-party changelog aggregators. Claude Code changelog confirmed two releases: v2.1.212 (July 17) and v2.1.214 (July 18). API/platform release notes (rate limit tier consolidation, agent-memory SDK updates) confirmed for July 2026 but exact publication dates within 24-48h window not independently verified — excluded from counted updates."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com — Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.212: /fork Redesign, WebSearch & Subagent Session Caps, MCP Auto-Background",
+      "published_date": "2026-07-17",
+      "summary": "Anthropic released Claude Code v2.1.212 on July 17, introducing a redesigned /fork command that now copies the current conversation to a new background session instead of spawning an in-session subagent. The update also adds session-wide safety limits: WebSearch calls are capped at 200 per session and subagent spawns at 200 per session, and MCP tool calls running longer than 2 minutes are automatically backgrounded. A new /resume picker lets users select and return to any past session, and the claude auto-mode reset command was added.",
+      "relevance_score": 100,
+      "accuracy_notes": "Sourced directly from the Claude Code changelog at code.claude.com/docs/en/changelog, which mirrors docs.anthropic.com/en/release-notes/claude-code. Version number and date confirmed via multiple third-party changelog aggregators. All feature details match the official changelog entry. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just added seatbelts to its most powerful features — here's every change in v2.1.212",
+          "slides": [
+            "Slide 1: Claude Code v2.1.212 — Safety & Workflow Update (July 17, 2026)",
+            "Slide 2: /fork now spawns a background session copy — multitask without losing context",
+            "Slide 3: WebSearch capped at 200 calls/session — no more runaway searches",
+            "Slide 4: Subagent spawns also capped at 200 — agentic loops stay in check",
+            "Slide 5: MCP tools >2 min auto-background + new /resume session picker"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity and responsible agentic AI — Anthropic is quietly adding guardrails that prevent runaway Claude Code sessions before they become expensive or unpredictable",
+          "opening_line": "Anthropic just put session-level limits on Claude Code's two most powerful (and most dangerous) features: WebSearch and subagent spawning.",
+          "cta": "Update Claude Code and try the new /fork + /resume workflow — it's a significant quality-of-life upgrade for long-running projects."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.212 just landed and it has two safety changes every heavy user needs to know about 🧵 (and a workflow upgrade that's actually delightful)",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just added a 200-subagent speed limit to Claude Code — here's why that's actually a great idea",
+          "script_outline": "Intro (10s): 'Claude Code v2.1.212 dropped with two safety caps' → What changed (20s): WebSearch 200/session, subagent spawns 200/session, why these limits matter → /fork redesign demo (15s): copy conversation to background, keep working → /resume picker (10s): come back to old sessions instantly → CTA (5s): 'Update now — claude update'"
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.212: The Safety Update That Finally Put Limits on Agentic Sessions",
+          "angle": "Deep dive into why session caps and auto-backgrounding are a maturity signal for Claude Code, covering responsible agentic AI design and what these guardrails mean for enterprise adoption"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com — Claude Code Changelog",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.214: Permission Security Patches, EndConversation Tool, OpenTelemetry & Memory Improvements",
+      "published_date": "2026-07-18",
+      "summary": "Anthropic shipped Claude Code v2.1.214 today (July 18), patching multiple permission-system security vulnerabilities: a bypass in single-segment dir/** allow rules that was auto-approving writes, a permission-check bypass in Windows PowerShell 5.1, and a bypass for Bash commands longer than 10,000 characters. The release also adds an EndConversation tool enabling Claude Code to gracefully terminate sessions involving abusive users, a progress heartbeat for long-running tool calls, ISO-formatted modified timestamps in memory file frontmatter, and new OpenTelemetry attributes (message.uuid, client_request_id, tool_source) for observability.",
+      "relevance_score": 98,
+      "accuracy_notes": "Sourced directly from the Claude Code changelog. Version number and date confirmed via the changelog aggregator at code.claude.com. Security fixes are described at the changelog level (no CVE IDs assigned). The EndConversation tool is a notable product addition with policy implications. No red flags.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code v2.1.214 just fixed 3 security holes — and added a feature no one expected",
+          "slides": [
+            "Slide 1: Claude Code v2.1.214 — Security Hardening (July 18, 2026)",
+            "Slide 2: Patched: dir/** allow rules were silently approving writes",
+            "Slide 3: Patched: Windows PowerShell 5.1 permission bypass",
+            "Slide 4: Patched: Long Bash commands (>10,000 chars) bypassed permission checks",
+            "Slide 5: New: EndConversation tool — Claude can now exit abusive sessions"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise security and responsible AI deployment — today's Claude Code security patch is a reminder that permission models in agentic tools need continuous hardening",
+          "opening_line": "Three permission-bypass vulnerabilities were patched in Claude Code today — and one of them affected every Windows user running PowerShell 5.1.",
+          "cta": "If you run Claude Code in enterprise environments, update to v2.1.214 immediately and review your permission rules for single-segment dir/** patterns."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.214 just shipped with 3 security fixes and a new 'EndConversation' tool — here's what you need to update and why 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code just got an eject button for toxic conversations — and patched 3 security bypasses",
+          "script_outline": "Intro (10s): 'Three permission bypasses patched in Claude Code today' → Security fixes walkthrough (20s): dir/**, PowerShell, long commands — what each one meant → EndConversation tool (15s): what it is, when Claude uses it, policy implications → OpenTelemetry note for enterprise devs (10s) → CTA: 'Run claude update right now' (5s)"
+        },
+        "ebook_blog": {
+          "title": "Claude Code Permission Model Deep Dive: What the v2.1.214 Security Patches Reveal About Agentic AI Risk",
+          "angle": "Use the three patched bypasses as a case study in why permission systems for AI coding agents are uniquely hard to get right, with a practical guide to auditing your own Claude Code rules"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
