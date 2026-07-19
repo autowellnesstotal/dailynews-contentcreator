@@ -1,0 +1,63 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T11:00:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage e intentos de fetch directo devuelven HTTP 403. Búsquedas web encontraron artículos recientes de Claude pero ninguno con fecha confirmada en la ventana 17-19 Jul 2026. No se incluyen artículos sin fecha verificada.",
+    "docs.anthropic.com": "Acceso bloqueado vía fetch directo (HTTP 403). Información recuperada vía búsquedas web indexadas y Releasebot (releasebot.io/updates/anthropic). Se confirmó 1 entrada de release notes de Claude Code correspondiente a la Semana 29 (Jul 13–17, 2026), publicada el 17 Jul.",
+    "theverge.com": "Bloqueado tanto en fetch directo como en búsqueda web (dominio no accesible para el crawler de Anthropic según política del sitio). Sin resultados disponibles."
+  },
+  "total_updates_found": 1,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Docs – Claude Code Release Notes",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w29",
+      "title": "Claude Code Week 29: Live MCP Connector Data in Artifacts, Screen Reader Mode & Sharing Collaboration",
+      "published_date": "2026-07-17",
+      "summary": "Claude Code lanzó tres mejoras clave en la semana del 13–17 de julio: (1) Los artifacts publicados ahora pueden llamar a conectores MCP en tiempo real al ser vistos, convirtiendo un dashboard estático en uno que muestra datos en vivo y puede ejecutar acciones sin que el autor tenga que actualizar la sesión. (2) Nuevo modo Screen Reader que reemplaza la interfaz visual del terminal con texto lineal plano compatible con VoiceOver y NVDA, haciendo Claude Code accesible para usuarios con discapacidad visual. (3) Nuevas opciones de colaboración: links de sharing público, roles de editor para edición colaborativa en planes Team y Enterprise, y artifacts generados desde sesiones de Claude Tag.",
+      "relevance_score": 95,
+      "accuracy_notes": "Confirmado en docs oficiales de Claude Code (code.claude.com) y corroborado por múltiples fuentes de seguimiento de releases (Releasebot, releases.sh). Los tres features son nuevas funcionalidades verificadas, no claims sin respaldo.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude ya no crea reportes — crea dashboards en VIVO que se actualizan solos cada vez que alguien los abre 📊",
+          "slides": [
+            "Slide 1: ¿Qué cambió en Claude Code esta semana?",
+            "Slide 2: MCP en artifacts — tu dashboard IA ahora muestra datos en tiempo real",
+            "Slide 3: Antes (snapshot estático) vs Ahora (datos en vivo + acciones)",
+            "Slide 4: Sharing público + roles de editor — colabora con tu equipo sin compartir tu sesión",
+            "Slide 5: ¿Qué significa esto para tu negocio? Próximos pasos"
+          ]
+        },
+        "linkedin": {
+          "angle": "Las herramientas IA ahora generan entregables en vivo que reemplazan los reportes estáticos — esto cambia cómo los equipos trabajan con IA",
+          "opening_line": "Claude Code acaba de convertir los dashboards IA en algo que antes solo existía en demos de startups tech: pages que se actualizan solas, en tiempo real, cada vez que alguien las abre.",
+          "cta": "¿Cuánto tiempo pierde tu equipo actualizando reportes que quedan desactualizados en horas? Comenta abajo."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code actualizó algo esta semana que cambia cómo compartís el trabajo IA con tu equipo — y casi nadie lo notó 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Compartí un dashboard de IA con mi equipo y se actualizó solo — sin que yo tocara nada",
+          "script_outline": "0-5s: Hook visual (abrir dashboard en live). 5-15s: El problema — los reportes de IA quedan desactualizados. 15-30s: Qué son los MCP connectors en artifacts. 30-45s: Demo en vivo (dashboard actualizándose). 45-55s: Cómo compartirlo con tu equipo. 55-60s: CTA — link en bio para guía completa."
+        },
+        "ebook_blog": {
+          "title": "Claude Code Ya Genera Dashboards en Vivo: La Guía para Emprendedores que No Saben Programar",
+          "angle": "Tutorial práctico paso a paso para no-developers: cómo crear y compartir un dashboard de negocio en vivo usando Claude Code, sin escribir una línea de código."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
