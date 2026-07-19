@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-07-19",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "content_folder": "content/2026-07-19/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design: La herramienta de diseño IA de Anthropic",
+      "source_url": "https://www.xda-developers.com/claude-design-is-the-best-feature-anthropics-launched-in-a-while-but-it-has-some-serious-limitations/",
+      "reviewer_notes_summary": "Audiencia emprendedora sin contexto técnico, nivel práctico, motivar compra de ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-19/update_001_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva": {
+            "design_id": "DAHP3EA3Fos",
+            "edit_url": "https://www.canva.com/d/NqLlye95nuKMXkr",
+            "view_url": "https://www.canva.com/d/bJuPVoF-1AK4RMr",
+            "thumbnail_preview": "https://design.canva.ai/If8AfEaxfSS_a2g",
+            "additional_candidates": [
+              "https://www.canva.com/d/5GPREJUVdVJ3gkK",
+              "https://www.canva.com/d/AjjTSwn3iqSTRGa",
+              "https://www.canva.com/d/N1n5imZ2J7yEgV0"
+            ]
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-07-19/update_001_linkedin.md",
+          "canva": null
+        },
+        "twitter": {
+          "file": "content/2026-07-19/update_001_twitter.md",
+          "format": "hilo de 8 tweets",
+          "canva": null
+        },
+        "youtube": {
+          "file": "content/2026-07-19/update_001_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva": {
+            "design_id": "DAHP3MpVoWg",
+            "title": "Miniatura de YouTube - ¡Crea con IA!",
+            "edit_url": "https://www.canva.com/d/x0ewZ6zpQ1D1056",
+            "view_url": "https://www.canva.com/d/MEMFfeZs7QIAiWF",
+            "thumbnail_preview": "https://design.canva.ai/3I1skvI0LswpSXS",
+            "additional_candidates": [
+              "https://www.canva.com/d/P8ATRs550n1uAoI",
+              "https://www.canva.com/d/huLx48vUkJJI5O6",
+              "https://www.canva.com/d/RCzqUr3giPXeEnV"
+            ]
+          }
+        },
+        "blog": {
+          "file": "content/2026-07-19/update_001_blog.md",
+          "word_count_approx": 750,
+          "canva": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Claude Code Memory: Auto Memory y CLAUDE.md para automatizaciones",
+      "source_url": "https://www.xda-developers.com/added-claude-code-memory-workflows-effortless-automations/",
+      "reviewer_notes_summary": "Audiencia emprendedora sin contexto técnico, nivel práctico, motivar compra de ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-19/update_002_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva": {
+            "design_id": "DAHP3M3qahQ",
+            "title": "Post para Instagram - Tu asistente de IA recuerda todo",
+            "edit_url": "https://www.canva.com/d/laiZZLj_ihOXkt_",
+            "view_url": "https://www.canva.com/d/dwL2dnu9PcwXQoo",
+            "thumbnail_preview": "https://design.canva.ai/MUJWoJRsQkZ-2F9",
+            "additional_candidates": [
+              "https://www.canva.com/d/QSTcXtqloocNVx9",
+              "https://www.canva.com/d/yj15JnTdG70381M",
+              "https://www.canva.com/d/6evns5NCGZyZEkv"
+            ]
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-07-19/update_002_linkedin.md",
+          "canva": null
+        },
+        "twitter": {
+          "file": "content/2026-07-19/update_002_twitter.md",
+          "format": "hilo de 8 tweets",
+          "canva": null
+        },
+        "youtube": {
+          "file": "content/2026-07-19/update_002_youtube.md",
+          "format": "guion 60s + título + descripción",
+          "canva": {
+            "design_id": "DAHP3MXnui8",
+            "title": "Miniatura de YouTube - ¡Claude ya recuerda tu empresa! 🧠",
+            "edit_url": "https://www.canva.com/d/0LHlN4HkFCkmGI-",
+            "view_url": "https://www.canva.com/d/szItEkZBNIXBR6x",
+            "thumbnail_preview": "https://design.canva.ai/YIn7SXPPjbXKS7l",
+            "additional_candidates": [
+              "https://www.canva.com/d/b5AcYhWFCQftbti",
+              "https://www.canva.com/d/90YEadyvEup3ZYZ",
+              "https://www.canva.com/d/xatt9jfpT5jFY_M"
+            ]
+          }
+        },
+        "blog": {
+          "file": "content/2026-07-19/update_002_blog.md",
+          "word_count_approx": 800,
+          "canva": null
+        }
+      }
+    }
+  ]
+}
