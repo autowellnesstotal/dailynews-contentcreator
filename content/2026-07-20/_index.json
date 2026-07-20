@@ -1,0 +1,155 @@
+{
+  "date": "2026-07-20",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-07-20",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design es la mejor herramienta que Anthropic ha lanzado en un tiempo, pero tiene serias limitaciones",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-20/update_001_instagram.md",
+          "format": "carrusel_6_slides",
+          "status": "generado",
+          "canva_candidates": [
+            "https://www.canva.com/d/2aaD9QK2q9BrLzr",
+            "https://www.canva.com/d/MRS7h9pguwFTwBa",
+            "https://www.canva.com/d/sr624o8rrh6uE3W",
+            "https://www.canva.com/d/4jAUa8MMIl5aBzg"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/y6H2_m15XptM4kM",
+            "https://design.canva.ai/uPZBOD9kW3dM0w-",
+            "https://design.canva.ai/EGv6m52oDqKtOk7",
+            "https://design.canva.ai/GVEm_SDgFIkbKUK"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-07-20/update_001_linkedin.md",
+          "format": "post_largo",
+          "status": "generado",
+          "canva_candidates": null
+        },
+        "twitter": {
+          "file": "content/2026-07-20/update_001_twitter.md",
+          "format": "hilo_7_tweets",
+          "status": "generado",
+          "canva_candidates": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-20/update_001_youtube.md",
+          "format": "guion_60s_mas_thumbnail",
+          "status": "generado",
+          "canva_candidates": [
+            "https://www.canva.com/d/cpIUvg7cUDYTDer",
+            "https://www.canva.com/d/xfYsnbCRhfw64PR",
+            "https://www.canva.com/d/mk1bZqkS6p1FVui",
+            "https://www.canva.com/d/Rm_frwDz_N355s1"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/WVCCBL_5xBQiW7I",
+            "https://design.canva.ai/JOhiZLxHNFDuzWA",
+            "https://design.canva.ai/qljTx70v0_NEHmL",
+            "https://design.canva.ai/16nCCzFA94R_Fss"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-07-20/update_001_blog.md",
+          "format": "articulo_700_palabras",
+          "status": "generado",
+          "canva_candidates": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "Agregué la memoria de Claude Code a mis flujos de trabajo y mi automatización se volvió sin esfuerzo",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-20/update_002_instagram.md",
+          "format": "carrusel_6_slides",
+          "status": "generado",
+          "canva_candidates": [
+            "https://www.canva.com/d/j2mhH1DJX8XI4WN",
+            "https://www.canva.com/d/uoKX-JrV4ax5lpe",
+            "https://www.canva.com/d/rd77Ui3elWOTUtp",
+            "https://www.canva.com/d/p75-DhSAwjw1ISw"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/_tcqWv3hhNeZITv",
+            "https://design.canva.ai/Nqm5oSB9XjY5R1t",
+            "https://design.canva.ai/w_Uy71o8XI_IKUT",
+            "https://design.canva.ai/I5qjS09VW2GDbQJ"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-07-20/update_002_linkedin.md",
+          "format": "post_largo",
+          "status": "generado",
+          "canva_candidates": null
+        },
+        "twitter": {
+          "file": "content/2026-07-20/update_002_twitter.md",
+          "format": "hilo_8_tweets",
+          "status": "generado",
+          "canva_candidates": null
+        },
+        "youtube_tiktok": {
+          "file": "content/2026-07-20/update_002_youtube.md",
+          "format": "guion_60s_mas_thumbnail",
+          "status": "generado",
+          "canva_candidates": [
+            "https://www.canva.com/d/1-0a8_uCrjmvW-G",
+            "https://www.canva.com/d/myf5OywD0V59k3t",
+            "https://www.canva.com/d/_QXWDKF5seg1hVt",
+            "https://www.canva.com/d/0O79G7To2RcYgVM"
+          ],
+          "canva_thumbnails": [
+            "https://design.canva.ai/rCWKYp0HQHrCv2y",
+            "https://design.canva.ai/LL7PP2ptLwji0Wg",
+            "https://design.canva.ai/GLMlStMqiC2M7_m",
+            "https://design.canva.ai/gMcn3yQ203FHSYD"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-07-20/update_002_blog.md",
+          "format": "articulo_700_palabras",
+          "status": "generado",
+          "canva_candidates": null
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "total_designs_generated": 4,
+    "total_candidates": 16,
+    "designs": [
+      {
+        "update": "update_001",
+        "platform": "instagram",
+        "candidates_count": 4
+      },
+      {
+        "update": "update_001",
+        "platform": "youtube_thumbnail",
+        "candidates_count": 4
+      },
+      {
+        "update": "update_002",
+        "platform": "instagram",
+        "candidates_count": 4
+      },
+      {
+        "update": "update_002",
+        "platform": "youtube_thumbnail",
+        "candidates_count": 4
+      }
+    ]
+  }
+}
