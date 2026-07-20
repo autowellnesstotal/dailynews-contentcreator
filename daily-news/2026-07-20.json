@@ -1,0 +1,192 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T15:17:54Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 4,
+  "status": "updates_found",
+  "review_status": "pending",
+  "scraping_notes": {
+    "xda-developers.com": "Direct fetch blocked (403). Used WebSearch to identify recent articles; confirmed July 19 article via search results.",
+    "docs.anthropic.com": "Direct fetch blocked (403). Used WebSearch and third-party changelog trackers to retrieve release note dates and content. Claude Code changelog dates confirmed via GitHub releases page.",
+    "theverge.com": "Domain blocked from crawler agent (WebFetch and WebSearch both returned access errors). No Verge articles from July 18-20 could be confirmed."
+  },
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (official Claude support + X/Twitter announcement)",
+      "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan",
+      "title": "Claude Fable 5 Now Included in Max/Team Premium; Credits-Only for Pro Starting July 20",
+      "published_date": "2026-07-17 (announcement effective 2026-07-20)",
+      "summary": "Starting July 20, 2026, Claude Fable 5 is permanently included in all Max and Team Premium plans at 50% of normal usage limits. Pro and Team Standard users retain access via usage credits at $10/million input tokens and $50/million output tokens, and receive a one-time $100 credit bonus. The promotional free-access period that had been repeatedly extended finally ended July 19, 2026 at 11:59 PM PT.",
+      "relevance_score": 96,
+      "accuracy_notes": "Confirmed via official Claude X/Twitter post and multiple reputable tech outlets (TechTimes, Tech2, AndroidAuthority, UsageBox). Pricing figures ($10/$50 per million tokens) and end date (July 19, 11:59 PM PT) are verifiable. High confidence.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Fable 5 changed pricing TODAY — here's exactly what your plan now includes",
+          "slides": [
+            "Slide 1: Claude Fable 5 — What Just Changed on July 20?",
+            "Slide 2: Max & Team Premium → Fable 5 included at 50% of your limits",
+            "Slide 3: Pro & Team Standard → Usage credits ($100 one-time bonus!)",
+            "Slide 4: What does 50% limit actually mean for your workflow?",
+            "Slide 5: Is it worth upgrading to Max? Here's the math"
+          ]
+        },
+        "linkedin": {
+          "angle": "Business/professional impact of Claude Fable 5 pricing restructure — for teams evaluating AI spend",
+          "opening_line": "Anthropic just permanently restructured Claude Fable 5 access today — and if your team is on Max or Team Premium, this is actually good news.",
+          "cta": "Share this with your AI-budget decision maker. The $100 one-time credit for Pro users is worth acting on before it's spent."
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 Claude Fable 5 pricing changed TODAY (July 20). Here's what you need to know about your plan — thread 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Your Claude plan just changed today and most people don't know what they're getting",
+          "script_outline": "Open: 'As of midnight last night, Claude Fable 5 is no longer free for everyone.' Explain old promo (ended July 19). Break down what each plan gets now. Show the $100 credit for Pro users. End with: 'Is it worth upgrading to Max for Fable 5 access?' CTA to subscribe for more AI updates."
+        },
+        "ebook_blog": {
+          "title": "Claude Fable 5 Pricing Explained: Which Plan Is Right for You in 2026?",
+          "angle": "Practical comparison guide covering each subscription tier's new Fable 5 access, the credit system math, and a decision framework for individuals vs. teams deciding whether to upgrade from Pro to Max."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/stopped-approving-claude-code-commands-discovering-built-in-sandbox/",
+      "title": "I stopped approving Claude Code's commands after discovering its built-in sandbox",
+      "published_date": "2026-07-19",
+      "summary": "XDA Developers explores Claude Code's built-in sandbox mode — enabled via /sandbox with auto-allow — which uses OS-level restrictions (macOS Seatbelt on Mac, Bubblewrap on Linux/WSL2) to confine Claude to the project directory and restrict outbound network connections to pre-approved domains. The article argues that the sandbox makes blanket command approvals unnecessary and actually safer to skip, enabling more autonomous Claude Code operation without sacrificing security. Network access is restricted by default, and Claude Code requests approval before connecting to any new domain.",
+      "relevance_score": 90,
+      "accuracy_notes": "Based on verifiable Claude Code feature documentation. macOS Seatbelt and Linux Bubblewrap are real OS-level sandboxing technologies used by Claude Code. The /sandbox command and auto-allow mode are confirmed features. No red flags — factual and practical.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Most Claude Code users don't know this exists — and it changes everything",
+          "slides": [
+            "Slide 1: Claude Code has a hidden sandbox — and it's more powerful than you think",
+            "Slide 2: What is the Claude Code sandbox? (OS-level, not just app-level)",
+            "Slide 3: How to enable it: /sandbox → auto-allow mode",
+            "Slide 4: What Claude CAN and CANNOT access in sandbox mode",
+            "Slide 5: Why this means you can stop approving commands one by one"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer security and productivity — how Claude Code's sandbox resolves the trust vs. autonomy tradeoff",
+          "opening_line": "I've been nervously clicking 'approve' on every Claude Code command — until I learned the sandbox was already doing the heavy lifting.",
+          "cta": "If your team uses Claude Code, enable sandbox mode today. The security is built into the OS, not the app."
+        },
+        "twitter_x": {
+          "thread_opener": "Most Claude Code users are manually approving every command. There's a better way — and it's more secure. Here's the built-in sandbox most people don't know about 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Stop clicking approve on every Claude Code command — here's the feature that makes it safe to let Claude run on autopilot",
+          "script_outline": "Open with: show the constant approval prompts problem. Introduce /sandbox. Demonstrate enabling auto-allow mode. Explain what macOS Seatbelt and Bubblewrap actually do (project-directory only writes, network domain approval). Show Claude working autonomously on a real task. Wrap: 'This is how Claude Code is meant to be used.'"
+        },
+        "ebook_blog": {
+          "title": "Claude Code Sandbox Mode: The Security Feature That Lets You Hand Off Control",
+          "angle": "Step-by-step guide to enabling Claude Code's sandbox, explaining the OS-level protections on Mac vs. Linux/WSL2, what permissions Claude retains vs. loses, and real workflows where sandbox + auto-allow mode unlocks true agentic coding."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code 2.1.214 and 2.1.215 Released — Security Fixes and Workflow Control Changes",
+      "published_date": "2026-07-18 (2.1.214) / 2026-07-19 (2.1.215)",
+      "summary": "Claude Code 2.1.214 (July 18) patched critical permission-check bypasses affecting Windows PowerShell 5.1 sessions and Bash, fixed single-segment dir/** allow rules, and improved background job handling, login error messages, and session management. Claude Code 2.1.215 (July 19) changed the /verify and /code-review skills so they only activate when directly invoked by the user — preventing them from running automatically mid-session — giving developers more deliberate control over quality checks.",
+      "relevance_score": 85,
+      "accuracy_notes": "Confirmed via official GitHub releases page (github.com/anthropics/claude-code/releases) and changelog tracking services. Version numbers, dates, and specific fixes are verifiable. High confidence on technical accuracy.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just got two updates in two days — here's what changed for developers",
+          "slides": [
+            "Slide 1: Claude Code 2.1.214 + 2.1.215 — What's New?",
+            "Slide 2: Security first — permission bypass on Windows PowerShell fixed",
+            "Slide 3: /verify and /code-review now manual only — why this matters",
+            "Slide 4: Background job improvements you'll notice immediately",
+            "Slide 5: How to update and what to test after patching"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer/engineering team ops — security patch urgency and workflow change awareness for Claude Code users",
+          "opening_line": "If your team uses Claude Code on Windows, the 2.1.214 update includes a permission-check bypass fix you'll want to apply today.",
+          "cta": "Update your Claude Code and share with your engineering lead — the /verify behavior change in 2.1.215 is subtle but affects automated workflows."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code shipped two updates in 48 hours (2.1.214 + 2.1.215). The security fix in .214 is the headline, but the workflow change in .215 is what developers will actually feel. Here's the breakdown 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code patched a Windows security bypass — and quietly changed how /verify works. Two updates in two days. Here's what you need to know.",
+          "script_outline": "Open: 'Anthropic shipped two Claude Code updates back to back.' Cover 2.1.214 security fixes (Windows PowerShell bypass, Bash permission checks). Cover 2.1.215: explain what /verify and /code-review do and why making them manual-only changes developer workflows. End: 'Should you update now? Yes, especially if you're on Windows.'"
+        },
+        "ebook_blog": {
+          "title": "Claude Code 2.1.214 & 2.1.215 Patch Notes Explained: Security, Workflows, and What to Test",
+          "angle": "Technical deep-dive for developers covering the permission-bypass vulnerabilities fixed in 2.1.214, the behavioral shift in /verify and /code-review in 2.1.215, and a practical checklist for teams upgrading their Claude Code environments."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Anthropic Raises Claude Code Weekly Limits 50% Through August 19, 2026",
+      "published_date": "2026-07-18",
+      "summary": "On July 18, 2026, Anthropic extended the Claude Code weekly limits promotion — originally set to end July 19 — through August 19, 2026, maintaining 50% higher weekly usage limits for Pro, Max, Team, and eligible seat-based Enterprise users. The extension was driven by competitive pressure from OpenAI's GPT-5.6 family and Kimi pricing, as well as user feedback on hitting caps. Free plan users and consumption-based Enterprise seats are not eligible for the promotion.",
+      "relevance_score": 88,
+      "accuracy_notes": "Confirmed via Princeton AI Newsletter's July 18 memo, Progressive Robot, APIdog, and other outlets citing the official Anthropic announcement. The August 19 end date and eligible plans (Pro, Max, Team, seat-based Enterprise) are consistently reported. High confidence.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code's 50% limit boost just got extended — here's how long you have left",
+          "slides": [
+            "Slide 1: Claude Code Limits Extended Again — Now Through August 19",
+            "Slide 2: Which plans qualify for the 50% boost?",
+            "Slide 3: Why Anthropic extended it (hint: competition from GPT-5.6)",
+            "Slide 4: How to make the most of 50% extra limits before they expire",
+            "Slide 5: What happens after August 19?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Business/team productivity — how to maximize Claude Code ROI during the extended promotion window",
+          "opening_line": "Anthropic just bought your team one more month at 50% higher Claude Code limits — here's how to use it strategically before August 19.",
+          "cta": "Share with your team's AI lead: this is the window to run your biggest automation projects without hitting caps."
+        },
+        "twitter_x": {
+          "thread_opener": "The Claude Code 50% weekly limit boost didn't end July 19 — Anthropic extended it to August 19. Here's why, who qualifies, and what to do with the extra capacity 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just extended Claude Code's 50% limit boost for another month — here's why and how to take advantage before it's gone",
+          "script_outline": "Open: 'You thought the Claude Code limit boost ended yesterday — it didn't.' Explain the extension to August 19. Cover who qualifies (Pro, Max, Team, seat-based Enterprise). Explain why Anthropic did this (competitor pricing pressure). Give 3 high-value use cases to run during the extended window. End: 'The clock is ticking — don't waste the extra capacity.'"
+        },
+        "ebook_blog": {
+          "title": "Claude Code Weekly Limits Extended to August 19: Your 30-Day Action Plan to Maximize Capacity",
+          "angle": "Practical productivity guide for Pro/Max/Team Claude Code users covering why the extension happened, how to audit current usage against the 50% boost, and a curated list of high-ROI automations and workflows to prioritize before limits return to normal on August 19."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
