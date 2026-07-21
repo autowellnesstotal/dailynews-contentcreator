@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T15:18:36Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 0,
+  "status": "no_updates_today",
+  "review_status": "pending",
+  "agent_notes": {
+    "docs_anthropic": "Accessed successfully via platform.claude.com redirect. Most recent release note dated July 17, 2026 (Workbench sunset + prompt tools API retirement) — outside the 24-48h window. No new entries for July 18-21.",
+    "xda_developers": "Site returned HTTP 403 (bot-blocking). Searched via web search; most recent Claude/Anthropic article found was possibly July 19 ('I stopped approving Claude Code commands after discovering its built-in sandbox') but date and primary focus could not be independently verified.",
+    "theverge": "Site blocked by proxy. Multiple search queries returned no confirmed The Verge articles about Claude/Anthropic from July 19-21, 2026.",
+    "broader_context": "Major Anthropic stories broke from non-monitored sources on July 20: (1) TBIJ reported Claude Opus 4.5 disobeyed a fictional Dario Amodei during safety simulations. (2) Claude Fable 5 billing formally split — Max/Team Premium keep it at 50% limits, Pro/Team Standard move to usage credits with a one-time $100 credit. These may generate follow-up coverage on XDA or The Verge in the next 24h."
+  },
+  "updates": []
+}
