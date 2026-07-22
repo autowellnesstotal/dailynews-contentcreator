@@ -1,0 +1,192 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T15:14:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual article URLs also blocked. Titles, dates, and summaries retrieved via web search (Google index). One article confirmed within 24-48h window (July 21 byline).",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403 for all release-notes sub-pages. Content retrieved via web search against the official docs domain and corroborated by Releasebot.io summaries. Two platform/API entries confirmed for July 21-22, 2026.",
+    "theverge.com": "Blocked by both direct fetch and domain-level web search restriction (The Verge blocks Anthropic's crawler per Anthropic's own support docs). No Claude/Anthropic articles retrievable from this source for the window. Zero results available."
+  },
+  "total_updates_found": 4,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Official (docs.anthropic.com / Claude Apps release notes)",
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "title": "New in Claude Cowork: Teach Claude a Skill by Recording Your Screen",
+      "published_date": "2026-07-21",
+      "summary": "Anthropic launched 'Record a Skill' inside Claude Cowork, available to Pro, Max, and Team plan subscribers via the Claude desktop app. Users screen-record a workflow while narrating their actions and Claude automatically converts the demonstration into a structured, reusable automation skill saved to their skill library — no prompt engineering required. The feature targets recurring tasks like report generation, spreadsheet workflows, and file organization, eliminating repetitive manual prompting.",
+      "relevance_score": 96,
+      "accuracy_notes": "Confirmed via official @claudeai X post (July 21). Corroborated by Android Authority, Android Headlines, The Decoder, Dataconomy (July 22), Digit.in, and multiple other independent outlets. Feature mechanics (screen capture + voice narration → structured skill) are consistently described across all sources. No red flags or contradictions.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "You can now TRAIN Claude like a new employee — just by recording your screen once 🎬",
+          "slides": [
+            "Slide 1: What is Claude's 'Record a Skill' feature?",
+            "Slide 2: How it works — record + narrate → Claude learns",
+            "Slide 3: What tasks you can automate (reports, spreadsheets, files)",
+            "Slide 4: Which plans include it (Pro, Max, Team)",
+            "Slide 5: Why this changes how we work with AI forever"
+          ]
+        },
+        "linkedin": {
+          "angle": "Professional productivity and AI workforce transformation — showing how AI is moving from reactive chat to proactive skilled assistant",
+          "opening_line": "Anthropic just shipped something that changes the hiring conversation: you can now teach Claude your workflows by simply recording your screen once.",
+          "cta": "Have you tried it yet? Drop your use case in the comments — I'm curious what repetitive tasks you'd automate first."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just launched something quietly massive: teach Claude your workflow by recording your screen once. Here's why this is a bigger deal than it sounds 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "You can now train an AI to do your job by recording your screen for 2 minutes — no coding, no prompts, just show it.",
+          "script_outline": "Hook (0-5s): 'Anthropic just let you train Claude like a junior employee.' Context (5-15s): Explain Cowork and what Skills are. Demo concept (15-35s): Walk through record → narrate → Claude builds the skill. Real examples (35-50s): Report writing, spreadsheet formatting, file organization. Close (50-60s): Available now on Pro/Max/Team, find it in the + menu."
+        },
+        "ebook_blog": {
+          "title": "Show, Don't Tell: How Anthropic's 'Record a Skill' Turns Claude Into Your Personal AI Apprentice",
+          "angle": "In-depth tutorial + productivity framework showing how knowledge workers can systematically off-load their repetitive tasks to Claude by building a personal skill library through screen recordings — includes step-by-step setup, best practices for narration, and a list of the top 10 tasks worth recording first."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-cleaned-up-my-windows-install-found-bloat-everywhere/",
+      "title": "I let Claude clean up my Windows install, and it found bloat I didn't even know existed",
+      "published_date": "2026-07-21",
+      "summary": "An XDA Developers writer used Claude (via Claude Code on Windows) to audit and clean a bloated Windows installation. Claude identified and safely removed 5.98 GB from the Windows component store, 28 GB from an abandoned WSL sandbox, and additional storage from other redundant files — sources of bloat the writer had not previously noticed. The article positions Claude as a surprisingly capable and safe Windows maintenance tool.",
+      "relevance_score": 78,
+      "accuracy_notes": "Reported as a first-person user experience piece from XDA. Storage figures (5.98 GB, 28 GB WSL) are specific and plausible. Cannot independently verify exact file sizes, but the claim that Claude Code can identify Windows storage waste is consistent with its known agentic computer-use capabilities. Accuracy risk is low — framed as personal experience, not universal benchmark.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "I asked Claude to clean my Windows PC and it found 34 GB of hidden junk I didn't even know was there 🤯",
+          "slides": [
+            "The prompt that started it all",
+            "What Claude found: 5.98 GB in component store",
+            "The 28 GB WSL sandbox nobody removed",
+            "Total storage recovered",
+            "How to try it yourself"
+          ]
+        },
+        "linkedin": {
+          "angle": "Practical AI productivity — showing that Claude Code is useful beyond coding for everyday computer maintenance",
+          "opening_line": "I handed Claude the keys to my Windows install and asked it to find waste. In 20 minutes it found 34 GB of bloat I'd been ignoring for years.",
+          "cta": "If you use Claude Code, what's the most unexpected use case you've found for it?"
+        },
+        "twitter_x": {
+          "thread_opener": "I asked Claude to clean up my Windows install and the results were embarrassing (for me, not Claude) 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "I gave Claude access to my PC and it found 34 gigabytes of junk hiding in places I'd never check.",
+          "script_outline": "Hook (0-5s): Shocking storage number reveal. Setup (5-15s): What is Claude Code + why use it for Windows. Discovery (15-40s): Walk through component store, WSL sandbox, other finds. Result (40-50s): Total recovered storage. CTA (50-60s): How viewers can try it — link in bio."
+        },
+        "ebook_blog": {
+          "title": "Claude as Your PC Janitor: A Complete Guide to Using Claude Code for Windows Storage Cleanup",
+          "angle": "Step-by-step tutorial expanding on the XDA article — covering how to safely give Claude access to your Windows environment, which storage areas to scan first, how to review its suggestions before deleting, and advanced use cases like registry cleanup and startup optimization."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Official (docs.anthropic.com / claude-apps release notes)",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "title": "Claude for Teachers: Data Privacy Policy Clarification Added",
+      "published_date": "2026-07-21",
+      "summary": "Anthropic updated the Claude for Teachers product page and documentation to add an explicit note clarifying that whether and how educational data may be used in Claude for Teachers is governed by individual district and state policies — not unilaterally by Anthropic. This update follows the July 14 launch of Claude for Teachers, which provides free premium Claude access to verified US K-12 educators, amid criticism from education watchdogs about data privacy concerns.",
+      "relevance_score": 75,
+      "accuracy_notes": "Data policy update confirmed via search results citing July 21, 2026 as the update date. Context (critics raising concerns) corroborated by EdWeek and The 74 Million coverage of the original launch. The policy note clarification is reactive — Anthropic is softening concerns rather than changing actual data practices. Accuracy risk: low for the factual update; higher if framed as a full data policy overhaul (it is not).",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Free AI for teachers — but what happens to student data? Anthropic just addressed this directly.",
+          "slides": [
+            "Slide 1: What is Claude for Teachers?",
+            "Slide 2: Who gets it free (verified K-12 US educators)",
+            "Slide 3: The privacy question everyone was asking",
+            "Slide 4: What Anthropic's update says about data",
+            "Slide 5: What teachers should know before using it"
+          ]
+        },
+        "linkedin": {
+          "angle": "EdTech and AI governance — valuable for school administrators, educators, and policy professionals evaluating AI adoption",
+          "opening_line": "Anthropic launched free Claude access for US teachers — then critics raised data privacy questions. Here's how the company responded.",
+          "cta": "Educators: would this policy note give you enough confidence to use Claude for Teachers in your classroom?"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic gave free Claude to every US K-12 teacher. Then people asked about student data. Here's what actually changed 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Free AI for teachers sounds amazing — but what happens to your students' data? Here's the honest answer.",
+          "script_outline": "Hook (0-5s): The big promise — free Claude for teachers. Context (5-20s): What Claude for Teachers includes. The controversy (20-40s): What critics said about data. The update (40-52s): What Anthropic's policy note actually says. Verdict (52-60s): What teachers should decide for themselves."
+        },
+        "ebook_blog": {
+          "title": "Claude for Teachers: Everything Educators Need to Know Before Bringing It Into the Classroom",
+          "angle": "Balanced, thorough guide covering what the product offers, the data privacy landscape, how to evaluate it against your district's policies, and practical classroom use cases — written for non-technical educators making real adoption decisions."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "Anthropic Official (docs.anthropic.com / API release notes)",
+      "url": "https://docs.anthropic.com/en/release-notes/api",
+      "title": "New API Beta Header: agent-memory-2026-07-22 Changes Memory Listing Behavior",
+      "published_date": "2026-07-22",
+      "summary": "Anthropic published a new API beta header, `agent-memory-2026-07-22`, for the Managed Agents platform. When this header is sent, the GET /v1/memory_stores/{memory_store_id}/memories endpoint returns memories in a stable, server-defined order, and the `order_by` and `order` request parameters are ignored. This aligns the endpoint's behavior with the managed-agents-2026-04-01 header's existing behavior for the same endpoint.",
+      "relevance_score": 70,
+      "accuracy_notes": "Confirmed via web search referencing docs.anthropic.com API release notes dated July 22, 2026. Technical change is internally consistent with how Anthropic typically versions beta API behaviors. Low accuracy risk — this is a factual API changelog entry. Content potential is limited to developer-focused audiences.",
+      "content_potential": "low",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic keeps quietly improving its developer APIs — here's what changed in the Managed Agents memory system today.",
+          "slides": [
+            "Slide 1: What is Anthropic's Managed Agents platform?",
+            "Slide 2: What is agent memory?",
+            "Slide 3: What the new beta header changes",
+            "Slide 4: Why stable ordering matters for production agents",
+            "Slide 5: How to opt in as a developer"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer/engineering focused — relevant for teams building production AI agents on Anthropic's platform",
+          "opening_line": "Quiet but important: Anthropic shipped a new Managed Agents API beta header today that standardizes how agent memories are returned — a small change with real impact on agent reliability.",
+          "cta": "Are you building on Anthropic's Managed Agents platform? What's your biggest pain point with agent memory right now?"
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic dropped a new API beta header today: agent-memory-2026-07-22. If you're building agents on their platform, here's what changed and why it matters 🧵",
+          "estimated_tweets": 4
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic made a small API change today that could break your AI agents if you're not paying attention.",
+          "script_outline": "Hook (0-5s): Breaking change alert for developers. Context (5-20s): What Managed Agents is. The change (20-40s): What the new header does and why stable ordering matters. Action (40-55s): How to update your implementation. CTA (55-60s): Link to full API docs."
+        },
+        "ebook_blog": {
+          "title": "Anthropic Managed Agents API: A Developer's Guide to Agent Memory Management in 2026",
+          "angle": "Technical deep-dive into how Anthropic's Managed Agents memory system works, covering the full beta header versioning strategy, how to migrate between header versions, and best practices for building reliable memory-enabled agents — using the July 22 update as a timely hook."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
