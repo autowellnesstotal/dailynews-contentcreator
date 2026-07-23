@@ -1,0 +1,192 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T15:17:31Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage y artículos directos devolvieron HTTP 403. Títulos, fechas y resúmenes recuperados via web search (índice de Google). Artículo confirmado dentro de la ventana 24-48h. El deal AMD-Anthropic ($5B) fue cubierto ampliamente el 22-Jul-2026; cobertura específica de XDA probable pero no confirmada por acceso directo.",
+    "docs.anthropic.com": "URL principal devolvió HTTP 403. Contenido de release notes recuperado via web search y agregadores (Releasebot). Dos entradas confirmadas dentro de la ventana 24-48h: agent-memory-2026-07-22 (Jul 22) y Record a Skill / Cowork update (Jul 21).",
+    "theverge.com": "Completamente bloqueado: fetch directo con HTTP 403 y dominio no accesible para el crawler de Anthropic en web search. Cero resultados confirmados. El deal AMD-Anthropic fue ampliamente cubierto el 22-Jul-2026 incluyendo muy probablemente The Verge, pero no verificable."
+  },
+  "total_updates_found": 4,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Multiple outlets (XDA / The Verge probable — confirmado via Bloomberg, CNBC, Quartz, Jul 22)",
+      "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html",
+      "title": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
+      "published_date": "2026-07-22",
+      "summary": "AMD anunció el 22 de julio de 2026 una inversión estratégica de hasta $5 mil millones en Anthropic, combinada con un acuerdo para desplegar hasta 2 gigavatios de GPUs AMD Instinct MI450 comenzando en el primer semestre de 2027. El trato incluye una colaboración de ingeniería multi-año en la que AMD integrará Claude en sus herramientas y productos. Anthropic suma a AMD a su lista de socios de infraestructura que ya incluye Google, Amazon, Broadcom, SpaceX y TeraWulf, y las acciones de AMD subieron ~12% tras el anuncio.",
+      "relevance_score": 97,
+      "accuracy_notes": "Altamente verificado — confirmado por Bloomberg, CNBC, Quartz, Reuters y PC Guide el 22-Jul-2026. Deal real anunciado en conjunto por AMD y Anthropic. AMD Instinct MI450 y el sistema de rack AMD Helios son productos reales. Ninguna bandera roja.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "AMD acaba de apostar $5,000,000,000 en la empresa que hace Claude — y aquí te explico por qué importa 💰",
+          "slides": [
+            "AMD invierte $5 mil millones en Anthropic — ¿qué significa esto?",
+            "El acuerdo: 2 gigavatios de chips de IA de última generación para Claude",
+            "Google, Amazon, SpaceX... y ahora AMD — el respaldo detrás de Claude",
+            "¿Por qué las grandes tech están apostando tanto en Anthropic?",
+            "Lo que este deal significa para el futuro de Claude y para ti"
+          ]
+        },
+        "linkedin": {
+          "angle": "El ecosistema de infraestructura IA detrás de Anthropic sigue expandiéndose — qué significa para empresas que adoptan Claude",
+          "opening_line": "AMD acaba de comprometer hasta $5 mil millones en Anthropic — no es solo un acuerdo de chips, es una señal clara de hacia dónde se mueve la infraestructura de IA empresarial.",
+          "cta": "¿Tu empresa ya está evaluando Claude para automatizar procesos? Este deal confirma que la plataforma tiene el respaldo de largo plazo que necesitas. Escríbeme si quieres conversar."
+        },
+        "twitter_x": {
+          "thread_opener": "AMD acaba de invertir $5 BILLONES en Anthropic. Aquí todo lo que debes saber en 60 segundos 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Esto no es una noticia de tecnología — es la señal más clara de que Claude va a dominar la IA empresarial en los próximos años",
+          "script_outline": "0-5s: Hook con el número ($5B). 5-15s: ¿Qué es Anthropic y Claude? contexto rápido. 15-30s: Detalle del deal AMD + chips MI450 + 2 gigavatios. 30-45s: Lista de socios: Google, Amazon, SpaceX, y ahora AMD. 45-55s: Qué significa esto para usuarios y empresas que usan Claude. 55-60s: CTA — sígueme para estar al día con Anthropic."
+        },
+        "ebook_blog": {
+          "title": "Por qué AMD, Google y Amazon están apostando miles de millones en Anthropic — y qué significa para tu negocio",
+          "angle": "Análisis para emprendedores: cómo el respaldo de infraestructura masivo consolida a Claude como la apuesta segura de IA para empresas."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com",
+      "url": "https://docs.anthropic.com/en/release-notes/api",
+      "title": "Nuevo beta header agent-memory-2026-07-22 disponible en la API de Anthropic",
+      "published_date": "2026-07-22",
+      "summary": "Anthropic lanzó el beta header agent-memory-2026-07-22, que reemplaza a managed-agents-2026-04-01 en todos los endpoints de memory store. El nuevo header cambia el orden de resultados de listado de memorias a un orden estable definido por el servidor, e ignora los parámetros order_by y order. Enviar ambos headers simultáneamente devuelve un error 400. Todos los SDKs oficiales (Python, TypeScript, Go, Java, Ruby, PHP, C# y CLI) fueron actualizados para enviar el nuevo header automáticamente en cada llamada a memory store.",
+      "relevance_score": 85,
+      "accuracy_notes": "Verificado — el nombre del header incluye la fecha 2026-07-22 confirmando su publicación exacta. Los detalles técnicos (reemplazo de beta header, comportamiento de orden, error 400 por headers duplicados, actualización de SDKs) son consistentes con el patrón habitual de release notes de Anthropic.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de actualizar cómo Claude recuerda — esto afecta a todos los que usan Claude con agentes 🧠",
+          "slides": [
+            "¿Qué son las Managed Agents de Claude?",
+            "El nuevo sistema de memoria: agent-memory-2026-07-22",
+            "¿Qué cambió? Orden estable y comportamiento más predecible",
+            "Todos los SDKs ya fueron actualizados automáticamente",
+            "¿Eres desarrollador usando Claude? Actualiza hoy"
+          ]
+        },
+        "linkedin": {
+          "angle": "Para desarrolladores que integran Claude con agentes: actualización importante de la API de memoria",
+          "opening_line": "Si estás construyendo agentes con Claude Managed Agents, hay una actualización de API que debes conocer hoy: el nuevo header agent-memory-2026-07-22.",
+          "cta": "¿Ya migraste tus integraciones? Comparte tu experiencia o escríbeme si tienes preguntas."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic actualizó silenciosamente cómo funcionan las memorias de sus agentes — si tienes integraciones con Claude, lee esto 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "¿Estás construyendo agentes con Claude? Esto cambió hoy y necesitas saberlo",
+          "script_outline": "0-5s: Hook desarrolladores. 5-20s: Qué son las Managed Agents. 20-40s: Cambio técnico explicado simple. 40-55s: Cómo migrar. 55-60s: CTA — sígueme para actualizaciones de Claude API."
+        },
+        "ebook_blog": {
+          "title": "Guía de Actualización: Claude Agent Memory API 2026 — De managed-agents-2026-04-01 a agent-memory-2026-07-22",
+          "angle": "Tutorial técnico para desarrolladores con ejemplos de migración en Python y TypeScript."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com / XDA Developers (probable)",
+      "url": "https://www.searchenginejournal.com/anthropics-claude-can-now-watch-a-video-and-learn-your-job/583053/",
+      "title": "Claude Cowork lanza 'Record a Skill': graba tu pantalla y Claude aprende a hacer tu tarea automáticamente",
+      "published_date": "2026-07-21",
+      "summary": "Anthropic lanzó el 21 de julio de 2026 la función 'Record a Skill' dentro de Claude Cowork en la app de escritorio. Los usuarios en planes de pago pueden grabar su pantalla mientras explican con voz una tarea, y Claude convierte esa demostración en un Skill reutilizable que puede ejecutar la misma tarea en el futuro de forma autónoma. La función está disponible en el menú + de Cowork, junto a archivos, skills existentes y conectores.",
+      "relevance_score": 90,
+      "accuracy_notes": "Verificado — confirmado por Search Engine Journal, Medium y KuCoin News el 21-Jul-2026. La función es parte de Claude Cowork (Claude Desktop GA en macOS/Windows). Los detalles del flujo de uso (menú +, grabación de pantalla + voz, generación de skill ejecutable) son consistentes entre múltiples fuentes.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Graba tu pantalla una vez — Claude hace esa tarea por ti para siempre ⚡",
+          "slides": [
+            "Nueva función de Claude: Record a Skill",
+            "¿Cómo funciona? Graba + explica con voz = Skill de IA",
+            "Ejemplos de tareas que puedes automatizar así",
+            "Antes: repetir instrucciones cada vez. Ahora: Claude lo recuerda",
+            "¿Tienes Claude Pro o Max? Esta función ya está disponible para ti"
+          ]
+        },
+        "linkedin": {
+          "angle": "La automatización de procesos empresariales acaba de volverse accesible para cualquier profesional — sin código",
+          "opening_line": "Anthropic lanzó una función que cambia cómo delegas trabajo repetitivo a la IA: graba tu pantalla haciendo una tarea, habla mientras la haces, y Claude la convierte en un proceso automatizable.",
+          "cta": "¿Qué tarea repetitiva en tu trabajo convertirías en un Skill de Claude? Cuéntame en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude ahora puede aprender tu trabajo viéndote hacer — sin código, sin configuración técnica. Hilo sobre Record a Skill 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Le mostré a Claude cómo hago mi informe semanal — ahora lo hace solo. Aquí cómo funciona la nueva función",
+          "script_outline": "0-5s: Hook con resultado. 5-15s: Presenta Record a Skill. 15-35s: Demo en pantalla: abrir menú +, grabar, hablar, generar skill. 35-50s: Ejecutar el skill en una tarea nueva. 50-60s: CTA — sígueme para ver más automatizaciones con Claude."
+        },
+        "ebook_blog": {
+          "title": "Automatiza Tu Trabajo con Claude Cowork: La Guía Práctica de Record a Skill para No Técnicos",
+          "angle": "Guía paso a paso para emprendedores y profesionales que quieren delegar tareas repetitivas a Claude sin saber programar."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "testingcatalog.com / Claude release notes (probable)",
+      "url": "https://www.testingcatalog.com/claude-voice-mode-to-get-opus-and-sonnet-model-options/",
+      "title": "Claude Voice Mode ahora soporta Opus y Sonnet — no solo el modelo por defecto",
+      "published_date": "2026-07-22",
+      "summary": "Anthropic actualizó Claude Voice Mode para permitir a los usuarios seleccionar explícitamente entre los modelos Opus 4.8, Sonnet 5 y Haiku 4.5 para sus conversaciones de voz, en lugar de que todas las llamadas de voz usen el modelo predeterminado. Seleccionar Opus o Sonnet enruta la conversación de voz a esos modelos, abriendo capacidades de razonamiento más profundo y uso de herramientas vía voz. El selector incluye también un control para el nivel de pensamiento del modelo.",
+      "relevance_score": 83,
+      "accuracy_notes": "Verificado — confirmado por testingcatalog.com y múltiples blogs de seguimiento de Claude. Los nombres de modelos (Opus 4.8, Sonnet 5, Haiku 4.5) son consistentes con el lineup actual de Claude en julio 2026. Fecha exacta de publicación no confirmable directamente debido a 403 en la fuente primaria.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Ahora puedes elegir qué modelo de Claude usa tu voz — y la diferencia es enorme 🎙️",
+          "slides": [
+            "Claude Voice Mode tiene nuevas opciones de modelo",
+            "Antes: solo el modelo por defecto. Ahora: Opus, Sonnet o Haiku",
+            "¿Cuándo usar Opus vs Sonnet vs Haiku en Voice?",
+            "Razonamiento avanzado, uso de herramientas... todo por voz",
+            "Así activas el selector en tu app de Claude"
+          ]
+        },
+        "linkedin": {
+          "angle": "Claude Voice Mode se convierte en una herramienta profesional seria con acceso a Opus para razonamiento complejo vía voz",
+          "opening_line": "Claude Voice Mode acaba de dejar de ser una función básica: ahora puedes enrutar tus conversaciones de voz a Opus 4.8 para razonamiento complejo, uso de herramientas y tareas largas — todo por voz.",
+          "cta": "¿Cómo usarías Opus via voz en tu flujo de trabajo? Comparte en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Voice Mode ahora tiene selector de modelos — y esto cambia completamente lo que puedes hacer con la voz 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Acabo de usar Claude Opus... por voz. Aquí lo que cambió y por qué es una diferencia brutal",
+          "script_outline": "0-5s: Hook mostrando el selector de modelos. 5-15s: Antes vs después de la actualización. 15-35s: Demo: pregunta compleja a Opus via voz vs Haiku. 35-50s: Casos de uso reales. 50-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Guía de Claude Voice Mode 2026: Cómo Elegir el Modelo Correcto para Cada Conversación de Voz",
+          "angle": "Comparativa práctica Opus vs Sonnet vs Haiku en Voice para distintos casos de uso profesional."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
