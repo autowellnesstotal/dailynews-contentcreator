@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-07-23",
+  "source_digest": "daily-news/2026-07-23.json",
+  "total_approved_articles": 1,
+  "total_files_created": 5,
+  "canva_status": "no_intentado — generación de assets visuales pendiente. Ejecutar manualmente en Canva si se requiere carrusel/thumbnail.",
+  "canva_urls": [],
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "AMD to invest up to $5 billion in Anthropic as part of computing power deal",
+      "source": "CNBC / Bloomberg / Quartz (deal AMD-Anthropic, cobertura amplia)",
+      "published_date": "2026-07-22",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-23/update_001_instagram.md",
+        "linkedin": "content/2026-07-23/update_001_linkedin.md",
+        "twitter": "content/2026-07-23/update_001_twitter.md",
+        "youtube": "content/2026-07-23/update_001_youtube.md",
+        "blog": "content/2026-07-23/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel": "NO_INTENTADO",
+        "youtube_thumbnail": "NO_INTENTADO"
+      }
+    }
+  ]
+}
