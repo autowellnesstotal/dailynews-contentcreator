@@ -1,0 +1,162 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T15:19:45Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual article pages returned HTTP 403. Article metadata retrieved via web search (Google index). No XDA articles confirmed within the July 22-24 window where Claude or Anthropic is the PRIMARY subject; articles found were dated April-May 2026.",
+    "docs.anthropic.com": "Direct page fetch blocked (HTTP 403); content retrieved via indexed release-notes pages through web search. Two platform API changes confirmed for July 22-24 (agent-memory beta header, Opus 4.7 fast-mode removal). Two major product launches (Security Plugin Jul 22, Voice Mode expansion Jul 23) confirmed via Anthropic's official blog and @claudeai X account, cross-referenced with TechCrunch, 9to5Mac, MarkTechPost, and Engadget.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available."
+  },
+  "total_updates_found": 4,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (Claude Code release notes / @claudeai)",
+      "url": "https://x.com/claudeai/status/2079990597973057691",
+      "title": "Anthropic Launches Claude Security Plugin for Claude Code in Public Beta",
+      "published_date": "2026-07-22",
+      "summary": "Anthropic released the Claude Security plugin in beta on July 22, 2026, bringing multi-agent AI vulnerability scanning directly into Claude Code sessions via the terminal. The plugin adds a single command (/claude-security) with three options: full codebase scan, recent-changes/PR diff scan, and patch-file generation for selected findings. Unlike pattern-matching linters, it reasons across Git history, data flows, and business logic to detect complex context-dependent vulnerabilities such as injection flaws and authentication bypasses.",
+      "relevance_score": 96,
+      "accuracy_notes": "Confirmed via Anthropic's official @claudeai X post (status/2079990597973057691, Jul 22) and independently covered by MarkTechPost (Jul 22), CybersecurityNews, GBHackers, and Softonic. Technical details (command name, three scan modes, vulnerability classes) are consistent across all sources. No conflicting claims detected.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de lanzar un escáner de vulnerabilidades que vive dentro de Claude Code y detecta lo que los linters NO pueden ⚡",
+          "slides": [
+            "¿Qué es el Claude Security Plugin?",
+            "3 modos: escaneo completo, cambios recientes, generación de parches",
+            "Detecta fallos complejos: inyecciones, bypass de autenticación, errores de lógica",
+            "Cómo instalarlo en 2 comandos desde la terminal",
+            "¿Tu equipo está listo para la seguridad asistida por IA?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Impacto de la IA en los flujos de seguridad de software para equipos de desarrollo profesionales",
+          "opening_line": "Anthropic acaba de lanzar un escáner de vulnerabilidades que vive dentro de Claude Code, razona como un investigador de seguridad y genera los parches que tú apruebas — sin salir de la terminal.",
+          "cta": "¿Tu equipo ya está integrando IA en los procesos de revisión de seguridad? Cuéntame cómo."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic lanzó el Claude Security Plugin y puede cambiar cómo los devs revisan código antes de hacer commit 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Escanea todo tu repo en busca de vulnerabilidades graves sin salir de la terminal de Claude Code — así funciona el nuevo plugin de seguridad de Anthropic",
+          "script_outline": "Intro: el problema de los bugs de seguridad que los linters no detectan → demo de /claude-security con las 3 opciones → cómo razona a través de múltiples archivos → comparación con herramientas SAST tradicionales → instalación en 2 comandos → conclusión sobre el futuro de la seguridad asistida por IA"
+        },
+        "ebook_blog": {
+          "title": "Claude Security Plugin: La Revolución Silenciosa en la Seguridad del Código con IA",
+          "angle": "Guía práctica para equipos que quieren integrar el escaneo de vulnerabilidades impulsado por Claude directamente en su flujo de trabajo de CI/CD — con ejemplos reales de clases de vulnerabilidades detectadas"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Anthropic Blog / claude.com/blog)",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "title": "Claude Voice Mode Expands to Opus and Sonnet Models with App Connectors and 18 Languages",
+      "published_date": "2026-07-23",
+      "summary": "Anthropic upgraded Claude's voice mode on July 23, 2026 to support its Opus and Sonnet models (previously Haiku-only), enabling deep and complex voice conversations instead of only simple queries. The update integrates App Connectors mid-conversation — voice commands can now act on Gmail, Google Calendar, Google Docs, Slack, Canva, and Notion (50+ connectors total) to check schedules, summarize emails, or trigger actions without leaving the conversation. Eighteen languages are now supported with mid-conversation switching; paid users get all models plus all connectors, while free users retain Haiku with a single connected app.",
+      "relevance_score": 98,
+      "accuracy_notes": "Confirmed via Anthropic's official blog post (claude.com/blog/think-through-hard-problems-in-voice-mode, Jul 23) and independently verified by TechCrunch (Jul 23), 9to5Mac (Jul 23), MacRumors (Jul 24), Engadget, MLQ News, and Unite.AI. All sources consistent on model support, connector list, language count, and free-vs-paid tiers.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude ahora puede escucharte, revisar tu correo, mover una reunión y responderte — todo en la misma conversación de voz 🎙️",
+          "slides": [
+            "Claude Voice Mode: la actualización más grande del año",
+            "De Haiku a Opus: conversaciones de voz que realmente piensan",
+            "Conectado a Gmail, Calendar, Slack, Canva y más de 50 apps",
+            "18 idiomas — cambia de idioma a mitad de la conversación",
+            "Plan gratis vs pago: ¿qué incluye cada uno?"
+          ]
+        },
+        "linkedin": {
+          "angle": "La IA de voz como asistente ejecutivo real: productividad profesional directamente por voz, sin tocar el teclado",
+          "opening_line": "Imagina hablar con tu IA, pedirle que revise tu correo, reagende una reunión en Google Calendar y prepare el resumen del cliente en Slack — todo en la misma conversación de voz. Eso es exactamente lo que Claude Voice Mode acaba de hacer posible.",
+          "cta": "¿Ya usas asistentes de voz para el trabajo? ¿Cómo los integras en tu flujo diario?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Voice Mode acaba de saltar de nivel y puede ser el asistente de voz más capaz del mercado ahora mismo — aquí el breakdown 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Habla con Claude en voz, pídele que revise tu Gmail y que bloquee tiempo en tu calendario — sin tocar el teclado",
+          "script_outline": "Intro: el problema de los asistentes de voz que solo responden preguntas simples → demo del nuevo Claude Voice con Opus → demo en vivo de App Connectors (Gmail + Calendar) → cambio de idioma mid-conversación → comparativa con ChatGPT Voice y Gemini Live → planes y precios → conclusión sobre el futuro del trabajo asistido por voz"
+        },
+        "ebook_blog": {
+          "title": "Claude Voice Mode 2026: Cómo la IA de Voz con Conectores de Apps Está Redefiniendo el Trabajo Inteligente",
+          "angle": "Análisis profundo de la actualización más grande de Claude Voice, casos de uso reales para profesionales, y comparativa honesta con los otros asistentes de voz en el mercado"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "docs.anthropic.com (API release notes)",
+      "url": "https://docs.anthropic.com/en/release-notes/api",
+      "title": "New agent-memory-2026-07-22 Beta Header Changes Agent Memory Listing Behavior",
+      "published_date": "2026-07-22",
+      "summary": "Anthropic released the agent-memory-2026-07-22 beta header on July 22, 2026, which changes how GET /v1/memory_stores/{id}/memories behaves in the Agents API. Results are now returned in a stable, server-defined order (order_by and order parameters are ignored); depth accepts only 0 or 1 (all other values return 400 errors); and path_prefix must end with a slash and matches whole path segments only. Existing page cursors issued without this header are invalid with it, requiring pagination to restart from page one.",
+      "relevance_score": 74,
+      "accuracy_notes": "Confirmed via multiple web search results referencing Anthropic's official API release notes. Technical details are specific and internally consistent across all references. Developer-facing API change with no conflicting claims.",
+      "content_potential": "low",
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_004",
+      "source": "docs.anthropic.com (API release notes)",
+      "url": "https://docs.anthropic.com/en/release-notes/api",
+      "title": "Fast Mode for Claude Opus 4.7 Removed — Immediate Migration to Opus 4.8 Required",
+      "published_date": "2026-07-24",
+      "summary": "Effective today July 24, 2026, fast mode for claude-opus-4-7 has been permanently removed; requests with speed: 'fast' now return a hard error with no automatic fallback. The migration path is to switch to claude-opus-4-8 with speed: 'fast', which also offers a 3× pricing reduction — Opus 4.8 fast mode costs $10/$50 per MTok (input/output) vs $30/$150 on Opus 4.7. The deprecation was announced on June 25, 2026, giving teams one month to migrate.",
+      "relevance_score": 82,
+      "accuracy_notes": "Confirmed via docs.anthropic.com API release notes and independently referenced by byteiota.com and CLSkills Hub. Deprecation date (June 25) and removal date (July 24) are consistent across all sources. Pricing figures ($10/$50 vs $30/$150) confirmed via platform.claude.com fast-mode docs.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Si usas la API de Claude con fast mode en Opus 4.7, tus llamadas pueden estar fallando HOY 🚨",
+          "slides": [
+            "¿Qué pasó? Fast mode de Opus 4.7 fue eliminado el 24 de julio",
+            "¿Qué cambia? Error duro — sin fallback automático",
+            "La solución: migra a claude-opus-4-8 (2 líneas de código)",
+            "Bonus: Opus 4.8 cuesta 3 veces menos en fast mode",
+            "¿Tienes integraciones de Claude en producción? Revísalas ahora"
+          ]
+        },
+        "linkedin": {
+          "angle": "Alerta técnica urgente para equipos con integraciones de Claude API en producción",
+          "opening_line": "Si tu empresa tiene integraciones con la API de Claude usando fast mode en Opus 4.7, pueden estar recibiendo errores desde hoy — y la buena noticia es que la migración a Opus 4.8 también reduce tu factura 3 veces.",
+          "cta": "¿Ya migró tu equipo? Comparte tu experiencia o dudas abajo."
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 AVISO PARA DEVS: Fast mode de Claude Opus 4.7 fue eliminado HOY (24 jul). Si tienes integrations en prod, lee esto 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Tu integración de Claude puede estar rota ahora mismo — y la solución toma exactamente 2 minutos",
+          "script_outline": "Intro: qué es fast mode y para qué sirve → qué cambió hoy y por qué importa → cómo identificar si tu proyecto está afectado → migración en 2 líneas de código → beneficio de costo de Opus 4.8 → checklist antes de cerrar el video"
+        },
+        "ebook_blog": {
+          "title": "Migrando de Claude Opus 4.7 a 4.8: Guía de Emergencia para Equipos Técnicos",
+          "angle": "Tutorial paso a paso para migrar integraciones de API afectadas por la eliminación de fast mode, con análisis de costos y recomendaciones de configuración para Opus 4.8"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
