@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T15:20:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual articles returned HTTP 403. Article titles and topics retrieved via web search (Google index). No articles with confirmed July 23-25 publication dates found for Claude/Anthropic topics; recent XDA Claude coverage predates the 48h window.",
+    "docs.anthropic.com": "Direct fetch returned HTTP 403, but platform.claude.com/docs/en/changelog and web search confirmed July 23-25 release note entries. Three distinct updates verified within the 24-48h window: Claude Opus 5 launch, Voice Mode expansion, and Claude Code v2.1.219-220 changelog.",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search domain policy (not accessible to Anthropic crawler). Zero results available from this source."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Official / docs.anthropic.com release notes",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "Introducing Claude Opus 5",
+      "published_date": "2026-07-24",
+      "summary": "Anthropic launched Claude Opus 5 on July 24, 2026 — a model that reaches near-Fable-5-level intelligence at roughly half the cost ($5/M input tokens, $25/M output tokens, same as Opus 4.8). Opus 5 outscored Fable 5 on 8 of 13 benchmarks, with standout gains on Frontier-Bench and AutomationBench, and features a 1M-token context window, a low/medium/high effort toggle, an 'xhigh' reasoning tier, and a safety fallback to Opus 4.8. It is now the default model on Claude Max and the strongest model on Claude Pro, with a knowledge cutoff of May 2026.",
+      "relevance_score": 99,
+      "accuracy_notes": "Confirmed across Anthropic official newsroom, Bloomberg, Fortune, TechCrunch, SiliconANGLE, and Axios — all dated July 24, 2026. Pricing and benchmark details corroborated across multiple independent sources. System card PDF also published by Anthropic. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude acaba de lanzar Opus 5 — inteligencia nivel Fable 5 a la mitad del precio 🔥",
+          "slides": [
+            "Slide 1: ¿Qué es Claude Opus 5? El nuevo modelo de Anthropic que cambia las reglas",
+            "Slide 2: Rendimiento — supera a Fable 5 en 8 de 13 benchmarks (¡y cuesta 50% menos!)",
+            "Slide 3: El toggle de esfuerzo — tú decides entre velocidad, costo o máxima potencia",
+            "Slide 4: 1 millón de tokens de contexto + ventana 'xhigh' de razonamiento",
+            "Slide 5: ¿Para quién es? Ya es el modelo por defecto en Claude Max y el más potente en Claude Pro"
+          ]
+        },
+        "linkedin": {
+          "angle": "Impacto empresarial de Claude Opus 5: productividad de punta a precio de trabajador senior",
+          "opening_line": "Anthropic acaba de publicar el modelo que muchas empresas estaban esperando: Claude Opus 5 ofrece capacidades cercanas a Fable 5 en codificación, automatización y análisis científico... a la mitad del costo.",
+          "cta": "¿Ya lo probaste? Comparte en los comentarios qué caso de uso estás probando primero con Opus 5."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 HILO: Anthropic acaba de lanzar Claude Opus 5 y los números son impresionantes. Lo que necesitas saber en 7 tweets:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic lanzó Claude Opus 5 HOY y es básicamente Fable 5... pero a la mitad de precio. ¿Trampa o realidad?",
+          "script_outline": "Intro (0-5s): Modelo nuevo de Anthropic. Qué es Opus 5 (5-15s): posición en la familia Claude, reemplaza a Opus 4.8. Benchmarks rápidos (15-30s): 8/13 benchmarks > Fable 5, Frontier-Bench récord. Precio y toggle (30-45s): $5/M input, effort toggle low/med/high. Disponibilidad (45-55s): Claude.ai, API, AWS Bedrock, GCP, Azure. CTA (55-60s): Suscríbete para el análisis completo."
+        },
+        "ebook_blog": {
+          "title": "Claude Opus 5: La guía completa — benchmarks, precios, effort toggle y cómo usarlo en producción",
+          "angle": "Análisis técnico comparando Opus 5 vs Opus 4.8 vs Fable 5 en tareas reales de codificación y automatización, con guía práctica del effort toggle y cuándo usar cada nivel."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Official / docs.anthropic.com release notes",
+      "url": "https://www.anthropic.com/news",
+      "title": "Claude Voice Mode expandido: Opus, Sonnet y Haiku + herramientas conectadas + 11 idiomas",
+      "published_date": "2026-07-23",
+      "summary": "El 23 de julio de 2026, Anthropic lanzó una actualización mayor de Voice Mode: ya no se limita a Haiku sino que corre sobre Opus, Sonnet y Haiku (el usuario puede cambiar de modelo en plena conversación). Voice Mode ahora accede a herramientas conectadas como Gmail, Google Calendar, Slack, Canva y Notion, y habla 11 idiomas incluyendo inglés, japonés, francés, alemán, español, italiano, coreano, hindi, indonesio y portugués de Brasil. Los usuarios gratuitos reciben Haiku + una app; los planes de pago desbloquean todos los modelos y múltiples apps.",
+      "relevance_score": 96,
+      "accuracy_notes": "Confirmado en TechCrunch (2026-07-23), KuCoin news, Unite.AI, ExplainX.ai y VoiceOS.com. Los detalles de idiomas y herramientas son consistentes entre fuentes. La información sobre niveles de suscripción (free vs paid) está corroborada en múltiples reportes independientes.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "reel",
+          "hook": "Claude ahora puede escuchar, pensar (con Opus) y actuar en tu Gmail y Slack — todo con tu voz 🎙️",
+          "slides": [
+            "Reel concept: Demostración de 30 seg — usuario habla en español, Claude responde y envía un email a través de Gmail, todo por voz",
+            "Slide hook: 'Por fin Voice Mode que REALMENTE sirve para trabajar'",
+            "Mostrar: cambio de modelo en tiempo real (Haiku > Sonnet > Opus)",
+            "Mostrar: trigger de acción en Slack/Notion por voz",
+            "CTA: '¿Cuál herramienta conectarías primero?'"
+          ]
+        },
+        "linkedin": {
+          "angle": "El asistente de voz de IA que por fin puede hacer tu trabajo real — no solo conversar",
+          "opening_line": "Anthropic acaba de convertir a Claude en el primer asistente de voz que no solo responde preguntas, sino que actúa en tus apps de trabajo: Gmail, Slack, Notion, Canva y Google Calendar — todo por voz.",
+          "cta": "¿Qué workflow de voz automatizarías primero? Cuéntanos en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "🎙️ Claude Voice Mode acaba de recibir su actualización más grande. Esto cambia el juego para los usuarios móviles. Hilo 🧵:",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Hablé con Claude en español, le pedí que revisara mi Gmail y respondiera un correo — y lo hizo. Esto es lo nuevo en Voice Mode.",
+          "script_outline": "Hook (0-5s): demo live de voz multilingüe. Novedad #1 (5-20s): Opus/Sonnet/Haiku disponibles en voz. Novedad #2 (20-35s): herramientas conectadas (Gmail, Slack, etc.). Novedad #3 (35-45s): 11 idiomas + cambio mid-conversación. Planes (45-55s): gratis vs pago. CTA (55-60s): link bio para probar."
+        },
+        "ebook_blog": {
+          "title": "Claude Voice Mode 2.0: La guía definitiva para productividad por voz con Opus, herramientas y 11 idiomas",
+          "angle": "Tutorial práctico con casos de uso reales para profesionales hispanohablantes: dictar emails, gestionar calendario, actualizar Notion y coordinar tareas de Slack — todo desde la voz."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Official / docs.anthropic.com release notes (Claude Code changelog)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.219 y v2.1.220: Opus 5 por defecto, sub-agentes anidados hasta profundidad 3, y mejoras de sandbox",
+      "published_date": "2026-07-24",
+      "summary": "El 24 de julio, Claude Code v2.1.219 integró Claude Opus 5 como el nuevo modelo Opus por defecto (1M contexto, fast mode a $10/$50/Mtok). La versión también añade sub-agentes anidados hasta profundidad 3 (antes era 1), la configuración sandbox.network.strictAllowlist para denegar hosts no autorizados sin prompt, el hook DirectoryAdded, la clave workflowSizeGuideline, y reenvío de sub-agentes anidados en stream-json. El 25 de julio, v2.1.220 incluyó correcciones de bugs: text output drop en errores mid-stream, copy-on-select en GNU screen, y clientes Remote Control con estado fast-mode obsoleto.",
+      "relevance_score": 85,
+      "accuracy_notes": "Confirmado directamente desde el changelog oficial de Claude Code en code.claude.com. Los detalles de versión, características y fechas son datos primarios verificados. Información de precios de fast mode consistente con el anuncio de Opus 5.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code acaba de cambiar cómo funcionan los agentes de IA — los sub-agentes ahora pueden crear sus propios sub-agentes ⚡",
+          "slides": [
+            "Slide 1: ¿Qué cambió en Claude Code esta semana?",
+            "Slide 2: Sub-agentes anidados hasta profundidad 3 — qué significa y para qué sirve",
+            "Slide 3: Opus 5 ya es el modelo por defecto — más potencia, mismo precio",
+            "Slide 4: Sandbox más seguro con strictAllowlist — control total de red",
+            "Slide 5: ¿Cómo usar estas mejoras en tu workflow de desarrollo?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Para desarrolladores con Claude Code: las mejoras de esta semana que cambian cómo construyes con agentes",
+          "opening_line": "Si usas Claude Code para desarrollo con agentes, esta semana trajo dos mejoras que cambian la arquitectura de lo que puedes construir: sub-agentes anidados hasta profundidad 3 y Opus 5 como modelo por defecto.",
+          "cta": "¿Ya actualizaste Claude Code? ¿Qué arquitectura de agentes estás construyendo?"
+        },
+        "twitter_x": {
+          "thread_opener": "🛠️ Claude Code v2.1.219 salió hoy con cambios que los devs deben conocer. Thread técnico 🧵:",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Sub-agentes que crean sub-agentes: Claude Code ahora permite hasta 3 niveles de anidación. Te explico qué puedes construir con esto.",
+          "script_outline": "Hook (0-5s): demo concept de agente árbol. Qué es sub-agent nesting (5-20s): antes profundidad 1, ahora 3. Caso de uso real (20-40s): reviewer > verifier > test-runner. Opus 5 como default (40-50s): más poder por defecto. CTA (50-60s): link a changelog completo."
+        },
+        "ebook_blog": {
+          "title": "Claude Code v2.1.219: Sub-agentes anidados, Opus 5 por defecto y sandbox seguro — guía técnica para desarrolladores",
+          "angle": "Tutorial avanzado sobre cómo aprovechar la anidación de sub-agentes a profundidad 3 para construir pipelines de revisión de código, testing automatizado y arquitecturas de agentes complejas."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
