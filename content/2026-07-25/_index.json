@@ -1,0 +1,63 @@
+{
+  "date": "2026-07-25",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-07-25",
+  "total_updates_processed": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-25/update_001_instagram.md",
+        "linkedin": "content/2026-07-25/update_001_linkedin.md",
+        "twitter": "content/2026-07-25/update_001_twitter.md",
+        "youtube": "content/2026-07-25/update_001_youtube.md",
+        "blog": "content/2026-07-25/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "design_id": "DAHQbPIcaic",
+          "title": "Modern Instagram Carousel Cover Design 2",
+          "view_url": "https://www.canva.com/d/XGTYEbjp_Zkq-pd",
+          "edit_url": "https://www.canva.com/d/h7BKlAyY_tycqfJ"
+        },
+        "youtube_thumbnail": {
+          "design_id": "DAHQbDuaT3M",
+          "title": "Striking Digital Thumbnail with Split Composition",
+          "view_url": "https://www.canva.com/d/2zQX5xzrlv2VGbM",
+          "edit_url": "https://www.canva.com/d/EY5LGSCG_rKhAPO"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-25/update_002_instagram.md",
+        "linkedin": "content/2026-07-25/update_002_linkedin.md",
+        "twitter": "content/2026-07-25/update_002_twitter.md",
+        "youtube": "content/2026-07-25/update_002_youtube.md",
+        "blog": "content/2026-07-25/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "design_id": "DAHQbN_9PW8",
+          "title": "Post para Instagram - Claude ahora recuerda todo sobre tu negocio con Auto Memory y CLAUDE.md",
+          "view_url": "https://www.canva.com/d/Wa90gGI8Ay3cxrM",
+          "edit_url": "https://www.canva.com/d/Kkm6n2s1HIx-sHE"
+        },
+        "youtube_thumbnail": {
+          "design_id": "DAHQbKwDMuw",
+          "title": "Attention-Grabbing YouTube Thumbnail",
+          "view_url": "https://www.canva.com/d/QdeetgDT3rS11_d",
+          "edit_url": "https://www.canva.com/d/Kck94-3SN1wApSO"
+        }
+      }
+    }
+  ]
+}
