@@ -1,0 +1,141 @@
+{
+  "date": "2026-07-26",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-07-26T00:00:00Z",
+  "total_updates_processed": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "reviewer_notes": "Adapta el contenido para un usuario que es novato o que tiene la intención de empezar a usar Claude para optimizar su trabajo o sus procesos en su empresa. Nivel emprendedor, sin mucho contexto técnico, más práctico. Que sirva como motivación para comprar el ebook.",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-26/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/rUcaWPGUWPDrTuv",
+            "https://www.canva.com/d/gwmYR5S1T_KiwIW",
+            "https://www.canva.com/d/ZN3PRAwpO7OGEI8",
+            "https://www.canva.com/d/vwV6xER0GWeKLdw"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-07-26/update_001_linkedin.md",
+          "format": "post",
+          "canva_candidates": []
+        },
+        "twitter": {
+          "file": "content/2026-07-26/update_001_twitter.md",
+          "format": "thread",
+          "tweets": 7,
+          "canva_candidates": []
+        },
+        "youtube": {
+          "file": "content/2026-07-26/update_001_youtube.md",
+          "format": "script_60s",
+          "canva_candidates": [
+            "https://www.canva.com/d/89-4riSXM7fuFBI",
+            "https://www.canva.com/d/uVDLmMCZNkZ4ob9",
+            "https://www.canva.com/d/-FHORxMgGaygWdl",
+            "https://www.canva.com/d/D7Gb1ApKAHhUDGM"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-07-26/update_001_blog.md",
+          "format": "article",
+          "word_count_approx": 750,
+          "canva_candidates": []
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "reviewer_notes": "Adapta el contenido para un usuario que es novato o que tiene la intención de empezar a usar Claude para optimizar su trabajo o sus procesos en su empresa. Nivel emprendedor, sin mucho contexto técnico, más práctico. Que sirva como motivación para comprar el ebook.",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-26/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/279cU2lOZGUMa9A",
+            "https://www.canva.com/d/cv6fROEVS8JbHIc",
+            "https://www.canva.com/d/HAs_hsRoGZpkpQR",
+            "https://www.canva.com/d/c0_RmI2cwKpm3-q"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-07-26/update_002_linkedin.md",
+          "format": "post",
+          "canva_candidates": []
+        },
+        "twitter": {
+          "file": "content/2026-07-26/update_002_twitter.md",
+          "format": "thread",
+          "tweets": 8,
+          "canva_candidates": []
+        },
+        "youtube": {
+          "file": "content/2026-07-26/update_002_youtube.md",
+          "format": "script_60s",
+          "canva_candidates": [
+            "https://www.canva.com/d/d9DPeY4JJFi2ggO",
+            "https://www.canva.com/d/fyZFLWP77T-fTcW",
+            "https://www.canva.com/d/6EvAMHEu1oetU_m",
+            "https://www.canva.com/d/_d9Ub24MJrM0B3G"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-07-26/update_002_blog.md",
+          "format": "article",
+          "word_count_approx": 750,
+          "canva_candidates": []
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "update_001_instagram_carousel": {
+      "primary": "https://www.canva.com/d/rUcaWPGUWPDrTuv",
+      "all_candidates": [
+        "https://www.canva.com/d/rUcaWPGUWPDrTuv",
+        "https://www.canva.com/d/gwmYR5S1T_KiwIW",
+        "https://www.canva.com/d/ZN3PRAwpO7OGEI8",
+        "https://www.canva.com/d/vwV6xER0GWeKLdw"
+      ]
+    },
+    "update_001_youtube_thumbnail": {
+      "primary": "https://www.canva.com/d/89-4riSXM7fuFBI",
+      "all_candidates": [
+        "https://www.canva.com/d/89-4riSXM7fuFBI",
+        "https://www.canva.com/d/uVDLmMCZNkZ4ob9",
+        "https://www.canva.com/d/-FHORxMgGaygWdl",
+        "https://www.canva.com/d/D7Gb1ApKAHhUDGM"
+      ]
+    },
+    "update_002_instagram_carousel": {
+      "primary": "https://www.canva.com/d/279cU2lOZGUMa9A",
+      "all_candidates": [
+        "https://www.canva.com/d/279cU2lOZGUMa9A",
+        "https://www.canva.com/d/cv6fROEVS8JbHIc",
+        "https://www.canva.com/d/HAs_hsRoGZpkpQR",
+        "https://www.canva.com/d/c0_RmI2cwKpm3-q"
+      ]
+    },
+    "update_002_youtube_thumbnail": {
+      "primary": "https://www.canva.com/d/d9DPeY4JJFi2ggO",
+      "all_candidates": [
+        "https://www.canva.com/d/d9DPeY4JJFi2ggO",
+        "https://www.canva.com/d/fyZFLWP77T-fTcW",
+        "https://www.canva.com/d/6EvAMHEu1oetU_m",
+        "https://www.canva.com/d/_d9Ub24MJrM0B3G"
+      ]
+    }
+  }
+}
