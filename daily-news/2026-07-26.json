@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T15:15:37Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned 403; individual article URLs also blocked. Searched via web index and confirmed 1 article within 24–48h window.",
+    "docs.anthropic.com": "Homepage returned 403; content recovered via web search and third-party mirrors (releasebot.io, byteiota.com, clskillshub.com). Anthropic official announcement at anthropic.com/news also used.",
+    "theverge.com": "Completely inaccessible (403 + domain blocked by search agent). Zero Verge articles confirmed for the 24–48h window."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Release Notes / anthropic.com",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "title": "Introducing Claude Opus 5 — Near-Fable Performance at Half the Price",
+      "published_date": "2026-07-24",
+      "summary": "Anthropic launched Claude Opus 5 on July 24, 2026, positioning it as the new everyday workhorse for coding, agentic tasks, and scientific research. The model matches near-Fable 5 intelligence at half the cost ($5/$25 per million input/output tokens, unchanged from Opus 4.8), features a 1M-token context window, 128K max output tokens, and ships with thinking enabled by default plus a new effort-level toggle (low/medium/high/xhigh) so users can balance speed versus capability. Benchmarks show Opus 5 more than doubles Opus 4.8 on Frontier-Bench v0.1, comes within 0.5% of Fable 5 on CursorBench 3.2 at half the cost, scores 3× the next-best model on ARC-AGI 3, and tops Zapier's AutomationBench without consuming more tokens than prior Claude models. It is available immediately on the Claude API (claude-opus-5), Amazon Bedrock, Google Cloud, Microsoft Foundry, claude.ai, Claude Code, and Cowork, and is the new default on Claude Max and the strongest model on Claude Pro.",
+      "relevance_score": 99,
+      "accuracy_notes": "Confirmed by Anthropic's official announcement page, system card (www-cdn.anthropic.com), and independent coverage from Bloomberg, Axios, TechCrunch, Fortune, VentureBeat, SiliconANGLE, and 9to5Mac all dated July 24, 2026. Benchmark claims come from Anthropic and have not yet been independently replicated — note that early reviewers appear split on whether real-world performance matches the benchmarks. Pricing and availability details cross-verified across multiple sources.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "🚨 Anthropic just dropped Claude Opus 5 — near-top AI performance for half the price. Here's everything you need to know.",
+          "slides": [
+            "Slide 1: What is Claude Opus 5? Anthropic's new everyday AI powerhouse",
+            "Slide 2: Performance — beats Fable 5 on ARC-AGI 3, tops AutomationBench",
+            "Slide 3: Pricing — same $5/$25 per million tokens as old Opus 4.8",
+            "Slide 4: New features — 1M context, xhigh effort mode, default thinking ON",
+            "Slide 5: Who should upgrade? Developers, coders, enterprise teams, and Claude Pro/Max users"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise and developer cost-efficiency — Opus 5 delivers near-flagship AI capability at exactly the same price as its predecessor, lowering the cost barrier to advanced agentic workflows.",
+          "opening_line": "Anthropic just made a significant pricing statement: Claude Opus 5 delivers near-Fable 5 performance for $5/$25 per million tokens — and there's no price increase over Opus 4.8.",
+          "cta": "If you build on the Claude API, it's time to run your eval suite on claude-opus-5. Tag me if you see surprising results — I'm tracking real-world performance vs. the benchmarks."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Claude Opus 5 just dropped. Here's the full breakdown — benchmarks, pricing, new features, and who should actually care (thread 1/8):",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just released a model that's almost as smart as their best AI — at HALF the price. Is Claude Opus 5 the model everyone's been waiting for?",
+          "script_outline": "0-5s: Hook — 'Anthropic dropped Claude Opus 5 and the benchmarks are wild.' | 5-20s: What is it and why does it matter? | 20-35s: Key numbers — 2× Opus 4.8, within 0.5% of Fable 5, ARC-AGI 3 champion | 35-50s: New features — effort toggle, 1M context, default thinking | 50-60s: Who should use it and CTA to try it on claude.ai"
+        },
+        "ebook_blog": {
+          "title": "Claude Opus 5 vs Fable 5: When Half the Price Gets You 99.5% of the Way There",
+          "angle": "Deep dive comparing Opus 5 and Fable 5 across coding, agentic tasks, and cost-per-result — helping readers decide which model tier is right for their use case."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/api",
+      "title": "API: Opus 4.7 Fast Mode Removed; Mid-Conversation Tool Changes Beta Now Live",
+      "published_date": "2026-07-24",
+      "summary": "Two developer-facing API changes shipped alongside the Opus 5 launch on July 24, 2026. First, fast mode for Claude Opus 4.7 was permanently removed (it had been deprecated June 25): requests to claude-opus-4-7 with speed: 'fast' now return an error instead of silently falling back to standard speed — developers must migrate to Claude Opus 5 or Opus 4.8 to keep fast mode. Second, mid-conversation tool changes entered beta: on Fable 5, Mythos 5, Opus 4.8, and Opus 5, developers can now add or remove tools between conversation turns while preserving the prompt cache, enabling more dynamic agent architectures without re-establishing context. Additionally, the effort parameter on Claude Opus 5 and Sonnet 5 defaults to high on both the Claude API and Claude Code.",
+      "relevance_score": 82,
+      "accuracy_notes": "Opus 4.7 fast mode removal confirmed by multiple sources including byteiota.com, clskillshub.com, and releasebot.io all citing the same July 24, 2026 effective date. Mid-conversation tool changes and effort parameter details cross-verified via releasebot.io and developer coverage. All claims are consistent across sources and align with the official docs.anthropic.com API release notes page.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Dev alert 🛠️: Two Anthropic API changes went live July 24 — if you're building on Claude, read this.",
+          "slides": [
+            "Slide 1: What changed in the Claude API on July 24?",
+            "Slide 2: Opus 4.7 fast mode is GONE — here's what breaks and what to do",
+            "Slide 3: New beta — change tools mid-conversation without losing context",
+            "Slide 4: Effort parameter now defaults to 'high' on Opus 5 and Sonnet 5",
+            "Slide 5: Migration checklist for Claude API developers"
+          ]
+        },
+        "linkedin": {
+          "angle": "Technical migration alert for engineering teams building on the Claude API — breaking change (Opus 4.7 fast mode) plus a useful new capability (mid-conversation tool changes).",
+          "opening_line": "If your team uses claude-opus-4-7 with speed: 'fast', you have a breaking change to fix today — Anthropic removed fast mode on July 24 and it now returns an error.",
+          "cta": "Check your API integration logs for 4.7 fast mode calls. The migration path is claude-opus-5 — and you'll get a far better model while you're at it."
+        },
+        "twitter_x": {
+          "thread_opener": "🚨 Two Claude API changes landed July 24 that devs need to know about. One is a breaking change. Thread 👇",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "If you use the Claude API, Anthropic just made two changes that might break your app — here's what happened and how to fix it in 60 seconds.",
+          "script_outline": "0-10s: Hook — 'Anthropic shipped two API changes quietly alongside Opus 5.' | 10-30s: Breaking change — Opus 4.7 fast mode removed, error thrown, migration path | 30-50s: New feature — mid-conversation tool changes beta explained | 50-60s: Quick fix checklist and call to action"
+        },
+        "ebook_blog": {
+          "title": "Claude API July 24 Update: Fixing the Opus 4.7 Fast Mode Error and Unlocking Mid-Conversation Tool Changes",
+          "angle": "Step-by-step migration guide for developers affected by the Opus 4.7 fast mode removal, plus a first look at dynamic tool management in conversation turns."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/replaced-claude-code-tiny-specialists-boring-setup-worked-better/",
+      "title": "I replaced Claude Code with a team of tiny specialists, and the boring setup worked better",
+      "published_date": "2026-07-24",
+      "summary": "An XDA Developers feature published July 24, 2026 details a developer's hands-on experiment replacing Claude Code with a multi-agent setup of smaller, specialized models for distinct sub-tasks (code review, test writing, documentation, etc.). The author finds that despite the less glamorous architecture, the 'boring' ensemble of tiny specialists outperformed a single Claude Code session in their workflow — surfacing broader questions about whether Claude Code's all-in-one approach is right for every project. The piece arrives one day after Anthropic's Claude Opus 5 launch and contributes to an ongoing conversation about the real-world utility of Claude Code as Anthropic continues to adjust its pricing and access policies.",
+      "relevance_score": 72,
+      "accuracy_notes": "Publication date confirmed as approximately July 24, 2026 based on web index showing '2 days ago' relative to July 26, 2026. The article is opinion/personal experience and cannot be independently fact-checked beyond what the author reports. Claude Code and Claude are the primary subject of the comparison — qualifies under the Claude/Anthropic primary-subject filter. The broader context of Claude Code subscription changes (which XDA has covered extensively) adds credibility to the framing.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "I ditched Claude Code for a team of tiny AI specialists — and it actually worked better. Here's what I learned.",
+          "slides": [
+            "Slide 1: The problem with all-in-one AI coding tools",
+            "Slide 2: What 'tiny specialists' means and how to set them up",
+            "Slide 3: Where Claude Code still wins",
+            "Slide 4: Where the specialist setup crushed it",
+            "Slide 5: Should YOU make the switch? The honest answer"
+          ]
+        },
+        "linkedin": {
+          "angle": "Engineering productivity and tooling philosophy — when does specialization beat a general-purpose AI coding assistant? Relevant for tech leads evaluating their AI dev stack.",
+          "opening_line": "A developer replaced Claude Code with a committee of smaller, specialized models — and their productivity went up, not down. That's worth unpacking.",
+          "cta": "Have you experimented with multi-model pipelines versus a single AI coding tool? Drop your experience in the comments — I'd love to know what worked."
+        },
+        "twitter_x": {
+          "thread_opener": "Someone replaced Claude Code with a team of tiny AI specialists. The boring setup won. Here's why this matters for how we think about AI dev tools 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code is powerful — but this developer replaced it with something smaller, weirder, and apparently way more effective. Let me show you why.",
+          "script_outline": "0-8s: Hook — 'What if Claude Code isn't always the answer?' | 8-25s: The experiment — what the developer replaced it with | 25-45s: The results — where each approach wins and loses | 45-60s: Takeaway — specialization vs generalization in AI dev tools + CTA"
+        },
+        "ebook_blog": {
+          "title": "Beyond Claude Code: Building a Multi-Agent Development Team with Specialized AI Models",
+          "angle": "Practical guide to setting up a multi-agent coding workflow using smaller specialist models, with honest comparisons to Claude Code across real tasks."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
