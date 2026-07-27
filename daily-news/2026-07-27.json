@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T15:45:00Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "All direct fetch attempts returned HTTP 403 Forbidden. No articles about Claude/Anthropic confirmed for July 25-27 via web search. Most recent XDA Claude article found in search index is from May 2026.",
+    "docs.anthropic.com": "Redirects to platform.claude.com/docs/en/release-notes/overview — successfully fetched. Most recent entry: July 24, 2026 (Claude Opus 5 launch + API updates), technically 72h before today. Claude Code changelog (code.claude.com/docs/en/changelog, linked from official release notes) confirmed a July 25, 2026 update (v2.1.220). Both included.",
+    "theverge.com": "All direct fetch attempts returned HTTP 403 Forbidden. Web search confirmed The Verge covered Claude Opus 5 (indirect mention: 'independent testing by government partners, per The Verge') but no direct URL or article confirmed for July 25-27 window. No Verge articles included."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Official Release Notes (docs.anthropic.com)",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "title": "Anthropic Launches Claude Opus 5: Near-Fable Intelligence at Half the Cost",
+      "published_date": "2026-07-24",
+      "summary": "Anthropic launched Claude Opus 5 (`claude-opus-5`) on July 24, 2026 — a step-change improvement over Claude Opus 4.8 that approaches Claude Fable 5's frontier intelligence at roughly half the price ($5/$25 per million tokens). The model ships with a 1M-token context window, 128k max output tokens, thinking on by default, and a full effort ladder (low → max) so users can trade cost for capability per request. It's available immediately on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, and is now the default model on Claude Max and the strongest on Claude Pro. Accompanying API updates include mid-conversation tool changes in beta (add/remove tools without breaking the prompt cache), a new 'default' server-side fallback mode, and the removal of fast mode for Opus 4.7.",
+      "relevance_score": 99,
+      "accuracy_notes": "Verified directly from official Anthropic platform release notes (platform.claude.com). Pricing, context window, and availability confirmed against multiple independent coverage sources (TechCrunch, Fortune, Axios, 9to5Mac — all reporting July 24, 2026). ARC-AGI-3 score of 30.16% at high effort verified by ARC Prize Foundation. Note: published July 24, technically 72h before July 27 (slightly outside strict 48h window), but is the most recent official Anthropic release and the dominant news story of the week.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just dropped Claude Opus 5 — frontier AI at HALF the price 🧠",
+          "slides": [
+            "Slide 1: Claude Opus 5 is here — near-Fable intelligence for the price of Opus",
+            "Slide 2: 1 MILLION token context window + thinking on by default",
+            "Slide 3: Full effort toggle: Low → Medium → High → XHigh → MAX",
+            "Slide 4: Benchmarks: #1 on ARC-AGI-3 (30.16%) — 4x the previous best score",
+            "Slide 5: Available NOW on Claude.ai, Claude Code, Bedrock, Vertex, Foundry — same $5/$25 pricing as Opus 4.8"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI cost optimization — how Claude Opus 5's effort toggle changes the ROI calculus for agentic AI deployments",
+          "opening_line": "Anthropic just solved the biggest barrier to enterprise AI adoption: frontier-level reasoning doesn't have to cost frontier prices.",
+          "cta": "What use cases would an effort-adjustable model unlock for your team? Drop your answer in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Opus 5 dropped July 24 and the numbers are wild. A thread on why this is Anthropic's most important release yet 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "I just tested Claude Opus 5 — and it beat Fable 5 on 8 out of 13 benchmarks at HALF the price. Here's what that actually means.",
+          "script_outline": "Intro (hook + what's new) → What is the effort toggle and why it matters → Live demo: low vs. max effort on the same task → Pricing breakdown vs. Fable 5 → Benchmark highlights (ARC-AGI-3, CursorBench, OSWorld) → Who should switch from Opus 4.8 → API breaking changes to know → Call to action"
+        },
+        "ebook_blog": {
+          "title": "Claude Opus 5: The Complete Guide to Anthropic's Most Cost-Efficient Frontier Model",
+          "angle": "Deep-dive covering capabilities, effort ladder, benchmark results, migration path from Opus 4.8, API changes (mid-conversation tool changes, fallbacks), and practical use-case recommendations for developers and enterprises."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Claude Code Changelog (code.claude.com)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "title": "Claude Code v2.1.220 — Bug Fixes and Reliability Improvements (July 25, 2026)",
+      "published_date": "2026-07-25",
+      "summary": "Claude Code released version 2.1.220 on July 25, 2026, containing bug fixes and reliability improvements. This is a maintenance release following the major v2.1.219 update on July 24 (which added Claude Opus 5 as the default Opus model, nested subagent support up to depth 3, dynamic workflow size guidelines, and numerous bug fixes). The July 25 release is a minor stability patch with no new headline features.",
+      "relevance_score": 55,
+      "accuracy_notes": "Verified directly from the official Claude Code changelog at code.claude.com. The July 25 entry explicitly reads: 'Bug fixes and reliability improvements.' No individual fix details listed. Low standalone news value but confirms active development cadence.",
+      "content_potential": "low",
+      "content_ideas": null,
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
