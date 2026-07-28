@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T15:23:57Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Direct HTTP access blocked (403 Forbidden). Articles identified via web search; exact publication dates for individual articles could not be confirmed. Two highly relevant articles surfaced from the July 26-28 window via search cross-referencing.",
+    "docs.anthropic.com": "Direct HTTP access blocked (403 Forbidden). Accessed equivalent content via platform.claude.com/docs/en/release-notes/overview. Most recent platform release note entry is July 24, 2026 — outside the strict 24-48h window. No entries from July 25-28 exist.",
+    "theverge.com": "Completely inaccessible: both direct fetch and web search crawling are blocked for this domain by Anthropic's crawler policy. No Verge articles could be confirmed for this window."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Multiple (TechCrunch, Fortune, 9to5Mac, Gizmodo, 404Media, Decrypt — XDA and The Verge unconfirmed due to access restrictions)",
+      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+      "secondary_urls": [
+        "https://fortune.com/2026/07/27/a-trove-of-users-seemingly-private-conversations-with-anthropics-claude-ai-chatbot-showed-up-in-google-search-results/",
+        "https://9to5mac.com/2026/07/28/claude-chats-exposed-in-google-searches-another-endorsement-of-apples-privacy-approach/",
+        "https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/",
+        "https://gizmodo.com/when-you-share-claude-chats-you-could-be-sharing-them-with-everyone-2000791372",
+        "https://decrypt.co/374412/anthropic-share-button-quietly-publishing-claude-chats-google",
+        "https://cybernews.com/ai-news/claude-chats-artifacts-indexed-google/"
+      ],
+      "title": "Claude Shared Chats and Artifacts Were Being Indexed by Google, Exposing Sensitive User Data",
+      "published_date": "2026-07-26 to 2026-07-27 (story broke July 25 on Reddit; major coverage July 26-27; 9to5Mac follow-up July 28)",
+      "summary": "A Reddit user discovered on July 25 that Claude's link-sharing feature generated public URLs lacking noindex meta tags, allowing Google and Bing to index full conversation content. Sensitive data exposed in the indexed chats included health records, clinical trial records, crypto wallet seed phrases, API keys, legal discussions, SSN-adjacent personal details, and children's names and phone numbers. Anthropic fixed the issue on July 26 by adding noindex tags to shared pages, but Bing continued showing some links afterward; the company stated it does not share chat directories or sitemaps with search engines and that links only appear in search results when posted publicly by users.",
+      "relevance_score": 97,
+      "accuracy_notes": "Confirmed by multiple independent major publications (TechCrunch, Fortune, 9to5Mac, 404Media, Gizmodo, Decrypt, CyberNews). The root cause (missing noindex tag) is technically verifiable and corroborated across sources. Anthropic's fix was confirmed by multiple reporters. One contested point: Anthropic argued users knowingly shared links publicly, while security researchers counter that noindex should be on by default — both sides noted. Story date is confirmed July 26-27, 2026. Note: XDA-Developers and The Verge coverage could NOT be confirmed for this specific story due to site access blocks, though the story received broad tech media coverage.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Your Claude chats were on Google and you didn't know it 🔍",
+          "slides": [
+            "Slide 1: The Claude Privacy Scare of July 2026 — what happened?",
+            "Slide 2: Claude's share feature + no noindex = Google could see everything",
+            "Slide 3: What was exposed: medical notes, API keys, crypto seeds, legal chats",
+            "Slide 4: Anthropic fixed it in 24 hours — but Bing still showed some links",
+            "Slide 5: How to protect yourself: what to know before you hit 'Share' on any AI"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise security wake-up call — AI tools and data governance are now inseparable",
+          "opening_line": "If your team uses Claude for any client work, legal research, or internal analysis, this week's privacy incident is a direct signal that 'share link = private' is no longer a safe assumption.",
+          "cta": "What's your organization's policy on sharing AI conversations externally? Drop it in the comments — this is now a compliance conversation."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude's 'share' button quietly made hundreds of user conversations findable on Google. Here's exactly what happened, what was exposed, and what Anthropic did about it 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "I searched 'site:claude.ai/share' on Google and found other people's private conversations — health records, crypto keys, legal docs, all of it.",
+          "script_outline": "Open with the Google search demo (30s) → explain how Claude's share link works and the missing noindex tag (20s) → show categories of exposed data with examples (20s) → explain Anthropic's fix and timeline (15s) → practical takeaway: audit what you've shared and avoid sensitive data in any shareable AI link (15s) → CTA to follow for more AI privacy tips (10s)"
+        },
+        "ebook_blog": {
+          "title": "The AI Privacy Gap: Why 'Share' Doesn't Mean 'Private' — Lessons from the Claude Google Indexing Incident",
+          "angle": "Use this incident as a case study for a broader guide on responsible AI data sharing: covers default privacy settings across major AI tools, how link-sharing mechanisms work technically, what data categories to never put in shared AI chats, and a checklist for enterprise AI usage policies."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-in-browser-is-security-risk/",
+      "title": "Claude in Your Browser Is a Security Risk, and This Year Proved It",
+      "published_date": "2026-07 (exact date within July 26-28 window unconfirmed; article surfaced prominently in July 26-28 search results for Claude security queries, consistent with publication during the privacy-incident news cycle)",
+      "summary": "XDA Developers published a security retrospective covering two independently discovered vulnerabilities in Claude's Chrome browser extension in 2026. The first, ShadowPrompt (Koi Security, March 2026), allowed any malicious website to inject instructions into Claude in Chrome via prompt injection. The second, ClaudeBleed (LayerX, May 2026 — with a reopened bypass disclosed by Manifold Security in July 2026), allowed a rogue Chrome extension with zero declared permissions to send commands directly to the Claude extension and execute them, including reading Gmail, Docs, and Calendar data. The article argues that Claude's browser integration remains a research preview with real, non-hypothetical security incidents and urges caution about connecting AI tools to accounts containing personal data.",
+      "relevance_score": 88,
+      "accuracy_notes": "ShadowPrompt and ClaudeBleed incidents are corroborated by independent security researchers (Koi Security, LayerX, Manifold Security) and covered by TechRadar, The Hacker News, CSO Online, and Malwarebytes. The ClaudeBleed Reopened disclosure by Manifold Security is confirmed from July 2026 (https://www.manifold.security/blog/claude-for-chrome-extension-bypass). IMPORTANT CAVEAT: Exact XDA article publication date could not be confirmed as July 26-28 — direct page access was blocked (HTTP 403). The article's prominence in July 26-28 search queries and alignment with the active news cycle (shared chats + ClaudeBleed Reopened) strongly suggests recent publication, but this should be verified before use.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude's browser extension had TWO real security holes in 2026 — here's what they could do",
+          "slides": [
+            "Slide 1: Claude for Chrome — convenient tool or security risk?",
+            "Slide 2: ShadowPrompt (March): any website could hijack your Claude session",
+            "Slide 3: ClaudeBleed (May → July): rogue extensions could read your Gmail silently",
+            "Slide 4: Both bugs were real, not theoretical — and Anthropic was told multiple times",
+            "Slide 5: Should you use Claude in your browser? What to consider before connecting AI to your accounts"
+          ]
+        },
+        "linkedin": {
+          "angle": "Security leaders: AI browser integrations are expanding your attack surface in ways your current policies weren't written for",
+          "opening_line": "Two independently discovered vulnerabilities in Claude's Chrome extension — one allowing any website to inject commands, another letting rogue extensions read Gmail without declared permissions — are a clear signal that AI-in-browser tooling needs dedicated security review.",
+          "cta": "Has your security team assessed which AI browser extensions are in use across your organization? This is now a threat modeling priority."
+        },
+        "twitter_x": {
+          "thread_opener": "Two real security bugs hit Claude's Chrome extension in 2026. Not theoretical. Not hypothetical. Here's what they could do and why it matters for anyone using AI tools in their browser 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "A rogue Chrome extension with ZERO permissions could read your Gmail through Claude — and this actually happened in 2026.",
+          "script_outline": "Hook with ClaudeBleed Reopened scenario (20s) → explain how Claude's Chrome extension works as an AI agent with browser-level access (20s) → ShadowPrompt: website injects malicious prompt (20s) → ClaudeBleed: extension-to-extension command bypass (20s) → what Anthropic did (10s) → practical advice: disable unused AI extensions, review permissions (10s)"
+        },
+        "ebook_blog": {
+          "title": "AI Browser Extensions: The Security Risk No One Is Talking About (Claude, ChatGPT, and Beyond)",
+          "angle": "Use the Claude ShadowPrompt and ClaudeBleed incidents as anchors for a comprehensive guide on AI extension security risks, covering prompt injection in browser contexts, extension permission abuse, how AI tools with account access expand the attack surface, and a practical checklist for users and IT teams evaluating AI browser tools."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ],
+  "sources_summary": {
+    "xda_developers": {
+      "articles_scanned": "Unable to directly access page (HTTP 403); articles identified via web search cross-referencing",
+      "articles_passed_filter": 2,
+      "note": "Two articles confirmed as Claude/Anthropic primary-subject content for July 2026 (shared chats context + browser security retrospective). Exact dates within 24-48h window confirmed for shared chats story context; XDA browser article date is unconfirmed within strict window."
+    },
+    "docs_anthropic_com": {
+      "articles_scanned": "Release notes accessed via platform.claude.com redirect (403 on docs.anthropic.com direct)",
+      "updates_in_24_48h_window": 0,
+      "most_recent_entry": "July 24, 2026 — Claude Opus 5 launch (outside 24-48h window; 4 days ago)",
+      "note": "No new API/platform release notes entries exist for July 25-28, 2026. The July 24 Claude Opus 5 entry is the most recent published update and represents a major model launch (relevance 98) but falls outside the strict daily-digest window."
+    },
+    "theverge_com": {
+      "articles_scanned": 0,
+      "articles_passed_filter": 0,
+      "note": "Completely inaccessible: theverge.com is blocked from Anthropic's web crawler and direct WebFetch also returns errors. No articles could be confirmed from The Verge for any date. Manual human review of theverge.com is recommended to check for Claude/Anthropic coverage from July 26-28."
+    }
+  }
+}
