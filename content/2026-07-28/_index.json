@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-07-28",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "reviewer_notes": "Adaptar para emprendedor novato, nivel práctico, motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-28/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_designs": [
+            {
+              "type": "instagram_post_carousel_cover",
+              "candidate_id": "dg-1c557fae-a635-4944-8389-f0f201135ae6",
+              "url": "https://www.canva.com/d/4x5IovuqdwhVqvB",
+              "thumbnail": "https://design.canva.ai/TLf-SYquY7zWHPu"
+            },
+            {
+              "type": "instagram_post_carousel_cover_alt2",
+              "candidate_id": "dg-29611ebb-ddc1-4eb4-8e86-98395a89791b",
+              "url": "https://www.canva.com/d/KF9kMn7cnSW2IkV",
+              "thumbnail": "https://design.canva.ai/VqfyjFC1VtNi5iK"
+            },
+            {
+              "type": "instagram_post_carousel_cover_alt3",
+              "candidate_id": "dg-5dbc2276-52ff-480e-a71c-41592ee17a80",
+              "url": "https://www.canva.com/d/CnLgc63YYEzpaOJ",
+              "thumbnail": "https://design.canva.ai/wmRQLCk6U1fEw1c"
+            },
+            {
+              "type": "instagram_post_carousel_cover_alt4",
+              "candidate_id": "dg-ea1cd6fb-ec4f-40d4-8e20-6a0fb6e71a27",
+              "url": "https://www.canva.com/d/oP5kFLpZZo0G-O5",
+              "thumbnail": "https://design.canva.ai/DIr0MP1DnSVYJjG"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-07-28/update_001_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-07-28/update_001_twitter.md",
+          "tweets": 7
+        },
+        "youtube": {
+          "file": "content/2026-07-28/update_001_youtube.md",
+          "script_duration_seconds": 60,
+          "canva_designs": [
+            {
+              "type": "youtube_thumbnail",
+              "candidate_id": "dg-665687ac-7fe0-4e2b-b07b-c06903fffa4e",
+              "url": "https://www.canva.com/d/hbsxPk2NPb1MuDu",
+              "thumbnail": "https://design.canva.ai/SroYxbq4uMD4X8j"
+            },
+            {
+              "type": "youtube_thumbnail_alt2",
+              "candidate_id": "dg-7ff4e12f-6e9d-4e1c-831e-ad1885c3efcf",
+              "url": "https://www.canva.com/d/Azi8DrPTe7Oym6Q",
+              "thumbnail": "https://design.canva.ai/-h2fktQ-tkOsPhf"
+            },
+            {
+              "type": "youtube_thumbnail_alt3",
+              "candidate_id": "dg-9b13c5bd-2877-425b-bb81-c860fdc3f894",
+              "url": "https://www.canva.com/d/eqoptSQMWHqixBq",
+              "thumbnail": "https://design.canva.ai/SEfKNeGKNwLM8Lw"
+            },
+            {
+              "type": "youtube_thumbnail_alt4",
+              "candidate_id": "dg-c54103d1-3850-48dd-94df-ca377d9d28b8",
+              "url": "https://www.canva.com/d/RO26eDVBD8YyyCz",
+              "thumbnail": "https://design.canva.ai/lg8U252ETbXvtrg"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-07-28/update_001_blog.md",
+          "word_count_approx": 820
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "reviewer_notes": "Adaptar para emprendedor novato, nivel práctico, motivación para comprar ebook",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-07-28/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_designs": [
+            {
+              "type": "instagram_post_carousel_cover",
+              "candidate_id": "dg-128b8646-6035-42e7-bd3f-b69d3cb171fa",
+              "url": "https://www.canva.com/d/pANls3lL69gJeJa",
+              "thumbnail": "https://design.canva.ai/kK7JU9txAe2gTNq"
+            },
+            {
+              "type": "instagram_post_carousel_cover_alt2",
+              "candidate_id": "dg-b6fcf768-69f7-4f5d-b105-3a14332b7849",
+              "url": "https://www.canva.com/d/r04eq5AXTiAYrbe",
+              "thumbnail": "https://design.canva.ai/UsgsrwkcjSQaTvs"
+            },
+            {
+              "type": "instagram_post_carousel_cover_alt3",
+              "candidate_id": "dg-ddf5f906-bc71-41a0-ac88-59f5d1e191a9",
+              "url": "https://www.canva.com/d/CT-q-vAfWEA8kcS",
+              "thumbnail": "https://design.canva.ai/pZOM6CrFF9Qw_SX"
+            },
+            {
+              "type": "instagram_post_carousel_cover_alt4",
+              "candidate_id": "dg-e88eff8a-2f67-4496-9731-2954cc8e9424",
+              "url": "https://www.canva.com/d/whohXT6Hr1b0S_U",
+              "thumbnail": "https://design.canva.ai/DU9av7BP0L6gNLF"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-07-28/update_002_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-07-28/update_002_twitter.md",
+          "tweets": 8
+        },
+        "youtube": {
+          "file": "content/2026-07-28/update_002_youtube.md",
+          "script_duration_seconds": 60,
+          "canva_designs": [
+            {
+              "type": "youtube_thumbnail",
+              "candidate_id": "dg-613e4ec6-d624-4c89-b240-30aabac5412e",
+              "url": "https://www.canva.com/d/gp4Emc2RFa51sii",
+              "thumbnail": "https://design.canva.ai/-PBRaHbiZAE_rvC"
+            },
+            {
+              "type": "youtube_thumbnail_alt2",
+              "candidate_id": "dg-65f47581-678f-49b1-9f3b-c016b446752f",
+              "url": "https://www.canva.com/d/q92NKT5F247Gcgn",
+              "thumbnail": "https://design.canva.ai/n-iFVMHRVRDVCrP"
+            },
+            {
+              "type": "youtube_thumbnail_alt3",
+              "candidate_id": "dg-bebadd0c-7cf8-4336-9dda-c6c58de88139",
+              "url": "https://www.canva.com/d/kKP6mpv7jGXWlHP",
+              "thumbnail": "https://design.canva.ai/dMOIafVE8TkzszZ"
+            },
+            {
+              "type": "youtube_thumbnail_alt4",
+              "candidate_id": "dg-d36a4013-a40d-46ac-a91b-739d30e8ba64",
+              "url": "https://www.canva.com/d/AOzROrhycZytloH",
+              "thumbnail": "https://design.canva.ai/3hKSkdrOJ-mwjAr"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-07-28/update_002_blog.md",
+          "word_count_approx": 870
+        }
+      }
+    }
+  ]
+}
