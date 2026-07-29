@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T15:19:17Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage y URLs de artículos individuales devuelven HTTP 403. Fechas, títulos y resúmenes recuperados vía búsqueda en índice web. Un artículo confirmado dentro o cerca de la ventana de 24-48h.",
+    "docs.anthropic.com": "Fetch directo bloqueado (HTTP 403). Contenido de release notes recuperado vía búsqueda web: actualización principal es el spec MCP 2026-07-28, confirmado publicado el 28 de julio 2026. También se identifica el official Claude blog (claude.com/blog) como fuente primaria del anuncio.",
+    "theverge.com": "Bloqueado tanto por fetch directo (HTTP 403) como por búsqueda web (dominio no accesible al crawler de Anthropic). Sin resultados disponibles."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Blog / docs.anthropic.com",
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "title": "MCP 2026-07-28 spec: stateless core, coming to Claude",
+      "published_date": "2026-07-28",
+      "summary": "Anthropic lanzó la quinta versión del Model Context Protocol (MCP), la más grande actualización desde su lanzamiento. El cambio principal es mover MCP de un protocolo bidireccional con estado a un modelo de solicitud/respuesta sin estado, lo que permite desplegar servidores MCP en infraestructura serverless y de borde, simplificando enormemente la construcción y escalado de servidores. El protocolo supera los 400 millones de descargas mensuales del SDK (4x este año), y Claude ya lista más de 950 servidores MCP en su directorio de conectores, usados por millones de personas diariamente. La nueva versión también incluye autorización OAuth y OIDC más robusta, y extensiones versionadas para Apps y Tasks con nuevas funciones como UI embebida, auth gestionada por empresas, observabilidad y túneles de red privados.",
+      "relevance_score": 97,
+      "accuracy_notes": "Verificado — anuncio oficial publicado en claude.com/blog el 28 de julio 2026. Confirmado por múltiples fuentes secundarias (simonwillison.net, explainx.ai, krypteiasec.com). Las cifras de adopción (400M descargas/mes, 950+ servidores) provienen directamente del blog oficial.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude acaba de hacer que cualquier app o herramienta de tu empresa pueda hablar con IA — sin configuración técnica compleja 🔌",
+          "slides": [
+            "¿Qué es MCP y por qué le importa a tu negocio?",
+            "El antes: IA aislada de tus herramientas",
+            "El después: Claude conectado a cualquier app, CRM, base de datos...",
+            "400 millones de descargas: esto ya no es experimental",
+            "¿Cómo tu empresa puede aprovechar esto HOY?"
+          ]
+        },
+        "linkedin": {
+          "angle": "El estándar que está convirtiendo a Claude en el sistema nervioso de las empresas digitales",
+          "opening_line": "Anthropic acaba de actualizar el protocolo que permite que Claude se conecte con cualquier herramienta empresarial — y esta actualización es enorme para quienes usamos IA en nuestros procesos.",
+          "cta": "¿Ya integraste alguna herramienta de tu empresa con Claude vía MCP? Cuéntame en los comentarios qué conector usas."
+        },
+        "twitter_x": {
+          "thread_opener": "El protocolo MCP de Anthropic acaba de recibir su actualización más grande desde el lanzamiento — y si usas IA en tu negocio, esto te afecta directamente 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Claude ahora puede conectarse con CUALQUIER herramienta de tu empresa — así funciona el nuevo protocolo que 400 millones de usuarios ya descargan por mes",
+          "script_outline": "0-5s: Hook impactante. 5-15s: El problema que resuelve (IA aislada de tus datos). 15-30s: Qué es MCP en palabras simples. 30-45s: Ejemplos prácticos (CRM, email, calendario, base de datos). 45-55s: Por qué esto cambia el juego para emprendedores. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "Cómo Conectar Claude con Todas las Herramientas de Tu Empresa: Guía MCP para No Técnicos",
+          "angle": "Guía práctica paso a paso para emprendedores que quieren que su IA trabaje CON sus herramientas existentes, no de forma aislada. Incluye ejemplos con CRM, email, Notion, y más."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "title": "Discovering cryptographic weaknesses with Claude — Mythos Preview breaks HAWK post-quantum scheme",
+      "published_date": "2026-07-28",
+      "summary": "El equipo de investigación de Anthropic publicó un estudio en el que Claude Mythos Preview descubrió debilidades criptográficas reales que expertos humanos no habían detectado en años de revisión. La IA encontró una vulnerabilidad estructural en HAWK, un esquema de firma digital post-cuántico candidato de la estandarización NIST, reduciendo el costo de un ataque de recuperación de clave de ~2^64 a ~2^38 operaciones — básicamente a la mitad de la seguridad efectiva. También encontró un ataque mejorado en AES de 7 rondas, entre 200 y 800 veces más rápido que el mejor previo conocido (aunque teóricamente impractical). Todo esto con un costo de API de ~100,000 USD por descubrimiento, convirtiendo el criptoanálisis en una línea de presupuesto computacional en vez de una tubería de expertos de varios años. Importante: no hay impacto en sistemas en producción.",
+      "relevance_score": 93,
+      "accuracy_notes": "Verificado — publicado en anthropic.com/research el 28 de julio 2026. Confirmado por múltiples fuentes: The Hacker News (28-jul), TechTimes (28-jul), The Quantum Insider (29-jul), Cybersecurity News, Decrypt, Yahoo Tech. El propio comunicado incluye la advertencia explícita de que ningún sistema en producción está afectado.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Una IA acaba de descubrir una falla de seguridad que los expertos humanos no vieron en 2 años — en solo 60 horas 🔐",
+          "slides": [
+            "¿Qué es la criptografía post-cuántica? (explicación simple)",
+            "El sistema HAWK: candidato oficial de seguridad del futuro",
+            "Claude Mythos lo analizó en horas — y encontró la falla",
+            "Lo que significa: la IA ya trabaja en ciberseguridad de nivel élite",
+            "¿Tu empresa está preparada para la era de la IA en seguridad?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Cuando la IA supera a los expertos en criptoanálisis: implicaciones para la seguridad empresarial",
+          "opening_line": "En 60 horas, Claude Mythos Preview encontró una vulnerabilidad en un sistema de seguridad post-cuántico que equipos de expertos humanos habían revisado durante dos años sin detectar — y esto cambia la industria de la ciberseguridad.",
+          "cta": "¿Estás incorporando IA para revisar la seguridad de tus sistemas? ¿O aún es algo que tu equipo humano maneja solo?"
+        },
+        "twitter_x": {
+          "thread_opener": "Claude acaba de hacer algo que llevó 2 años a expertos humanos y lo completó en horas — con implicaciones serias para la seguridad digital 🧵",
+          "estimated_tweets": 8
+        },
+        "youtube_tiktok": {
+          "hook": "Una IA encontró una falla de seguridad que ningún humano detectó en 2 años — esto ya no es ciencia ficción",
+          "script_outline": "0-5s: Hook dramático (falla encontrada en 60h). 5-15s: Contexto simple: qué es la criptografía post-cuántica y por qué importa. 15-30s: Lo que hizo Claude Mythos exactamente. 30-45s: Por qué esto es un before/after para la industria. 45-55s: Implicaciones prácticas para empresas. 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "IA y Ciberseguridad 2026: Cómo Claude Mythos Está Redefiniendo el Criptoanálisis",
+          "angle": "Para emprendedores y líderes de empresa sin perfil técnico: qué significa que la IA ahora pueda auditar y romper sistemas de seguridad, y qué deberías hacer al respecto."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/cancelled-claude-6-months-daily-use-what-went-wrong/",
+      "title": "I cancelled Claude after 6 months of daily use — here's what went wrong",
+      "published_date": "2026-07-27",
+      "summary": "Un usuario de larga data de Claude (6 meses de uso diario intensivo) relata por qué canceló su suscripción Pro de $20/mes y migró a otra plataforma. Los factores determinantes fueron: la llegada de GPT 5.6 Sol como alternativa competitiva, los límites de sesión de 5 horas con caps semanales que se agotan más rápido con conversaciones largas y extended thinking, y la nueva exigencia de créditos de pago adicional para usar Fable 5 (el modelo más poderoso) desde el 19 de julio — antes incluido en el plan. El artículo refleja una tendencia de frustración creciente entre usuarios pro de Claude ante el endurecimiento progresivo de límites y el movimiento de funcionalidades a niveles de pago adicionales.",
+      "relevance_score": 76,
+      "accuracy_notes": "Artículo de opinión/experiencia personal — los hechos técnicos citados (límites de 5h, Fable 5 requiriendo créditos desde 19-jul-2026) son consistentes con múltiples reportes independientes. Fecha de publicación aproximada: ~27-29 julio 2026 (descrita como 'hace 2 días' en índice web al momento de búsqueda). Fuente primaria: XDA Developers (directamente inaccesible vía HTTP, fecha recuperada por búsqueda web).",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "¿Vale la pena seguir pagando $20/mes por Claude? Esto dijo alguien que lo usó 6 meses y canceló 👇",
+          "slides": [
+            "6 meses con Claude Pro — experiencia real",
+            "El problema con los límites de sesión y los caps semanales",
+            "El cambio que rompió todo: Fable 5 ya no está incluido",
+            "¿GPT 5.6 Sol es mejor alternativa ahora?",
+            "¿Cuándo SÍ vale la pena Claude Pro en 2026?"
+          ]
+        },
+        "linkedin": {
+          "angle": "La estrategia de monetización de Anthropic: lecciones para SaaS y suscripciones B2C",
+          "opening_line": "Anthropic está moviendo funcionalidades clave a niveles de pago adicionales — y está generando churn real entre sus usuarios más comprometidos. ¿Es una estrategia sostenible?",
+          "cta": "¿Sigues usando Claude Pro en 2026? ¿Qué te hace quedarte o irte?"
+        },
+        "twitter_x": {
+          "thread_opener": "Después de 6 meses pagando $20/mes por Claude, alguien canceló — y sus razones dicen mucho sobre el estado actual de las suscripciones de IA 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "¿Claude Pro vale $20 al mes en 2026? Esto le pasó a alguien que lo usó 6 meses y canceló",
+          "script_outline": "0-5s: Hook (canceló después de 6 meses). 5-15s: Por qué Claude Pro era bueno. 15-30s: Qué cambió — límites, Fable 5, caps. 30-45s: La comparación con GPT 5.6 Sol. 45-55s: ¿Para quién SÍ vale? ¿Para quién NO? 55-60s: CTA."
+        },
+        "ebook_blog": {
+          "title": "¿Claude Pro Vale $20 al Mes? Análisis Honesto 2026 para Emprendedores",
+          "angle": "Guía de decisión práctica: cuándo invertir en Claude Pro, cuándo no, y qué alternativas existen para cada caso de uso empresarial."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
