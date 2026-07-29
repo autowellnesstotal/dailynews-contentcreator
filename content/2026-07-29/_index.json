@@ -1,0 +1,87 @@
+{
+  "date": "2026-07-29",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-07-29",
+  "total_approved_updates": 2,
+  "total_files_created": 11,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-29/update_001_instagram.md",
+        "linkedin": "content/2026-07-29/update_001_linkedin.md",
+        "twitter": "content/2026-07-29/update_001_twitter.md",
+        "youtube": "content/2026-07-29/update_001_youtube.md",
+        "blog": "content/2026-07-29/update_001_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "status": "generated",
+          "candidates": [
+            "https://www.canva.com/d/DmxP_fCibw95k_X",
+            "https://www.canva.com/d/du-KTUVqIF0sCTz",
+            "https://www.canva.com/d/ApkAxlWp4awwZXF",
+            "https://www.canva.com/d/-wrbUmw0DafOli9"
+          ],
+          "primary_url": "https://www.canva.com/d/DmxP_fCibw95k_X",
+          "note": "4 candidatos generados. Elegir el preferido y convertir en diseño final con 'create-design-from-candidate'."
+        },
+        "youtube_thumbnail": {
+          "status": "generated",
+          "candidates": [
+            "https://www.canva.com/d/BwbEPDZhuts_Q55",
+            "https://www.canva.com/d/1lQGsR65cvJrAO0",
+            "https://www.canva.com/d/A26FfMCTWEvUZaf",
+            "https://www.canva.com/d/0w8lHZtw7MNwPRR"
+          ],
+          "primary_url": "https://www.canva.com/d/BwbEPDZhuts_Q55",
+          "note": "4 candidatos generados. Elegir el preferido y convertir en diseño final."
+        }
+      },
+      "reviewer_notes_applied": "Contenido adaptado para emprendedores sin conocimientos técnicos. Tono práctico y motivacional. Todos los CTAs dirigen a compra del ebook. Lenguaje accesible, ejemplos concretos de negocio."
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-29/update_002_instagram.md",
+        "linkedin": "content/2026-07-29/update_002_linkedin.md",
+        "twitter": "content/2026-07-29/update_002_twitter.md",
+        "youtube": "content/2026-07-29/update_002_youtube.md",
+        "blog": "content/2026-07-29/update_002_blog.md"
+      },
+      "canva": {
+        "instagram_carousel_cover": {
+          "status": "generated",
+          "candidates": [
+            "https://www.canva.com/d/97U6HWxwlv4tvTs",
+            "https://www.canva.com/d/OpNZtPXt3yvWyZg",
+            "https://www.canva.com/d/REh_8FXIZE9n59h",
+            "https://www.canva.com/d/_yux_HOzxVTh97C"
+          ],
+          "primary_url": "https://www.canva.com/d/97U6HWxwlv4tvTs",
+          "note": "4 candidatos generados. Elegir el preferido y convertir en diseño final con 'create-design-from-candidate'."
+        },
+        "youtube_thumbnail": {
+          "status": "generated",
+          "candidates": [
+            "https://www.canva.com/d/9KNGmZQ-GWSAKQM",
+            "https://www.canva.com/d/PsbRGiFUew2Gvvc",
+            "https://www.canva.com/d/9qWAguSskBQlxC0",
+            "https://www.canva.com/d/Zl2Ro35zANVfNQV"
+          ],
+          "primary_url": "https://www.canva.com/d/9KNGmZQ-GWSAKQM",
+          "note": "4 candidatos generados. Elegir el preferido y convertir en diseño final."
+        }
+      },
+      "reviewer_notes_applied": "Contenido técnico (Claude Code memory) adaptado para emprendedores sin contexto de programación. Ángulo: 'IA que recuerda tu negocio'. Ejemplos empresariales prácticos. CTAs al ebook."
+    }
+  ],
+  "content_folder": "content/2026-07-29/",
+  "canva_note": "Todos los diseños de Canva son candidatos (no confirmados). Abrir cada URL, elegir el preferido y guardarlo en la cuenta usando 'create-design-from-candidate' en Canva MCP."
+}
