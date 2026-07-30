@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T15:19:27Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and article pages returned HTTP 403; content retrieved via web search index. Multiple Claude/Anthropic articles found in general index but none with confirmed July 28-30 publication dates. Most recent confirmed XDA Claude article was approximately July 27, 2026 (just outside the 24-48h window). Outage article 'Anthropic's Claude is down... again' exists on XDA but context confirms it covers the March 2026 outage, not July 29.",
+    "docs.anthropic.com": "Direct page fetch returned HTTP 403. July 28, 2026 MCP 2026-07-28 spec update confirmed via web search cross-referencing multiple independent sources (claude.com/blog, ModelContextProtocol blog, X/@ClaudeDevs, Releasebot). This is the only release-notes-tracked update within the 24-48h window.",
+    "theverge.com": "Domain blocked by Anthropic crawler policy — both direct fetch (403) and web search (domain not accessible to search agent). Zero results available from this source."
+  },
+  "total_updates_found": 1,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Release Notes (docs.anthropic.com)",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "canonical_announcement_url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "title": "Claude Adds Support for MCP 2026-07-28 Spec: Stateless Core, Hardened Auth, and New Extensions",
+      "published_date": "2026-07-28",
+      "summary": "Anthropic updated Claude to support the new MCP 2026-07-28 specification — described as the largest MCP update since the protocol's launch. The spec moves MCP from a bidirectional stateful protocol to a stateless request/response model, enabling servers to deploy on serverless and edge infrastructure and scale horizontally behind any load balancer. Additional highlights include stronger OAuth and OIDC authorization, versioned extensions for Apps (server-rendered sandboxed UIs) and Tasks (long-running async operations), enterprise-managed auth, observability connectors, and private network tunnels. MCP has surpassed 400M monthly SDK downloads, a 4x increase in 2026.",
+      "relevance_score": 95,
+      "accuracy_notes": "Confirmed via multiple independent sources: Anthropic's official blog (claude.com/blog), the Model Context Protocol blog (blog.modelcontextprotocol.io/posts/2026-07-28/), X/@ClaudeDevs announcement, and Releasebot's Anthropic changelog. All sources corroborate the July 28 date and feature list. No red flags or unverified claims detected.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude just got a MASSIVE infrastructure upgrade — and it changes how AI agents connect to everything 🔄",
+          "slides": [
+            "Slide 1: MCP 2026-07-28 is here — the biggest protocol update since launch",
+            "Slide 2: What is MCP? (Model Context Protocol — how Claude connects to your apps & data)",
+            "Slide 3: The BIG change: MCP is now STATELESS — what that means for you",
+            "Slide 4: New: Apps (live UIs inside Claude), Tasks (async ops), Enterprise auth",
+            "Slide 5: 400M monthly downloads — MCP is now the industry standard for AI-to-app integration"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise/developer angle: What MCP 2026-07-28 means for AI agent architecture and scalability at scale",
+          "opening_line": "Anthropic just released the biggest update to the Model Context Protocol since its launch — and if you're building AI agents for business, you need to understand what changed.",
+          "cta": "Are you already building on MCP? What's been your biggest integration challenge? Drop it in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "🧵 Anthropic dropped the biggest MCP update yet on July 28. Here's what changed, why it matters, and what you can build now that you couldn't before:",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic just made Claude agents deployable on serverless infrastructure — here's what the MCP 2026-07-28 spec actually changes in 60 seconds",
+          "script_outline": "0-8s: Hook — 'MCP just went stateless and this changes everything for AI automation.' 8-20s: Quick explainer — what MCP is and why stateful was a scaling problem. 20-35s: What stateless means in practice — serverless-ready, edge-deployable, horizontally scalable. 35-50s: New official extensions — Apps (embedded UIs), Tasks (async ops), enterprise-managed auth. 50-58s: 400M downloads stat — why this is now the standard. 58-60s: CTA — follow for more Claude updates."
+        },
+        "ebook_blog": {
+          "title": "MCP 2026-07-28: La Guía Completa para Construir Agentes Claude Serverless con el Nuevo Protocolo Stateless",
+          "angle": "Guía técnica-práctica para emprendedores y developers que quieren conectar Claude a sus apps usando el nuevo spec — explicada sin jerga, con casos de uso reales de negocio."
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
