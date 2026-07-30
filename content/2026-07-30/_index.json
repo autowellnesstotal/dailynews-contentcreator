@@ -1,0 +1,78 @@
+{
+  "generated_date": "2026-07-30",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-30/update_001_instagram.md",
+        "linkedin": "content/2026-07-30/update_001_linkedin.md",
+        "twitter": "content/2026-07-30/update_001_twitter.md",
+        "youtube": "content/2026-07-30/update_001_youtube.md",
+        "blog": "content/2026-07-30/update_001_blog.md"
+      },
+      "canva_designs": {
+        "instagram_carousel_cover": {
+          "candidates": [
+            "https://www.canva.com/d/47U9sNLfQrZsv7l",
+            "https://www.canva.com/d/VaMY94I5JDNufUu",
+            "https://www.canva.com/d/NKsSdnxBcM_4Va8",
+            "https://www.canva.com/d/P-MgSNLmB6RXvmX"
+          ],
+          "job_id": "6a9cdd3c-6480-488b-b6ca-ad2919a15fc8",
+          "status": "success"
+        },
+        "youtube_thumbnail": {
+          "candidates": [
+            "https://www.canva.com/d/VnLkFsJzLQcE9up",
+            "https://www.canva.com/d/IJFHXAVkn-9LrHK",
+            "https://www.canva.com/d/uc6m7pRjMuCryug",
+            "https://www.canva.com/d/NRLCc68SRiYWrsd"
+          ],
+          "job_id": "c4eca16e-aa1d-4514-9067-b58e51b9d501",
+          "status": "success"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms_produced": ["instagram", "linkedin", "twitter", "youtube", "blog"],
+      "files": {
+        "instagram": "content/2026-07-30/update_002_instagram.md",
+        "linkedin": "content/2026-07-30/update_002_linkedin.md",
+        "twitter": "content/2026-07-30/update_002_twitter.md",
+        "youtube": "content/2026-07-30/update_002_youtube.md",
+        "blog": "content/2026-07-30/update_002_blog.md"
+      },
+      "canva_designs": {
+        "instagram_carousel_cover": {
+          "candidates": [
+            "https://www.canva.com/d/ZE3gNSea37GEpJ1",
+            "https://www.canva.com/d/zfDYCgEFaCEUnJ-",
+            "https://www.canva.com/d/myxutHubz7YEymk",
+            "https://www.canva.com/d/-uhM2UeQYEcytQ_"
+          ],
+          "job_id": "f2d4c295-10e4-46a3-96b1-5a0ca594c0fc",
+          "status": "success"
+        },
+        "youtube_thumbnail": {
+          "candidates": [
+            "https://www.canva.com/d/hIwlKb0wWVyolpy",
+            "https://www.canva.com/d/GAzS6YKIVz_tNA5",
+            "https://www.canva.com/d/8Df-0TxS95F5rGw",
+            "https://www.canva.com/d/nuFF-tc_dMSyQPt"
+          ],
+          "job_id": "d9bbb832-2c83-453d-b575-9441899def9c",
+          "status": "success"
+        }
+      }
+    }
+  ]
+}
