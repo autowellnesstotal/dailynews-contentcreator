@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-01",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "generated_at": "2026-08-01T00:00:00Z",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-01/update_001_instagram.md",
+          "format": "carrusel 6 slides",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Portada carrusel — opción 1",
+              "candidate_id": "dg-50e3df58-9e0d-4c9f-b226-fdddad5faf57",
+              "url": "https://www.canva.com/d/LFFEdWggYkVtpx8",
+              "thumbnail": "https://design.canva.ai/u-Sctr5wHb_sSv9"
+            },
+            {
+              "label": "Portada carrusel — opción 2",
+              "candidate_id": "dg-7aa9be97-c3dd-40fe-a579-a35a73850a93",
+              "url": "https://www.canva.com/d/0QMrY5TcxSWQM84",
+              "thumbnail": "https://design.canva.ai/sCVbCAV9kprLrj0"
+            },
+            {
+              "label": "Portada carrusel — opción 3",
+              "candidate_id": "dg-d03a451c-0e9c-41ee-97b8-21e7cde86165",
+              "url": "https://www.canva.com/d/8jgBb2_OXzGB_08",
+              "thumbnail": "https://design.canva.ai/pHeispLGRn1NPXM"
+            },
+            {
+              "label": "Portada carrusel — opción 4",
+              "candidate_id": "dg-e557a3e0-53b6-461a-81e2-fe5c1dfaf7d9",
+              "url": "https://www.canva.com/d/RrEPbF8ttrNVNSn",
+              "thumbnail": "https://design.canva.ai/xROwVZkoOp_0wNK"
+            }
+          ],
+          "canva_note": "Candidatos generados. Abre cualquier URL para editar, o pide 'guardar en mi cuenta' para crear el diseño final."
+        },
+        "linkedin": {
+          "file": "content/2026-08-01/update_001_linkedin.md",
+          "status": "generated"
+        },
+        "twitter": {
+          "file": "content/2026-08-01/update_001_twitter.md",
+          "format": "hilo 7 tweets",
+          "status": "generated"
+        },
+        "youtube": {
+          "file": "content/2026-08-01/update_001_youtube.md",
+          "format": "guion 60s + descripción",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Miniatura YouTube — opción 1",
+              "candidate_id": "dg-2629dd4f-557c-4e56-8e4c-030789721daa",
+              "url": "https://www.canva.com/d/p2YSuxIO0gsLlIW",
+              "thumbnail": "https://design.canva.ai/fSEc94WodhkTkZQ"
+            },
+            {
+              "label": "Miniatura YouTube — opción 2",
+              "candidate_id": "dg-7a3550dc-9bdd-4d1a-83b9-1b834a25868d",
+              "url": "https://www.canva.com/d/o7PyXNKCNdvPzOC",
+              "thumbnail": "https://design.canva.ai/N7leRPyCX3WRkue"
+            },
+            {
+              "label": "Miniatura YouTube — opción 3",
+              "candidate_id": "dg-825af293-7d61-4f61-8a64-e378768cec4d",
+              "url": "https://www.canva.com/d/JsUkuVndf1VWJyM",
+              "thumbnail": "https://design.canva.ai/nJeynzpTHLdiAKm"
+            },
+            {
+              "label": "Miniatura YouTube — opción 4",
+              "candidate_id": "dg-da57b78b-c553-4b32-80c9-cb8a0d6bd58c",
+              "url": "https://www.canva.com/d/PhCjXCjp45V1BLf",
+              "thumbnail": "https://design.canva.ai/2RvrSDthC8ow0wv"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-08-01/update_001_blog.md",
+          "word_count_approx": 750,
+          "status": "generated"
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-01/update_002_instagram.md",
+          "format": "carrusel 6 slides",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Portada carrusel — opción 1",
+              "candidate_id": "dg-6b32349e-8e18-420a-8951-303e8e732dfc",
+              "url": "https://www.canva.com/d/Q9C8uR3aAPNMEun",
+              "thumbnail": "https://design.canva.ai/YA0dwg2Ya9p6gj4"
+            },
+            {
+              "label": "Portada carrusel — opción 2",
+              "candidate_id": "dg-71be3ac5-1801-4aa4-b45d-13702eefff5f",
+              "url": "https://www.canva.com/d/Kl2WvLSpuwvDl-S",
+              "thumbnail": "https://design.canva.ai/OLkydwFkCiZA8NA"
+            },
+            {
+              "label": "Portada carrusel — opción 3",
+              "candidate_id": "dg-e6c9822c-1130-406e-bbdb-1d980e86710b",
+              "url": "https://www.canva.com/d/5rm3ho55MRK3J0C",
+              "thumbnail": "https://design.canva.ai/s8Jj2iUJrXL4xcg"
+            },
+            {
+              "label": "Portada carrusel — opción 4",
+              "candidate_id": "dg-f4b271a0-161e-4cf6-819d-b9a78c49af57",
+              "url": "https://www.canva.com/d/u3_fFQ2J5pyi-Ux",
+              "thumbnail": "https://design.canva.ai/KXHwV4k-9UNddIB"
+            }
+          ],
+          "canva_note": "Candidatos generados. Abre cualquier URL para editar, o pide 'guardar en mi cuenta' para crear el diseño final."
+        },
+        "linkedin": {
+          "file": "content/2026-08-01/update_002_linkedin.md",
+          "status": "generated"
+        },
+        "twitter": {
+          "file": "content/2026-08-01/update_002_twitter.md",
+          "format": "hilo 8 tweets",
+          "status": "generated"
+        },
+        "youtube": {
+          "file": "content/2026-08-01/update_002_youtube.md",
+          "format": "guion 60s + descripción",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Miniatura YouTube — opción 1",
+              "candidate_id": "dg-1535febe-274e-4182-8f2a-b089b202e333",
+              "url": "https://www.canva.com/d/qFSnFIbcDbi0q2e",
+              "thumbnail": "https://design.canva.ai/IUpyeyaaAspkgM1"
+            },
+            {
+              "label": "Miniatura YouTube — opción 2",
+              "candidate_id": "dg-3b470098-5f2b-40e9-9c30-634a490e0630",
+              "url": "https://www.canva.com/d/7vkX-9IJYiUYHZ5",
+              "thumbnail": "https://design.canva.ai/0_5jkEqtO-aprgA"
+            },
+            {
+              "label": "Miniatura YouTube — opción 3",
+              "candidate_id": "dg-7cb31bec-1d1b-4e29-9e3a-95323d684000",
+              "url": "https://www.canva.com/d/4CMR3SqhB8HVdzz",
+              "thumbnail": "https://design.canva.ai/qRAZsFFGyrtA0yI"
+            },
+            {
+              "label": "Miniatura YouTube — opción 4",
+              "candidate_id": "dg-e7c21e69-e102-470c-9b7a-30a65b3166c5",
+              "url": "https://www.canva.com/d/zhWzv_ia5HCbwUD",
+              "thumbnail": "https://design.canva.ai/LsVTuRN5ZkNQen7"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-08-01/update_002_blog.md",
+          "word_count_approx": 820,
+          "status": "generated"
+        }
+      }
+    }
+  ]
+}
