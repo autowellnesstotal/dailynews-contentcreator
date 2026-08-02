@@ -1,0 +1,194 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T00:00:00Z",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-02/update_001_instagram.md",
+          "format": "carrusel 7 slides",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Portada carrusel — opción 1",
+              "candidate_id": "dg-310c80c2-951c-4f7d-bc46-d6875a0a36bf",
+              "url": "https://www.canva.com/d/wKQmmUsJlRFq0Cn",
+              "thumbnail": "https://design.canva.ai/AHcRDa33Te9W7-D"
+            },
+            {
+              "label": "Portada carrusel — opción 2",
+              "candidate_id": "dg-a933aa29-bbe9-44f2-afb2-3a96f9e9e8f7",
+              "url": "https://www.canva.com/d/ZL3SPWmKgDK0DQe",
+              "thumbnail": "https://design.canva.ai/UqBWvWTwrxoNZOd"
+            },
+            {
+              "label": "Portada carrusel — opción 3",
+              "candidate_id": "dg-c9b0f555-c884-466f-b7c5-267b78c12c64",
+              "url": "https://www.canva.com/d/YrtRx1gwCEZyR6W",
+              "thumbnail": "https://design.canva.ai/QY6cG-HWNtz-7Ev"
+            },
+            {
+              "label": "Portada carrusel — opción 4",
+              "candidate_id": "dg-d91984cf-0ae7-42ad-a822-7d2e2ec7fe00",
+              "url": "https://www.canva.com/d/fYtErdm6MrCMPpm",
+              "thumbnail": "https://design.canva.ai/G4rExv-p3_XcJtp"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-08-02/update_001_linkedin.md",
+          "format": "post largo con hashtags",
+          "status": "generated",
+          "canva_candidates": null
+        },
+        "twitter": {
+          "file": "content/2026-08-02/update_001_twitter.md",
+          "format": "hilo de 7 tweets",
+          "status": "generated",
+          "canva_candidates": null
+        },
+        "youtube": {
+          "file": "content/2026-08-02/update_001_youtube.md",
+          "format": "guión 60s + título + descripción",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Thumbnail YouTube — opción 1",
+              "candidate_id": "dg-08a7cddc-1b89-40b0-9b8d-11a86a78746c",
+              "url": "https://www.canva.com/d/tnDJD4XiWYGh0Bl",
+              "thumbnail": "https://design.canva.ai/xOhK8vpuRkHPica"
+            },
+            {
+              "label": "Thumbnail YouTube — opción 2",
+              "candidate_id": "dg-430f59a9-7859-4c34-8477-f652bb3c1d00",
+              "url": "https://www.canva.com/d/YIp7UIFdyf3Au0q",
+              "thumbnail": "https://design.canva.ai/A_EAh11Oi2TKw6p"
+            },
+            {
+              "label": "Thumbnail YouTube — opción 3",
+              "candidate_id": "dg-725a5493-8bc8-48e7-a933-b25fbe3ed886",
+              "url": "https://www.canva.com/d/nyBmD3CyjDx5U6e",
+              "thumbnail": "https://design.canva.ai/OP54eQ4qF4FUG8R"
+            },
+            {
+              "label": "Thumbnail YouTube — opción 4",
+              "candidate_id": "dg-8467f6a3-4653-4056-b838-0db48118df92",
+              "url": "https://www.canva.com/d/BFkwvu8gu_qRYsE",
+              "thumbnail": "https://design.canva.ai/nJpVkltew18o5cx"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-08-02/update_001_blog.md",
+          "format": "artículo ~800 palabras",
+          "status": "generated",
+          "canva_candidates": null
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-02/update_002_instagram.md",
+          "format": "carrusel 7 slides",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Portada carrusel — opción 1",
+              "candidate_id": "dg-249c3914-907c-484e-bc2c-beff0e0d6954",
+              "url": "https://www.canva.com/d/K0Ua6acLSS69J5m",
+              "thumbnail": "https://design.canva.ai/ypKo1pzOhAIry7r"
+            },
+            {
+              "label": "Portada carrusel — opción 2",
+              "candidate_id": "dg-4493b12e-80ce-4f1a-a8e4-eb642f911d3f",
+              "url": "https://www.canva.com/d/MZMwVamq4AQ-_ZF",
+              "thumbnail": "https://design.canva.ai/10hITiBQRA_WS5r"
+            },
+            {
+              "label": "Portada carrusel — opción 3",
+              "candidate_id": "dg-95bf2c24-156a-415c-8852-52d1d8af2e89",
+              "url": "https://www.canva.com/d/aETmwjGao6NxWCL",
+              "thumbnail": "https://design.canva.ai/nsThD_QgUE35cai"
+            },
+            {
+              "label": "Portada carrusel — opción 4",
+              "candidate_id": "dg-99428902-d4c3-4716-a92f-0b0b4d23477a",
+              "url": "https://www.canva.com/d/ttvfsEl9d8s1uLZ",
+              "thumbnail": "https://design.canva.ai/_w2R07sGfhCq-xc"
+            }
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-08-02/update_002_linkedin.md",
+          "format": "post largo con hashtags",
+          "status": "generated",
+          "canva_candidates": null
+        },
+        "twitter": {
+          "file": "content/2026-08-02/update_002_twitter.md",
+          "format": "hilo de 8 tweets",
+          "status": "generated",
+          "canva_candidates": null
+        },
+        "youtube": {
+          "file": "content/2026-08-02/update_002_youtube.md",
+          "format": "guión 60s + título + descripción",
+          "status": "generated",
+          "canva_candidates": [
+            {
+              "label": "Thumbnail YouTube — opción 1",
+              "candidate_id": "dg-1012d3c1-5941-44c1-bd68-f4626b18f531",
+              "url": "https://www.canva.com/d/UuRuYBEsVrtjjxc",
+              "thumbnail": "https://design.canva.ai/zqs_9pm20lI6qqq"
+            },
+            {
+              "label": "Thumbnail YouTube — opción 2",
+              "candidate_id": "dg-98b8922a-da82-48aa-a028-a6f28c88a580",
+              "url": "https://www.canva.com/d/QeIjTz-ovm0lnzL",
+              "thumbnail": "https://design.canva.ai/FU8X8AxhqIOU5jf"
+            },
+            {
+              "label": "Thumbnail YouTube — opción 3",
+              "candidate_id": "dg-b9834c9f-7f85-42ef-860b-ae6eab836664",
+              "url": "https://www.canva.com/d/thDSuRHON6TXeRZ",
+              "thumbnail": "https://design.canva.ai/zL5sb3IDuyknZ8q"
+            },
+            {
+              "label": "Thumbnail YouTube — opción 4",
+              "candidate_id": "dg-fe420179-0c3b-4b0d-8c67-da5aa4e0f343",
+              "url": "https://www.canva.com/d/Auw9cU6oTdHRw23",
+              "thumbnail": "https://design.canva.ai/E76hUXhUAyZncXY"
+            }
+          ]
+        },
+        "blog": {
+          "file": "content/2026-08-02/update_002_blog.md",
+          "format": "artículo ~900 palabras",
+          "status": "generated",
+          "canva_candidates": null
+        }
+      }
+    }
+  ],
+  "canva_summary": {
+    "total_design_sets_generated": 4,
+    "total_candidates": 16,
+    "update_001_instagram_carousel": "4 candidatos — usar create-design-from-candidate con el candidate_id preferido",
+    "update_001_youtube_thumbnail": "4 candidatos",
+    "update_002_instagram_carousel": "4 candidatos",
+    "update_002_youtube_thumbnail": "4 candidatos"
+  },
+  "pipeline_note": "ALERTA: Solo existe un archivo digest (daily-news/2026-05-24.json). No se han generado nuevos digests desde el 2026-05-24. El pipeline de generación de noticias diarias puede estar detenido."
+}
