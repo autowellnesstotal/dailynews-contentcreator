@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T15:23:36Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "total_updates_found": 0,
+  "status": "no_updates_today",
+  "review_status": "pending",
+  "research_notes": {
+    "xda_developers": {
+      "articles_scanned": "Last known Claude/Anthropic articles are from June–July 2026. No articles published in the last 24-48 hours (Aug 2-4, 2026) were confirmed via search or direct fetch (403 blocked). Most recent confirmed XDA Claude article: 'Claude Code's usage breakdown showed me which of my own habits were burning my limits' (June 23, 2026).",
+      "claude_articles_last_48h": 0
+    },
+    "anthropic_docs_release_notes": {
+      "last_entry_found": "August 1, 2026 — Dreams (research preview) now supports Claude Opus 5",
+      "note": "This entry is 3 days old (72h), just outside the strict 24-48h window. No entries dated Aug 2, 3, or 4 found.",
+      "claude_articles_last_48h": 0
+    },
+    "the_verge": {
+      "articles_scanned": "No Claude/Anthropic articles from Aug 2-4, 2026 found in any search. Direct site fetch returned 403. No confirmed Verge coverage of Claude in last 48 hours.",
+      "claude_articles_last_48h": 0
+    },
+    "context_for_tomorrow": {
+      "claude_opus_4_1_retirement": "Claude Opus 4.1 (claude-opus-4-1-20250805) retires from the Claude API on August 5, 2026 — tomorrow. Developers should migrate to Claude Opus 4.8. Deprecation was announced June 5, 2026.",
+      "claude_code_usage_boost": "Anthropic's 50% weekly usage boost for Claude Code (Pro, Max, Team, Enterprise) remains active through August 19, 2026.",
+      "sonnet_5_pricing": "Claude Sonnet 5 promotional pricing ($2/$10/MTok) ends August 31, 2026; standard $3/$15 takes effect September 1.",
+      "workbench_retirement": "Legacy Workbench and experimental prompt tools APIs retire August 17, 2026.",
+      "recent_service_outage": "Community reports of Claude/Anthropic AI service degradation on August 3-4, 2026 (DownDetector peaks ~1:43PM BST Aug 3 and ~5:00PM AEST Aug 4)."
+    }
+  },
+  "updates": []
+}
