@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-08-04",
+  "source_digest": "daily-news/2026-05-24.json",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "folder": "content/2026-08-04/",
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "published_date": "2026-05-23",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-04/update_001_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva": {
+            "design_id": "DAHRXMUgGl4",
+            "title": "Post para Instagram - Claude Design para Emprendedores",
+            "view_url": "https://www.canva.com/d/u0TaSbnm_4nW2ig",
+            "edit_url": "https://www.canva.com/d/l-O0t10g9P0FNIQ"
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-08-04/update_001_linkedin.md",
+          "format": "post con párrafos cortos"
+        },
+        "twitter": {
+          "file": "content/2026-08-04/update_001_twitter.md",
+          "format": "hilo de 7 tweets"
+        },
+        "youtube": {
+          "file": "content/2026-08-04/update_001_youtube.md",
+          "format": "guión 60s + título + descripción",
+          "canva": {
+            "design_id": "DAHRXEwXXoo",
+            "title": "Vibrant YouTube Thumbnail for AI Design",
+            "view_url": "https://www.canva.com/d/U7wO2aGzR7pu-Hv",
+            "edit_url": "https://www.canva.com/d/NnUv6BGURhME125"
+          }
+        },
+        "blog": {
+          "file": "content/2026-08-04/update_001_blog.md",
+          "format": "artículo 800 palabras aprox."
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "published_date": "2026-05-22",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-04/update_002_instagram.md",
+          "format": "carousel (7 slides)",
+          "canva": {
+            "design_id": "DAHRXIYDoOY",
+            "title": "Post para Instagram - ¿Y si Claude recordara todo?",
+            "view_url": "https://www.canva.com/d/b4CtMm1LwEFIUDY",
+            "edit_url": "https://www.canva.com/d/seU4JZeI4lXPCK2"
+          }
+        },
+        "linkedin": {
+          "file": "content/2026-08-04/update_002_linkedin.md",
+          "format": "post con párrafos cortos"
+        },
+        "twitter": {
+          "file": "content/2026-08-04/update_002_twitter.md",
+          "format": "hilo de 8 tweets"
+        },
+        "youtube": {
+          "file": "content/2026-08-04/update_002_youtube.md",
+          "format": "guión 60s + título + descripción",
+          "canva": {
+            "design_id": "DAHRXAxjkKs",
+            "title": "Thumbnail moderno para YouTube sobre IA empresarial",
+            "view_url": "https://www.canva.com/d/C3hXmXze2_L_gU5",
+            "edit_url": "https://www.canva.com/d/6k0V1cwIZNp8qfv"
+          }
+        },
+        "blog": {
+          "file": "content/2026-08-04/update_002_blog.md",
+          "format": "artículo 850 palabras aprox."
+        }
+      }
+    }
+  ],
+  "canva_designs_summary": [
+    {
+      "update": "update_001",
+      "platform": "instagram_post",
+      "canva_id": "DAHRXMUgGl4",
+      "view_url": "https://www.canva.com/d/u0TaSbnm_4nW2ig"
+    },
+    {
+      "update": "update_001",
+      "platform": "youtube_thumbnail",
+      "canva_id": "DAHRXEwXXoo",
+      "view_url": "https://www.canva.com/d/U7wO2aGzR7pu-Hv"
+    },
+    {
+      "update": "update_002",
+      "platform": "instagram_post",
+      "canva_id": "DAHRXIYDoOY",
+      "view_url": "https://www.canva.com/d/b4CtMm1LwEFIUDY"
+    },
+    {
+      "update": "update_002",
+      "platform": "youtube_thumbnail",
+      "canva_id": "DAHRXAxjkKs",
+      "view_url": "https://www.canva.com/d/C3hXmXze2_L_gU5"
+    }
+  ]
+}
