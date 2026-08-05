@@ -1,0 +1,149 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T15:27:54Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage returned HTTP 403; individual articles also blocked. Article titles and dates retrieved via web search. No articles confirmed published Aug 4–5, 2026 within the 24-48h window. Most recent relevant article dated July 31, 2026 (outside window).",
+    "docs.anthropic.com": "Release notes page returned HTTP 403. Changelog data for Claude Code retrieved via GitHub (github.com/anthropics/claude-code/releases) and confirmed via web search aggregators. Two releases confirmed on August 4, 2026: v2.1.221 (00:14 UTC) and v2.1.222 (22:39 UTC).",
+    "theverge.com": "Blocked by both direct fetch (HTTP 403) and web search index policy (domain not accessible to Anthropic crawler). Zero results available. Major Anthropic story (Tino Cuéllar hire) widely covered by CNBC, US News, Harvard Crimson — likely covered by The Verge but unconfirmable."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "Anthropic Newsroom",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "title": "Anthropic Names Tino Cuéllar as Its First Chief Global Affairs Officer",
+      "published_date": "2026-08-04",
+      "summary": "Anthropic anunció el 4 de agosto de 2026 la contratación de Mariano-Florentino (Tino) Cuéllar como su primer Chief Global Affairs Officer, un nuevo cargo creado para manejar las relaciones con gobiernos y la política de IA a nivel global. Cuéllar es ex magistrado de la Corte Suprema de California, ex presidente de la Carnegie Endowment for International Peace y profesor de la Facultad de Derecho de Stanford. Reportará directamente a la presidenta Daniela Amodei y liderará la estrategia internacional en un momento de alta tensión: el gobierno Trump había bloqueado al Pentágono de usar tecnología de Anthropic y restringido exportaciones de sus modelos más avanzados.",
+      "relevance_score": 95,
+      "accuracy_notes": "Verificado. Anuncio oficial en anthropic.com/news/tino-cuellar. Cubierto por CNBC, US News, Harvard Crimson, Law.com, The Next Web, PYMNTS y otros medios con detalles consistentes. La tensión con el gobierno Trump es contexto documentado independientemente. Cuéllar sirvió como Trustee del Long-Term Benefit Trust de Anthropic desde enero de 2026 antes de unirse al equipo.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic acaba de contratar a un ex juez de la Corte Suprema — esto es lo que significa para el futuro de la IA 🏛️",
+          "slides": [
+            "¿Quién es Tino Cuéllar y por qué es noticia?",
+            "Ex magistrado de la Corte Suprema de California, ahora en IA",
+            "El rol: Chief Global Affairs Officer — el primero en la historia de Anthropic",
+            "El contexto: Trump, el Pentágono y las restricciones a Claude",
+            "Lo que esto significa para el futuro de la regulación de IA"
+          ]
+        },
+        "linkedin": {
+          "angle": "Liderazgo estratégico en política de IA — qué dice sobre la industria la creación de un C-suite de Global Affairs en Anthropic",
+          "opening_line": "Anthropic acaba de crear un nuevo rol en su C-suite: Chief Global Affairs Officer. El elegido es un ex magistrado de la Corte Suprema de California y ex presidente de la Carnegie Endowment for International Peace.",
+          "cta": "¿Cómo debería prepararse tu empresa para operar en la era de la IA regulada? Comenta abajo."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic acaba de crear su primer Chief Global Affairs Officer y contrató a un ex juez de la Corte Suprema para el cargo. Un movimiento que revela mucho sobre hacia dónde va la industria 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Anthropic contrató a un ex juez de la Corte Suprema — y no es por casualidad",
+          "script_outline": "Intro: el anuncio de Tino Cuéllar → ¿Quién es? (trayectoria en cortes, Obama White House, Carnegie) → El contexto político: Pentágono blacklist + restricciones de exportación de Claude bajo Trump → Por qué Anthropic necesita este perfil ahora → Qué significa para desarrolladores y empresas que usan Claude → CTA: cómo seguir de cerca la regulación de IA"
+        },
+        "ebook_blog": {
+          "title": "IA bajo presión política: por qué Anthropic creó el rol de Chief Global Affairs Officer",
+          "angle": "Análisis de las tensiones entre la industria de IA (específicamente Anthropic) y el gobierno Trump, y cómo las grandes empresas de IA están respondiendo con contrataciones estratégicas en política y diplomacia global"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Docs — Claude Code Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.221: Focus View, Credential Masking y Cambios en Sesiones en Segundo Plano",
+      "published_date": "2026-08-04",
+      "summary": "Anthropic lanzó Claude Code v2.1.221 el 4 de agosto de 2026 a las 00:14 UTC con importantes novedades. La más destacada es el Focus View en VSCode: un toggle en el menú de chat que oculta la actividad de herramientas detrás de un resumen expandible por turno con indicador en vivo del tool activo, activable con Ctrl+Alt+F. También se añadió mode: 'mask' para archivos de credenciales en entornos sandbox (Linux/WSL), warnings de validación para plugins de marketplace, y el subcomando prompt-audit para la skill claude-api. Un cambio operacional significativo: las sesiones en segundo plano ahora hacen commit, push y preservan el trabajo automáticamente.",
+      "relevance_score": 88,
+      "accuracy_notes": "Verificado vía GitHub (github.com/anthropics/claude-code/releases) con datos confirmados por múltiples agregadores de changelogs (releasebot.io, gradually.ai, claudefa.st). Versión y fecha consistentes en todas las fuentes.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code se actualiza: Focus Mode cambia cómo ves el trabajo de tus agentes de IA 👁️",
+          "slides": [
+            "¿Qué es el Focus View de Claude Code?",
+            "Cómo activarlo: Ctrl+Alt+F en VSCode",
+            "Ver solo lo que importa — sin ruido de herramientas",
+            "Las sesiones en segundo plano ahora guardan tu trabajo automáticamente",
+            "¿Vale la pena actualizar? Sí — aquí te explico por qué"
+          ]
+        },
+        "linkedin": {
+          "angle": "Productividad del desarrollador: cómo el Focus View resuelve el problema de la opacidad en la ejecución de agentes de IA",
+          "opening_line": "Nueva versión de Claude Code: v2.1.221. El cambio más importante es el Focus View — y puede transformar cómo trabajas con agentes de IA sin perder el control.",
+          "cta": "¿Ya usas Claude Code en tu flujo de trabajo? Cuéntame en los comentarios cómo lo integras."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.221 ya está disponible. El Focus View es el cambio más interesante — y hay más novedades que impactan tu workflow 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code v2.1.221: la feature que necesitabas para controlar tus agentes de IA",
+          "script_outline": "Intro: el problema del 'agent chaos' (no saber qué hace el agente) → Solución: Focus View demo → Cómo activarlo en VSCode → Otros cambios importantes: credential masking, background sessions → Cierre: por qué esta versión importa para equipos que usan Claude Code en producción"
+        },
+        "ebook_blog": {
+          "title": "Claude Code Focus View: Transparencia y Control en la Era de los Agentes de IA",
+          "angle": "Análisis de cómo el Focus View aborda el problema de la opacidad en la ejecución de agentes y qué implica para el diseño de herramientas de IA para desarrolladores"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "Anthropic Docs — Claude Code Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/claude-code",
+      "title": "Claude Code v2.1.222: Eliminación de Ultraplan y Parches de Seguridad en Worktrees",
+      "published_date": "2026-08-04",
+      "summary": "Anthropic lanzó Claude Code v2.1.222 el mismo 4 de agosto de 2026 a las 22:39 UTC. El cambio más notable es la eliminación del feature 'ultraplan'. En seguridad, se corrigió una vulnerabilidad donde sesiones aisladas en worktrees y sus subagentes podían ejecutar comandos git destructivos contra el checkout principal; ahora el aislamiento aplica a ediciones de archivos y Bash en todo tipo de sesión. También se repararon bypass de hooks PreToolUse en tareas en segundo plano, errores de /usage-credits en Team/Enterprise, y problemas de conectividad al iniciar detrás de un proxy HTTPS.",
+      "relevance_score": 82,
+      "accuracy_notes": "Verificado vía GitHub (github.com/anthropics/claude-code/releases). La eliminación de ultraplan está documentada explícitamente. El fix de seguridad en worktrees es notable para equipos que usan Claude Code en entornos de CI/CD.",
+      "content_potential": "low",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code eliminó el Ultraplan — ¿qué significa esto para ti? 🤔",
+          "slides": [
+            "¿Qué era el Ultraplan de Claude Code?",
+            "Por qué fue eliminado en v2.1.222",
+            "El parche de seguridad en worktrees que debes conocer",
+            "Otros fixes importantes de esta versión",
+            "¿Qué sigue para Claude Code?"
+          ]
+        },
+        "linkedin": {
+          "angle": "Gestión del cambio en herramientas de IA: qué hacer cuando una feature desaparece sin previo aviso",
+          "opening_line": "Claude Code v2.1.222 eliminó el feature Ultraplan. Si lo usabas en tu flujo de trabajo, aquí está lo que necesitas saber.",
+          "cta": "¿Usabas Ultraplan? Comparte tu experiencia en los comentarios."
+        },
+        "twitter_x": {
+          "thread_opener": "Claude Code v2.1.222 elimina Ultraplan. Además hay un fix de seguridad importante en worktrees que todo equipo de CI/CD debería conocer 🧵",
+          "estimated_tweets": 4
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code eliminó Ultraplan — esto es lo que necesitas saber ahora mismo",
+          "script_outline": "Intro: el cambio en v2.1.222 → Qué era ultraplan y para qué se usaba → Por qué fue eliminado → El fix de seguridad en worktrees (importante para CI/CD) → Alternativas y próximos pasos"
+        },
+        "ebook_blog": {
+          "title": "Cuando las Features de IA Desaparecen: Lecciones del Caso Ultraplan en Claude Code",
+          "angle": "Reflexión sobre la madurez del ecosistema de herramientas de IA: qué significa que Anthropic elimine features experimentales y cómo preparar flujos de trabajo resilientes"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
