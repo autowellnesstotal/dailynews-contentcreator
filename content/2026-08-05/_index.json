@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-05",
+  "source_digest": "daily-news/2026-05-24.json",
+  "generated_at": "2026-08-05T00:00:00Z",
+  "total_approved_updates": 2,
+  "total_files_created": 10,
+  "updates": [
+    {
+      "id": "update_001",
+      "title": "Claude Design is the best feature Anthropic's launched in a while, but it has some serious limitations",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-05/update_001_instagram.md",
+          "format": "carousel",
+          "slides": 7,
+          "canva_candidates": [
+            "https://www.canva.com/d/TliNcBcBzpBkK3I",
+            "https://www.canva.com/d/Nl9cK-bVzwu6ZL6",
+            "https://www.canva.com/d/cIim6wrRf3Lwhi8",
+            "https://www.canva.com/d/VPmM3Iieuu4tCvF"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-08-05/update_001_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-08-05/update_001_twitter.md",
+          "tweets": 7
+        },
+        "youtube": {
+          "file": "content/2026-08-05/update_001_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/AggnzwB7qAFYwdw",
+            "https://www.canva.com/d/ltrUfb2boUMK3kh",
+            "https://www.canva.com/d/u7mEkQMe7d_fls6",
+            "https://www.canva.com/d/RonB6cZGsCfKhvu"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-08-05/update_001_blog.md",
+          "word_count_approx": 750
+        }
+      }
+    },
+    {
+      "id": "update_002",
+      "title": "I added Claude Code's memory to my workflows, and my automation became effortless",
+      "source": "XDA Developers",
+      "platforms": {
+        "instagram": {
+          "file": "content/2026-08-05/update_002_instagram.md",
+          "format": "carousel",
+          "slides": 6,
+          "canva_candidates": [
+            "https://www.canva.com/d/ZWYUBbza3Y6HEM4",
+            "https://www.canva.com/d/3cHzVYDrftAEbsw",
+            "https://www.canva.com/d/1mRuEKxuSOJc0J7",
+            "https://www.canva.com/d/LtHRpsOGCTx9_AQ"
+          ]
+        },
+        "linkedin": {
+          "file": "content/2026-08-05/update_002_linkedin.md"
+        },
+        "twitter": {
+          "file": "content/2026-08-05/update_002_twitter.md",
+          "tweets": 8
+        },
+        "youtube": {
+          "file": "content/2026-08-05/update_002_youtube.md",
+          "duration_seconds": 60,
+          "canva_thumbnail_candidates": [
+            "https://www.canva.com/d/hWOJ_FkZHT5d2tm",
+            "https://www.canva.com/d/aKBTVKrRlx_NIyj",
+            "https://www.canva.com/d/_odspaZKxzyuSvN",
+            "https://www.canva.com/d/bTpR4OS_Nnf99zL"
+          ]
+        },
+        "blog": {
+          "file": "content/2026-08-05/update_002_blog.md",
+          "word_count_approx": 820
+        }
+      }
+    }
+  ]
+}
