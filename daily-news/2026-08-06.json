@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T15:34:25Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "source_access_notes": {
+    "xda-developers.com": "Homepage and individual articles return HTTP 403. Article titles, dates, and summaries retrieved via web search. One article confirmed within 24-48h window (published ~Aug 4-5, 2026).",
+    "docs.anthropic.com": "Direct page returns HTTP 403; release note content retrieved via web search and secondary aggregators. One update confirmed within 24-48h window: Inference Hooks for Enterprise launched August 5, 2026. Secondary notable update: Claude Opus 4.1 API retirement also effective August 5, 2026.",
+    "theverge.com": "Domain blocked by both direct fetch (HTTP 403) and Anthropic web search crawler policy. No results available. No Verge articles about Claude/Anthropic found via general search for August 4-6, 2026."
+  },
+  "total_updates_found": 2,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-code-gives-me-few-models-to-work-with-thats-why-keep-going-back/",
+      "title": "Claude Code gives me very few models to work with, and that's exactly why I keep going back to it",
+      "published_date": "2026-08-05",
+      "summary": "The XDA author argues that Claude Code's intentionally narrow model roster — only Anthropic's own Haiku, Sonnet, Opus, and the Fable/Mythos frontier tier — is a feature rather than a flaw. By contrast, tools like Cursor present a sprawling multi-vendor picker (OpenAI, Google, xAI, Anthropic) that turns every prompt into a micro-procurement decision. The article contends that because Anthropic's models consistently top coding benchmarks, the constrained selection removes decision fatigue without sacrificing quality.",
+      "relevance_score": 87,
+      "accuracy_notes": "Opinion/review piece from an XDA staff writer based on first-hand use; no factual claims require independent verification. Assertion that Anthropic models lead coding benchmarks is consistent with publicly available AIDER leaderboard data and SWE-bench rankings. Claude Code model lineup accurately described.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Fewer AI models = better coding results? This developer says YES — and the reason is counterintuitive",
+          "slides": [
+            "Slide 1: 'The Model Picker Problem Nobody Talks About'",
+            "Slide 2: 'What Other AI Coding Tools Do (Decision Overload)'",
+            "Slide 3: 'Claude Code's Answer: 4 Models, All Anthropic'",
+            "Slide 4: 'Why Top-Ranked Models Make the Choice Easy'",
+            "Slide 5: 'Less Choice, More Focus — The Claude Code Advantage'"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity and cognitive load in AI tool selection — less choice can unlock more output",
+          "opening_line": "Most AI coding tools let you scroll through 20+ models from 6 different companies. Claude Code gives you 4. And that's exactly why developers keep choosing it over everything else.",
+          "cta": "Do you prefer a broad model picker or a curated shortlist when using AI coding tools? Share your workflow below."
+        },
+        "twitter_x": {
+          "thread_opener": "Counterintuitive take: Claude Code giving you FEWER models to work with might be its biggest feature — not a limitation. A thread on why less choice can mean better code 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Wait — an AI coding tool with FEWER model choices is actually BETTER? Here's the surprising reason developers are switching to Claude Code",
+          "script_outline": "Open with the 'too many choices' pain point (0-10s). Show how Cursor and similar tools overwhelm with multi-vendor pickers (10-25s). Reveal Claude Code's focused lineup and why Anthropic's models rank #1 on coding benchmarks (25-45s). Payoff: less decision fatigue = more shipping (45-60s)."
+        },
+        "ebook_blog": {
+          "title": "The Power of Constraints: Why Claude Code's Focused Model Lineup Beats a 20-Option Picker",
+          "angle": "Decision fatigue in AI tooling, how constraint drives focus, and why 'fewer but better' is winning the developer loyalty war"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "Anthropic Docs / Release Notes",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "title": "Inference Hooks for Claude Enterprise now in beta — real-time DLP enforcement before Claude sees your prompts",
+      "published_date": "2026-08-05",
+      "summary": "Anthropic launched Inference Hooks in beta for Claude Enterprise on August 5, 2026, enabling organizations to route every employee prompt through their own security server for an allow-or-deny verdict before the model processes it. The feature extends DLP (data loss prevention) enforcement — the same controls already applied to email and web traffic — to Claude Chat, Claude Code, and Cowork sessions via a single organization-level configuration. Supported DLP infrastructure includes Netskope, Palo Alto Networks, Zscaler, and Proofpoint, and includes shadow mode and rollout controls for staged deployments.",
+      "relevance_score": 95,
+      "accuracy_notes": "Official Anthropic release note confirmed by coverage from The Next Web (thenextweb.com), Unite.AI, and AIToolsReview. August 5, 2026 launch date corroborated by multiple independent sources. DLP vendor integrations (Netskope, Palo Alto, Zscaler, Proofpoint) confirmed via multiple secondary sources. Beta status clearly disclosed.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Anthropic just gave enterprises a DLP firewall for Claude 🔒 Here's what it means for your security team",
+          "slides": [
+            "Slide 1: 'The Enterprise AI Security Gap Is Closing'",
+            "Slide 2: 'What Are Inference Hooks? (In Plain English)'",
+            "Slide 3: 'How It Works: Your Server Decides Before Claude Does'",
+            "Slide 4: 'Supported Platforms: Netskope, Palo Alto, Zscaler, Proofpoint'",
+            "Slide 5: 'What This Means for Enterprise AI Adoption in 2026'"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI compliance and security — how Inference Hooks remove the #1 blocker to Claude adoption in regulated industries",
+          "opening_line": "The single biggest objection to deploying AI in regulated enterprises just got answered: Anthropic now lets your DLP server decide what reaches Claude — before the model ever sees the data.",
+          "cta": "If you're on a security or compliance team evaluating Claude for enterprise, this beta is worth reading. What's your organization's biggest AI security concern right now? Let's discuss in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just launched Inference Hooks for Claude Enterprise 🔒 This is a big deal for CISOs and compliance teams. Here's exactly what it does and why it matters 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "Enterprise AI just got a crucial security upgrade — Anthropic's Inference Hooks explained in 60 seconds",
+          "script_outline": "Open with the enterprise AI fear: 'What if an employee sends sensitive data to Claude?' (0-10s). Introduce Inference Hooks as the solution: a security checkpoint before Claude (10-25s). Explain how it integrates with existing DLP tools like Zscaler and Palo Alto (25-45s). Close with the business impact: regulated industries can now deploy Claude with confidence (45-60s)."
+        },
+        "ebook_blog": {
+          "title": "Anthropic's Inference Hooks: The Enterprise Security Feature That Removes the Last Barrier to AI Adoption",
+          "angle": "How DLP-integrated inference controls are reshaping the conversation around enterprise AI risk — and what it means for compliance-first industries like healthcare, finance, and legal"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
