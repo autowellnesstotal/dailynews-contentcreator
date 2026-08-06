@@ -1,80 +1,77 @@
-# YouTube / TikTok — Claude Code Memory (update_002)
-**Fuente:** XDA Developers · 2026-05-22
+# Update 002 — Guion YouTube/TikTok: Claude Code Memory
+
+**Fuente:** XDA Developers, 22 de mayo de 2026
+**Duración objetivo:** 60 segundos
 
 ---
 
-## TÍTULO OPTIMIZADO PARA BÚSQUEDA
+## Título Optimizado para Búsqueda
 
-Dejé de re-explicar mi empresa a la IA en cada sesión — este setup de Claude lo resolvió todo (sin ser técnico)
-
----
-
-## DESCRIPCIÓN DEL VIDEO
-
-Claude ahora tiene memoria persistente: aprende sobre tu empresa automáticamente y recuerda el contexto en cada sesión futura. En este video te explico cómo funciona en la práctica para emprendedores — sin tecnicismos — y cómo configurarlo para que Claude trabaje como si llevara meses en tu equipo desde el primer día.
-
-🔗 ¿Quieres integrar Claude en tu negocio? Descarga el ebook completo aquí → [LINK]
+Dejé de re-explicar mi negocio a Claude en cada sesión — el setup de 5 minutos que lo resolvió | 2026
 
 ---
 
-⏱️ LO QUE VAS A VER:
-0:00 — El problema que todos tenemos con la IA
-0:08 — Qué es la memoria persistente de Claude
-0:20 — Auto Memory: cómo funciona sin configurar nada
-0:35 — CLAUDE.md: instrucciones permanentes para tu asistente
-0:50 — Lo que cambia en tu negocio
+## Descripción del Video
+
+¿Cuánto tiempo pierdes explicándole a tu IA quién eres y qué hace tu empresa cada vez que empiezas una conversación nueva? Con Auto Memory y CLAUDE.md de Claude Code, ese problema desaparece para siempre. En este video te muestro exactamente cómo configurarlo en menos de 5 minutos, aunque nunca hayas programado nada ni tengas experiencia técnica.
+
+🔗 Aprende a integrar Claude en tu negocio paso a paso: [link ebook en descripción]
 
 ---
 
-🔔 Suscríbete para más contenido sobre cómo usar IA en tu empresa sin necesitar ser técnico.
-
-#Claude #InteligenciaArtificial #Anthropic #Emprendimiento #ProductividadConIA
-
----
-
-## GUION COMPLETO (60 segundos — palabra por palabra)
-
----
-
-**[0–3s — HOOK VISUAL]**
-*(Pantalla: cronómetro contando cuánto tiempo se pierde explicando contexto)*
-
-"¿Cuánto tiempo perdiste esta semana explicándole a la IA quién eres y qué hace tu empresa? Esto lo resuelve de una vez."
+📌 Capítulos:
+0:00 Hook — el tiempo que pierdes sin saberlo
+0:08 El problema real
+0:18 Qué es Auto Memory
+0:30 Qué es CLAUDE.md y cómo usarlo
+0:45 Resultado práctico para tu negocio
+0:55 CTA — siguiente paso
 
 ---
 
-**[3–15s — EL PROBLEMA]**
-"Si usas Claude o cualquier IA para tu negocio, ya viviste esto: antes de hacer tu pregunta real, tienes que escribir media página explicando el contexto de tu empresa, tu proyecto, tu forma de trabajar. Cada vez. En cada sesión. Desde cero. Eso se acaba."
+Etiquetas: Claude Code, Auto Memory, CLAUDE.md, inteligencia artificial negocios, automatización emprendedores, productividad IA 2026, Anthropic, herramientas digitales, emprendimiento digital
 
 ---
 
-**[15–30s — AUTO MEMORY]**
-*(Pantalla: interfaz de Claude mostrando contexto cargado automáticamente)*
-
-"Claude lanzó **Auto Memory**: la herramienta aprende sobre tu negocio automáticamente mientras trabajas y carga ese contexto al inicio de cada sesión futura. Sin que tú configures nada. La próxima vez que abras Claude, ya sabe de qué va tu empresa."
+## Guion Palabra por Palabra (60 segundos)
 
 ---
 
-**[30–45s — CLAUDE.md]**
-*(Pantalla: archivo de texto simple con instrucciones)*
+**[0s – 3s — HOOK]**
 
-"Y si quieres ir un paso más allá, existe **CLAUDE.md**: un archivo donde escribes las instrucciones permanentes para tu asistente — el tono de tu marca, tu industria, cómo trabaja tu equipo. Lo configuras una sola vez. Claude lo aplica en todas las sesiones para siempre. Es como hacer el onboarding de un empleado nuevo — pero una sola vez."
-
----
-
-**[45–55s — EL CAMBIO]**
-"El resultado: en lugar de perder diez minutos explicando contexto, vas directo al trabajo. Para alguien que usa IA todos los días en su negocio, eso son horas recuperadas a la semana."
+"Dejé de re-explicar toda mi empresa a la IA en cada sesión de trabajo — y la solución me tomó cinco minutos en configurar."
 
 ---
 
-**[55–60s — CTA]**
-"¿Quieres configurar esto para tu empresa? Tengo un ebook paso a paso para emprendedores sin perfil técnico. El link está en la descripción. ¡Hasta el próximo video!"
+**[3s – 12s — EL PROBLEMA]**
+
+"Si usas Claude regularmente en tu negocio, sabes el problema: cada vez que abres una sesión nueva, tienes que volver a decirle quién eres, qué hace tu empresa y cómo quieres que trabaje. Minutos perdidos. Resultados inconsistentes. Frustración acumulada."
 
 ---
 
-## THUMBNAIL CONCEPT
+**[12s – 35s — LAS SOLUCIONES]**
 
-**Texto en thumbnail:** "La IA que recuerda tu empresa" (grande)
-**Subtexto:** "Setup de 5 min que cambia todo"
-**Visual:** Ícono de cerebro con engranaje / logo Claude con símbolo de memoria
-**Colores:** Azul profundo y blanco, con acento en verde (señal de "activo/conectado")
+"Claude Code tiene dos funciones de memoria que resuelven esto de raíz. La primera se llama Auto Memory: Claude guarda automáticamente el contexto de tus proyectos entre sesiones — sin que hagas nada, sin configuraciones complicadas.
+
+La segunda se llama CLAUDE.md: un archivo simple de texto donde escribes tus instrucciones una sola vez. Literalmente escribes: 'Mi empresa se llama X, mi cliente ideal es Y, siempre respóndeme en español con tono profesional.' Claude lo lee automáticamente cada vez que empieza. Una vez, para siempre."
+
+---
+
+**[35s – 50s — RESULTADO PRÁCTICO]**
+
+"El resultado es concreto: reportes con tu formato, emails con tu tono, contenido con tu voz de marca — todo consistente, desde el primer mensaje, sin repetir instrucciones cada vez. Tu productividad cambia por completo."
+
+---
+
+**[50s – 60s — CTA FINAL]**
+
+"Si quieres el paso a paso completo para configurar esto y automatizar otros procesos de tu negocio con Claude — sin tecnicismos, sin experiencia previa — tengo un ebook donde lo explico todo desde cero. El link está en la descripción. ¡Nos vemos!"
+
+---
+
+## Notas de Producción
+
+- Mostrar pantalla de creación del archivo CLAUDE.md durante los 30s-40s
+- Mostrar el antes/después de una sesión sin y con CLAUDE.md cargado
+- Overlay con el texto de instrucciones de ejemplo en el archivo
+- CTA con overlay del ebook en los últimos 10s

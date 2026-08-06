@@ -1,73 +1,76 @@
-# YouTube / TikTok — Claude Design (update_001)
-**Fuente:** XDA Developers · 2026-05-23
+# Update 001 — Guion YouTube/TikTok: Claude Design
+
+**Fuente:** XDA Developers, 23 de mayo de 2026
+**Duración objetivo:** 60 segundos
 
 ---
 
-## TÍTULO OPTIMIZADO PARA BÚSQUEDA
+## Título Optimizado para Búsqueda
 
-Claude Design 2026: ¿El fin de Canva y Figma? | La herramienta IA de Anthropic que todo emprendedor necesita saber
-
----
-
-## DESCRIPCIÓN DEL VIDEO
-
-Anthropic lanzó Claude Design, una herramienta de inteligencia artificial que crea presentaciones, mockups de apps y gráficos para redes sociales con solo escribir texto. En este video te explico qué hace bien, qué hace mal, y si vale la pena para tu negocio — sin tecnicismos, 100% práctico para emprendedores.
-
-🔗 ¿Quieres integrar Claude en tu negocio? Descarga el ebook completo aquí → [LINK]
+Claude Design: La IA que diseña por ti (¿adiós Canva?) | Guía para emprendedores 2026
 
 ---
 
-⏱️ LO QUE VAS A VER:
-0:00 — Esto cambió cómo creo contenido visual
-0:08 — ¿Qué es Claude Design?
-0:20 — Qué puede crear (y cómo funciona)
-0:38 — Las limitaciones honestas
-0:50 — ¿Vale la pena para tu negocio?
+## Descripción del Video
+
+¿Qué pasa cuando la inteligencia artificial puede crear tus presentaciones, gráficos y mockups solo con que le digas qué quieres? En este video te muestro Claude Design, la nueva herramienta de Anthropic que está cambiando el juego del diseño para emprendedores y dueños de negocio. Sin saber Figma. Sin dominar Canva. Solo describes y la IA diseña.
+
+🔗 Aprende a dominar Claude para tu negocio desde cero: [link ebook en descripción]
 
 ---
 
-🔔 Suscríbete para más contenido sobre cómo usar IA para optimizar tu empresa sin necesitar ser técnico.
-
-#ClaudeDesign #InteligenciaArtificial #Anthropic #Emprendimiento #HerramientasIA
-
----
-
-## GUION COMPLETO (60 segundos — palabra por palabra)
-
----
-
-**[0–3s — HOOK VISUAL]**
-*(Pantalla: comparación antes/después de una presentación)*
-
-"Reconstruí todo mi flujo de diseño de contenido sin Canva, sin Figma, sin Adobe... solo con IA. Y funcionó mejor de lo que esperaba."
+📌 Capítulos:
+0:00 Hook — el reto
+0:08 ¿Qué es Claude Design?
+0:20 Qué puede crear para tu negocio
+0:35 Limitaciones importantes que debes conocer
+0:50 CTA — siguiente paso
 
 ---
 
-**[3–15s — INTRO / QUÉ ES]**
-"Anthropic acaba de lanzar Claude Design: una herramienta de inteligencia artificial donde describes en texto lo que necesitas — una presentación para clientes, un gráfico para Instagram, el prototipo de tu app — y la IA lo crea por ti. En segundos. Sin que tengas que saber nada de diseño."
+Etiquetas: Claude AI, Claude Design, inteligencia artificial, herramientas IA 2026, diseño con IA, Anthropic, emprendedores, productividad, Canva alternativa, herramientas digitales
 
 ---
 
-**[15–35s — DEMO / BENEFICIOS PRÁCTICOS]**
-*(Pantalla: demostración real con prompt y resultado)*
-
-"Lo probé para crear una propuesta de servicios. Escribí el prompt, elegí el estilo, y en menos de un minuto tenía ocho slides con diseño profesional. Lo que antes me tomaba tres horas en Canva, listo en sesenta segundos. Para emprendedores que hacen de todo en su negocio — esto no es un lujo, es tiempo de vuelta."
+## Guion Palabra por Palabra (60 segundos)
 
 ---
 
-**[35–50s — LIMITACIÓN HONESTA]**
-"¿El problema? La cuota semanal de uso se agota rápido. Y por ahora solo está disponible en planes de pago. No es para todos hoy — pero la dirección es clara. La IA está entrando al diseño profesional, y no va a retroceder."
+**[0s – 3s — HOOK]**
+
+"Reconstruí todo mi flujo de diseño de contenido usando solo texto y una IA — sin Canva, sin Figma, sin contratar a nadie."
 
 ---
 
-**[50–60s — CTA]**
-"Si quieres empezar a usar Claude en tu negocio de forma práctica — sin tecnicismos, con casos concretos para tu empresa — tengo un ebook completo diseñado para emprendedores como tú. El link está en la descripción. ¡Nos vemos en el próximo video!"
+**[3s – 12s — INTRODUCCIÓN]**
+
+"Anthropic acaba de lanzar Claude Design, una herramienta que convierte tus palabras en diseños reales: presentaciones, gráficos para redes, mockups de tu web o app. Todo con un prompt de texto. ¿Lo mejor? No necesitas saber diseño."
 
 ---
 
-## THUMBNAIL CONCEPT
+**[12s – 35s — DESARROLLO / DEMO]**
 
-**Texto en thumbnail:** "¿Adiós Canva?" (grande, impactante)
-**Subtexto:** "Claude Design lo cambia todo"
-**Visual:** Comparación split-screen: Canva logo tachado / resultado de Claude Design
-**Colores:** Naranja y violeta (contraste alto, llamativo en móvil)
+"Mira lo fácil que es. Le escribo: 'Crea una presentación de 5 slides para presentar mi servicio de consultoría'. Y en segundos tengo algo listo para usar — con estructura, colores y contenido coherente.
+
+Antes pagaba por esto o tardaba horas haciéndolo yo mismo en Canva, buscando la plantilla correcta, ajustando fuentes y colores. Ahora son minutos. Y el resultado representa bien a mi negocio."
+
+---
+
+**[35s – 50s — LIMITACIÓN Y CONTEXTO]**
+
+"Ahora, lo que necesitas saber antes de probarlo: está en versión de prueba, solo funciona con plan de pago y la cuota semanal se acaba rápido si lo usas mucho. No es perfecta. Pero para emprendedores que necesitan producir más con menos tiempo, ya es una ventaja real."
+
+---
+
+**[50s – 60s — CTA FINAL]**
+
+"Si quieres aprender a integrar Claude en tu negocio paso a paso — desde cero, sin ser técnico, con resultados prácticos desde el primer día — tengo un ebook completo que te guía en todo el proceso. El link está en la descripción. ¡Nos vemos en el siguiente video!"
+
+---
+
+## Notas de Producción
+
+- Mostrar pantalla de claude.ai en el hook
+- Demo en vivo del prompt de presentación entre los 12s y 35s
+- Corte rápido entre el prompt y el resultado generado
+- CTA con overlay del ebook en los últimos 10s

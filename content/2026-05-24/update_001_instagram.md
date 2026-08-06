@@ -1,138 +1,95 @@
-# Instagram — Claude Design (update_001)
-**Fuente:** XDA Developers · 2026-05-23
-**Formato:** Carrusel (6 slides)
+# Update 001 — Instagram Carousel: Claude Design
+
+**Fuente:** XDA Developers, 23 de mayo de 2026
+**Tema:** Claude Design — la nueva herramienta de diseño de Anthropic
 
 ---
 
-## SLIDE 1 — PORTADA (GANCHO)
+## Caption
 
-**Texto principal:**
-Anthropic acaba de lanzar una herramienta de diseño que tiene a Figma, Canva y Adobe Express nerviosos 👀
+¿Sabías que ya puedes crear presentaciones, gráficos para redes y mockups de tu negocio… solo escribiendo qué quieres? 👀
 
-**Subtexto:**
-Y lo mejor: no necesitas saber diseño para usarla.
+Anthropic acaba de lanzar Claude Design, y si eres emprendedor o dueño de negocio, esto puede cambiar tu flujo de trabajo por completo.
+
+Desliza para ver cómo funciona y qué limitaciones debes conocer antes de probarlo ➡️
 
 ---
 
-## SLIDE 2 — ¿Qué es Claude Design?
+## Slides del Carrusel
 
-**Título:** ¿Qué es Claude Design?
+### Slide 1 — Portada
+**¿Conoces Claude Design?**
+La IA que diseña por ti — solo con tus palabras.
 
-**Cuerpo:**
-Es la nueva herramienta de diseño con IA de Anthropic.
+### Slide 2 — ¿Qué es Claude Design?
+**La herramienta de diseño de Anthropic que no necesita que sepas diseño.**
 
-Describes con palabras lo que necesitas y la IA lo crea por ti:
-
+Con solo escribir en texto lo que necesitas, Claude crea:
 ✅ Presentaciones para clientes
 ✅ Gráficos para redes sociales
-✅ Mockups de tu sitio web o app
-✅ Wireframes de proyectos
-✅ Materiales de marca
+✅ Wireframes de tu app o web
+✅ Mockups de tu marca
+✅ Materiales de marketing
 
-**Pie de slide:** Sin cursos de diseño. Sin Figma. Sin horas perdidas.
+Sin Figma. Sin Canva. Sin curvas de aprendizaje.
 
----
+### Slide 3 — ¿Qué puedes crear para tu negocio?
+**De tu idea al diseño en segundos.**
 
-## SLIDE 3 — Lo que puede crear
+📊 "Crea una presentación de 6 slides para presentar mi servicio"
+📱 "Diseña un post para Instagram sobre mi lanzamiento"
+🖥️ "Haz un mockup de la página de inicio de mi web"
+📄 "Genera un flyer para mi evento del viernes"
 
-**Título:** ¿Qué puedes crear con Claude Design?
+Solo escríbelo. Claude lo crea.
 
-**Cuerpo:**
-→ Diapositivas para presentar tu empresa a inversores
-→ Posts visuales para Instagram o LinkedIn
-→ El prototipo de tu próxima app
-→ Propuestas de valor con diseño profesional
-→ Infografías explicativas para tu equipo
+### Slide 4 — Claude Design vs Canva vs Figma
+**¿En qué se diferencia de lo que ya usas?**
 
-**Pie de slide:** Todo con solo escribir lo que tienes en la cabeza.
+🎨 Canva → tú eliges plantillas y editas
+🖊️ Figma → herramienta profesional, curva de aprendizaje alta
+🤖 Claude Design → tú describes, la IA construye
 
----
+Para emprendedores con poco tiempo y muchas necesidades:
+**la velocidad es el diferenciador.**
 
-## SLIDE 4 — Claude Design vs Figma vs Canva
+### Slide 5 — Las limitaciones que debes conocer
+**La verdad completa (porque te la mereces):**
 
-**Título:** ¿Cómo se compara con lo que ya usas?
-
-**Cuerpo:**
-🔵 **Claude Design**
-→ Curva de aprendizaje: ninguna
-→ Tiempo de creación: segundos
-→ Requiere diseño: ❌
-
-🟣 **Figma**
-→ Curva de aprendizaje: alta
-→ Tiempo de creación: horas
-→ Requiere diseño: ✅
-
-🟠 **Canva**
-→ Curva de aprendizaje: media
-→ Tiempo de creación: minutos
-→ Requiere diseño: parcialmente
-
-**Pie de slide:** Calidad profesional. Cero curva de aprendizaje.
-
----
-
-## SLIDE 5 — Las Limitaciones Reales
-
-**Título:** ⚠️ Ojo — No todo es perfecto
-
-**Cuerpo:**
-Seamos honestos:
-
-❌ Solo disponible en planes de pago de Claude
-❌ Cuota semanal de uso que se agota rápido
-❌ Aún en Research Preview (versión beta)
+⚠️ Solo disponible en planes de pago
+⚠️ Cuota semanal limitada — se agota rápido si lo usas mucho
+⚠️ Aún en Research Preview (versión de prueba)
 
 ¿Vale la pena igual?
+Para la mayoría de emprendedores que lo usan con moderación: **sí, absolutamente.**
 
-**Sí.** Especialmente si ya tienes un plan Claude Pro o Team. La curva de mejora es acelerada.
+### Slide 6 — Cómo empezar hoy en 4 pasos
+**Tu primer diseño con IA en menos de 10 minutos:**
 
----
+1️⃣ Entra a claude.ai con tu plan Pro
+2️⃣ Abre una conversación nueva
+3️⃣ Escribe: "Crea una presentación de 5 slides sobre [tu negocio]"
+4️⃣ Revisa, ajusta y descarga
 
-## SLIDE 6 — CTA
+Así de simple. Así de poderoso.
 
-**Título:** 🚀 ¿Listo para llevar tu negocio al siguiente nivel con IA?
+### Slide 7 — CTA / Cierre
+**¿Listo para empezar a usar IA en tu negocio?**
 
-**Cuerpo:**
-Imagina poder crear todo el contenido visual de tu empresa con solo escribir.
+Si quieres aprender a integrar Claude paso a paso — desde cero, sin ser técnico, con resultados reales para tu empresa — tenemos un ebook completo creado especialmente para emprendedores como tú.
 
-Sin contratar diseñadores para cada cosa.
-Sin aprender herramientas complicadas.
-Sin perder horas en detalles que la IA puede manejar.
+👉 **El link está en la bio.**
 
-Eso es lo que Claude Design — y la IA bien aplicada — hace por emprendedores como tú.
-
-📖 **Tenemos un ebook completo** que te enseña cómo integrar Claude en tu negocio paso a paso. Sin tecnicismos. 100% práctico.
-
-👇 **Link en BIO para descargarlo**
-
----
-
-## CAPTION COMPLETO
-
-Anthropic acaba de lanzar Claude Design — y como emprendedor, esto me parece uno de los lanzamientos de IA más importantes del año 👆
-
-¿Por qué? Porque democratiza el diseño profesional para quienes no somos diseñadores.
-
-Antes, para tener una presentación decente necesitabas: un diseñador, tiempo, dinero, y coordinar mil idas y vueltas. Ahora escribes lo que quieres y en segundos tienes el resultado.
-
-¿Tiene limitaciones? Sí — desliza hasta el slide 5 y te las cuento con honestidad.
-
-¿Vale la pena explorarla? Absolutamente.
-
-Si quieres aprender a integrar Claude en tu negocio de forma práctica (sin ser técnico), el link en bio te lleva directo a nuestro ebook.
-
-⬇️ Desliza y descubre todo lo que puede hacer.
+No necesitas experiencia previa. Solo ganas de trabajar más inteligente.
 
 ---
 
-## HASHTAGS (20)
+## Hashtags (18)
 
-#ClaudeDesign #Anthropic #InteligenciaArtificial #HerramientasIA #Emprendimiento #DiseñoConIA #MarketingDigital #NegociosDigitales #Startup #Productividad #TransformaciónDigital #IAParaEmpresas #DiseñoIA #AutomatizaciónIA #EmprendedorDigital #TecnologíaEmpresarial #InnovaciónEmpresarial #IA2026 #ContentCreator #HerramientasDeNegocio
+#ClaudeAI #InteligenciaArtificial #HerramientasDigitales #EmprendedoresDigitales #ProductividadEmpresarial #DiseñoConIA #Anthropic #ClaudeDesign #MarketingDigital #TransformacionDigital #EmprendimientoDigital #NegociosOnline #IAParaEmprendedores #FuturoDelTrabajo #HerramientasDeNegocios #EstrategiaDigital #AutomatizacionDeNegocios #IANegocios
 
 ---
 
-## CTA FINAL
+## CTA Final
 
-💬 ¿Ya probaste Claude Design? Cuéntame en los comentarios qué fue lo primero que creaste.
-📖 Link en BIO → Ebook: Cómo integrar Claude en tu negocio (sin ser técnico)
+¿Ya probaste Claude Design? Cuéntame en los comentarios qué fue lo primero que diseñarías para tu negocio 👇

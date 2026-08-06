@@ -1,139 +1,98 @@
-# Instagram — Claude Code Memory (update_002)
-**Fuente:** XDA Developers · 2026-05-22
-**Formato:** Carrusel (6 slides)
+# Update 002 — Instagram Carousel: Claude Code Memory
+
+**Fuente:** XDA Developers, 22 de mayo de 2026
+**Tema:** Memoria persistente en Claude Code — Auto Memory y CLAUDE.md
 
 ---
 
-## SLIDE 1 — PORTADA (GANCHO)
+## Caption
 
-**Texto principal:**
-¿Qué pasaría si tu asistente IA recordara todo sobre tu negocio automáticamente — sin que tú le expliques nada cada vez? 🧠
+¿Cansado de tener que re-explicarle todo a tu IA cada vez que empiezas una sesión nueva? 🤯
 
-**Subtexto:**
-Eso acaba de ser posible con Claude.
+Claude Code ahora tiene memoria persistente — y cambia todo para quienes lo usan en su negocio.
 
----
-
-## SLIDE 2 — El Problema Que Todos Tenemos
-
-**Título:** ¿Reconoces esta situación?
-
-**Cuerpo:**
-Abres Claude para pedir ayuda con algo de tu empresa.
-
-Y antes de hacer la pregunta real, tienes que explicar:
-
-😮‍💨 "Somos una empresa de..."
-😮‍💨 "Nuestro estilo de comunicación es..."
-😮‍💨 "El contexto de este proyecto es..."
-
-Cada vez. En cada sesión. Desde cero.
-
-**Pie de slide:** Eso ya tiene solución.
+Desliza para entender cómo funciona y qué puedes automatizar con esto ➡️
 
 ---
 
-## SLIDE 3 — La Solución: Auto Memory
+## Slides del Carrusel
 
-**Título:** Claude ahora tiene memoria automática 🧠
+### Slide 1 — Portada
+**Claude ya recuerda todo sobre tu negocio.**
+La memoria persistente de Claude Code que los emprendedores estaban esperando.
 
-**Cuerpo:**
-Con **Auto Memory**, Claude recuerda automáticamente:
+### Slide 2 — El problema que resuelve
+**¿Reconoces esta situación?**
 
-✅ El contexto de tus proyectos
-✅ Tu forma de trabajar
-✅ Lo que has construido antes
-✅ Tus preferencias y estilo
+Abres Claude. Le explicas quién eres.
+Le dices qué hace tu empresa.
+Le indicas cómo quieres que trabaje.
+Le pides lo que necesitas.
 
-Sin que tú configures nada.
-Sin que tengas que repetirlo.
+10-15 minutos de contexto. Una y otra vez.
+**Con Claude Code Memory, ese ciclo terminó.**
 
-**Pie de slide:** La próxima sesión arranca exactamente donde quedaste.
+### Slide 3 — ¿Qué es Auto Memory?
+**La memoria que trabaja sola — sin que hagas nada.**
 
----
+Auto Memory guarda automáticamente:
+🧠 Cómo está estructurado tu proyecto
+🧠 Tu forma de trabajar y preferencias
+🧠 Notas de sesiones anteriores
 
-## SLIDE 4 — CLAUDE.md: Tu Manual Personalizado
+Se activa solo desde Claude Code v2.1.59.
+Sin configuraciones. Sin código. Solo trabaja.
 
-**Título:** CLAUDE.md — Instrucciones permanentes para tu asistente
+### Slide 4 — ¿Qué es CLAUDE.md?
+**Tu archivo de instrucciones permanentes.**
 
-**Cuerpo:**
-¿Quieres que Claude siempre:
-→ Use el tono de tu marca?
-→ Conozca tu industria?
-→ Sepa cómo trabaja tu equipo?
+Creas un archivo de texto llamado CLAUDE.md.
+Lo escribes una sola vez con tus instrucciones:
 
-Creas un archivo llamado **CLAUDE.md** donde escribes esas instrucciones una sola vez.
+"Mi empresa se llama [X]. Mi cliente ideal es [Y].
+Siempre respóndeme en español. Usa tono profesional."
 
-Y Claude las carga automáticamente en cada sesión, para siempre.
+Claude lo lee automáticamente cada vez que empieza.
+**Una vez escrito, funciona para siempre.**
 
-**Pie de slide:** Como onboardear a un empleado — pero una sola vez.
+### Slide 5 — ¿Para qué sirve si no soy técnico?
+**Automatiza tareas reales de tu negocio:**
 
----
+📋 Reportes con tu formato y métricas favoritas
+📧 Emails con tu tono y estilo de comunicación
+📊 Análisis de datos adaptados a tu negocio
+📝 Contenido para redes con tu voz de marca
 
-## SLIDE 5 — Antes vs Ahora
+Claude ya sabe cómo hacerlo como tú lo harías.
 
-**Título:** El cambio concreto para tu negocio
+### Slide 6 — Antes vs Después
+**El impacto en tu productividad diaria:**
 
-**Cuerpo:**
-**❌ Antes:**
-→ 5-10 minutos explicando contexto en cada sesión
-→ Claude no recuerda tu empresa
-→ Respuestas genéricas que no encajan con tu realidad
-→ Trabajo lento y repetitivo
+❌ **Antes**: 10 min de contexto en cada sesión
+❌ **Antes**: Resultados genéricos que no suenan a ti
+❌ **Antes**: Repetir las mismas instrucciones siempre
 
-**✅ Ahora:**
-→ Contexto cargado automáticamente
-→ Claude conoce tu negocio
-→ Respuestas específicas para tu situación
-→ Más velocidad, más resultados
+✅ **Después**: Claude sabe quién eres desde el primer mensaje
+✅ **Después**: Resultados consistentes con tu marca
+✅ **Después**: Más tiempo para lo que importa
 
-**Pie de slide:** La misma herramienta. Diez veces más útil.
+### Slide 7 — CTA / Cierre
+**El paso a paso completo está en nuestro ebook.**
 
----
+Te mostramos exactamente cómo configurar Auto Memory y CLAUDE.md para automatizar procesos de tu negocio — sin ser técnico, sin experiencia previa.
 
-## SLIDE 6 — CTA
+👉 **El link está en la bio.**
 
-**Título:** 🚀 Claude puede ser el asistente que tu empresa necesita — ahora de verdad
-
-**Cuerpo:**
-Imagina un asistente que:
-
-✅ Conoce tu empresa sin que se lo repitas
-✅ Trabaja con tu estilo y tu tono
-✅ Se integra en tus procesos reales
-✅ Está disponible 24/7
-
-Eso es Claude con memoria.
-
-Y si quieres saber exactamente cómo configurarlo para tu negocio — desde cero, sin ser técnico — tenemos el ebook para ti.
-
-📖 **Link en BIO para descargarlo**
+Empieza a trabajar de forma más inteligente hoy.
 
 ---
 
-## CAPTION COMPLETO
+## Hashtags (18)
 
-¿Cuánto tiempo perdiste esta semana explicándole a la IA el contexto de tu empresa? 🤔
-
-Si la respuesta es "demasiado", esto te va a interesar.
-
-Claude acaba de lanzar un sistema de memoria persistente que hace que tu asistente IA aprenda sobre tu negocio automáticamente — y lo recuerde en todas las sesiones futuras.
-
-Nada de repetir. Nada de re-explicar. Solo trabajar.
-
-Desliza para ver cómo funciona 👆
-
-Y si quieres aprender a integrar Claude en tus procesos de forma práctica, el link en bio te lleva a nuestro ebook para emprendedores.
+#ClaudeAI #AutomatizacionDeNegocios #IAParaEmprendedores #ProductividadDigital #InteligenciaArtificial #ClaudeCode #HerramientasDigitales #EmprendimientoDigital #AutomatizacionEmpresarial #TransformacionDigital #MemoriaIA #FuturoDelTrabajo #TrabajaMasInteligente #NegociosOnline #HerramientasDeProductividad #EstrategiaDigital #IANegocios #EmprendedoresLatinos
 
 ---
 
-## HASHTAGS (20)
+## CTA Final
 
-#ClaudeAI #InteligenciaArtificial #Anthropic #HerramientasIA #Emprendimiento #ProductividadConIA #AutomatizaciónIA #NegociosDigitales #IAParaEmpresas #TransformaciónDigital #Startup #EmprendedorDigital #TecnologíaEmpresarial #AsistenteIA #IA2026 #InnovaciónEmpresarial #OptimizaciónDeProcesos #EmpresaInteligente #FuturoDelTrabajo #HerramientasDeNegocio
-
----
-
-## CTA FINAL
-
-💬 ¿Usas Claude en tu empresa? Cuéntame: ¿qué proceso te gustaría automatizar primero?
-📖 Link en BIO → Ebook: Cómo integrar Claude en tu negocio (sin ser técnico)
+¿Cuál proceso de tu negocio automatizarías primero si Claude ya supiera todo sobre él? Cuéntame 👇

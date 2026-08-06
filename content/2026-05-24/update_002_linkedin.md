@@ -1,50 +1,53 @@
-# LinkedIn — Claude Code Memory (update_002)
-**Fuente:** XDA Developers · 2026-05-22
+# Update 002 — LinkedIn Post: Claude Code Memory
+
+**Fuente:** XDA Developers, 22 de mayo de 2026
+**Tema:** Auto Memory y CLAUDE.md — productividad con IA persistente
 
 ---
 
-## POST COMPLETO
+## Post Completo
 
-Hay una mejora de Claude que casi nadie está hablando — y para los que usamos IA en el trabajo diario, cambia todo.
+"Explícame el contexto de tu proyecto antes de que podamos empezar."
 
-Se llama memoria persistente. Y resuelve algo que hasta ahora era el mayor punto de fricción de trabajar con IA: tener que re-explicar el contexto de tu empresa, tu proyecto y tu forma de trabajar en cada sesión, desde cero.
+Durante mucho tiempo, esa fue la frase que frenaba la productividad de cualquiera que intentara usar IA de forma consistente en su negocio. Cada sesión nueva: desde cero.
 
----
-
-**¿Cómo funciona en la práctica?**
-
-Claude ahora tiene dos sistemas de memoria:
-
-**Auto Memory** captura automáticamente el contexto de lo que estás trabajando — tu proyecto, tus decisiones pasadas, tu estilo — y lo carga en las sesiones futuras sin que tú hagas nada.
-
-**CLAUDE.md** es un archivo donde escribes las instrucciones permanentes para tu asistente: el tono de tu marca, la industria en la que operas, cómo trabaja tu equipo, qué cosas nunca debe asumir sin preguntar. Lo configuras una vez y Claude lo aplica para siempre.
+Eso cambió con las nuevas funciones de memoria de Claude Code.
 
 ---
 
-**¿Qué significa esto para un emprendedor o gestor de empresa?**
+**¿Qué es Auto Memory?**
 
-Significa que el tiempo que antes se perdía en "onboardear" a la IA en cada sesión ahora se invierte en trabajo real.
+Es un sistema que captura automáticamente el contexto de tu trabajo entre sesiones: cómo está estructurado tu proyecto, tu forma de comunicarte, tus preferencias, incluso las notas de problemas anteriores. Sin configurar nada. Sin código. Sin proceso manual.
 
-En lugar de: *"Somos una empresa de servicios de salud para pymes, nuestro tono es cercano pero profesional, estamos en etapa de crecimiento, tenemos un equipo de 8 personas..."* — Claude ya lo sabe.
+**¿Y qué es CLAUDE.md?**
 
-Y en lugar de respuestas genéricas que hay que ajustar, obtienes respuestas que ya encajan con tu contexto desde el primer intento.
+Es un archivo de instrucciones permanentes que creas en tu carpeta de trabajo. Escribes una sola vez cosas como:
 
----
+- El nombre y propósito de tu empresa
+- Tu cliente ideal y tono de comunicación
+- Tus procesos más habituales
+- Las reglas de estilo de tu contenido
 
-**Lo que más me interesa de este cambio no es técnico.**
-
-Es que vuelve a Claude una herramienta que *aprende sobre tu negocio*, en lugar de una herramienta que empieza de cero cada vez que la abres.
-
-Esa diferencia — entre un asistente que recuerda y uno que no — es la misma que existe entre un empleado que lleva seis meses en tu empresa y uno que llega el primer día.
-
----
-
-Si estás evaluando integrar IA en tus procesos y no sabes por dónde empezar, la memoria persistente de Claude es uno de los primeros conceptos que vale la pena entender.
-
-¿Ya usas Claude en tu empresa? ¿Qué proceso te gustaría que manejara automáticamente?
+Y Claude las carga automáticamente al inicio de cada sesión.
 
 ---
 
-## HASHTAGS (5)
+**¿Por qué importa esto para emprendedores y equipos pequeños?**
 
-#InteligenciaArtificial #Anthropic #Emprendimiento #ProductividadConIA #TransformaciónDigital
+Porque la diferencia entre una IA útil y una IA verdaderamente productiva está en el contexto. Un asistente que ya sabe quién eres, qué haces y cómo trabajas puede entregarte resultados consistentes desde el primer mensaje — sin repetir instrucciones básicas una y otra vez.
+
+Automatización de reportes, generación de contenido con tu tono de marca, análisis de datos de tu negocio, respuestas a clientes con tu estilo: todo esto se vuelve mucho más poderoso cuando Claude ya tiene tu contexto almacenado.
+
+---
+
+El setup para empezar toma menos de cinco minutos. Y si quieres un paso a paso completo para implementarlo en tu negocio junto con otras automatizaciones con Claude, hay un ebook diseñado específicamente para emprendedores que quieren empezar desde cero — sin experiencia técnica — y llegar rápido a resultados reales. El link está en mi perfil.
+
+---
+
+¿Ya usas estas funciones de memoria en tus procesos? Me interesa saber qué estás automatizando.
+
+---
+
+## Hashtags (6)
+
+#ClaudeAI #AutomatizacionEmpresarial #IAParaEmprendedores #ProductividadDigital #TransformacionDigital #Emprendimiento

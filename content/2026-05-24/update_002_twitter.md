@@ -1,84 +1,59 @@
-# X/Twitter — Claude Code Memory (update_002)
-**Fuente:** XDA Developers · 2026-05-22
-**Formato:** Hilo de 8 tweets
+# Update 002 — Hilo en X/Twitter: Claude Code Memory
+
+**Fuente:** XDA Developers, 22 de mayo de 2026
+**Tema:** Auto Memory y CLAUDE.md de Claude Code
 
 ---
 
-## HILO COMPLETO
+## Hilo Completo (8 tweets)
 
 **1/**
-Claude se volvió significativamente más útil para tu negocio — y la mayoría de los emprendedores aún no lo notaron 🧵
-
-Te explico qué cambió y por qué importa (sin tecnicismos, lo prometo):
-
----
+Claude Code se volvió significativamente más poderoso y la mayoría de los emprendedores aún no lo notaron 🧠
+Te explico las dos funciones de memoria que cambian todo 🧵
 
 **2/**
-Primero, el problema que todos vivimos:
-
-Abres Claude. Antes de hacer tu pregunta real, tienes que escribir 10 líneas explicando quién eres, qué hace tu empresa, cuál es el contexto del proyecto...
-
-Cada vez. En cada sesión. Desde cero.
-
-¿Te suena familiar? Ya no tendrá que ser así.
-
----
+El problema que todos teníamos:
+Cada vez que abrías Claude, re-explicabas quién eres, qué hace tu negocio y cómo quieres que trabaje.
+10-15 minutos de contexto repetido. Una y otra vez.
+Innecesario. Ya no existe.
 
 **3/**
-Claude lanzó **memoria persistente**.
-
-En lugar de empezar desde cero cada vez, Claude ahora recuerda el contexto de tu trabajo automáticamente.
-
-Tu empresa. Tu estilo. Tus proyectos. Tu forma de trabajar.
-
-Todo cargado al inicio de cada sesión, sin que tú hagas nada.
-
----
+Función #1: Auto Memory
+Claude Code guarda automáticamente:
+🧠 La estructura de tu proyecto
+🧠 Tus preferencias y forma de trabajar
+🧠 Notas de sesiones anteriores
+Sin configurar nada. Se activa solo desde la versión v2.1.59+.
 
 **4/**
-Hay dos formas en que funciona:
-
-**Auto Memory** → Claude guarda contexto automáticamente mientras trabajas. Detecta información importante y la retiene para sesiones futuras.
-
-**CLAUDE.md** → Tú escribes las instrucciones permanentes una vez. Claude las aplica siempre.
-
----
+Función #2: CLAUDE.md
+Un archivo de texto simple que creas una sola vez con tus instrucciones permanentes:
+"Respóndeme siempre en español. Mi empresa es [X]. Mi cliente ideal es [Y]. Usa este tono."
+Claude lo lee automáticamente en cada sesión.
 
 **5/**
-Ejemplo práctico de CLAUDE.md para una empresa:
-
-"Somos una agencia de marketing para restaurantes en México. Tono: cercano, sin jerga técnica. Siempre piensa en propietarios de negocios, no en marketers. Nuestro diferencial es..."
-
-Lo escribes una vez. Claude lo recuerda para siempre.
-
----
+¿Para qué sirve si no eres programador?
+Para automatizar cosas concretas de tu negocio:
+📋 Reportes con tu formato favorito
+📧 Emails con tu tono de marca
+📊 Análisis de datos de tus clientes
+📝 Contenido consistente para cada plataforma
+Claude ya sabe cómo hacerlo como tú lo harías.
 
 **6/**
-¿Qué cambia en el día a día?
-
-❌ Antes: 10 minutos de contexto → 5 minutos de trabajo real
-✅ Ahora: Abres Claude → Directo al trabajo
-
-Para un emprendedor que usa IA diariamente, eso suma horas a la semana recuperadas.
-
----
+Cómo configurar CLAUDE.md en 5 minutos:
+1. Crea un archivo llamado CLAUDE.md en tu carpeta de trabajo
+2. Escribe tus instrucciones en texto simple
+3. Guárdalo
+4. Abre Claude Code y empieza a trabajar
+Claude lo leerá automáticamente. Eso es todo.
 
 **7/**
-¿Para quién es esto más valioso?
-
-→ Emprendedores con procesos repetitivos que ya usan Claude
-→ Equipos que quieren consistencia en sus resultados de IA
-→ Negocios con contexto específico que la IA genérica ignora
-
-Si alguna vez dijiste "la IA no entiende mi negocio" — esto es para ti.
-
----
+El detalle que importa:
+Esta diferencia — contexto siempre cargado, instrucciones permanentes — separa a los emprendedores que usan IA de forma superficial de los que la usan para construir sistemas de trabajo reales y consistentes.
 
 **8/**
-La IA que más vale no es la más potente.
-
-Es la que mejor conoce tu contexto.
-
-Claude acaba de dar ese paso. ¿Tu empresa está lista para aprovecharlo?
-
-Si quieres un guía práctica para empezar — sin ser técnico — tengo el ebook para emprendedores 👇 [link en bio]
+TL;DR:
+Claude Code ahora recuerda todo sobre tu negocio en cada sesión, automáticamente.
+Si no lo estás usando así, estás dejando productividad en la mesa.
+¿Ya configuraste tu CLAUDE.md? Cuéntame qué pusiste 👇
