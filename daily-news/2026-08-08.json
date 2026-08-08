@@ -1,0 +1,150 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T15:17:49Z",
+  "focus": "Claude / Anthropic topics only",
+  "sources_checked": [
+    "xda-developers.com",
+    "docs.anthropic.com/release-notes/overview",
+    "theverge.com"
+  ],
+  "scrape_notes": {
+    "xda-developers.com": "Direct fetch blocked by egress proxy. Articles retrieved via web search index. One article confirmed in early August 2026; exact publication date within 48h unverifiable.",
+    "docs.anthropic.com": "Direct fetch blocked. Platform release notes retrieved via platform.claude.com mirror and code.claude.com changelog — both verified accessible.",
+    "theverge.com": "Domain blocked for both direct fetch and web search (robots/crawl restriction). No Verge articles could be verified for the 48h window."
+  },
+  "total_updates_found": 3,
+  "status": "updates_found",
+  "review_status": "pending",
+  "updates": [
+    {
+      "id": "update_001",
+      "source": "docs.anthropic.com (Claude Code Changelog)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "secondary_url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+      "title": "Claude Code Self-Hosted Environments Now in Public Beta",
+      "published_date": "2026-08-06 (announcement) / 2026-08-07 (shipped in v2.1.224)",
+      "summary": "Anthropic launched self-hosted environments for Claude Code in public beta, letting teams on Team and Enterprise plans run Claude Code web, mobile, and desktop sessions on their own machines or containers via the new `claude self-hosted-runner` command. Sessions execute inside the organization's own network—adjacent to internal services, toolchains, and security controls—rather than on Anthropic's infrastructure. The feature is off by default and targets organizations whose network, compliance, or tooling requirements demand agent execution on infrastructure they control.",
+      "relevance_score": 98,
+      "accuracy_notes": "Confirmed directly from the official Claude Code changelog at code.claude.com and corroborated by multiple third-party coverage (Unite.AI, Artiverse, beri.net). Feature details (command name, plan requirements, default-off behavior) are consistent across sources. No red flags.",
+      "content_potential": "high",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Claude Code just got a major enterprise upgrade — and your company's data stays on YOUR servers",
+          "slides": [
+            "BREAKING: Anthropic launches self-hosted Claude Code environments (public beta)",
+            "What it means: Your AI coding sessions run inside YOUR network — not Anthropic's cloud",
+            "Who qualifies: Claude Team and Enterprise plan customers",
+            "The security win: Internal tools, secrets & code never leave your firewall",
+            "How to activate: `claude self-hosted-runner` command in Claude Code v2.1.224+"
+          ]
+        },
+        "linkedin": {
+          "angle": "Enterprise AI adoption — the compliance barrier just fell for AI-assisted coding",
+          "opening_line": "Anthropic just removed the #1 blocker keeping regulated enterprises from adopting AI coding agents: the requirement to send code to an external cloud.",
+          "cta": "Is on-premise AI execution the unlock your security or compliance team has been waiting for? I'd love to hear from engineering leaders navigating this."
+        },
+        "twitter_x": {
+          "thread_opener": "BREAKING: Anthropic just launched self-hosted Claude Code environments. Every compliance and security team that blocked AI coding tools should read this 🧵",
+          "estimated_tweets": 7
+        },
+        "youtube_tiktok": {
+          "hook": "Your company's AI coding agent now runs inside your own servers — and that changes everything for enterprise security",
+          "script_outline": "Open with the security problem (why enterprises blocked AI coding tools) → Announce Anthropic's solution → Explain how claude self-hosted-runner works → Walk through the compliance benefits (firewall, internal network access, toolchains) → Who it's for (Team & Enterprise) → How to get started → CTA to follow for more Claude enterprise updates"
+        },
+        "ebook_blog": {
+          "title": "The Enterprise Claude Code Playbook: Running Self-Hosted AI Coding Sessions on Your Own Infrastructure",
+          "angle": "Step-by-step guide for enterprise engineering and security teams: what self-hosted Claude Code is, how to set it up with claude self-hosted-runner, compliance use cases, and how to evaluate whether Team vs. Enterprise plan is right for your org"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_002",
+      "source": "docs.anthropic.com (Platform Release Notes)",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "title": "Anthropic Ships Four Managed Agents API Upgrades: Session Budgets, Advisor Models, Geo Control, and GitHub Skills",
+      "published_date": "2026-08-07",
+      "summary": "Anthropic's August 7 platform release notes detail four significant additions to Claude Managed Agents. Developers can now set a hard spend budget on a session (pausing with a 'budget_reached' stop reason when hit), assign an 'advisor' model that the primary agent can consult mid-turn for strategic guidance, control which geographic region model inference runs in for data-residency requirements, and automatically load skills from a mounted GitHub repository's `.claude/skills` directory at session start.",
+      "relevance_score": 95,
+      "accuracy_notes": "Sourced directly from Anthropic's official platform release notes page (platform.claude.com), fetched and read in full during this run. All four features are described with specific API parameters and documentation links. High confidence in accuracy.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "4 new Claude API features dropped yesterday that enterprise devs need to know about",
+          "slides": [
+            "Anthropic just released 4 major Managed Agents API updates (Aug 7, 2026)",
+            "💰 Session Budgets: Set a hard spend cap — agent pauses automatically when reached",
+            "🧠 Advisor Models: Give your agent a smarter consultant to call mid-task",
+            "🌍 Geo Control: Choose where AI inference runs — for data residency compliance",
+            "📂 GitHub Skills: Auto-load agent skills from your repo at session start"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer productivity and enterprise AI governance — four API features that make Claude agents more controllable, compliant, and capable",
+          "opening_line": "Anthropic quietly shipped four enterprise-grade Managed Agents updates yesterday that solve real problems for teams building production AI systems.",
+          "cta": "Which of these four updates solves the biggest pain point for your AI development workflow? Drop a comment — curious where the community lands."
+        },
+        "twitter_x": {
+          "thread_opener": "Anthropic just dropped 4 Managed Agents API updates on August 7. If you build with Claude API, here's what changed and why it matters 🧵",
+          "estimated_tweets": 6
+        },
+        "youtube_tiktok": {
+          "hook": "4 new Claude API features that solve real enterprise problems — and most developers haven't noticed them yet",
+          "script_outline": "Quick hook on enterprise AI challenges → Feature 1: session budgets (show the stop_reason example) → Feature 2: advisor models (explain the strategic guidance concept) → Feature 3: geo control (data residency use case) → Feature 4: GitHub skills auto-loading → Summary of why these matter for production AI → CTA"
+        },
+        "ebook_blog": {
+          "title": "Claude Managed Agents in 2026: A Developer's Guide to Session Budgets, Advisor Models, and Data Residency Controls",
+          "angle": "Technical deep-dive for developers building with Claude API — what each August 7 update does, sample API calls, and when to use each feature in production AI systems"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    },
+    {
+      "id": "update_003",
+      "source": "XDA Developers",
+      "url": "https://www.xda-developers.com/claude-code-gives-me-few-models-to-work-with-thats-why-keep-going-back/",
+      "title": "Claude Code Gives Me Very Few Models to Work With, and That's Exactly Why I Keep Going Back to It",
+      "published_date": "2026-08-07 (approximate — confirmed early August 2026; exact date unverifiable due to site access restrictions)",
+      "summary": "XDA Developers published an opinion piece arguing that Claude Code's deliberately small, curated model roster is a feature rather than a limitation. The author contrasts Claude Code with competing tools that offer 29+ models, making the case that fewer choices eliminate decision fatigue and keep developers focused on writing code rather than evaluating AI models. The piece also notes Anthropic's enterprise escape hatches (the `availableModels` admin policy) for organizations that need to restrict which models developers can access.",
+      "relevance_score": 88,
+      "accuracy_notes": "Article retrieved via web search index (XDA site itself blocked by egress proxy). Article is confirmed to exist and is clearly about Claude Code as its primary subject. Publication date is 'early August 2026' based on search recency signals — cannot be pinned to a specific date with certainty. Content appears editorially accurate based on known Claude Code behavior; model picker details align with official Claude Code changelog entries.",
+      "content_potential": "medium",
+      "content_ideas": {
+        "instagram": {
+          "format": "carousel",
+          "hook": "Most AI coding tools give you 29+ models. Claude Code gives you a handful — and XDA says that's its secret weapon",
+          "slides": [
+            "Hot take from XDA: Claude Code's tiny model list is actually why developers love it",
+            "Most tools: 30+ models, benchmarks, tiers, pricing tiers, tradeoffs...",
+            "Claude Code: Curated models. Open, pick, code.",
+            "The paradox of choice: More options = more time deciding, less time shipping",
+            "Which philosophy do YOU prefer? Curated or full catalog? 👇"
+          ]
+        },
+        "linkedin": {
+          "angle": "Developer experience and the psychology of choice in AI tooling — less friction, more flow",
+          "opening_line": "XDA Developers just published a counterintuitive take on Claude Code: the fact that it shows you almost no model choices is exactly why productive developers keep coming back.",
+          "cta": "As someone who manages or uses AI coding tools — do you prefer a curated, opinionated experience or full control over model selection? Real answers in the comments."
+        },
+        "twitter_x": {
+          "thread_opener": "XDA just made the case that Claude Code's biggest limitation is actually its biggest strength. The argument is worth reading 🧵",
+          "estimated_tweets": 5
+        },
+        "youtube_tiktok": {
+          "hook": "Claude Code only shows you 3 models. Other AI coding tools show you 30. XDA says Claude Code is winning — here's why",
+          "script_outline": "Start with the paradox of choice hook → Show the contrast between Claude Code and tools like Cursor → Explain XDA's productivity argument → Talk about what the model picker actually does vs. what it signals → Enterprise angle (admin controls) → Poll the audience on their preference → CTA"
+        },
+        "ebook_blog": {
+          "title": "Less Is More: Why Opinionated AI Tooling Beats Full-Catalog Flexibility for Developer Productivity",
+          "angle": "Use the XDA/Claude Code debate as the hook to explore the psychology of choice in developer tools — pull in Barry Schwartz's paradox of choice, compare Claude Code vs. Cursor vs. Copilot model philosophies, and offer a framework for how teams should choose their AI coding stack"
+        }
+      },
+      "approved": false,
+      "reviewer_notes": ""
+    }
+  ]
+}
